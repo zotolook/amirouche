@@ -1,0 +1,239 @@
+/* Général */
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  font-family: 'Courier New', Courier, monospace;
+}
+#isl {
+  color: #fff;
+  padding-bottom: 10px !important;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 2vw;
+  padding: 5px;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* */
+nav {
+  min-height: 80px;
+}
+
+.logo {
+  position: relative;
+  width: 100px;
+}
+.logo img {
+  height: 70px;
+  position: absolute;
+  top: -35px;
+  left: 0px;
+  z-index: 1;
+  border-radius: 50%;
+}
+.logo .isl {
+  width: 50px;
+  position: absolute;
+    border: .3px solid;
+    top: 5px;
+    left: 10px;
+    z-index: 2;
+    background-color: #474747;
+    text-align:center;
+    border-radius: 50%;
+    opacity: .8;
+}
+
+/* header */
+
+/* header */
+
+ul li { 
+  
+  margin-left: 15px;
+}
+
+ul li :hover {
+  cursor: pointer;
+  color: rgb(236, 233, 233) !important;
+  text-shadow: 1px 1px 1px #000;
+  font-weight: bold;
+}
+
+
+.isl{
+  background-color: #de1010;
+}
+/* button humburger */
+.btn-humburger {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: relative;
+  padding: 0;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: bordure 2s infinite;
+  cursor: pointer;
+  
+}
+
+@keyframes bordure {
+  0% {
+    border-top-color: #fff;
+
+  }
+
+  25% {
+    border-right-color: #fff;
+
+  }
+
+  50% {
+    border-bottom-color: #fff;
+
+  }
+
+  100% {
+    border-left-color: #fff;
+
+  }
+}
+
+.btn-humburger .icon {
+  display: block;
+  width: 90%;
+  height: 4px;
+  background-color: #fff;
+  transition: background-color 0s ease-in-out;
+}
+
+.btn-humburger .icon::before {
+  content: '';
+  display: block;
+  width: 90%;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  transform: translateY(10px);
+}
+
+.btn-humburger .icon::after {
+  content: "Menu";
+  font-size: 13px;
+  position: absolute;
+  transform: translateY(-15px);
+}
+
+.menuBackground {
+  background: rgb(149, 136, 136);
+  border-radius: 5px;
+  margin-top: 20px
+}
+
+.active .icon {
+  background-color: transparent;
+}
+
+.active .icon::before {
+  transform: translateY(0px) rotateZ(-40deg);
+  background-color: red;
+}
+
+.active .icon::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 4px;
+  transform: translateY(0px) rotateZ(40deg);
+  background-color: red;
+}
+
+/* Bouton s'entrainer */
+.s_entrainer{
+  max-width: 230px;
+  margin: 17px auto 0px !important;
+  background: #b5b4b4;
+}
+.s_entrainer li{
+  
+  margin: 0;
+}
+.s_entrainer li a{
+color: #fff;
+text-shadow: 1px 1px #000;
+font-weight:900;
+}
+.s_entrainer li:hover a{
+  background-color: rgb(18, 18, 18);
+  color: #000;
+}
+
+/* CSS pour entrainements */
+.bouton {
+  margin: 10px;
+}
+
+.bouton li {
+  margin: 5px;
+  background-color: rgb(137, 135, 135);
+  border-radius: 5%;
+}
+
+.bouton li:hover button {
+  background-color: rgb(20, 19, 19);
+  border-radius: 5%;
+}
+
+
+/* Tableau d'affichage */
+#tableau {
+  min-width: 300px;
+  max-width: 900px;
+  min-height: 50px;
+  background-color: black;
+  border: solid 3px red;
+  margin: 20px auto;
+  color: #fff;
+  padding: 10px;
+  font-size: 3vw;
+}
+
+/* Sourate*/
+.divSourate {
+  padding: 10px;
+  background-color: rgb(100, 109, 109);
+  
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.titreSourate {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 3vw;
+  text-shadow: 1px 2px black;
+}
+
+.basmala {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Nombre d'occurences*/
+.pNombre {margin-top: 15px;}
+.numeroVerset, .nombre, .motTrouve {
+  color: red;
+}
