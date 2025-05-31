@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> ISL </title>
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="thematiques.css"/>
+    
+    
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Barre de navigation -->
+
+        <nav class="container-fluid navbar navbar-expand-md navbar-dark bg-dark">
+
+            <!-- Brand Logo -->
+
+            <a class="navbar-brand logo" href="../index.html">
+                <div class="logo">
+                    <div class="isl"> <span> ISL </span></div>
+                    <img src="../images/mosque.png" width="70" alt="mosque">
+                </div>
+
+            </a>
+            <!-- My profil -->
+
+            <!-- Toggler/collapsibe Button -->
+            <div class="navbar-toggler btn-humburger " data-toggle="collapse" data-target="#collapsibleNavbar">
+                <!--<span class="navbar-toggler-icon icon"></span>-->
+                <span class="icon"></span>
+
+            </div>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse menu" id="collapsibleNavbar">
+
+                <ul class="navbar-nav mr-auto text-center menu_ul">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html"> Accueil </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Lire </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./thematiques.html"> Thématiques </a>
+                    </li>
+
+                    <!-- Drop down button -->
+                    <li class="nav-item">
+                        <div class="dropdown ">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Lire
+                            </button>
+                            <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#" onclick="lireCoran()"> Coran </a></li>
+
+                                <li><a class="dropdown-item" href="#">Sourate N°
+
+                                        <input type="number" min="1" max="114" id="inputNumeroSourate1">
+                                        <button type="button" class="btn btn-success" id="boutonLireSourate">Ok</button>
+                                    </a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li><a class="dropdown-item" href="#">Sourate N°
+                                        <input type="number" min="1" max="114" id="inputNumeroSourate2">
+
+                                        <a class="dropdown-item" href="#">Verset N°
+                                            <input type="number" min="1" max="114" id="inputNumeroVerset">
+
+                                            <button type="button" class="btn btn-success"
+                                                id="boutonLireVerset">Ok</button>
+                                        </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="chercher()"> Chercher </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- Fin barre de navigation -->
+    </header>
+
+    <main>
+        <div id="tableau" class="container text-justify"> 
+            <h2 class="text-center"> Thématiques </h2>
+
+            <ul class="d-flex ulThematiques justify-content-evenly align-items-center flex-wrap">
+                <a href="./AllahOmnipotent/allahOmnipotent.html"><li class="carteThematique"> Allah omnipotent</li></a>
+                <a href="./Esclavage/esclavage.html"><li class="carteThematique"> Esclavage </li></a>
+                <a href=""><li class="carteThematique"> Djihad / Violence </li></a>
+                <a href=""><li class="carteThematique"> Islam / Unique religion</li></a>
+                <a href=""><li class="carteThematique"> Insultes / Moqueries </li></a>
+                <a href=""><li class="carteThematique"> La volonté d'Allah </li></a>
+                <a href=""><li class="carteThematique"> La faune et la flore </li></a>
+                <a href=""><li class="carteThematique"> Science & miracles </li></a>
+                <a href=""><li class="carteThematique"> Incompréhensible </li></a>
+                <a href=""><li class="carteThematique"> Claire </li></a>
+                <a href=""><li class="carteThematique"> Menaces, baton & Enfer </li></a>
+                <a href=""><li class="carteThematique"> La carotte / Le Paradis </li></a>
+                <a href=""><li class="carteThematique"> Allah, un humain? </li></a>
+                <a href=""><li class="carteThematique"> Allah le Miséricordieux </li></a>
+                <a href=""><li class="carteThematique"> La haine</li> </a>
+                <a href=""><li class="carteThematique"> Les défis </li></a>
+                <a href=""><li class="carteThematique"> La création </li></a>
+                <a href=""><li class="carteThematique"> Dieux / Anges / Diable / Adam </li></a>
+                <a href=""><li class="carteThematique"> Fils d'Israel / Les juifs / Les chrétiens</li></a> 
+                <a href=""><li class="carteThematique"> Contradictions? </li></a>
+                <a href=""><li class="carteThematique"> L'abrogation </li></a>
+                <a href=""><li class="carteThematique"> Omnipotence ou pas? </li></a>
+                <a href=""><li class="carteThematique"> L'héritage </li></a>
+                <a href=""><li class="carteThematique"> Le Ramadan </li></a>
+                <a href=""><li class="carteThematique"> Pffffff </li></a>
+                <a href=""><li class="carteThematique"> Les femmes / Véduité  </li></a>
+                <a href=""><li class="carteThematique"> Le mariage </li></a>
+                <a href=""><li class="carteThematique"> Prêter à Allah </li></a>
+                <a href=""><li class="carteThematique"> Le butin </li></a>
+                <a href=""><li class="carteThematique"> La Hijra </li></a>
+                <a href=""><li class="carteThematique"> La polygamie </li></a>
+                <a href=""><li class="carteThematique"> La fornication et l'adultère </li></a>
+                <a href=""><li class="carteThematique"> Egalités? </li></a>
+                <a href=""><li class="carteThematique"> Répétitions / Redondances </li></a>
+                <a href=""><li class="carteThematique"> Hallal / Haram </li></a>
+                <a href=""><li class="carteThematique"> C'est beau !</li></a> 
+                <a href=""><li class="carteThematique"> Histoires / Contes </li></a>
+                <a href=""><li class="carteThematique"> La prière </li></a>
+                <a href=""><li class="carteThematique"> Temporel ou pas? </li></a>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    
+    
+    <script src="../index.js"></script>
+    <script src="thematiques.js"></script>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

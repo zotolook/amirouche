@@ -12,10 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title> ISL </title>
-  <link rel="stylesheet" href="./style.css" />
-
-
+ <title> ISL </title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -32,7 +30,6 @@
           <div class="isl"> <span> ISL </span></div>
           <img src="images/mosque.png" width="70" alt="mosque">
         </div>
-        
       </a>
       <!-- My profil -->
 
@@ -53,11 +50,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href=""> Lire </a>
+            <a class="nav-link" href="#"> Lire </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#"> Thématiques </a>
+            <a class="nav-link" href="./thematiques/thematiques.html"> Thématiques </a>
           </li>
         
           <!-- Drop down button -->
@@ -68,23 +65,25 @@
                Lire
               </button>
               <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#" onclick="lireCoran()"> Coran </a></li>
+                <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
 
-                <li><a class="dropdown-item" href="#" >Sourate N°
-                   
+                <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate 
+                   <!--
                   <input type="number" min="1" max="114" id="inputNumeroSourate1"> 
                   <button type="button" class="btn btn-success" id="boutonLireSourate">Ok</button>
-                </a></li>
+                  -->
+                </li>
                 <li> <hr class="dropdown-divider"></li>
 
-                <li><a class="dropdown-item" href="#">Sourate N°                
-                    <input type="number" min="1" max="114" id="inputNumeroSourate2">
+                <li class="dropdown-item" onclick="lireVerset()"> Lire un verset                 
+                   <!--
+                  <input type="number" min="1" max="114" id="inputNumeroSourate2">
 
                     <a class="dropdown-item" href="#">Verset N°                    
                       <input type="number" min="1" max="114" id="inputNumeroVerset">
 
                     <button type="button" class="btn btn-success" id="boutonLireVerset">Ok</button>
-                  </a></li>
+                  </a> --> </li>
               </ul>
             </div>
           </li>
@@ -101,18 +100,141 @@
   </header>
 
   <main>
-    <div id="tableau" class="container text-justify" ></div>
+    <div id="tableau" class="container  text-justify" >
+      <h2> Le Coran </h2>
+      <ul class="listeSourate ">
+        <li class="sourate1"> 1. L'ouverture الفاتحة </li>
+        <li class="sourate2"> 2. La vache البقرة</li>
+        <li class="sourate3"> 3. آل عمران </li>
+        <li class="sourate4"> 4. النساء </li>
+        <li class="sourate5"> 5. المائدة </li>
+        <li class="sourate6"> 6. الأنعام </li>
+        <li class="sourate7"> 7. الأعراف </li>
+        <li class="sourate8"> 8. الأنفال</li>
+        <li class="sourate9"> 9. التوبة</li>
+        <li class="sourate10"> 10. يونس </li>
+        <li class="sourate11"> 11. هود </li>
+        <li class="sourate12"> 12. يوسف </li>
+        <li class="sourate13"> 13. الرعد </li>
+        <li class="sourate14"> 14. ابراهيم </li>
+        <li class="sourate15"> 15. الحجر </li>
+        <li class="sourate16"> 16. النحل </li>
+        <li class="sourate17"> 17. الإسراء </li>
+        <li class="sourate18"> 18. الكهف </li>
+        <li class="sourate19"> 19. مريم </li>
+        <li class="sourate20"> 20. طه </li>
+        <li class="sourate21"> 21. الأنبياء </li>
+        <li class="sourate22"> 22. الحج </li>
+        <li class="sourate23"> 23. المؤمنون </li>
+        <li class="sourate24"> 24. النور </li>
+        <li class="sourate25"> 25. الفرقان </li>
+        <li class="sourate26"> 26. الشعراء </li>
+        <li class="sourate27"> 27. النمل </li>
+        <li class="sourate28"> 28. القصص </li>
+        <li class="sourate29"> 29. العنكبوت </li>
+        <li class="sourate30"> 30. الروم </li>
+        <li class="sourate31"> 31. لقمان </li>
+        <li class="sourate32"> 32. السجدة </li>
+        <li class="sourate33"> 33. الأحزاب </li>
+        <li class="sourate34"> 34. سبإ </li>
+        <li class="sourate35"> 35. فاطر </li>
+        <li class="sourate36"> 36. يس </li>
+        <li class="sourate37"> 37. الصافات </li>
+        <li class="sourate38"> 38. ص </li>
+        <li class="sourate39"> 39. الزمر </li>
+        <li class="sourate40"> 40. غافر </li>
+        <li class="sourate41"> 41. فصلت </li>
+        <li class="sourate42"> 42. الشورى </li>
+        <li class="sourate43"> 43. الزخرف </li>
+        <li class="sourate44"> 44. الدخان </li>
+        <li class="sourate45"> 45. الجاثية </li>
+        <li class="sourate46"> 46. الأحقاف </li>
+        <li class="sourate47"> 47. محمد </li>
+        <li class="sourate48"> 48. الفتح </li>
+        <li class="sourate49"> 49. الحجرات </li>
+        <li class="sourate50"> 50. ق </li>
+        <li class="sourate51"> 51. الذاريات </li>
+        <li class="sourate52"> 52. الطور </li>
+        <li class="sourate53"> 53. النجم </li>
+        <li class="sourate54"> 54. القمر </li>
+        <li class="sourate55"> 55. الرحمن </li>
+        <li class="sourate56"> 56. الواقعة </li>
+        <li class="sourate57"> 57. الحديد </li>
+        <li class="sourate58"> 58. المجادلة </li>
+        <li class="sourate59"> 59. الحشر </li>
+        <li class="sourate60"> 60. الممتحنة </li>
+        <li class="sourate61"> 61. الصف </li>
+        <li class="sourate62"> 62. الجمعة </li>
+        <li class="sourate63"> 63. المنافقون </li>
+        <li class="sourate64"> 64. التغابن </li>
+        <li class="sourate65"> 65. الطلاق </li>
+        <li class="sourate66"> 66. التحريم </li>
+        <li class="sourate67"> 67. الملك </li>
+        <li class="sourate68"> 68. القلم </li>
+        <li class="sourate69"> 69. الحاقة </li>
+        <li class="sourate70"> 70. المعارج </li>
+        <li class="sourate71"> 71. نوح </li>
+        <li class="sourate72"> 72. الجن </li>
+        <li class="sourate73"> 73. المزمل </li>
+        <li class="sourate74"> 74. المدثر </li>
+        <li class="sourate75"> 75. القيامة </li>
+        <li class="sourate76"> 76. الانسان </li>
+        <li class="sourate77"> 77. المرسلات </li>
+        <li class="sourate78"> 78. النبإ </li>
+        <li class="sourate79"> 79. النازعات </li>
+        <li class="sourate80"> 80. عبس </li>
+        <li class="sourate81"> 81. التكوير </li>
+        <li class="sourate82"> 82. الإنفطار </li>
+        <li class="sourate83"> 83. المطففين </li>
+        <li class="sourate84"> 84. الإنشقاق </li>
+        <li class="sourate85"> 85. البروج </li>
+        <li class="sourate86"> 86. الطارق </li>
+        <li class="sourate87"> 87. الأعلى</li>
+        <li class="sourate87"> 88. الغاشية</li>
+        <li class="sourate88"> 89. الفجر </li>
+        <li class="sourate89"> 90. البلد </li>
+        <li class="sourate90"> 91. الشمس </li>
+        <li class="sourate91"> 92. الليل </li>
+        <li class="sourate92"> 93. الضحى </li>
+        <li class="sourate93"> 94. الشرح </li>
+        <li class="sourate94"> 95. التين </li>
+        <li class="sourate95"> 96. العلق </li>
+        <li class="sourate96"> 97. القدر </li>
+        <li class="sourate97"> 98. البينة </li>
+        <li class="sourate98"> 99. الزلزلة </li>
+        <li class="sourate99"> 100. العاديات </li>
+        <li class="sourate100"> 101. القارعة </li>
+        <li class="sourate101"> 102. التكاثر</li>
+        <li class="sourate102"> 103. العصر</li>
+        <li class="sourate103"> 104. الهمزة</li>
+        <li class="sourate104"> 105. الفيل</li>
+        <li class="sourate105"> 106. قريش</li>
+        <li class="sourate106"> 107. الماعون</li>
+        <li class="sourate107"> 108. الكوثر</li>
+        <li class="sourate108"> 109. الكافرون</li>
+        <li class="sourate109"> 110. النصر</li>
+        <li class="sourate110"> 111. المسد</li>
+        <li class="sourate111"> 112. الإخلاص</li>
+        <li class="sourate113"> 113. الفلق</li>
+        <li class="sourate114"> 114. الناس</li>
+      </ul>
+    </div>
   </main>
 
   <footer>
-  
+  <div class="pied">
+
+  </div>
   </footer>
 
-  <script src="index.js"></script>
-
+  <script src="index.js" ></script>
+  <script src="accueil.js"></script>
+  <script src="./thematiques/thematiques.js"></script>
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
   <!-- -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -120,6 +242,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
-</body>
 
+  </body>
 </html>

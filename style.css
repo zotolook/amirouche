@@ -11,13 +11,13 @@ body {
   max-width: 100% !important;
   overflow-x: hidden !important;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 #isl {
   color: #fff;
   padding-bottom: 10px !important;
   margin-bottom: 0px;
   text-align: center;
-  font-size: 2vw;
   padding: 5px;
 }
 a,
@@ -60,7 +60,6 @@ nav {
 /* header */
 
 ul li { 
-  
   margin-left: 15px;
 }
 
@@ -166,18 +165,15 @@ ul li :hover {
 .s_entrainer{
   max-width: 230px;
   margin: 17px auto 0px !important;
-  background: #b5b4b4;
+  background: #737373;
+  z-index: 2;
 }
 .s_entrainer li{
-  
+  color: #fff;
   margin: 0;
 }
-.s_entrainer li a{
-color: #fff;
-text-shadow: 1px 1px #000;
-font-weight:900;
-}
-.s_entrainer li:hover a{
+
+.s_entrainer li:hover {
   background-color: rgb(18, 18, 18);
   color: #000;
 }
@@ -203,14 +199,13 @@ font-weight:900;
 #tableau {
   min-width: 300px;
   max-width: 900px;
-  min-height: 50px;
+ 
   background-color: black;
   border: solid 3px red;
   margin: 20px auto;
   color: #fff;
   padding: 10px;
-  font-size: 3vw;
-}
+  }
 
 /* Sourate*/
 .divSourate {
@@ -236,4 +231,20 @@ font-weight:900;
 .pNombre {margin-top: 15px;}
 .numeroVerset, .nombre, .motTrouve {
   color: red;
+}
+
+/* Formulaire lire verset */
+.divFormulaireLireVerset {
+  margin: 10px;
+  text-align: center;
+}
+/* Message Mauvais numéro */
+
+
+#pMauvaisNumero {
+  max-width: 80em;
+  padding: 5px;
+  margin: 10px;
+  background: rgb(243, 138, 138);
+  color: #fff;
 }
