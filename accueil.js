@@ -1,23 +1,40 @@
 
 
-let sourate;
-let numeroSourate;
-let nomSourate;
-let numeroVerset;
-let verset;
-let basmala = "Au nom d’Allah, le Tout Miséricordieux, le Très Miséricordieux.";
-let motAChercher;
-let trouve;
 
-let tableau = document.getElementById("tableau");
 
 let pMauvaisNumero = document.createElement("p")
   pMauvaisNumero.setAttribute('id', 'pMauvaisNumero');
-  
 
+let divListeSourates = document.createElement('div') 
+divListeSourates.setAttribute('class', 'listeSourates') 
+// Fonction liste sourates
 
+const listeSourates = function () {
+  tableau.appendChild(divListeSourates)
+  sourates.forEach((sourate) => {
+    
+    let divSourate = document.createElement("div");
+    divSourate.setAttribute('class', 'sourate')
+    let pNumeroSourate = document.createElement("p");
+    pNumeroSourate.setAttribute('class', 'pNumeroSourate')
+    pNumeroSourate.textContent = sourate.numero
+    let pNomSourate = document.createElement("p");
+    pNomSourate.textContent = sourate.nom
+    let pNomArabeSourate = document.createElement("p");
+    pNomArabeSourate.textContent = sourate.nomArabe
+
+    divListeSourates.appendChild(divSourate)
+    divSourate.appendChild(pNumeroSourate)
+    divSourate.appendChild(pNomSourate);
+    divSourate.appendChild(pNomArabeSourate);
+  })
+}
+// Fin liste sourates
 // Fonction Lire le coran complet
 const lireCoran = function () {
+  listeSourates()
+ 
+  /*
   numeroSourate = 0;
   tableau.innerHTML = "";
   coran.forEach((sourate) => {
@@ -47,6 +64,7 @@ const lireCoran = function () {
     }
     numeroSourate++;
   });
+  */
 };
 
 

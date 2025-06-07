@@ -13,6 +13,10 @@ body {
   font-family: 'Courier New', Courier, monospace;
   
 }
+ul {
+  list-style-type: none;
+}
+
 #isl {
   color: #fff;
   padding-bottom: 10px !important;
@@ -247,4 +251,34 @@ ul li :hover {
   margin: 10px;
   background: rgb(243, 138, 138);
   color: #fff;
+}
+
+/* Liste des sourates */
+.listeSourates {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.sourate {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  height: 120px;
+  background-color: #737373;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  border: 1px white solid;
+}
+
+.pNumeroSourate {
+  width: 40px;
+  height: 40px;  
+  border-radius: 50%;
+  background-color: #de1010;
+
 }
