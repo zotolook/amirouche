@@ -56,10 +56,6 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Lire </a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link" href="./thematiques.html"> Thématiques </a>
                     </li>
 
@@ -71,26 +67,10 @@
                                 Lire
                             </button>
                             <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#" onclick="lireCoran()"> Coran </a></li>
-
-                                <li><a class="dropdown-item" href="#">Sourate N°
-
-                                        <input type="number" min="1" max="114" id="inputNumeroSourate1">
-                                        <button type="button" class="btn btn-success" id="boutonLireSourate">Ok</button>
-                                    </a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-
-                                <li><a class="dropdown-item" href="#">Sourate N°
-                                        <input type="number" min="1" max="114" id="inputNumeroSourate2">
-
-                                        <a class="dropdown-item" href="#">Verset N°
-                                            <input type="number" min="1" max="114" id="inputNumeroVerset">
-
-                                            <button type="button" class="btn btn-success"
-                                                id="boutonLireVerset">Ok</button>
-                                        </a></li>
+                                <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
+                                <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate</li>
+                                <li> <hr class="dropdown-divider"></li>
+                                <li class="dropdown-item" onclick="lireVerset()"> Lire un verset</li>
                             </ul>
                         </div>
                     </li>
@@ -163,6 +143,7 @@
     
     
     <script src="../index.js"></script>
+    <script src="../accueil.js"></script>
     <script src="thematiques.js"></script>
     
 

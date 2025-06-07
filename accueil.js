@@ -12,9 +12,9 @@ divListeSourates.setAttribute('class', 'listeSourates')
 const listeSourates = function () {
   tableau.appendChild(divListeSourates)
   sourates.forEach((sourate) => {
-    
     let divSourate = document.createElement("div");
     divSourate.setAttribute('class', 'sourate')
+    divSourate.setAttribute('onclick', `afficherSourate(${sourate.numero})`)
     let pNumeroSourate = document.createElement("p");
     pNumeroSourate.setAttribute('class', 'pNumeroSourate')
     pNumeroSourate.textContent = sourate.numero
@@ -30,46 +30,16 @@ const listeSourates = function () {
   })
 }
 // Fin liste sourates
+
 // Fonction Lire le coran complet
 const lireCoran = function () {
+  tableau.innerHTML = ''
   listeSourates()
- 
-  /*
-  numeroSourate = 0;
-  tableau.innerHTML = "";
-  coran.forEach((sourate) => {
-    let divSourate = document.createElement("div");
-    let pBasmala = document.createElement("p");
-    pBasmala.setAttribute("class", "basmala");
-    pBasmala.textContent = basmala;
-    let titreSourate = document.createElement("h4");
-    titreSourate.setAttribute("class", "titreSourate");
-    divSourate.setAttribute("class", "divSourate");
-    
-    titreSourate.textContent = `Sourate ${numeroSourate + 1} : ${sourates[numeroSourate].nom}: ${sourates[numeroSourate].nomArabe}`;
-    
-    tableau.appendChild(divSourate);
-    divSourate.appendChild(titreSourate);
-    if (numeroSourate + 1 != 9) {
-      divSourate.appendChild(pBasmala);
-    }
-
-    numeroVerset = 1;
-    for (const verset in sourate) {
-      let pVerset = document.createElement("p");
-      pVerset.innerHTML = `<span class='numeroVerset'> ${numeroVerset}.</span>  ${sourate[verset]}`;
-      divSourate.appendChild(pVerset);
-
-      numeroVerset++;
-    }
-    numeroSourate++;
-  });
-  */
 };
 
 
 // Fonction lire une sourate
-const lireSourate = function () {
+const lireSourate = function (sourate) {
   tableau.innerHTML = ` 
   <div class ='divFormulaireLireVerset'>
   <label> Sourate N°: </label>
@@ -130,9 +100,39 @@ const lireSourate = function () {
     inputNumeroSourate.value = "";
     boutonLireSourate.disabled = true;
   });
-  
 }
 
+// Fonction Lire coran par sourate - Afficher une sourate
+const afficherSourate = function (numeroSourate) {
+  tableau.innerHTML = ''
+  let divSourate = document.createElement("div");
+  divSourate.setAttribute("class", "divSourate");
+ 
+    let sourate = coran[numeroSourate - 1];
+    let nomSourate = sourates[numeroSourate - 1].nom;
+   
+    tableau.appendChild(divSourate);
+
+    let titreSourate = document.createElement("h5");
+
+    titreSourate.setAttribute("class", "titreSourate");
+    titreSourate.textContent = `Sourate ${numeroSourate} : ${nomSourate}`;
+    divSourate.appendChild(titreSourate);
+    let pBasmala = document.createElement("p");
+    pBasmala.setAttribute("class", "basmala");
+    pBasmala.textContent = basmala;
+    if (numeroSourate != 9) {
+      divSourate.appendChild(pBasmala);
+    }
+    numeroVerset = 1;
+    for (const verset in sourate) {
+      let pVerset = document.createElement("p");
+      pVerset.innerHTML = `<span class='numeroVerset'> ${numeroVerset}.</span>  ${sourate[verset]}`;
+      divSourate.appendChild(pVerset);
+
+      numeroVerset++;
+    }
+}
 
 
 

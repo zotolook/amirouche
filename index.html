@@ -48,16 +48,7 @@
           <li class="nav-item">
             <a class="nav-link active" href="#"> Accueil </a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#"> Lire </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./thematiques/thematiques.html"> Thématiques </a>
-          </li>
-        
-          <!-- Drop down button -->
+<!-- Drop down button -->
           <li class="nav-item">
             <div class="dropdown ">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
@@ -66,28 +57,19 @@
               </button>
               <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
                 <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
-
-                <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate 
-                   <!--
-                  <input type="number" min="1" max="114" id="inputNumeroSourate1"> 
-                  <button type="button" class="btn btn-success" id="boutonLireSourate">Ok</button>
-                  -->
-                </li>
+                <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate</li>
                 <li> <hr class="dropdown-divider"></li>
-
-                <li class="dropdown-item" onclick="lireVerset()"> Lire un verset                 
-                   <!--
-                  <input type="number" min="1" max="114" id="inputNumeroSourate2">
-
-                    <a class="dropdown-item" href="#">Verset N°                    
-                      <input type="number" min="1" max="114" id="inputNumeroVerset">
-
-                    <button type="button" class="btn btn-success" id="boutonLireVerset">Ok</button>
-                  </a> --> </li>
+                <li class="dropdown-item" onclick="lireVerset()"> Lire un verset</li>
               </ul>
             </div>
           </li>
           <!-- -->
+          
+          <li class="nav-item">
+            <a class="nav-link" href="./thematiques/thematiques.html"> Thématiques </a>
+          </li>
+        
+          
 
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="chercher()"> Chercher </a>
@@ -101,145 +83,7 @@
 
   <main>
     <div id="tableau" class="container  numero:" >
-      <!-- 
-      <h2 class="text-center"> Le Coran </h2>
-      <ul class="listeSourate ">
-        
-        <li class="sourate sourate1"> 
-          <p> 1. </p>
-          <p> L'Ouverture </p>
-          <p>الفاتحة </p>
-          </li>
-          
-        <li class="sourate sourate2"> 
-          <p>2.</p>
-          <p>La Vache</p>
-          <p>البقرة</p>
-        </li>
-
-        <li class="sourate sourate3"> 
-          <p> 3.</p>
-          <p>La Famille d'Imran</p>
-          <p>  آل عمران </p>
-        </li>
-
-        <li class="sourate sourate4"> 
-          <p></p>
-          <p></p>
-          <p></p>
-          4. Les Femmes النساء </li>
-        <li class="sourate sourate5"> 5. La Table Servie المائدة </li>
-        <li class="sourate sourate6"> 6. Les Bestiaux الأنعام </li>
-        <li class="sourate sourate7"> 7. Les Murailles الأعراف </li>
-        <li class="sourate sourate8"> 8. Le Butin الأنفال</li>
-        <li class="sourate sourate9"> 9. Le Repentir التوبة</li>
-        <li class="sourate sourate10"> 10. Jonas يونس </li>
-        <li class="sourate sourate11"> 11. Hud هود </li>
-        <li class="sourate sourate12"> 12. Joseph يوسف </li>
-        <li class="sourate sourate13"> 13. Le Tonnerre الرعد </li>
-        <li class="sourate sourate14"> 14. Abraham ابراهيم </li>
-        <li class="sourate sourate15"> 15. Al-Hijr الحجر </li>
-        <li class="sourate sourate16"> 16. Les Abeilles النحل </li>
-        <li class="sourate sourate17"> 17. Le Voyage Nocturne الإسراء </li>
-        <li class="sourate sourate18"> 18. La Caverne الكهف </li>
-        <li class="sourate sourate19"> 19. Marie مريم </li>
-        <li class="sourate sourate20"> 20. Ta-Ha طه </li>
-        <li class="sourate sourate21"> 21. Les Prophètes الأنبياء </li>
-        <li class="sourate sourate22"> 22. Le Pèlerinage الحج </li>
-        <li class="sourate sourate23"> 23. Les Croyants المؤمنون </li>
-        <li class="sourate sourate24"> 24. La Lumière النور </li>
-        <li class="sourate sourate25"> 25. Le Discernement الفرقان </li>
-        <li class="sourate sourate26"> 26. Les Poètes الشعراء </li>
-        <li class="sourate sourate27"> 27. Les Fourmis النمل </li>
-        <li class="sourate sourate28"> 28. Le Récit القصص </li>
-        <li class="sourate sourate29"> 29. L'Araignée العنكبوت </li>
-        <li class="sourate sourate30"> 30. Les Romains الروم </li>
-        <li class="sourate sourate31"> 31. Luqman لقمان </li>
-        <li class="sourate sourate32"> 32. La Prosternation السجدة </li>
-        <li class="sourate sourate33"> 33. Les Coalisés الأحزاب </li>
-        <li class="sourate sourate34"> 34. Saba سبإ </li>
-        <li class="sourate sourate35"> 35. Le Créateur فاطر </li>
-        <li class="sourate sourate36"> 36. Ya-Sin يس </li>
-        <li class="sourate sourate37"> 37. Les Rangés الصافات </li>
-        <li class="sourate sourate38"> 38. Sad ص </li>
-        <li class="sourate sourate39"> 39. Les Groupes الزمر </li>
-        <li class="sourate sourate40"> 40. Le Pardonneur غافر </li>
-        <li class="sourate sourate41"> 41. Les Versets Détaillés فصلت </li>
-        <li class="sourate sourate42"> 42. La Consultation الشورى </li>
-        <li class="sourate sourate43"> 43. L'Ornement الزخرف </li>
-        <li class="sourate sourate44"> 44. La Fumée الدخان </li>
-        <li class="sourate sourate45"> 45. L'Agenouillée الجاثية </li>
-        <li class="sourate sourate46"> 46. Al-Ahqaf الأحقاف </li>
-        <li class="sourate sourate47"> 47. Muhammad محمد </li>
-        <li class="sourate sourate48"> 48. La Victoire الفتح </li>
-        <li class="sourate sourate49"> 49. Les Appartements الحجرات </li>
-        <li class="sourate sourate50"> 50. Qaf ق </li>
-        <li class="sourate sourate51"> 51. Qui éparpillent الذاريات </li>
-        <li class="sourate sourate52"> 52. Le Mont الطور </li>
-        <li class="sourate sourate53"> 53. L'Étoile النجم </li>
-        <li class="sourate sourate54"> 54. La Lune القمر </li>
-        <li class="sourate sourate55"> 55. Le Tout Miséricordieux الرحمن </li>
-        <li class="sourate sourate56"> 56. L'Événement الواقعة </li>
-        <li class="sourate sourate57"> 57. Le Fer الحديد </li>
-        <li class="sourate sourate58"> 58. La Discussion المجادلة </li>
-        <li class="sourate sourate59"> 59. L'Exode الحشر </li>
-        <li class="sourate sourate60"> 60. L'Éprouvée الممتحنة </li>
-        <li class="sourate sourate61"> 61. Le Rang الصف </li>
-        <li class="sourate sourate62"> 62. Le Vendredi الجمعة </li>
-        <li class="sourate sourate63"> 63. Les Hypocrites المنافقون </li>
-        <li class="sourate sourate64"> 64. La Grande Perte التغابن </li>
-        <li class="sourate sourate65"> 65. Le Divorce الطلاق </li>
-        <li class="sourate sourate66"> 66. L'Interdiction التحريم </li>
-        <li class="sourate sourate67"> 67. La Royauté الملك </li>
-        <li class="sourate sourate68"> 68. La Plume القلم </li>
-        <li class="sourate sourate69"> 69. Celle Qui Montre La Vérité الحاقة </li>
-        <li class="sourate sourate70"> 70. Les Voies D'Ascension المعارج </li>
-        <li class="sourate sourate71"> 71. Noé نوح </li>
-        <li class="sourate sourate72"> 72. Les Djinns الجن </li>
-        <li class="sourate sourate73"> 73. L'Enveloppé المزمل </li>
-        <li class="sourate sourate74"> 74. Le Revêtu D'un Manteau المدثر </li>
-        <li class="sourate sourate75"> 75. La Résurrection القيامة </li>
-        <li class="sourate sourate76"> 76. L'Homme الانسان </li>
-        <li class="sourate sourate77"> 77. Les Envoyés المرسلات </li>
-        <li class="sourate sourate78"> 78. La Nouvelle النبإ </li>
-        <li class="sourate sourate79"> 79. Les Anges Qui Arrachent النازعات </li>
-        <li class="sourate sourate80"> 80. Il S'est Renfrogné عبس </li>
-        <li class="sourate sourate81"> 81. L'Obscurcissement التكوير </li>
-        <li class="sourate sourate82"> 82. La Rupture الإنفطار </li>
-        <li class="sourate sourate83"> 83. Les Fraudeurs المطففين </li>
-        <li class="sourate sourate84"> 84. La Déchirure الإنشقاق </li>
-        <li class="sourate sourate85"> 85. Les Constellations البروج </li>
-        <li class="sourate sourate86"> 86. L'Astre Nocturne الطارق </li>
-        <li class="sourate sourate87"> 87. Le Très-Haut الأعلى</li>
-        <li class="sourate sourate87"> 88. L'Enveloppante الغاشية</li>
-        <li class="sourate sourate88"> 89. L'Aube الفجر </li>
-        <li class="sourate sourate89"> 90. La Cité البلد </li>
-        <li class="sourate sourate90"> 91. Le Soleil الشمس </li>
-        <li class="sourate sourate91"> 92. La Nuit الليل </li>
-        <li class="sourate sourate92"> 93. Le Jour Montant الضحى </li>
-        <li class="sourate sourate93"> 94. L'Ouverture الشرح </li>
-        <li class="sourate sourate94"> 95. Le Figuier التين </li>
-        <li class="sourate sourate95"> 96. L'Adhérence العلق </li>
-        <li class="sourate sourate96"> 97. La Destinée القدر </li>
-        <li class="sourate sourate97"> 98. La Preuve البينة </li>
-        <li class="sourate sourate98"> 99. La Secousse الزلزلة </li>
-        <li class="sourate sourate99"> 100. Les Coursiers العاديات </li>
-        <li class="sourate sourate100"> 101. Le Fracas القارعة </li>
-        <li class="sourate sourate101"> 102. La Course Aux Richesses التكاثر</li>
-        <li class="sourate sourate102"> 103. Le Temps العصر</li>
-        <li class="sourate sourate103"> 104. Les Calomniateurs الهمزة</li>
-        <li class="sourate sourate104"> 105. L'Éléphant الفيل</li>
-        <li class="sourate sourate105"> 106. Quraysh قريش</li>
-        <li class="sourate sourate106"> 107. L'Ustensile الماعون</li>
-        <li class="sourate sourate107"> 108. L'Abondance الكوثر</li>
-        <li class="sourate sourate108"> 109. Les Infidèles الكافرون</li>
-        <li class="sourate sourate109"> 110. Les Secours النصر</li>
-        <li class="sourate sourate110"> 111. Les Fibres المسد</li>
-        <li class="sourate sourate111"> 112. Le Monothéisme Pur الإخلاص</li>
-        <li class="sourate sourate113"> 113. L'Aube Naissante الفلق</li>
-        <li class="sourate sourate114"> 114. Les Hommes الناس</li>
-      </ul>
-      -->
+      
     </div>
   </main>
 

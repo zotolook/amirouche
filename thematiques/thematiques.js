@@ -5,8 +5,6 @@
 const souratesEsclavage = [2, 2, 4, 4, 4, 4, 5, 8, 8, 8, 8, 8, 16, 17, 24, 24, 30, 33, 33, 33, 48, 48, 48, 58, 58, 59, 59, 59, 59]
 const versetsEsclavage = [178, 221, 24, 25, 36, 92, 89, 1, 41, 69, 70, 71, 75, 72, 32, 33, 28, 26, 27, 50, 19, 20, 21, 3, 4, 5, 6, 7, 8]
 
-console.log(souratesEsclavage.length)
-console.log(versetsEsclavage.length);
 // Ahadiths esclavage
 let ahadithsEsclavage = {
   
@@ -31,7 +29,6 @@ const injecteVersets = function (sourates, versets) {
     
     
     verset = sourate[numeroVerset]
-console.log(verset);
   
       let divVersets = document.createElement("div");
       let pVerset = document.createElement("p");
