@@ -1202,13 +1202,13 @@ let sourates = [
 let coran = [
   // Sourate 01: L'ouverture
   {
-    s1v1: `بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ </br> Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux,`,
-    s1v2: `الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ </br> Louange à Allah, Seigneur de l'univers.`,
-    s1v3: `الرَّحْمَٰنِ الرَّحِيمِ</br>Le Tout Miséricordieux, le Très Miséricordieux`,
-    s1v4: `مَالِكِ يَوْمِ الدِّينِ</br>Maître du Jour de la rétribution.`,
-    s1v5: `إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</br>C'est Toi [Seul] que nous adorons, et c'est Toi [Seul] dont nous implorons secours.`,
-    s1v6: `اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ</br>Guide-nous dans le droit chemin,`,
-    s1v7: `صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ</br>le chemin de ceux que Tu as comblés de faveurs, non pas de ceux qui ont encouru Ta colère, ni des égarés .`,
+    s1v1: `بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ </br></br> Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux,`,
+    s1v2: `الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ </br></br> Louange à Allah, Seigneur de l'univers.`,
+    s1v3: `الرَّحْمَٰنِ الرَّحِيمِ</br></br>Le Tout Miséricordieux, le Très Miséricordieux`,
+    s1v4: `مَالِكِ يَوْمِ الدِّينِ</br></br>Maître du Jour de la rétribution.`,
+    s1v5: `إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ</br></br>C'est Toi [Seul] que nous adorons, et c'est Toi [Seul] dont nous implorons secours.`,
+    s1v6: `اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ</br></br>Guide-nous dans le droit chemin,`,
+    s1v7: `صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ</br></br>le chemin de ceux que Tu as comblés de faveurs, non pas de ceux qui ont encouru Ta colère, ni des égarés .`,
   },
 
   // Sourate 02: La vache

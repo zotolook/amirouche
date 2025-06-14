@@ -198,7 +198,7 @@ const lireVerset = function () {
     nomSourate = sourates[numeroSourate - 1].nom;
     numeroVerset = inputNumeroVerset.value;
     sourate = coran[numeroSourate - 1];
-    verset = `s${numeroSourate}v${numeroVerset}`;
+    verset = `S${numeroSourate}V${numeroVerset}`;
 
     tableau.appendChild(divSourate);
 
@@ -243,6 +243,7 @@ const chercher = function () {
   let pNombre = document.createElement("p");
   let divVersetsTrouves = document.createElement("div");
   // Clique sur le bouton valider/chercher
+  
   boutonChercher.addEventListener("click", () => {
     divVersetsTrouves.innerHTML = "";
     motAChercher = inputChercher.value.toUpperCase();

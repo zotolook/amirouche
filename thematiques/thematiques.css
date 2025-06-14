@@ -5,20 +5,39 @@
 
 .carteThematique {
 width: 180px;
-height: 70px;
+height: 80px;
 background-color: rgb(246, 250, 249);
 margin: 15px;
 color: black;
 border-radius: 5px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
 box-shadow: 2px 2px grey;
+text-align: center;
 }
-.carteThematique:hover {
-    transform: scale(1.1);
+
+.boutonsVersetsAhadiths {
+    display: flex;
+    justify-content: space-evenly;
 }
-.carteThematique a {
+
+.titreThematique {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #e0abab;
+    color: rgb(78, 20, 17);
+}
+.pTitreThematique { 
+    font-size: 30px;
+        text-align: center;
+        text-shadow: 2px 2px 2px #e0abab;
+        color: rgb(62, 244, 7);
+}
+
+.carteHadith {
+    min-width: 250px;
+    background-color: aliceblue;
     color: black;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+
 }

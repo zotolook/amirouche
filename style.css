@@ -10,7 +10,7 @@ html,
 body {
   max-width: 100% !important;
   overflow-x: hidden !important;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
 ul {
@@ -63,11 +63,11 @@ nav {
 
 /* header */
 
-ul li { 
+.menu_ul li { 
   margin-left: 15px;
 }
 
-ul li :hover {
+.menu_ul li :hover {
   cursor: pointer;
   color: rgb(236, 233, 233) !important;
   text-shadow: 1px 1px 1px #000;
@@ -234,7 +234,7 @@ ul li :hover {
 /* Nombre d'occurences*/
 .pNombre {margin-top: 15px;}
 .numeroVerset, .nombre, .motTrouve {
-  color: red;
+  color: rgb(132, 255, 0);
 }
 
 /* Formulaire lire verset */
@@ -273,6 +273,11 @@ ul li :hover {
   padding: 5px;
   text-align: center;
   border: 1px white solid;
+  cursor: pointer;
+}
+.sourate:hover {
+  transform: scale(1.05);
+  background-color: rgb(47, 47, 47);
 }
 
 .pNumeroSourate {

@@ -87,13 +87,23 @@
     </header>
 
     <main>
+
+        
         <div id="tableau" class="container text-justify"> 
-            <h2 class="text-center"> Thématiques </h2>
+          <h3 class="text-center"> Thématiques </h3>
 
             <ul class="d-flex ulThematiques justify-content-evenly align-items-center flex-wrap">
+                 <li class="carteThematique" >
+                    <h3 class="titreThematique"> Esclavage </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm" onclick="injecteVersets(`l'esclavage` , souratesEsclavage, versetsEsclavage)"> Versets </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm" onclick="injecteAhadiths(`l'esclavage`,ahadithsEsclavage)"> Ahadiths</button></p>
+                    </div>
                 
-                <li class="carteThematique" onclick="injecteVersets(souratesAllahOmnipotent, versetsAllahOmnipotent)"> Allah omnipotent</li>
-                <li class="carteThematique" onclick="injecteVersets(souratesEsclavage, versetsEsclavage)"> Esclavage </li>
+                
+                 <li class="carteThematique" onclick="injecteVersets('Allah Omnipotent', souratesAllahOmnipotent, versetsAllahOmnipotent)"> Allah omnipotent</li>
+                
+               
                 
                 <a href=""><li class="carteThematique"> Djihad / Violence </li></a>
                 <a href=""><li class="carteThematique"> Islam / Unique religion</li></a>
@@ -132,8 +142,9 @@
                 <a href=""><li class="carteThematique"> Histoires / Contes </li></a>
                 <a href=""><li class="carteThematique"> La prière </li></a>
                 <a href=""><li class="carteThematique"> Temporel ou pas? </li></a>
-            </ul>
+          </ul>
         </div>
+       
     </main>
 
     <footer>
