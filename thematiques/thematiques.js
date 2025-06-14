@@ -1,4 +1,5 @@
-
+let pTitreThematique = document.createElement("p")
+pTitreThematique.setAttribute('class', 'pTitreThematique')
 // 1- E S C L A V A G E
 
 // Les versets de l'esclavage
@@ -129,10 +130,132 @@ let ahadithsEsclavage = [
 // Fin Esclavage
 
 // 2- A L L A H   O M N I P O T E N T
-const souratesAllahOmnipotent = [2, 2, 6, 6, 6, 6, 7, 9, 9, 40 ]
-const versetsAllahOmnipotent = [ 181, 244, 13, 18, 103, 115, 187, 77, 79, 68]
-let pTitreThematique = document.createElement("p")
-pTitreThematique.setAttribute('class', 'pTitreThematique')
+const souratesAllahOmnipotent = [2, 2, 2, 3, 3, 6, 4, 6, 6, 6, 7, 9, 9, 40 ]
+const versetsAllahOmnipotent = [143, 181, 244, 13, 140, 166, 141, 18, 103, 115, 187, 77, 79, 68]
+
+let ahadithsAllahOmnipotent = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:4584,
+    texte:"أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ",
+    lien: "https://dorar.net/hadith/sharh/65277",
+  },
+];
+
+
+// 3- Djihad / Violence
+
+const souratesDjihadViolence = [
+  2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+  9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9,
+  22,24,33,33,33,33,47,47,49,61,61,61,66
+];
+const versetsDjihadViolence = [154, 191, 216, 217, 140, 141, 142, 143, 146, 147, 148, 154, 155, 156, 157, 34, 71, 72, 73, 74, 77, 85, 89, 90, 91, 94, 95, 102, 103, 104, 33, 65, 1, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 39, 43, 44, 45, 57, 58, 60, 65, 66, 67,
+  2, 5, 12, 14, 25, 26, 29, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 73, 74, 81, 82, 83, 88, 93, 111, 123,
+  78,4,19,20,60,61,4,35,15,4,10,11,9
+];
+const ahadithsDjihadViolence = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:25,
+    texte:" أُمِرْتُ أنْ أُقَاتِلَ النَّاسَ حتَّى يَشْهَدُوا أنْ لا إلَهَ إلَّا اللَّهُ، وأنَّ مُحَمَّدًا رَسولُ اللَّهِ، ويُقِيمُوا الصَّلَاةَ، ويُؤْتُوا الزَّكَاةَ، فَإِذَا فَعَلُوا ذلكَ عَصَمُوا مِنِّي دِمَاءَهُمْ وأَمْوَالَهُمْ إلَّا بحَقِّ الإسْلَامِ، وحِسَابُهُمْ علَى اللَّهِ.",
+    verset: "s9v5",
+    lien: "https://dorar.net/hadith/sharh/68099",
+    autres: 1399
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:26,
+    texte:"أفضَلُ الأعمالِ الإيمانُ باللهِ وَحدَه ، ثمَّ الجهادُ... ",
+    lien: "https://dorar.net/hadith/sharh/141857",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:123,
+    texte:"مَن قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هي العُلْيَا، فَهو في سَبيلِ اللَّهِ عزَّ وجلَّ. ",
+    lien: "https://dorar.net/hadith/sharh/8229",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1399,
+    texte:"واللَّهِ لَأُقَاتِلَنَّ مَن فَرَّقَ بيْنَ الصَّلَاةِ والزَّكَاةِ ",
+    lien: "https://dorar.net/hadith/sharh/67078",
+    autres: 1456
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:1,
+    texte:" ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+];
+
 
 // Fonction injecter les sourates selon le thème
 

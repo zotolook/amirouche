@@ -93,18 +93,40 @@
           <h3 class="text-center"> Thématiques </h3>
 
             <ul class="d-flex ulThematiques justify-content-evenly align-items-center flex-wrap">
-                 <li class="carteThematique" >
+                <!-- Esclavage -->
+                <li class="carteThematique" >
                     <h3 class="titreThematique"> Esclavage </h3>
                     <div class="boutonsVersetsAhadiths">
                         <p> <button type="button" class="btn btn-primary btn-sm" onclick="injecteVersets(`l'esclavage` , souratesEsclavage, versetsEsclavage)"> Versets </button></p>
                         <p><button type="button" class="btn btn-secondary btn-sm" onclick="injecteAhadiths(`l'esclavage`,ahadithsEsclavage)"> Ahadiths</button></p>
                     </div>
+                </li>
+                <!-- Allah omnipotent -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Allah omnipotent </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`Allah omnipotent` , souratesAllahOmnipotent, versetsAllahOmnipotent)"> Versets </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Allah omnipotent`,ahadithsAllahOmnipotent)"> Ahadiths</button></p>
+                    </div>
+                </li>
                 
-                
-                 <li class="carteThematique" onclick="injecteVersets('Allah Omnipotent', souratesAllahOmnipotent, versetsAllahOmnipotent)"> Allah omnipotent</li>
-                
+                <!-- Djihad / Violence -->
                
-                
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Djihad & Violence </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`Djihad & Violence` , souratesDjihadViolence, versetsDjihadViolence)"> Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Djihad & Violence`,ahadithsDjihadViolence)"> Ahadiths</button></p>
+                    </div>
+                </li>
+
+
+
                 <a href=""><li class="carteThematique"> Djihad / Violence </li></a>
                 <a href=""><li class="carteThematique"> Islam / Unique religion</li></a>
                 <a href=""><li class="carteThematique"> Insultes / Moqueries </li></a>
