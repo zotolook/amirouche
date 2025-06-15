@@ -1,7 +1,3 @@
-
-
-
-
 let pMauvaisNumero = document.createElement("p")
   pMauvaisNumero.setAttribute('id', 'pMauvaisNumero');
 
@@ -169,8 +165,6 @@ const lireVerset = function () {
   });
   // Fin écoute input sourate
   
-  
-
   // Ecouter l'input si mauvais numéro verset
   inputNumeroVerset.addEventListener("input", () => {
     console.log(Object.values(coran[inputNumeroSourate2.value-1]).length);
@@ -198,7 +192,7 @@ const lireVerset = function () {
     nomSourate = sourates[numeroSourate - 1].nom;
     numeroVerset = inputNumeroVerset.value;
     sourate = coran[numeroSourate - 1];
-    verset = `S${numeroSourate}V${numeroVerset}`;
+    verset = `s${numeroSourate}v${numeroVerset}`;
 
     tableau.appendChild(divSourate);
 
@@ -207,9 +201,14 @@ const lireVerset = function () {
     titreSourate.setAttribute("class", "titreSourate");
     titreSourate.textContent = `Sourate ${numeroSourate} : ${nomSourate}`;
     divSourate.appendChild(titreSourate);
+    console.log(sourate);
+    console.log(verset);
+    console.log(sourate[verset]);
+    
+    
 
     let pVerset = document.createElement("p");
-    pVerset.innerHTML = `<span class='numeroVerset'> ${numeroVerset}.</span>  ${sourate[verset]}`;
+    pVerset.innerHTML = `<span class='numeroVerset'> ${verset}.</span>  ${sourate[verset]}`;
     divSourate.appendChild(pVerset);
    // inputNumeroSourate2.value = "";
     // inputNumeroVerset.value = "";
