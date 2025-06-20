@@ -3,7 +3,7 @@ pTitreThematique.setAttribute('class', 'pTitreThematique')
 
 
 
-// 2- Islam religion unique
+// - Islam religion unique
 const souratesIslamReligionUnique= [3,3,3,6,9,61,86,86];
 const versetsIslamReligionUnique = [19,85,99,92,33,9,13,14];
 const ahadithsIslamReligionUnique = [];
@@ -12,7 +12,6 @@ const ahadithsIslamReligionUnique = [];
 // - A L L A H /  O M N I P O T E N T  /   O M N I S C i E N T
 const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9, 40, 100 ]
 const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 187, 79, 68, 6]
-
 let ahadithsAllahOmnipotentOmniscient = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -360,8 +359,14 @@ let ahadithsEsclavage = [
 ];  
 // Fin Esclavage
 
-// Djihad / Violence
+// - Juifs Chrtiens Mécréants
+const souratesJuifsChretiensMecreants= [2,2,4,4,4,4,4,4,4,4,4,4,4,];
+const versetsJuifsChretiensMecreants = [40,122,46,47,153,154,155,156,157,158,158,159,160,161,162];
+const ahadithsJuifsChretiensMecreants = [];
+// Fin Juifs Chrtiens Mécréants
 
+
+// Djihad / Violence
 const souratesDjihadViolence = [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 6, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9,22,24,33,33,33,33,47,47,49,61,61,61,66];
 const versetsDjihadViolence = [154, 191, 216, 217, 140, 141, 142, 143, 146, 147, 148, 154, 155, 156, 157, 34, 71, 72, 73, 74, 77, 85, 89, 90, 91, 94, 95, 102, 103, 104, 33, 65, 1, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 39, 43, 44, 45, 57, 58, 60, 65, 66, 67,2, 5, 12, 14, 25, 26, 29, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 73, 74, 81, 82, 83, 88, 93, 111, 123, 78,4,19,20,60,61,4,35,15,4,10,11,9];
 const ahadithsDjihadViolence = [
@@ -603,8 +608,8 @@ const ahadithsDjihadViolence = [
     numero: 6840,
     texte: " رَجَمَ النبيُّ صَلَّى اللهُ عليه وسلَّمَ فَقُلتُ: أقَبْلَ النُّورِ أمْ بَعْدَهُ؟ قالَ: لا أدْرِي.",
     lien: "https://dorar.net/hadith/sharh/11551",
-    
-  },];
+  }
+];
 // Fin Djihad / Violence
 
 //- Insultes et moqueries
@@ -1087,10 +1092,143 @@ const ahadithsFemmes = [
     autres: ""
   },
 ];
-//- fIN P F f  f f f  f  f
+//- fin femmes
+
+//- Miracles scientifiques
+const souratesMiraclesScientifiques = [3,3,3,3,3,21,21,21,21,22,23,23,23,27,37,54,55];
+const versetsMiraclesScientifiques = [46,54,55,59,83,30,31,32,33,65,12,13,14,61,139,1,15];
+const ahadithsMiraclesScientifiques = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3637,
+    texte:
+      "أنَّ أَهْلَ مَكَّةَ سَأَلُوا رَسُولَ اللهِ صَلَّى اللَّهُ عليه وَسَلَّمَ أَنْ يُرِيَهُمْ آيَةً فأرَاهُمُ انْشِقَاقَ القَمَرِ مَرَّتَيْنِ.",
+    lien: "https://dorar.net/hadith/sharh/7746",
+    lien2: "https://dorar.net/hadith/sharh/76795",
+    lien3: "https://dorar.net/hadith/sharh/7744",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3887,
+    texte: "رِحلةُ الإسْراءِ والمِعْراجِ",
+    lien: "https://dorar.net/hadith/sharh/151389",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3888,
+    texte: "شَجرةُ الزَّقُّومِ",
+    lien: "https://dorar.net/hadith/sharh/14047",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4210,
+    texte:
+      "فَبَصَقَ رَسولُ اللَّهِ صلَّى اللهُ عليه وسلَّمَ في عَيْنَيْهِ ودَعَا له",
+    lien: "https://dorar.net/hadith/sharh/72767",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4478,
+    texte: "الْكَمْأَةُ مِنَ المَنِّ، وَمَاؤُهَا شِفَاءٌ لِلْعَيْنِ.",
+    lien: "https://dorar.net/hadith/sharh/14881",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4622,
+    texte:
+      "يَا أَيُّهَا الَّذِينَ آَمَنُوا لَا تَسْأَلُوا عَنْ أَشْيَاءَ إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ",
+    lien: "https://dorar.net/hadith/sharh/81685",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4649,
+    texte: "قالَ أبو جَهْلٍ: اللَّهُمَّ إنْ كانَ هذا هو الحَقَّ مِن عِندِكَ فأمْطِرْ عَلَيْنَا حِجَارَةً مِنَ السَّمَاءِ، أوِ ائْتِنَا بعَذَابٍ ألِيمٍ، فَنَزَلَتْ: {وَما كانَ اللَّهُ لِيُعَذِّبَهُمْ وأَنْتَ فيهم، وما كانَ اللَّهُ مُعَذِّبَهُمْ وهُمْ يَسْتَغْفِرُونَ، وما لهمْ أنْ لا يُعَذِّبَهُمُ اللَّهُ وهُمْ يَصُدُّونَ عَنِ المَسْجِدِ الحَرَامِ} الآيَةَ.",
+    lien: "https://dorar.net/hadith/sharh/24772",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 7379,
+    texte: "مفاتيحُ الغيبِ خَمْسٌ لا يعلَمُها إلَّا اللهُ : لا يعلَمُ ما تغيضُ الأرحامَ أحَدٌ إلَّا اللهُ ولا ما في غَدٍ إلَّا اللهُ ولا يعلَمُ متى يأتي المطَرُ إلَّا اللهُ ولا تدري نفسٌ بأيِّ أرضٍ تموتُ ولا يعلَمُ متى تقومُ السَّاعةُ أحَدٌ إلَّا اللهُ",
+    lien: "https://dorar.net/hadith/sharh/12789",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4802,
+    texte: "كُنْتُ مع النبيِّ صَلَّى اللهُ عليه وسلَّمَ في المَسْجِدِ عِنْدَ غُرُوبِ الشَّمْسِ، فَقالَ: يا أبَا ذَرٍّ أتَدْرِي أيْنَ تَغْرُبُ الشَّمْسُ؟ قُلتُ: اللَّهُ ورَسولُهُ أعْلَمُ، قالَ: فإنَّهَا تَذْهَبُ حتَّى تَسْجُدَ تَحْتَ العَرْشِ، فَذلكَ قَوْلُهُ تَعَالَى: {وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا ذلكَ تَقْدِيرُ العَزِيزِ العَلِيمِ}.",
+    lien: "https://dorar.net/hadith/sharh/6677",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5445,
+    texte: "مَن تَصَبَّحَ بسَبْعِ تَمَراتٍ عَجْوَةً، لَمْ يَضُرَّهُ ذلكَ اليومَ سُمٌّ، ولا سِحْرٌ.",
+    lien: "https://dorar.net/hadith/sharh/20979",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5687,
+    texte: "الحَبَّةُ السَّوْدَاءُ شِفَاءٌ من كلِّ دَاءٍ إلَّا السَّامَ",
+    lien: "https://dorar.net/hadith/sharh/79430",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5741,
+    texte: "رخَّصَ رسولُ اللَّهِ صلَّى اللَّهُ عليهِ وسلَّمَ في الرُّقيةِ، مِن كلِّ ذي حُمَةٍ",
+    lien: "https://dorar.net/hadith/sharh/88016",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3320,
+    texte: "إذا وقَعَ الذُّبابُ في إناءِ أحَدِكم فامقُلُوه؛ فإنَّ في أحَدِ جَناحَيه داءً، وفي الآخَرِ شِفاءً، وإنَّه يتَّقي بجَناحِه الذي فيه الدَّاءُ، فلْيَغمِسْه كُلَّه",
+    lien: "https://dorar.net/hadith/sharh/117405",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3208,
+    texte: "إنَّ أحدَكم يُجْمَعُ خَلْقُهُ في بطنِ أمِّه أربعينَ يومًا نطفةً ، ثم يكونُ علقةً مثلَ ذلك ، ثم يكونُ مضغةً مثلَ ذلك ، ثم يبعثُ اللهُ إليه ملَكا ، ويُؤمرُ بأربعِ كلماتٍ ، ويُقالُ له : اكتبْ عملَه ، ورزقَه ، وأجلَه ، وشقيٌّ أو سعيدٌ ؛ ثم يُنفخُ فيه الروحَ",
+    lien: "https://dorar.net/hadith/sharh/4724",
+    autres: "",
+  },
+  
+];
+//- fin Miracles scientifiques
+
+//- Forme de la terre
+const souratesFormeTerre = [];
+const versetsFormeTerre = [];
+const ahadithsFormeTerre = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+];
+//- Forme de la terre
+
+
 
 // Fonction injecter les sourates selon le thème
-
 function injecteVersets (titreThematique, sourates, versets) {
   
   tableau.innerHTML = "";
