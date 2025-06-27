@@ -48,7 +48,7 @@
           <li class="nav-item">
             <a class="nav-link active" href="#"> Accueil </a>
           </li>
-<!-- Drop down button -->
+<!-- Lire -->
           <li class="nav-item">
             <div class="dropdown ">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
@@ -56,21 +56,28 @@
                Lire
               </button>
               <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
+                
                 <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
                 <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate</li>
                 <li> <hr class="dropdown-divider"></li>
                 <li class="dropdown-item" onclick="lireVerset()"> Lire un verset</li>
+               
               </ul>
             </div>
           </li>
-          <!-- -->
+
+          <!--Infos -->
+          <li class="nav-item">
+            <a class="nav-link" href="./infos/infos.html"> Infos Islam </a>
+          </li>
           
+           <!-- Thématiques -->
           <li class="nav-item">
             <a class="nav-link" href="./thematiques/thematiques.html"> Thématiques </a>
           </li>
         
           
-
+<!-- Chercher -->
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="chercher()"> Chercher </a>
           </li>
@@ -90,11 +97,12 @@
   <footer>
   <div class="pied">
 
+  
   </div>
   </footer>
 
-  <script src="index.js" ></script>
-  <script src="accueil.js"></script>
+  <script src="./index.js" ></script>
+  <script src="./accueil.js"></script>
   <script src="./thematiques/thematiques.js"></script>
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

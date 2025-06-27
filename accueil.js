@@ -34,8 +34,8 @@ const lireCoran = function () {
 };
 
 
-// Fonction lire une sourate
-const lireSourate = function (sourate) {
+// Fonction lire une sourate - Afficher une sourate
+const lireSourate = function () {
   tableau.innerHTML = ` 
   <div class ='divFormulaireLireVerset'>
   <label> Sourate N°: </label>
@@ -62,39 +62,10 @@ const lireSourate = function (sourate) {
   })
   // Fin écoute input
 
-  let divSourate = document.createElement("div");
-  divSourate.setAttribute("class", "divSourate");
   // Ecouter le bouton OK lire sourate
   boutonLireSourate.addEventListener("click", () => {
-    divSourate.innerHTML = ''
     numeroSourate = inputNumeroSourate.value;
-    let sourate = coran[numeroSourate - 1];
-    let nomSourate = sourates[numeroSourate - 1].nom;
-
-    
-    tableau.appendChild(divSourate);
-
-    let titreSourate = document.createElement("h5");
-
-    titreSourate.setAttribute("class", "titreSourate");
-    titreSourate.textContent = `Sourate ${numeroSourate} : ${nomSourate}`;
-    divSourate.appendChild(titreSourate);
-    let pBasmala = document.createElement("p");
-    pBasmala.setAttribute("class", "basmala");
-    pBasmala.textContent = basmala;
-    if (numeroSourate != 9) {
-      divSourate.appendChild(pBasmala);
-    }
-    numeroVerset = 1;
-    for (const verset in sourate) {
-      let pVerset = document.createElement("p");
-      pVerset.innerHTML = `<span class='numeroVerset'> ${numeroVerset}.</span>  ${sourate[verset]}`;
-      divSourate.appendChild(pVerset);
-
-      numeroVerset++;
-    }
-    inputNumeroSourate.value = "";
-    boutonLireSourate.disabled = true;
+    afficherSourate(numeroSourate)
   });
 }
 
@@ -106,14 +77,21 @@ const afficherSourate = function (numeroSourate) {
  
     let sourate = coran[numeroSourate - 1];
     let nomSourate = sourates[numeroSourate - 1].nom;
-   
+    let nomSourateArabe = sourates[numeroSourate - 1].nomArabe;
     tableau.appendChild(divSourate);
-
+  
+    let titreSourateArabe = document.createElement("h4");
     let titreSourate = document.createElement("h5");
 
-    titreSourate.setAttribute("class", "titreSourate");
-    titreSourate.textContent = `Sourate ${numeroSourate} : ${nomSourate}`;
-    divSourate.appendChild(titreSourate);
+  titreSourate.setAttribute("class", "titreSourate");
+  titreSourateArabe.setAttribute("class", "titreSourate");
+  titreSourateArabe.textContent = nomSourateArabe; 
+  titreSourate.textContent = `Sourate ${numeroSourate} : ${nomSourate}`;
+
+  
+  divSourate.appendChild(titreSourateArabe);
+  divSourate.appendChild(titreSourate);
+  
     let pBasmala = document.createElement("p");
     pBasmala.setAttribute("class", "basmala");
     pBasmala.textContent = basmala;
@@ -129,8 +107,6 @@ const afficherSourate = function (numeroSourate) {
       numeroVerset++;
     }
 }
-
-
 
 // Fonction lire un verset
 const lireVerset = function () {
@@ -217,7 +193,6 @@ const lireVerset = function () {
 }
 
 // Fonction Chercher un mot
-
 const chercher = function () {
   tableau.innerHTML = "";
   let divChercher = document.createElement("div");

@@ -10,8 +10,8 @@ const ahadithsIslamReligionUnique = [];
 // Fin Islam Religion unique
 
 // - A L L A H /  O M N I P O T E N T  /   O M N I S C i E N T
-const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9, 40, 100 ]
-const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 187, 79, 68, 6]
+const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9,37,37, 40, 100, 22]
+const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 5,6,187, 79, 68, 6, 70]
 let ahadithsAllahOmnipotentOmniscient = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -197,9 +197,9 @@ const ahadithsObeirAllahProphete = [
     lien: "https://dorar.net/hadith/sharh/72777",
   },
 ];
-// Fin Obéir à Allah
+// Fin Obéir à Allah et au prophète
 
-// Aimer le prophète
+// Aimer le prophète plus que ....
 const souratesAimerProphete = [33];
 const versetsAimerProphete = [6];
 const ahadithsAimerProphete = [
@@ -218,7 +218,7 @@ const ahadithsAimerProphete = [
 ];
 // Fin aimer le prophète
 
-// Aimer le prophète
+// C'est beau
 const souratesBeau = [6,6,16,17,17,21,29,31,31,46,49,49,53,53];
 const versetsBeau = [151,152,90,31,35,107,46,14,15,15,6,13,38,39];
 const ahadithsBeau = [
@@ -230,7 +230,21 @@ const ahadithsBeau = [
   },
   
 ];
-// Fin aimer le prophète
+// Fin c'est beau
+
+
+// Allah / Les anges / Le diable
+const souratesAllahAngesSatan = [2,2,2,2,2,2,2,2, 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,17,17,17,17,17,18,22,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,43,67];
+const versetsAllahAngesSatan = [30,31,32,33,34,35,36,37, 11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,61,62,63,64,65,50,52,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,36,5];
+const ahadithsAllahAngesSatan = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: " ",
+    lien: "https://dorar.net/hadith/sharh/",
+  },
+];
+// Fin Allah / Les anges / Le diable
 
 // - E S C L A V A) G E
 
@@ -360,8 +374,8 @@ let ahadithsEsclavage = [
 // Fin Esclavage
 
 // - Juifs Chrtiens Mécréants
-const souratesJuifsChretiensMecreants= [2,2,4,4,4,4,4,4,4,4,4,4,4,];
-const versetsJuifsChretiensMecreants = [40,122,46,47,153,154,155,156,157,158,158,159,160,161,162];
+const souratesJuifsChretiensMecreants= [2,2,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,17,18,18,18,18,19,19,19,19,19,21,27,27,45,45];
+const versetsJuifsChretiensMecreants = [40,122,46,47,153,154,155,156,157,158,159,160,161,162,12,13,20,21,22,23,24,25,26,27,32,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,146,154,4,4,5,6,88,89,90,91,92,26,76,77,16,17];
 const ahadithsJuifsChretiensMecreants = [];
 // Fin Juifs Chrtiens Mécréants
 
@@ -724,8 +738,8 @@ const ahadithsHeritage = [
 //- fin H E R I T A G E 
 
 //- P F f  f f f  f  f
-const souratesPfffff = [2,5,5,5,5,6,6,10,10,10,10,16,17,18,20,22,24,24,24,24,24,25,25,27,27,27,33,33,35,36,36,36,36,39,39,39,39,40,40,40,43,48,49,49,50,55,59,97,103];
-const versetsPfffff = [189,67,106,107,108,59,142,28,29,30,94,80,64,25,71,18,27,28,29,58,60,24,47,18,82,86,56,72,41,71,72,73,80,10,13,15,45,67,79,80,45,17,4,5,30,6,21,97,103];
+const souratesPfffff = [2,5,5,5,5,6,6,10,10,10,10,16,17,18,20,22,24,24,24,24,24,24,25,25,27,27,27,33,33,35,36,36,36,36,39,39,39,39,40,40,40,43,48,49,49,50,55,59,97,103];
+const versetsPfffff = [189,67,106,107,108,59,142,28,29,30,94,80,64,25,71,18,27,35,28,29,58,60,24,47,18,82,86,56,72,41,71,72,73,80,10,13,15,45,67,79,80,45,17,4,5,30,6,21,97,103];
 const ahadithsPfffff = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1205,9 +1219,43 @@ const ahadithsMiraclesScientifiques = [
 ];
 //- fin Miracles scientifiques
 
+//- Création de l'Univers
+const souratesCreationUnivers = [
+  2, 6, 6, 7, 7, 7, 10, 11, 14, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
+  15,15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 17, 17, 18, 18, 22, 25, 25,
+  25, 30, 32, 32, 32, 7, 37, 37, 37, 38, 39, 88, 88, 88, 51, 53, 53, 55, 55, 25,
+  40, 41, 50, 50, 41, 64, 65, 67, 67, 73, 75, 75, 75, 78, 79, 79, 80, 80, 80, 86,
+  86,
+  
+];
+const versetsCreationUnivers = [
+  29, 2, 98, 54, 57, 189, 3, 7, 33, 16, 19, 20, 21, 22, 26, 27, 28, 29, 30, 31,
+  32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 4, 72, 12, 44, 37, 86, 66, 54, 59,
+  61, 20, 7, 8, 9, 4, 5, 6, 7, 71, 6, 17, 18, 19, 49, 45, 46, 14, 15, 61,
+  64, 9, 6, 7, 12, 3, 12, 3, 9, 37, 5, 38, 39, 8, 27, 28, 17, 18, 19, 6,
+  7,
+  
+];
+const ahadithsCreationUnivers = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+];7
+
 //- Forme de la terre
-const souratesFormeTerre = [];
-const versetsFormeTerre = [];
+const souratesFormeTerre = [18,20,31,39,40,41,41,43,51,57,78,78,79,79,88];
+const versetsFormeTerre = [86,53,29,5,64,10,11,10,48,4,6,7,30,32,20];
 const ahadithsFormeTerre = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1224,12 +1272,61 @@ const ahadithsFormeTerre = [
     autres: "",
   },
 ];
-//- Forme de la terre
+//- Fin Forme de la terre
 
 
+// Les noms des sourates
+const souratesNomsSourates = [17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114];
+const versetsNomsSourates = [1,9,1,1,1,1,1,1,1,224,1,1,41,1,12,1,33,1,1,1,165,1,1,3,3,38,35,1,28,1,1,1,4,1,1,1,1,1,1,1,1,1,2,1,4,9,1,9,1,1,1,1,1,3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,7,1,1,1,1,1,1,1];
+const ahadithsNomsSourates = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+];
+
+// Abrogation
+const souratesAbrogation = [2,16,22,22];
+const versetsAbrogation = [106,101,52,53,];
+const ahadithsAbrogation = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+];
+const exemples = [
+  {
+    s: 4,
+    v: 43, 
+  },
+  {
+    s: 16,
+    v:101
+  }
+]
 
 // Fonction injecter les sourates selon le thème
-function injecteVersets (titreThematique, sourates, versets) {
+function injecteVersets (titreThematique, sourates, versets, exemples) {
   
   tableau.innerHTML = "";
   
@@ -1240,18 +1337,40 @@ function injecteVersets (titreThematique, sourates, versets) {
     numeroSourate = sourates[index]
     numeroVerset = `s${numeroSourate}v${versets[index]}`;
     
-    sourate = coran[numeroSourate-1] 
-     
+    sourate = coran[numeroSourate-1]      
     verset = sourate[numeroVerset]
   
-      let divVersets = document.createElement("div");
+    let divVersets = document.createElement("div");
+    divVersets.setAttribute('class', 'divVerset')
       let pVerset = document.createElement("p");
       pVerset.setAttribute("class", "pVerset");
       divVersets.appendChild(pVerset);
   
     pVerset.innerHTML = `<span class="numeroVerset">  ${numeroVerset}. </span> </br> ${verset}`;
         tableau.appendChild(divVersets)
-    }
+  }
+
+  // Exemple versets abrogation
+  if (exemples) {
+    let divExemples = document.createElement("div")
+    divExemples.setAttribute('class', 'divSourate')
+    tableau.appendChild(divExemples)
+    divExemples.innerHTML = `<h3 class = 'titreSourate'> Exemples de versets abrogés</h3> `
+    exemples.forEach(exemple=> {
+      let verset = "s" + exemple.s + "v" + exemple.v;
+      sourate = coran[exemple.s-1]
+      verset =sourate[verset]
+     
+      let pVerset = document.createElement('p')
+      pVerset.setAttribute('class', 'pVerset')
+      pVerset.innerHTML = `<span class="numeroVerset">S${exemple.s - 1}. V${
+        exemple.v
+      }. </span></br> ${verset}`;
+      divExemples.appendChild(pVerset)
+      
+    })    
+  }
+  // fin exemples
 }
 
 // Fonction injecter les Ahadiths selon le thème
@@ -1262,9 +1381,7 @@ function injecteAhadiths(titreThematique, ahadiths) {
   pTitreThematique.textContent = `Ahadiths authentiques sur ${titreThematique}`;
   tableau.appendChild(pTitreThematique);
   ahadiths.forEach(hadith => {
-    console.log(hadith);
     
-  
     let divHadith = document.createElement('div')
     divHadith.setAttribute('class', 'carteHadith')
   divHadith.innerHTML = `

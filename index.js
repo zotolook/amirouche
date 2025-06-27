@@ -22,6 +22,8 @@ let trouve;
 
 let tableau = document.getElementById("tableau");
 
+  
+//let divSourate = document.createElement('div')
 
 // Liste sourates
 let sourates = [
@@ -33,6 +35,7 @@ let sourates = [
     ordreRevelation: 5,
     type: "mecquoise",
     nombreVersets: 7,
+    versetNom: 1,
   },
   {
     numero: 2,
@@ -42,6 +45,7 @@ let sourates = [
     ordreRevelation: 87,
     type: "médinoise ",
     nombreVersets: 286,
+    versetNom: 1,
   },
   {
     numero: 3,
@@ -51,6 +55,7 @@ let sourates = [
     ordreRevelation: 89,
     type: "médinoise",
     nombreVersets: 200,
+    versetNom: 1,
   },
   {
     numero: 4,
@@ -60,6 +65,7 @@ let sourates = [
     ordreRevelation: 92,
     type: "médinois",
     nombreVersets: 176,
+    versetNom: 1,
   },
   {
     numero: 5,
@@ -69,6 +75,7 @@ let sourates = [
     ordreRevelation: 112,
     type: "médinoise",
     nombreVersets: 120,
+    versetNom: 1,
   },
   {
     numero: 6,
@@ -78,6 +85,7 @@ let sourates = [
     ordreRevelation: 55,
     type: "mecquoise",
     nombreVersets: 165,
+    versetNom: 1,
   },
   {
     numero: 7,
@@ -105,6 +113,7 @@ let sourates = [
     ordreRevelation: 113,
     type: "médinoise",
     nombreVersets: 129,
+    versetNom: 1,
   },
   {
     numero: 10,
@@ -114,6 +123,7 @@ let sourates = [
     ordreRevelation: 51,
     type: "mecquoise",
     nombreVersets: 109,
+    versetNom: 1,
   },
   {
     numero: 11,
@@ -123,6 +133,7 @@ let sourates = [
     ordreRevelation: 52,
     type: "mecquoise",
     nombreVersets: 123,
+    versetNom: 1,
   },
   {
     numero: 12,
@@ -132,6 +143,7 @@ let sourates = [
     ordreRevelation: 53,
     type: "mecquoise",
     nombreVersets: 111,
+    versetNom: 1,
   },
   {
     numero: 13,
@@ -141,6 +153,7 @@ let sourates = [
     ordreRevelation: 96,
     type: "médinoise",
     nombreVersets: 43,
+    versetNom: 1,
   },
   {
     numero: 14,
@@ -150,6 +163,7 @@ let sourates = [
     ordreRevelation: 72,
     type: "mecquoise",
     nombreVersets: 52,
+    versetNom: 1,
   },
   {
     numero: 15,
@@ -159,6 +173,7 @@ let sourates = [
     ordreRevelation: 54,
     type: "mecquoise",
     nombreVersets: 99,
+    versetNom: 1,
   },
   {
     numero: 16,
@@ -168,6 +183,7 @@ let sourates = [
     ordreRevelation: 70,
     type: "mecquoise",
     nombreVersets: 128,
+    versetNom: 1,
   },
   {
     numero: 17,
@@ -278,7 +294,7 @@ let sourates = [
     nombreVersets: 88,
   },
   {
-    numero:29, 
+    numero: 29,
     nom: "L’Araignée",
     nomArabe: "سورة العنكبوت",
     transcrit: "Al-ÄAnkabût",
@@ -287,7 +303,7 @@ let sourates = [
     nombreVersets: 69,
   },
   {
-    numero:30,
+    numero: 30,
     nom: "Les Byzantins",
     nomArabe: " سورة الروم",
     transcrit: "Ar-Rûm",
@@ -296,7 +312,7 @@ let sourates = [
     nombreVersets: 60,
   },
   {
-    numero:31,
+    numero: 31,
     nom: "Luqmân",
     nomArabe: "سورة لقمان",
     transcrit: "Luqmân",
@@ -305,7 +321,7 @@ let sourates = [
     nombreVersets: 34,
   },
   {
-    numero:32,
+    numero: 32,
     nom: "La Prosternation",
     nomArabe: "سورة السجدة",
     transcrit: "As-Sajda",
@@ -314,7 +330,7 @@ let sourates = [
     nombreVersets: 30,
   },
   {
-    numero:33,
+    numero: 33,
     nom: "Les Coalisés",
     nomArabe: "سورة الأحزاب",
     transcrit: "Al-Ahzâb",
@@ -323,7 +339,7 @@ let sourates = [
     nombreVersets: 73,
   },
   {
-    numero:34,
+    numero: 34,
     nom: "Saba’",
     nomArabe: " سورة سبإ",
     transcrit: "Saba’",
@@ -332,7 +348,7 @@ let sourates = [
     nombreVersets: 54,
   },
   {
-    numero:35,
+    numero: 35,
     nom: "Le Créateur",
     nomArabe: "سورة فاطر",
     transcrit: "Fâtir",
@@ -341,7 +357,7 @@ let sourates = [
     nombreVersets: 45,
   },
   {
-    numero:36,
+    numero: 36,
     nom: "Yâ-Sîn",
     nomArabe: "سورة يس",
     transcrit: "Yâ-Sîn",
@@ -350,7 +366,7 @@ let sourates = [
     nombreVersets: 83,
   },
   {
-    numero:37,
+    numero: 37,
     nom: "Les Rangées",
     nomArabe: "سورة الصافات",
     transcrit: "AS-Sâffât",
@@ -359,7 +375,7 @@ let sourates = [
     nombreVersets: 182,
   },
   {
-    numero:38,
+    numero: 38,
     nom: "Sâd",
     nomArabe: "سورة ص",
     transcrit: "Sâd",
@@ -368,7 +384,7 @@ let sourates = [
     nombreVersets: 88,
   },
   {
-    numero:39,
+    numero: 39,
     nom: "Les Groupes",
     nomArabe: "سورة الزمر",
     transcrit: "Az-Zumar",
@@ -377,7 +393,7 @@ let sourates = [
     nombreVersets: 75,
   },
   {
-    numero:40,
+    numero: 40,
     nom: "Celui qui pardonne",
     nomArabe: "سورة غافر",
     transcrit: "Ghâfir ",
@@ -386,7 +402,7 @@ let sourates = [
     nombreVersets: 85,
   },
   {
-    numero:41,
+    numero: 41,
     nom: "Les Versets détaillés",
     nomArabe: "سورة فصلت",
     transcrit: "Fussilat ",
@@ -396,7 +412,7 @@ let sourates = [
   },
   // 42
   {
-    numero:42,
+    numero: 42,
     nom: "La Consultation",
     nomArabe: "سورة الشورى",
     transcrit: "Ash-Shûrâ",
@@ -406,7 +422,7 @@ let sourates = [
   },
   // 43
   {
-    numero:43,
+    numero: 43,
     nom: "L’Ornement",
     nomArabe: "سورة الزخرف",
     transcrit: "Az-ZuÌruf",
@@ -417,7 +433,7 @@ let sourates = [
 
   // 44
   {
-    numero:44,
+    numero: 44,
     nom: "La Fumée",
     nomArabe: "سورة الدخان",
     transcrit: "Ad-DuÌân",
@@ -428,7 +444,7 @@ let sourates = [
 
   // 45
   {
-    numero:45,
+    numero: 45,
     nom: "L’Agenouillée",
     nomArabe: "سورة الجاثية",
     transcrit: "Al-Jâýiya",
@@ -439,40 +455,43 @@ let sourates = [
 
   // 46
   {
-    numero:46,
+    numero: 46,
     nom: "Al-Ahqâf",
     nomArabe: "سورة الأحقاف",
     transcrit: "Al-Ahqâf",
     ordreRevelation: 66,
     type: "mecquoise",
     nombreVersets: 35,
+    versetNom: 1,
   },
 
   // 47
   {
-    numero:47,
+    numero: 47,
     nom: "Muhammad",
     nomArabe: "سورة محمد",
     transcrit: "Muhammad",
     ordreRevelation: 95,
     type: "médinoise",
     nombreVersets: 38,
+    versetNom: 1,
   },
 
   // 48
   {
-    numero:48,
+    numero: 48,
     nom: "La Victoire",
     nomArabe: "سورة الفتح",
     transcrit: "Al-Fath",
     ordreRevelation: 111,
     type: "médinoise",
     nombreVersets: 29,
+    versetNom: 1,
   },
 
   // 49
   {
-    numero:49,
+    numero: 49,
     nom: "Les Appartements",
     nomArabe: "سورة الحجرات",
     transcrit: "Al-Üujurât",
@@ -483,7 +502,7 @@ let sourates = [
 
   // 50
   {
-    numero:50,
+    numero: 50,
     nom: "Qâf",
     nomArabe: "سورة ق",
     transcrit: "Qâf",
@@ -494,7 +513,7 @@ let sourates = [
 
   // 51
   {
-    numero:51,
+    numero: 51,
     nom: "Celles qui éparpillent",
     nomArabe: "سورة الذاريات",
     transcrit: "Adh-Dhâriyât",
@@ -505,7 +524,7 @@ let sourates = [
 
   // 52
   {
-    numero:52,
+    numero: 52,
     nom: "At-Tûr",
     nomArabe: "سورة الطور",
     transcrit: "At-Tûr",
@@ -516,7 +535,7 @@ let sourates = [
 
   // 53
   {
-    numero:53,
+    numero: 53,
     nom: "L’Etoile",
     nomArabe: "سورة النجم",
     transcrit: "An-Najm",
@@ -527,7 +546,7 @@ let sourates = [
 
   // 54
   {
-    numero:54,
+    numero: 54,
     nom: "La Lune",
     nomArabe: "سورة القمر",
     transcrit: "Al-Qamar",
@@ -538,7 +557,7 @@ let sourates = [
 
   // 55
   {
-    numero:55,
+    numero: 55,
     nom: "Le Tout-Miséricordieux",
     nomArabe: "سورة الرحمن",
     transcrit: "Ar-Rahmân",
@@ -549,7 +568,7 @@ let sourates = [
 
   // 56
   {
-    numero:56,
+    numero: 56,
     nom: "L’Evènement",
     nomArabe: "سورة الواقعة",
     transcrit: "Al-WâqiÄa",
@@ -560,7 +579,7 @@ let sourates = [
 
   // 57
   {
-    numero:57,
+    numero: 57,
     nom: "Le Fer",
     nomArabe: "سورة الحديد",
     transcrit: "Al-Hadîd",
@@ -571,7 +590,7 @@ let sourates = [
 
   // 58
   {
-    numero:58,
+    numero: 58,
     nom: "La Discussion",
     nomArabe: "سورة المجادلة",
     transcrit: "Al-Mujâdala",
@@ -582,7 +601,7 @@ let sourates = [
 
   // 59
   {
-    numero:59,
+    numero: 59,
     nom: "L’Exode",
     nomArabe: "سورة الحشر",
     transcrit: "Al-Hashr",
@@ -593,7 +612,7 @@ let sourates = [
 
   // 60
   {
-    numero:60,
+    numero: 60,
     nom: "L’Eprouvée",
     nomArabe: "سورة الممتحنة",
     transcrit: "Al-Mumtahana",
@@ -604,7 +623,7 @@ let sourates = [
 
   // 61
   {
-    numero:61,
+    numero: 61,
     nom: "Le Rang",
     nomArabe: "سورة الصف",
     transcrit: "As-Saff",
@@ -615,7 +634,7 @@ let sourates = [
 
   // 62
   {
-    numero:62,
+    numero: 62,
     nom: "Le Vendredi",
     nomArabe: "سورة الجمعة",
     transcrit: "Al-JumuÄa",
@@ -626,7 +645,7 @@ let sourates = [
 
   // 63
   {
-    numero:63,
+    numero: 63,
     nom: "Les Hypocrites",
     nomArabe: "سورة المنافقون",
     transcrit: "Al-Munâfiqûn",
@@ -637,7 +656,7 @@ let sourates = [
 
   // 64
   {
-    numero:64,
+    numero: 64,
     nom: "La Grande Perte",
     nomArabe: "سورة التغابن",
     transcrit: "At-Taghâbun",
@@ -648,62 +667,67 @@ let sourates = [
 
   // 65
   {
-    numero:65,
+    numero: 65,
     nom: "La Répudiation",
     nomArabe: "سورة الطلاق",
     transcrit: "At-Talâq ",
     ordreRevelation: 99,
     type: "médinoise",
     nombreVersets: 12,
+    versetNom: 1,
   },
 
   // 66
   {
-    numero:66,
+    numero: 66,
     nom: "L’Interdiction",
     nomArabe: "سورة التحريم",
     transcrit: "At-Tahrîm",
     ordreRevelation: 107,
     type: "médinoise",
     nombreVersets: 12,
+    versetNom: 1,
   },
 
   // 67
   {
-    numero:67,
+    numero: 67,
     nom: "La Royauté",
     nomArabe: "سورة الملك",
     transcrit: "Al-Mulk",
     ordreRevelation: 77,
     type: "mecquoise",
     nombreVersets: 30,
+    versetNom: 1,
   },
 
   // 68
   {
-    numero:68,
+    numero: 68,
     nom: "La Plume",
     nomArabe: "سورة القلم",
     transcrit: "Al-Qalam",
     ordreRevelation: 2,
     type: "mecquoise",
     nombreVersets: 52,
+    versetNom: 1,
   },
 
   // 69
   {
-    numero:69,
+    numero: 69,
     nom: "L’Inévitable",
     nomArabe: "سورة الحاقة",
     transcrit: "Al-Hâqqa",
     ordreRevelation: 78,
     type: "mecquoise",
     nombreVersets: 52,
+    versetNom: 1,
   },
 
   // 70
   {
-    numero:70,
+    numero: 70,
     nom: "Les Voies d’ascension",
     nomArabe: " سورة المعارج",
     transcrit: "Al-Ma‘ârij",
@@ -714,7 +738,7 @@ let sourates = [
 
   // 71
   {
-    numero:71,
+    numero: 71,
     nom: "Noé",
     nomArabe: " سورة نوح",
     transcrit: "Nûh",
@@ -725,7 +749,7 @@ let sourates = [
 
   // 72
   {
-    numero:72,
+    numero: 72,
     nom: "Les Djinns",
     nomArabe: " سورة الجن",
     transcrit: "Al-Jinn",
@@ -736,51 +760,55 @@ let sourates = [
 
   // 73
   {
-    numero:73,
+    numero: 73,
     nom: "L’Enveloppé",
     nomArabe: "سورة المزمل",
     transcrit: "Al-Muzzammil",
     ordreRevelation: 3,
     type: "mecquoise",
     nombreVersets: 20,
+    versetNom: 1,
   },
 
   // 74
   {
-    numero:74,
+    numero: 74,
     nom: "Celui qui a revêtu un manteau",
     nomArabe: "سورة المدثر",
     transcrit: "Al-Muddathir",
     ordreRevelation: 4,
     type: "mecquoise",
     nombreVersets: 56,
+    versetNom: 1,
   },
 
   // 75
   {
-    numero:75,
+    numero: 75,
     nom: "La Résurrection",
     nomArabe: " سورة القيامة",
     transcrit: "Al-Qiyâma",
     ordreRevelation: 31,
     type: "mecquoise",
     nombreVersets: 40,
+    versetNom: 1,
   },
 
   // 76
   {
-    numero:76,
+    numero: 76,
     nom: "L’Homme",
     nomArabe: "سورة الانسان",
     transcrit: "Al-Insân",
     ordreRevelation: 98,
     type: "médinoise",
     nombreVersets: 31,
+    versetNom: 1,
   },
 
   // 77
   {
-    numero:77,
+    numero: 77,
     nom: "Les Envoyés",
     nomArabe: "سورة المرسلات",
     transcrit: "Al-Mursalât",
@@ -791,7 +819,7 @@ let sourates = [
 
   // 78
   {
-    numero:78,
+    numero: 78,
     nom: "La Nouvelle",
     nomArabe: " سورة النبإ",
     transcrit: "An-Naba’",
@@ -802,7 +830,7 @@ let sourates = [
 
   // 79
   {
-    numero:79,
+    numero: 79,
     nom: "Ceux qui arrachent",
     nomArabe: "سورة النازعات",
     transcrit: "An-Nâzi‘ât",
@@ -813,7 +841,7 @@ let sourates = [
 
   // 80
   {
-    numero:80,
+    numero: 80,
     nom: "Il s’est renfrogné",
     nomArabe: "سورة عبس",
     transcrit: "‘Abasa",
@@ -824,376 +852,410 @@ let sourates = [
 
   // 81
   {
-    numero:81,
+    numero: 81,
     nom: "L’Obscurcissement",
     nomArabe: "سورة التكوير",
     transcrit: "At-Takwîr",
     ordreRevelation: 7,
     type: "mecquoise",
     nombreVersets: 29,
+    versetNom: 1,
   },
 
   // 82
   {
-    numero:82,
+    numero: 82,
     nom: "La Rupture",
     nomArabe: "سورة الإنفطار",
     transcrit: "Al-Infitâr",
     ordreRevelation: 82,
     type: "mecquoise",
     nombreVersets: 19,
+    versetNom: 1,
   },
 
   // 83
   {
-    numero:83,
+    numero: 83,
     nom: "Les Fraudeurs",
     nomArabe: "سورة المطففين",
     transcrit: "Al-Mutaffifîn",
     ordreRevelation: 86,
     type: "mecquoise",
     nombreVersets: 36,
+    versetNom: 1,
   },
 
   // 84
   {
-    numero:84,
+    numero: 84,
     nom: "La Déchirure",
     nomArabe: "سورة الإنشقاق",
     transcrit: "Al-Inchiqâq",
     ordreRevelation: 83,
     type: "mecquoise",
     nombreVersets: 25,
+    versetNom: 1,
   },
 
   // 85
   {
-    numero:85,
+    numero: 85,
     nom: "Les Constellations",
     nomArabe: "سورة البروج",
     transcrit: "Al-Burûj",
     ordreRevelation: 27,
     type: "mecquoise",
     nombreVersets: 22,
+    versetNom: 1,
   },
 
   // 86
   {
-    numero:86,
+    numero: 86,
     nom: "L’Astre nocturne",
     nomArabe: "سورة الطارق",
     transcrit: "At-Târiq",
     ordreRevelation: 36,
     type: "mecquoise",
     nombreVersets: 17,
+    versetNom: 1,
   },
 
   // 87
   {
-    numero:87,
+    numero: 87,
     nom: "Le Très-Haut",
     nomArabe: "سورة الأعلى",
     transcrit: "Al-A‘lâ",
     ordreRevelation: 8,
     type: "mecquoise",
     nombreVersets: 19,
+    versetNom: 1,
   },
 
   // 88
   {
-    numero:88,
+    numero: 88,
     nom: "L’Enveloppante",
     nomArabe: " سورة الغاشية",
     transcrit: "Al-Ghäshiya",
     ordreRevelation: 68,
     type: "mecquoise",
     nombreVersets: 26,
+    versetNom: 1,
   },
 
   // 89
   {
-    numero:89,
+    numero: 89,
     nom: "L’Aube",
     nomArabe: "سورة الفجر",
     transcrit: "Al-Fajr",
     ordreRevelation: 10,
     type: "mecquoise",
     nombreVersets: 30,
+    versetNom: 1,
   },
 
   // 90
   {
-    numero:90,
+    numero: 90,
     nom: "La Cité",
     nomArabe: "سورة البلد",
     transcrit: "Al-Balad",
     ordreRevelation: 35,
     type: "mecquoise",
     nombreVersets: 20,
+    versetNom: 1,
   },
 
   // 91
   {
-    numero:91,
+    numero: 91,
     nom: "Le Soleil",
     nomArabe: "سورة الشمس",
     transcrit: "Ach-Chams",
     ordreRevelation: 26,
     type: "mecquoise",
     nombreVersets: 15,
+    versetNom: 1,
   },
 
   // 92
   {
-    numero:92,
+    numero: 92,
     nom: "La Nuit",
     nomArabe: "سورة الليل",
     transcrit: "Al-Layl",
     ordreRevelation: 9,
     type: "mecquoise",
     nombreVersets: 21,
+    versetNom: 1,
   },
 
   // 93
   {
-    numero:93,
+    numero: 93,
     nom: "Le Jour montant",
     nomArabe: "سورة الضحى",
     transcrit: "Ad-Dhuhâ",
     ordreRevelation: 11,
     type: "mecquoise",
     nombreVersets: 11,
+    versetNom: 1,
   },
 
   // 94
   {
-    numero:94,
+    numero: 94,
     nom: "L’Ouverture",
     nomArabe: "سورة الشرح",
     transcrit: "Ash-sharh",
     ordreRevelation: 12,
     type: "mecquoise",
     nombreVersets: 8,
+    versetNom: 1,
   },
 
   // 95
   {
-    numero:95,
+    numero: 95,
     nom: "Le Figuier",
     nomArabe: "سورة التين",
     transcrit: "At-Tîn",
     ordreRevelation: 28,
     type: "mecquoise",
     nombreVersets: 8,
+    versetNom: 1,
   },
 
   // 96
   {
-    numero:96,
+    numero: 96,
     nom: "L’Adhérence",
     nomArabe: "سورة العلق",
     transcrit: "Al-ÄAlaq",
     ordreRevelation: 1,
     type: "mecquoise",
     nombreVersets: 19,
+    versetNom: 2,
   },
 
   // 97
   {
-    numero:97,
+    numero: 97,
     nom: "La Destinée",
     nomArabe: "سورة القدر",
     transcrit: "Al-Qadr",
     ordreRevelation: 25,
     type: "mecquoise",
     nombreVersets: 5,
+    versetNom: 1,
   },
 
   // 98
   {
-    numero:98,
+    numero: 98,
     nom: "La Preuve",
     nomArabe: "سورة البينة",
     transcrit: "Al-Bayyina",
     ordreRevelation: 100,
     type: "médinoise",
     nombreVersets: 8,
+    versetNom: 1,
   },
 
   // 99
   {
-    numero:99,
+    numero: 99,
     nom: "La Secousse",
     nomArabe: " سورة الزلزلة",
     transcrit: "Az-Zalzala",
     ordreRevelation: 93,
     type: "médinoise",
     nombreVersets: 8,
+    versetNom: 1,
   },
 
   // 100
   {
-    numero:100,
+    numero: 100,
     nom: "Les Coursiers",
     nomArabe: "سورة العاديات",
     transcrit: "Al-‘Âdiyât",
     ordreRevelation: 14,
     type: "mecquoise",
     nombreVersets: 11,
+    versetNom: 1,
   },
 
   // 101
   {
-    numero:101,
+    numero: 101,
     nom: "Le Fracas",
     nomArabe: "سورة القارعة",
     transcrit: "Al-Qâri‘a",
     ordreRevelation: 30,
     type: "mecquoise",
     nombreVersets: 11,
+    versetNom: 1,
   },
 
   // 102
   {
-    numero:102,
+    numero: 102,
     nom: "La Course aux richesses",
     nomArabe: "سورة التكاثر",
     transcrit: "At-Takâthur",
     ordreRevelation: 16,
     type: "mecquoise",
     nombreVersets: 8,
+    versetNom: 1,
   },
 
   // 103
   {
-    numero:103,
+    numero: 103,
     nom: "Le Temps",
     nomArabe: "سورة العصر",
     transcrit: "Le Temps",
     ordreRevelation: 13,
     type: "mecquoise",
     nombreVersets: 3,
+    versetNom: 1,
   },
 
   // 104
   {
-    numero:104,
+    numero: 104,
     nom: "Les Calomniateurs",
     nomArabe: "سورة الهمزة",
     transcrit: "Al-Humaza",
     ordreRevelation: 32,
     type: "mecquoise",
     nombreVersets: 9,
+    versetNom: 1,
   },
 
   // 105
   {
-    numero:105,
+    numero: 105,
     nom: "L’Eléphant",
     nomArabe: "سورة الفيل",
     transcrit: "Al-Fîl",
     ordreRevelation: 19,
     type: "mecquoise",
     nombreVersets: 5,
+    versetNom: 1,
   },
 
   // 106
   {
-    numero:106,
+    numero: 106,
     nom: "Quraysh",
     nomArabe: "سورة قريش",
     transcrit: "Quraysh",
     ordreRevelation: 29,
     type: "mecquoise",
     nombreVersets: 4,
+    versetNom: 1,
   },
 
   // 107
   {
-    numero:107,
+    numero: 107,
     nom: "L’Ustensile",
     nomArabe: "سورة الماعون",
     transcrit: "Al-Mâ‘ûn",
     ordreRevelation: 17,
     type: "mecquoise",
     nombreVersets: 7,
+    versetNom: 1,
   },
 
   // 108
   {
-    numero:108,
+    numero: 108,
     nom: "L’Abondance",
     nomArabe: "سورة الكوثر",
     transcrit: "Al-Kawýar",
     ordreRevelation: 15,
     type: "mecquoise",
     nombreVersets: 3,
+    versetNom: 1,
   },
 
   // 109
   {
-    numero:109,
+    numero: 109,
     nom: "Les Infidèles",
     nomArabe: "سورة الكافرون",
     transcrit: "Al-Kâfirûn",
     ordreRevelation: 18,
     type: "mecquoise",
     nombreVersets: 6,
+    versetNom: 1,
   },
 
   // 110
   {
-    numero:110,
+    numero: 110,
     nom: "Le Secours",
     nomArabe: "سورة النصر",
     transcrit: "An-Nasr",
     ordreRevelation: 114,
     type: "médinoise",
     nombreVersets: 3,
+    versetNom: 1,
   },
 
   // 111
   {
-    numero:111,
+    numero: 111,
     nom: "Les Fibres",
     nomArabe: "سورة المسد",
     transcrit: "Al-Masad",
     ordreRevelation: 6,
     type: "mecquoise",
     nombreVersets: 5,
+    versetNom: 1,
   },
 
   // 112
   {
-    numero:112,
+    numero: 112,
     nom: "Le Monothéisme pur",
     nomArabe: "سورة الإخلاص",
     transcrit: "Al-Ikhlas",
     ordreRevelation: 22,
     type: "mecquoise",
     nombreVersets: 4,
+    versetNom: 1,
   },
 
   // 113
   {
-    numero:113,
+    numero: 113,
     nom: "L’Aube naissante",
     nomArabe: "سورة الفلق",
     transcrit: "Al-Falaq",
     ordreRevelation: 20,
     type: "mecquoise",
     nombreVersets: 5,
+    versetNom: 1,
   },
 
   // 114
   {
-    numero:114,
+    numero: 114,
     nom: "Les Hommes",
     nomArabe: "سورة الناس",
     transcrit: "An-Nâs",
     ordreRevelation: 21,
     type: "mecquoise",
     nombreVersets: 6,
+    versetNom: 5,
   },
 ];
 
@@ -7786,11 +7848,11 @@ let coran = [
   },
   // Sourate 113. Al-Falaq سورة الفلق
   {
-    s13v1: ` قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ</br> </br> Dis : "Je cherche protection auprès du Seigneur de l'aube naissante,`,
-    s13v2: ` مِنْ شَرِّ مَا خَلَقَ</br> </br> contre le mal des êtres qu'Il a créés,`,
-    s13v3: ` وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ</br> </br> contre le mal de l'obscurité quand elle s'approfondit,`,
-    s13v4: ` وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ</br> </br> contre le mal de celles qui soufflent (les sorcières) sur les noeuds,`,
-    s13v5: ` وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ</br> </br> et contre le mal de l'envieux quand il envie ".`,
+    s113v1: ` قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ</br> </br> Dis : "Je cherche protection auprès du Seigneur de l'aube naissante,`,
+    s113v2: ` مِنْ شَرِّ مَا خَلَقَ</br> </br> contre le mal des êtres qu'Il a créés,`,
+    s113v3: ` وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ</br> </br> contre le mal de l'obscurité quand elle s'approfondit,`,
+    s113v4: ` وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ</br> </br> contre le mal de celles qui soufflent (les sorcières) sur les noeuds,`,
+    s113v5: ` وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ</br> </br> et contre le mal de l'envieux quand il envie ".`,
   },
   // Sourate 114. Al-Nās سورة الناس
   {
@@ -7803,181 +7865,45 @@ let coran = [
   },
 ];
 
-
-
-
-// Les Ahadiyh
-
+// Bouton haut
+function haut() {
+  window.scrollTo(0,0)
+}
 /*
-// Fonction Lire le coran complet
-const lireCoran = function () {
-  tableau.innerHTML = "";
-  coran.forEach((sourate) => {
-    let divSourate = document.createElement("div");
-    let pBasmala = document.createElement("p");
-    pBasmala.setAttribute("class", "basmala");
-    pBasmala.textContent = basmala;
-    let titreSourate = document.createElement("h4");
+// Tableau d'accueil
+const coranInfos = function () {
+  tableau.innerHTML = ""
+  sourates.forEach(sourate => {  
+    let divSourate = document.createElement('div')
     divSourate.setAttribute("class", "divSourate");
-    tableau.appendChild(divSourate);
+   
 
-    titreSourate.setAttribute("class", "titreSourate");
-    titreSourate.textContent = `Sourate ${numeroSourate + 1} : ${
-      sourates[numeroSourate].nom
-    }: ${sourates[numeroSourate].nomArabe}`;
-    divSourate.appendChild(titreSourate);
-    if (numeroSourate + 1 != 9) {
-      divSourate.appendChild(pBasmala);
-    }
+    tableau.appendChild(divSourate)
+    divSourate.innerHTML = `
+<p  > Sourate N°: &nbsp <span class =" couleurinfos">${sourate.numero} </span></p>
+<p> Nom en arabe: <span class =" couleurinfos"> &nbsp ${sourate.nomArabe} </span></p>
+<p> Nom en français: <span class =" couleurinfos"> &nbsp ${sourate.nom} </span></p>
+<p> Nom transcrit:  <span class =" couleurinfos">&nbsp ${sourate.transcrit} </span></p>
+<p> Type de sourate:  <span class =" couleurinfos"> &nbsp ${sourate.type} </span> </p>
+<p> Ordre de révélation: <span class =" couleurinfos"> &nbsp ${sourate.ordreRevelation} </span></p>
+<p> Nombre de versets: <span class =" couleurinfos"> &nbsp ${sourate.nombreVersets} </span></p>
+<p> Verset origine du nom: <span class =" couleurinfos"> &nbsp ${sourate.versetNom} </span> <button class =" btn btn-primary boutonOrigineNomSourate${sourate.numero}" onclick= 'lireVersetNom(${sourate.numero}, ${sourate.versetNom})'> Lire  </button> </p>
+`
+    lireVersetNom = function (s, v) {
+  let boutonOrigineNomSourate = document.getElementsByClassName(`boutonOrigineNomSourate${s}`)
+     
+      
 
-    numeroVerset = 1;
-    for (const verset in sourate) {
-      let pVerset = document.createElement("p");
-      pVerset.innerHTML = `<span class='numeroVerset'> ${numeroVerset}.</span>  ${sourate[verset]}`;
-      divSourate.appendChild(pVerset);
-
-      numeroVerset++;
-    }
-    numeroSourate++;
-  });
-};
-*/
-/*
-// Fonction lire une sourate
-
-// Lire une sourate
-let boutonLireSourate = document.getElementById("boutonLireSourate");
-let inputNumeroSourate = document.getElementById("inputNumeroSourate1");
-numeroSourate = inputNumeroSourate.value;
-
-// Ecouter le bouton OK lire sourate
-boutonLireSourate.addEventListener("click", () => {
-  tableau.innerHTML = "";
-  numeroSourate = inputNumeroSourate.value;
-
-  // Si numéro sourate incorrect
-    
-  //
-  let sourate = coran[numeroSourate - 1];
-  let nomSourate = sourates[numeroSourate - 1].nom;
-
-  let divSourate = document.createElement("div");
-  divSourate.setAttribute("class", "divSourate");
-  tableau.appendChild(divSourate);
-
-  let titreSourate = document.createElement("h5");
-
-  titreSourate.setAttribute("class", "titreSourate");
-  titreSourate.textContent = `Sourate ${numeroSourate} : ${nomSourate}`;
-  divSourate.appendChild(titreSourate);
-  let pBasmala = document.createElement("p");
-  pBasmala.setAttribute("class", "basmala");
-  pBasmala.textContent = basmala;
-  if (numeroSourate != 9) {
-    divSourate.appendChild(pBasmala);
-  }
-  numeroVerset = 1;
-  for (const verset in sourate) {
-    let pVerset = document.createElement("p");
-    pVerset.innerHTML = `<span class='numeroVerset'> ${numeroVerset}.</span>  ${sourate[verset]}`;
-    divSourate.appendChild(pVerset);
-
-    numeroVerset++;
-  }
-  inputNumeroSourate.value = "";
-});
-*/
-/*
-// Fonction lire un verset
-let boutonLireVerset = document.getElementById("boutonLireVerset");
-let inputNumeroSourate2 = document.getElementById("inputNumeroSourate2");
-let inputNumeroVerset = document.getElementById("inputNumeroVerset");
-
-boutonLireVerset.addEventListener("click", () => {
-  tableau.innerHTML = "";
-  numeroSourate = inputNumeroSourate2.value;
-  nomSourate = sourates[numeroSourate - 1].nom;
-  numeroVerset = inputNumeroVerset.value;
-  sourate = coran[numeroSourate - 1];
-  verset = `s${numeroSourate}v${numeroVerset}`;
-
-  let divSourate = document.createElement("div");
-  divSourate.setAttribute("class", "divSourate");
-  tableau.appendChild(divSourate);
-
-  let titreSourate = document.createElement("h4");
-
-  titreSourate.setAttribute("class", "titreSourate");
-  titreSourate.textContent = `Sourate ${numeroSourate} : ${nomSourate}`;
-  divSourate.appendChild(titreSourate);
-
-  let pVerset = document.createElement("p");
-  pVerset.innerHTML = `<span class='numeroVerset'> ${numeroVerset}.</span>  ${sourate[verset]}`;
-  divSourate.appendChild(pVerset);
-  inputNumeroSourate2.value = "";
-  inputNumeroVerset.value = "";
-});
-*/
-//    Cliquer Chercher  /////////////
-/*
-const chercher = function () {
-  tableau.innerHTML = "";
-  let divChercher = document.createElement("div");
-  let spanChercher = document.createElement("span");
-  let inputChercher = document.createElement("input");
-  let boutonChercher = document.createElement("button");
-
-  divChercher.setAttribute("class", "input-group");
-  spanChercher.setAttribute("class", "input-group-text");
-  inputChercher.setAttribute("class", "form-control");
-  inputChercher.setAttribute("type", "text");
-  inputChercher.setAttribute("placeholder", "Tapez ici le mot à chercher");
-  boutonChercher.setAttribute("class", "btn btn-info");
-
-  spanChercher.textContent = "Chercher: ";
-  boutonChercher.textContent = "Valider";
-
-  tableau.appendChild(divChercher);
-  divChercher.appendChild(spanChercher);
-  divChercher.appendChild(inputChercher);
-  divChercher.appendChild(boutonChercher);
-  let pNombre = document.createElement("p");
-  let divVersetsTrouves = document.createElement("div");
-  // Clique sur le bouton valider/chercher
-  boutonChercher.addEventListener("click", () => {
-    divVersetsTrouves.innerHTML = "";
-    motAChercher = inputChercher.value.toUpperCase();
-    let nombretrouve = 0;
-    let trouve;
-
-    // Fonction chercher un mot //
-    coran.forEach((sourate) => {
-      for (const verset in sourate) {
-        trouve = sourate[verset].toUpperCase();
-        if (trouve.includes(motAChercher)) {
-          let verseTrouve = `<span class="numeroVerset">${verset}. </span>"${trouve}`;
-          verseTrouve = verseTrouve.replaceAll(
-            motAChercher,
-            `<span class="motTrouve"> ${motAChercher} </span>`
-          );
-
-          let pVerset = document.createElement("p");
-          pVerset.innerHTML = verseTrouve;
-
-          pNombre.setAttribute("class", "pNombre");
-          divVersetsTrouves.appendChild(pVerset);
-        }
-        trouve = trouve.split(motAChercher).length - 1;
-        nombretrouve = nombretrouve + trouve;
-      }
-      pNombre.innerHTML = `Le mot <span class='nombre'> ${motAChercher} </span> est répété <span class='nombre'> ${nombretrouve} </span> fois dans le coran.`;
-      divChercher.appendChild(pNombre);
-      divChercher.appendChild(divVersetsTrouves);
-    });
-    console.log("Nombre de fois ", motAChercher + ":", nombretrouve);
-  }); // Fin chercher un mot
+  verset = `s${s}v${v}`;
+  sourate = coran[s - 1];
+  
+  let pOrigineNomSourate = document.createElement("p");
+  pOrigineNomSourate.innerHTML = sourate[verset];
+      tableau.children[s - 1].appendChild(pOrigineNomSourate);
+       
 }; 
+  })
+  
+}
+
 */
-// Fin clique bouton chercher
-//const thematiques = function() { document.location.href = "thematiques/thematiques.html"}>
-//export {sourates, coran, lireCoran}

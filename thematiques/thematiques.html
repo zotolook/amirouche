@@ -15,9 +15,9 @@
     <title> ISL </title>
 
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="thematiques.css"/>
-    
-    
+    <link rel="stylesheet" href="thematiques.css" />
+
+
 
 </head>
 
@@ -69,13 +69,19 @@
                             <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
                                 <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
                                 <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate</li>
-                                <li> <hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li class="dropdown-item" onclick="lireVerset()"> Lire un verset</li>
                             </ul>
                         </div>
                     </li>
-                    <!-- -->
 
+                    <!--Infos -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../infos/infos.html"> Infos Islam </a>
+                    </li>
+                    <!-- -->
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="chercher()"> Chercher </a>
                     </li>
@@ -88,21 +94,23 @@
 
     <main>
 
-        
-        <div id="tableau" class="container text-justify"> 
-          <h3 class="text-center"> Thématiques </h3>
+
+        <div id="tableau" class="container text-justify">
+            <h3 class="text-center"> Thématiques </h3>
 
             <ul class="d-flex ulThematiques justify-content-evenly align-items-center flex-wrap">
-                
+
                 <!-- Islam religion unique -->
                 <li class="carteThematique">
                     <h3 class="titreThematique"> Islam religion unique </h3>
                     <div class="boutonsVersetsAhadiths">
                         <p> <button type="button" class="btn btn-primary btn-sm"
-                                onclick="injecteVersets(`Islam, religion unique ` , souratesIslamReligionUnique, versetsIslamReligionUnique)"> Versets
+                                onclick="injecteVersets(`Islam, religion unique ` , souratesIslamReligionUnique, versetsIslamReligionUnique)">
+                                Versets
                             </button></p>
                         <p><button type="button" class="btn btn-secondary btn-sm"
-                                onclick="injecteAhadiths(` Islam religion unique `,ahadithsIslamReligionUnique)"> Ahadiths</button></p>
+                                onclick="injecteAhadiths(` Islam religion unique `,ahadithsIslamReligionUnique)">
+                                Ahadiths</button></p>
                     </div>
                 </li>
 
@@ -111,19 +119,12 @@
                     <h3 class="titreThematique"> Piliers de l'islam </h3>
                     <div class="boutonsVersetsAhadiths">
                         <p> <button type="button" class="btn btn-primary btn-sm"
-                                onclick="injecteVersets(`Piliers de l'islam ` , souratesPiliersIslam, versetsPiliersIslam)"> Versets
+                                onclick="injecteVersets(`Piliers de l'islam ` , souratesPiliersIslam, versetsPiliersIslam)">
+                                Versets
                             </button></p>
                         <p><button type="button" class="btn btn-secondary btn-sm"
-                                onclick="injecteAhadiths(`Piliers de l'islam `,ahadithsPiliersIslam)"> Ahadiths</button></p>
-                    </div>
-                </li>
-                
-                <!-- Esclavage -->
-                <li class="carteThematique" >
-                    <h3 class="titreThematique"> Esclavage </h3>
-                    <div class="boutonsVersetsAhadiths">
-                        <p> <button type="button" class="btn btn-primary btn-sm" onclick="injecteVersets(`l'esclavage` , souratesEsclavage, versetsEsclavage)"> Versets </button></p>
-                        <p><button type="button" class="btn btn-secondary btn-sm" onclick="injecteAhadiths(`l'esclavage`,ahadithsEsclavage)"> Ahadiths</button></p>
+                                onclick="injecteAhadiths(`Piliers de l'islam `,ahadithsPiliersIslam)"> Ahadiths</button>
+                        </p>
                     </div>
                 </li>
 
@@ -132,11 +133,27 @@
                     <h3 class="titreThematique"> Allah omnipotent omniscient</h3>
                     <div class="boutonsVersetsAhadiths">
                         <p> <button type="button" class="btn btn-primary btn-sm"
-                                onclick="injecteVersets(`Allah omnipotent omniscient` , souratesAllahOmnipotentOmniscient, versetsAllahOmnipotentOmniscient)"> Versets </button></p>
+                                onclick="injecteVersets(`Allah omnipotent omniscient` , souratesAllahOmnipotentOmniscient, versetsAllahOmnipotentOmniscient)">
+                                Versets </button></p>
                         <p><button type="button" class="btn btn-secondary btn-sm"
-                                onclick="injecteAhadiths(`Allah omnipotent omniscient`,ahadithsAllahOmnipotentOmniscient)"> Ahadiths</button></p>
+                                onclick="injecteAhadiths(`Allah omnipotent omniscient`,ahadithsAllahOmnipotentOmniscient)">
+                                Ahadiths</button></p>
                     </div>
                 </li>
+
+                <!-- Création de l'Univers -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Création de l'Univers</h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`Création de l'Univers` , souratesCreationUnivers, versetsCreationUnivers)">
+                                Versets </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Création de l'Univers`,ahadithsCreationUnivers)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
                 <!-- Obéir à Allah et au prophète -->
                 <li class="carteThematique">
                     <h3 class="titreThematique"> Obéir à Allah et au prophète</h3>
@@ -149,7 +166,7 @@
                                 Ahadiths</button></p>
                     </div>
                 </li>
-                
+
                 <!-- Aimer le prophète -->
                 <li class="carteThematique">
                     <h3 class="titreThematique">Aimer le prophète</h3>
@@ -175,147 +192,297 @@
                                 Ahadiths</button></p>
                     </div>
                 </li>
+                <!-- Forme de la Terre  -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> La forme de la Terre </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` La forme de la Terre ` , souratesFormeTerre, versetsFormeTerre)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`La forme de la Terre `,ahadithsFormeTerre)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
 
-                <!-- Djihad / Violence -->               
+                <!-- Allah / Anges / Satan /   -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Allah/ Adam/ Anges/ Satan </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Allah/ Adam/ Anges/ Satan ` , souratesAllahAngesSatan, versetsAllahAngesSatan)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Allah / Anges / Satan `,ahadithsAllahAngesSatan)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Esclavage -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Esclavage </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`l'esclavage` , souratesEsclavage, versetsEsclavage)"> Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`l'esclavage`,ahadithsEsclavage)"> Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Djihad / Violence -->
                 <li class="carteThematique">
                     <h3 class="titreThematique"> Djihad & Violence </h3>
                     <div class="boutonsVersetsAhadiths">
                         <p> <button type="button" class="btn btn-primary btn-sm"
-                                onclick="injecteVersets(`Djihad & Violence` , souratesDjihadViolence, versetsDjihadViolence)"> Versets
+                                onclick="injecteVersets(`Djihad & Violence` , souratesDjihadViolence, versetsDjihadViolence)">
+                                Versets
                             </button></p>
                         <p><button type="button" class="btn btn-secondary btn-sm"
-                                onclick="injecteAhadiths(`Djihad & Violence`,ahadithsDjihadViolence)"> Ahadiths</button></p>
+                                onclick="injecteAhadiths(`Djihad & Violence`,ahadithsDjihadViolence)"> Ahadiths</button>
+                        </p>
                     </div>
                 </li>
-<!-- Insultes & Moqueries-->
-<li class="carteThematique">
-    <h3 class="titreThematique"> Insultes & Moqueries </h3>
-    <div class="boutonsVersetsAhadiths">
-        <p> <button type="button" class="btn btn-primary btn-sm"
-                onclick="injecteVersets(`Insultes & Moqueries ` , souratesInsultesMoqueries, versetsInsultesMoqueries)"> Versets
-            </button></p>
-        <p><button type="button" class="btn btn-secondary btn-sm"
-                onclick="injecteAhadiths(`Insultes & Moqueries `,ahadithsInsultesMoqueries)"> Ahadiths</button></p>
-    </div>
-</li>
 
-<!-- Héritage-->
-<li class="carteThematique">
-    <h3 class="titreThematique"> Héritage </h3>
-    <div class="boutonsVersetsAhadiths">
-        <p> <button type="button" class="btn btn-primary btn-sm"
-                onclick="injecteVersets(` Héritage ` , souratesHeritage, versetsHeritage)">
-                Versets
-            </button></p>
-        <p><button type="button" class="btn btn-secondary btn-sm"
-                onclick="injecteAhadiths(`Héritage `,ahadithsHeritage)"> Ahadiths</button></p>
-    </div>
-</li>
-<!-- Pfffff-->
-<li class="carteThematique">
-    <h3 class="titreThematique"> Pffffff </h3>
-    <div class="boutonsVersetsAhadiths">
-        <p> <button type="button" class="btn btn-primary btn-sm"
-                onclick="injecteVersets(` Pfffff ` , souratesPfffff, versetsPfffff)">
-                Versets
-            </button></p>
-        <p><button type="button" class="btn btn-secondary btn-sm"
-                onclick="injecteAhadiths(`Pfffff `,ahadithsPfffff)"> Ahadiths</button></p>
-    </div>
-</li>
+                <!-- Insultes & Moqueries-->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Insultes & Moqueries </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`Insultes & Moqueries ` , souratesInsultesMoqueries, versetsInsultesMoqueries)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Insultes & Moqueries `,ahadithsInsultesMoqueries)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
 
-<!-- Femmes -->
-<li class="carteThematique">
-    <h3 class="titreThematique"> Femmes </h3>
-    <div class="boutonsVersetsAhadiths">
-        <p> <button type="button" class="btn btn-primary btn-sm"
-                onclick="injecteVersets(` Femmes ` , souratesFemmes, versetsFemmes)">
-                Versets
-            </button></p>
-        <p><button type="button" class="btn btn-secondary btn-sm" onclick="injecteAhadiths(`Femmes `,ahadithsFemmes)">
-                Ahadiths</button></p>
-    </div>
-</li>
+                <!-- Héritage-->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Héritage </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Héritage ` , souratesHeritage, versetsHeritage)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Héritage `,ahadithsHeritage)"> Ahadiths</button></p>
+                    </div>
+                </li>
 
-<!-- Juifs Chrétiens mécréants -->
-<li class="carteThematique">
-    <h3 class="titreThematique"> Miracles scientifiques </h3>
-    <div class="boutonsVersetsAhadiths">
-        <p> <button type="button" class="btn btn-primary btn-sm"
-                onclick="injecteVersets(` Miracles scientifiques` , souratesMiraclesScientifiques, versetsMiraclesScientifiques)">
-                Versets
-            </button></p>
-        <p><button type="button" class="btn btn-secondary btn-sm" onclick="injecteAhadiths(`Miracles scientifiques`,ahadithsMiraclesScientifiques)">
-                Ahadiths</button></p>
-    </div>
-</li>
+                <!-- Pfffff-->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Pffffff </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Pfffff ` , souratesPfffff, versetsPfffff)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Pfffff `,ahadithsPfffff)"> Ahadiths</button></p>
+                    </div>
+                </li>
 
+                <!-- Femmes -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Femmes </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Femmes ` , souratesFemmes, versetsFemmes)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Femmes `,ahadithsFemmes)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
 
-<!-- Juifs Chrétiens mécréants
-<li class="carteThematique">
-    <h3 class="titreThematique"> Juifs Chrétiens Mécréants </h3>
-    <div class="boutonsVersetsAhadiths">
-        <p> <button type="button" class="btn btn-primary btn-sm"
-                onclick="injecteVersets(` Juifs Chrétiens mécréants ` , souratesFemmes, versetsJuifsChretiensMecreants)">
-                Versets
-            </button></p>
-        <p><button type="button" class="btn btn-secondary btn-sm" onclick="injecteAhadiths(`Juifs Chrétiens mécréants `,ahadithsJuifsChretiensMecreants)">
-                Ahadiths</button></p>
-    </div>
-</li>
--->
-                <a href=""><li class="carteThematique"> Djihad / Violence </li></a>
-                <a href=""><li class="carteThematique"> Islam / Unique religion</li></a>
-                <a href=""><li class="carteThematique"> Insultes / Moqueries </li></a>
-                <a href=""><li class="carteThematique"> La volonté d'Allah </li></a>
-                <a href=""><li class="carteThematique"> La faune et la flore </li></a>
-                <a href=""><li class="carteThematique"> Science & miracles </li></a>
-                <a href=""><li class="carteThematique"> Incompréhensible </li></a>
-                <a href=""><li class="carteThematique"> Claire </li></a>
-                <a href=""><li class="carteThematique"> Menaces, baton & Enfer </li></a>
-                <a href=""><li class="carteThematique"> La carotte / Le Paradis </li></a>
-                <a href=""><li class="carteThematique"> Allah, un humain? </li></a>
-                <a href=""><li class="carteThematique"> Allah le Miséricordieux </li></a>
-                <a href=""><li class="carteThematique"> La haine</li> </a>
-                <a href=""><li class="carteThematique"> Les défis </li></a>
-                <a href=""><li class="carteThematique"> La création </li></a>
-                <a href=""><li class="carteThematique"> Dieux / Anges / Diable / Adam </li></a>
-                <a href=""><li class="carteThematique"> Fils d'Israel / Les juifs / Les chrétiens</li></a> 
-                <a href=""><li class="carteThematique"> Contradictions? </li></a>
-                <a href=""><li class="carteThematique"> L'abrogation </li></a>
-                <a href=""><li class="carteThematique"> Omnipotence ou pas? </li></a>
-                <a href=""><li class="carteThematique"> L'héritage </li></a>
-                <a href=""><li class="carteThematique"> Le Ramadan </li></a>
-                <a href=""><li class="carteThematique"> Pffffff </li></a>
-                <a href=""><li class="carteThematique"> Les femmes / Véduité  </li></a>
-                <a href=""><li class="carteThematique"> Le mariage </li></a>
-                <a href=""><li class="carteThematique"> Prêter à Allah </li></a>
-                <a href=""><li class="carteThematique"> Le butin </li></a>
-                <a href=""><li class="carteThematique"> La Hijra </li></a>
-                <a href=""><li class="carteThematique"> La polygamie </li></a>
-                <a href=""><li class="carteThematique"> La fornication et l'adultère </li></a>
-                <a href=""><li class="carteThematique"> Egalités? </li></a>
-                <a href=""><li class="carteThematique"> Répétitions / Redondances </li></a>
-                <a href=""><li class="carteThematique"> Hallal / Haram </li></a>
-                <a href=""><li class="carteThematique"> C'est beau !</li></a> 
-                <a href=""><li class="carteThematique"> Histoires / Contes </li></a>
-                <a href=""><li class="carteThematique"> La prière </li></a>
-                <a href=""><li class="carteThematique"> Temporel ou pas? </li></a>
-          </ul>
+                <!-- Miracles scientifiques -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Miracles scientifiques </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Miracles scientifiques` , souratesMiraclesScientifiques, versetsMiraclesScientifiques)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Miracles scientifiques`,ahadithsMiraclesScientifiques)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Juifs Chrétiens mécréants -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Juifs Chrétiens Mécréants </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Juifs Chrétiens mécréants ` , souratesJuifsChretiensMecreants, versetsJuifsChretiensMecreants)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Juifs Chrétiens mécréants `,ahadithsJuifsChretiensMecreants)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Noms des sourates -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Noms des sourates</h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` les noms des sourates ` , souratesNomsSourates, versetsNomsSourates)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(` les noms des sourates `,ahadithsNomsSourates)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Abrogation -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Abrogation </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Abrogation ` , souratesAbrogation, versetsAbrogation, exemples)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(` Abrogation `,ahadithsAbrogation)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+                <!-- 
+                <a href="">
+                    <li class="carteThematique"> Djihad / Violence </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Islam / Unique religion</li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Insultes / Moqueries </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La volonté d'Allah </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La faune et la flore </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Science & miracles </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Incompréhensible </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Claire </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Menaces, baton & Enfer </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La carotte / Le Paradis </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Allah, un humain? </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Allah le Miséricordieux </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La haine</li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Les défis </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La création </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Dieux / Anges / Diable / Adam </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Fils d'Israel / Les juifs / Les chrétiens</li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Contradictions? </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> L'abrogation </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Omnipotence ou pas? </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> L'héritage </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Le Ramadan </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Pffffff </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Les femmes / Véduité </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Le mariage </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Prêter à Allah </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Le butin </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La Hijra </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La polygamie </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La fornication et l'adultère </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Egalités? </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Répétitions / Redondances </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Hallal / Haram </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> C'est beau !</li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Histoires / Contes </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> La prière </li>
+                </a>
+                <a href="">
+                    <li class="carteThematique"> Temporel ou pas? </li>
+                </a>
+                -->
+            </ul>
         </div>
-       
+
     </main>
 
     <footer>
-
+        <button class="btn btn-danger btn-sm boutonFixeHaut" onclick="haut()"> Haut</button>
     </footer>
 
-    
-    
+
+
     <script src="../index.js"></script>
     <script src="../accueil.js"></script>
     <script src="thematiques.js"></script>
-    
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

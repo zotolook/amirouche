@@ -287,3 +287,14 @@ nav {
   background-color: #f95c5c;
 
 }
+
+/*  */ 
+.couleurinfos {
+  color: rgb(73, 248, 9)
+}
+
+.boutonFixeHaut {
+  position: fixed;
+  bottom: 0px;
+  left: 0%;
+}
