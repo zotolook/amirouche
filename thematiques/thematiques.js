@@ -249,8 +249,8 @@ const ahadithsAllahAngesSatan = [
 // - E S C L A V A) G E
 
 // Les versets de l'esclavage
-const souratesEsclavage = [2, 2, 4, 4, 4, 4, 5, 8, 8, 8, 8, 8, 16, 17, 24, 24, 30, 33, 33, 33, 48, 48, 48, 58, 58, 59, 59, 59, 59]
-const versetsEsclavage = [178, 221, 24, 25, 36, 92, 89, 1, 41, 69, 70, 71, 75, 72, 32, 33, 28, 26, 27, 50, 19, 20, 21, 3, 4, 5, 6, 7, 8]
+const souratesEsclavage = [2, 2, 4, 4, 4, 4, 5, 8, 8, 8, 8, 8, 16,16, 17, 24, 24, 30, 33, 33, 33, 48, 48, 48, 58, 58, 59, 59, 59, 59]
+const versetsEsclavage = [178, 221, 24, 25, 36, 92, 89, 1, 41, 69, 70, 71, 75,76, 72, 32, 33, 28, 26, 27, 50, 19, 20, 21, 3, 4, 5, 6, 7, 8]
 let ahadithsEsclavage = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1325,6 +1325,27 @@ const exemples = [
   }
 ]
 
+// Sexe
+const souratesSexe = ["Histoire du prophète", 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12,23,23,23,23,23,23,23,];
+const versetsSexe = [ "Joseph",21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,1,2,3,4,5,6,7];
+const ahadithsSexe = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+]; // Fin sexe
+
+
 // Fonction injecter les sourates selon le thème
 function injecteVersets (titreThematique, sourates, versets, exemples) {
   
@@ -1334,20 +1355,25 @@ function injecteVersets (titreThematique, sourates, versets, exemples) {
   tableau.appendChild(pTitreThematique)
     
   for (let index = 0; index < sourates.length; index++) {
-    numeroSourate = sourates[index]
-    numeroVerset = `s${numeroSourate}v${versets[index]}`;
-    
-    sourate = coran[numeroSourate-1]      
-    verset = sourate[numeroVerset]
-  
-    let divVersets = document.createElement("div");
-    divVersets.setAttribute('class', 'divVerset')
+       let divVersets = document.createElement("div");
+      divVersets.setAttribute('class', 'divVerset')
       let pVerset = document.createElement("p");
-      pVerset.setAttribute("class", "pVerset");
-      divVersets.appendChild(pVerset);
+    pVerset.setAttribute("class", "pVerset");
+    divVersets.appendChild(pVerset);
+    tableau.appendChild(divVersets)
+    
+    if (typeof (sourates[index]) != "number") {
+      pVerset.innerHTML = `<span class="numeroVerset histoireJoseph">  ${sourates[index]}  </br> ${versets[index]}</span>`;
+    } else {
+      numeroSourate = sourates[index]
+      numeroVerset = `s${numeroSourate}v${versets[index]}`;
+    
+      sourate = coran[numeroSourate - 1]
+      verset = sourate[numeroVerset]
   
-    pVerset.innerHTML = `<span class="numeroVerset">  ${numeroVerset}. </span> </br> ${verset}`;
-        tableau.appendChild(divVersets)
+      pVerset.innerHTML = `<span class="numeroVerset">  ${numeroVerset}. </span> </br> ${verset}`;
+      
+    }
   }
 
   // Exemple versets abrogation
