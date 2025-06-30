@@ -251,3 +251,17 @@ const chercher = function () {
     console.log("Nombre de fois ", motAChercher + ":", nombretrouve);
   }); // Fin chercher un mot
 }; // Fin clique bouton chercher
+
+// ChatGPT
+/*
+function compterChats(chaine) {
+  const regex = /chat/g; // Utilise une expression régulière pour trouver toutes les occurrences de "chat"
+  const resultats = chaine.match(regex); // Trouve toutes les occurrences
+  return resultats ? resultats.length : 0; // Retourne le nombre d'occurrences ou 0 si aucune
+}
+
+// Exemple d'utilisation
+const texte = "Le chat est sur le tapis. Un autre chat joue avec un jouet. J'aime les chats.";
+const nombreDeChats = compterChats(texte);
+console.log(nombreDeChats); // Affiche le nombre de fois que "chat" apparaît
+*/

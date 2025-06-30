@@ -388,11 +388,25 @@
                     <h3 class="titreThematique"> Faune et Flore </h3>
                     <div class="boutonsVersetsAhadiths">
                         <p> <button type="button" class="btn btn-primary btn-sm"
-                                onclick="injecteVersets(` Faune & Flore ` , souratesFauneFlore, versetsFauneFlore)">
+                                onclick="injecteVersets(` La Faune & Flore ` , souratesFauneFlore, versetsFauneFlore)">
                                 Versets
                             </button></p>
                         <p><button type="button" class="btn btn-secondary btn-sm"
-                                onclick="injecteAhadiths(`Faune & Flore`,ahadithsFauneFlore)">
+                                onclick="injecteAhadiths(`La Faune & Flore`,ahadithsFauneFlore)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Mariage et Divorce -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> Mariage & Divorce </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Le mariage et le divorce ` , souratesMariageDivorce, versetsMariageDivorce)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Le mariage et le divorce`,ahadithsMariageDivorce)">
                                 Ahadiths</button></p>
                     </div>
                 </li>
@@ -519,6 +533,7 @@
 
     <footer>
         <button class="btn btn-danger btn-sm boutonFixeHaut" onclick="haut()"> Haut</button>
+        <button class="btn btn-danger btn-sm boutonFixeBas" onclick="bas()"> Bas</button>
     </footer>
 
 

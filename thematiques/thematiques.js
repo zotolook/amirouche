@@ -1388,9 +1388,9 @@ const ahadithsSexe = [
   
 ]; // Fin sexe
 
-// Abrogation
-const souratesVolonteAllah = [2,2,2,2,2,2,2,2,2,2,2, 3,3,3,3, 4,4,4,4, 6,6,6,6,6,6,6,6,6,6,6, 7,7, 9,9,9, 10,10,10, ];
-const versetsVolonteAllah = [6,7,8,9,10,26,142,213,253,272,284, 26,27,47,129, 48,49,52,88, 25,35,39,41,110,111,112,123,125,137,149, 100,186, 87,117,127, 74,99,100];
+// La volonté d'Allah
+const souratesVolonteAllah = [2,2,2,2,2,2,2,2,2,2,2, 3,3,3,3, 4,4,4,4, 6,6,6,6,6,6,6,6,6,6,6, 7,7, 9,9,9, 10,10,10, 11, 13,13, 14,14, 15, 16,16,16,16,16,16, 17, 18,18, 22, 25, 28, 35,35, 36, 42, 43, 45, 47, 63, 63, 76,76, 81];
+const versetsVolonteAllah = [6,7,8,9,10,26,142,213,253,272,284, 26,27,47,129, 48,49,52,88, 25,35,39,41,110,111,112,123,125,137,149, 100,186, 87,117,127, 74,99,100, 118, 27,31, 4,27, 12, 9,36,37,93,107,108, 46, 17,57, 16, 31, 56, 8,9, 10, 8, 36, 23, 23, 3,6, 30,31, 29];
 const ahadithsVolonteAllah = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1406,9 +1406,88 @@ const ahadithsVolonteAllah = [
     lien: "https://dorar.net/hadith/sharh/",
     autres: "",
   },
-];
+]; // Fin volonté d'Allah
 
+// La Faune et la Flore
+const souratesFauneFlore = [2,2, 7, 16,16,16, 18,18, 23,23, 27,27, 38,38, 44, 55, 56, 74, 80, 88, 95, 105];
+const versetsFauneFlore = [67,259, 176, 8,11,14, 18,32, 19,20, 18,20, 23,31, 43, 11, 23, 51, 28, 17, 1, 1,];
+const ahadithsFauneFlore = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+]; // Fin Faune et Flore
 
+// Mariage & Divorce
+const souratesMariageDivorce = [2,2,2,2,2, 4,4,4,4, 24,24, 33, 65,65,65,65,65];
+const versetsMariageDivorce = [221,228,229,230,234, 22,23,24,25, 3,26, 49, 2,3,4,5,6];
+const ahadithsMariageDivorce = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 2639,
+    texte:
+      "أتريدينَ أن ترجِعي إلى رفاعةَ لا حتَّى تذوقي عُسَيلتَهُ ويذوقَ عُسَيلتَكِ",
+    lien: "https://dorar.net/hadith/sharh/112150",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 2494,
+    texte:
+      "أنَّ رَجُلًا كَانَتْ له يَتِيمَةٌ فَنَكَحَهَا، وكانَ لَهَا عَذْقٌ، وكانَ يُمْسِكُهَا عليه، ولَمْ يَكُنْ لَهَا مِن نَفْسِهِ شيءٌ فَنَزَلَتْ فِيهِ: {وَإنْ خِفْتُمْ أنْ لا تُقْسِطُوا في اليَتَامَى} أحْسِبُهُ قالَ: كَانَتْ شَرِيكَتَهُ في ذلكَ العَذْقِ وفي مَالِهِ",
+    lien: "https://dorar.net/hadith/sharh/43494",
+    autres: "dorar 735",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5113,
+    texte:
+      " أما تستَحي المرأةُ أن تَهَبَ نفسَها للنَّبيِّ صلَّى اللَّهُ علَيهِ وسلَّمَ؟ حتَّى أنزلَ اللَّهُ: تُرْجِي مَنْ تَشَاءُ مِنْهُنَّ وَتُؤْوِي إِلَيْكَ مَنْ تَشَاءُ قالَت : فقلتُ إنَّ ربَّكَ ليسارِعُ في هواكَ",
+    lien: "https://dorar.net/hadith/sharh/41605",
+    autres: "4788",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5065,
+    texte:
+      "يَا مَعْشَرَ الشَّبَابِ، مَنِ اسْتَطَاعَ مِنْكُمُ البَاءَةَ فَلْيَتَزَوَّجْ، فإنَّه أَغَضُّ لِلْبَصَرِ، وَأَحْصَنُ لِلْفَرْجِ، وَمَن لَمْ يَسْتَطِعْ فَعليه بالصَّوْمِ، فإنَّه له وِجَاءٌ.",
+    lien: "https://dorar.net/hadith/sharh/13863",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5136,
+    texte:
+      "لا تُنكحُ الثيِّبُ حتى تُستأمرَ ، و لا تُنكحُ البكرُ حتى تُستأذنَ ، و إذْنُها الصموتُ",
+    lien: "https://dorar.net/hadith/sharh/70482",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5213,
+    texte:
+      " السُّنَّةُ إذا تَزَوَّجَ البِكْرَ أقامَ عِنْدَها سَبْعًا، وإذا تَزَوَّجَ الثَّيِّبَ أقامَ عِنْدَها ثَلاثًا.",
+    lien: "https://dorar.net/hadith/sharh/6525",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5273,
+    texte: "اقْبَلِ الحَدِيقَةَ وطَلِّقْهَا تَطْلِيقَةً",
+    lien: "https://dorar.net/hadith/sharh/1062",
+    autres: "",
+  },
+]; // Fin Faune et Flore
 
 // Fonction injecter les sourates selon le thème
 function injecteVersets (titreThematique, sourates, versets, exemples) {

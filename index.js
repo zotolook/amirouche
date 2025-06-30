@@ -7869,6 +7869,10 @@ let coran = [
 function haut() {
   window.scrollTo(0,0)
 }
+// Bouton bas
+function bas() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
 /*
 // Tableau d'accueil
 const coranInfos = function () {

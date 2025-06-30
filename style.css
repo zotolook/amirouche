@@ -293,8 +293,16 @@ nav {
   color: rgb(73, 248, 9)
 }
 
+/* Bouton fixes haut et bas */
 .boutonFixeHaut {
   position: fixed;
   bottom: 0px;
   left: 0%;
 }
+.boutonFixeBas {
+  position: fixed;
+  bottom: 0px;
+  right: 0%;
+}
+
+/* */
