@@ -1489,6 +1489,89 @@ const ahadithsMariageDivorce = [
   },
 ]; // Fin Faune et Flore
 
+// Allah Miséricordieux
+const souratesAllahMisericordieux = [4, 7, 15,15,15,15,15,15,15,15, 16,16,16,16, 17,17,17,17,17,17,17, 18,18,18, 19,19,19,19,19,19, 21,21,21,21,21,21, 22,22,22,22, 23, 25,25,25,25,25,25,25,25, 26, 28,28, 29, 31, 32, 33,33,33,33,33, 34, 37,37,37,37,37,37, 43,43,43, 54, 59, 65,65,65, 66, 68,68,68,68, 69,69,69,69, 84, 88,88, ];
+const versetsAllahMisericordieux = [47, 4, 73,74, 78,79,80,81,82,83, 26,27, 112,113, 15,16,17,18,58,97,98, 29,42,59, 68,69,70,71,72,98, 6,9,11,15,39,40, 19,20,21,22, 44, 13,14,34,36,37,38,39,40, 6, 58,59, 40, 24, 26, 64,65,66,67,68, 33, 22,23, 133,134,135,136, 24,25,55, 37, 2, 8,9,10, 6, 17,18,19,20, 4,5,6,7, 12, 23,24, ];
+const ahadithsAllahMisericordieux = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+]; // Fin Allah Miséricordieux
+
+// La haine
+const souratesHaine = [ 3,3,3,3, 9,9, 59, ];
+const versetsHaine = [ 118,119,120,181, 23,31, 5];
+const ahadithsHaine = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+]; // Fin haine
+
+// Erreurs ...?
+const souratesErreurs = [ 2,2, 6,6, 7, 9, 10, 12,12,12, 16,16,16,16, 19, 23,23,23, 26, 30,30, 31, 35, 36,36,36, 54, 61, 66,66, 67, 94];
+const versetsErreurs = [22,258, 143,144, 57, 36, 22, 2,3,4, 15,16,48,49, 28, 12,13,14, 7, 2,3, 10, 11, 38,39,40, 1, 6, 11,12, 3, 1];
+const ahadithsErreurs = [
+{
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+]; // Fin Erreurs....?
+
+
+
 // Fonction injecter les sourates selon le thème
 function injecteVersets (titreThematique, sourates, versets, exemples) {
   

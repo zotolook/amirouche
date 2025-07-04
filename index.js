@@ -4971,7 +4971,7 @@ let coran = [
     s33v61: ` مَلْعُونِينَ أَيْنَمَا ثُقِفُوا أُخِذُوا وَقُتِّلُوا تَقْتِيلًا </br> </br> Ce sont des maudits. Où qu'on les trouve, ils seront pris et tués impitoyablement :`,
     s33v62: ` سُنَّةَ اللَّهِ فِي الَّذِينَ خَلَوْا مِنْ قَبْلُ وَلَنْ تَجِدَ لِسُنَّةِ اللَّهِ تَبْدِيلًا</br> </br> Telles était la loi établie par Allah envers ceux qui ont vécu auparavant et tu ne trouvera pas de changement dans la loi d'Allah.`,
     s33v63: ` يَسْأَلُكَ النَّاسُ عَنِ السَّاعَةِ قُلْ إِنَّمَا عِلْمُهَا عِنْدَ اللَّهِ وَمَا يُدْرِيكَ لَعَلَّ السَّاعَةَ تَكُونُ قَرِيبًا</br> </br> Les gens t'interrogent au sujet de l'Heure . Dis : "Sa connaissance est exclusive à Allah". Qu'en sais-tu ? Il se peut que l'Heure soit proche.`,
-    s33v64: ` إِنَّ اللَّهَ لَعَنَ الْكَافِرِينَ وَأَعَدَّ لَهُمْ سَعِيرًا</br> </br> إِنَّ اللَّهَ لَعَنَ الْكَافِرِينَ وَأَعَدَّ لَهُمْ سَعِيرًا`,
+    s33v64: ` إِنَّ اللَّهَ لَعَنَ الْكَافِرِينَ وَأَعَدَّ لَهُمْ سَعِيرًا</br> </br> Allah a maudit les Infidèles et leur a préparé un brasier,`,
     s33v65: ` خَالِدِينَ فِيهَا أَبَدًا لَا يَجِدُونَ وَلِيًّا وَلَا نَصِيرًا</br> </br> pour qu'ils y demeurent éternellement, sans trouver ni alliés ni secoureur.`,
     s33v66: ` يَوْمَ تُقَلَّبُ وُجُوهُهُمْ فِي النَّارِ يَقُولُونَ يَا لَيْتَنَا أَطَعْنَا اللَّهَ وَأَطَعْنَا الرَّسُولَا</br> </br> Le jour où leurs visages seront tournés dans le Feu, ils diront : "Hélas pour nous ! Si seulement nous avions obéi à Allah et obéi au Messager ! ".`,
     s33v67: ` وَقَالُوا رَبَّنَا إِنَّا أَطَعْنَا سَادَتَنَا وَكُبَرَاءَنَا فَأَضَلُّونَا السَّبِيلَا</br> </br> Et ils dirent : "Seigneur, nous avons obéi à nos chefs et à nos grands. C'est donc eux qui nous ont égarés du Sentier.`,
