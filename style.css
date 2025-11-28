@@ -296,13 +296,13 @@ nav {
 /* Bouton fixes haut et bas */
 .boutonFixeHaut {
   position: fixed;
-  bottom: 0px;
-  left: 0%;
+  bottom: 23px;
+  left: 5px;
 }
 .boutonFixeBas {
   position: fixed;
-  bottom: 0px;
-  right: 0%;
+  bottom: 23px;
+  right: 5px;
 }
 
 /* */
