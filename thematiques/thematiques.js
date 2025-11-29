@@ -1109,8 +1109,8 @@ const ahadithsFemmes = [
 //- fin femmes
 
 //- Miracles scientifiques
-const souratesMiraclesScientifiques = ["Jésus et ...", 3,3,3,3,3,3,3,3, 5,5,5,5,5,5,5,5, 19,19,19,19, "La Terre et ...", 21, "Le toit et ...",21,21,21,22,27,`L'embriologie...`, 23,23,23, "Les djinns...", 55, "La lune est ...", 54, "Le voyage...", 17];
-const versetsMiraclesScientifiques = ["les miracles", 45,46,47,48,49,54,55,59, 110,111,112,113,114,115,116,117, 28,29,30,31, "le big bang", 30, "les piliers",31,32,33,65,61, `l'Homme est créé ...d'argile!`, 12,13,14,"de feu", 15, "brisée!", 1, "nocturne", 1];
+const souratesMiraclesScientifiques = ["Jésus et ...", 3,3,3,3,3,3,3,3, 5,5,5,5,5,5,5,5, 19,19,19,19,                       "Jonas et ...",37,37,37,37,37,37,37,37,37,   "La Terre et ...", 21, "Le toit et ...",21,21,21,22,27,`L'embriologie...`, 23,23,23,             "Les djinns...", 55, "La lune est ...", 54, "Le voyage...", 17];
+const versetsMiraclesScientifiques = ["les miracles", 45,46,47,48,49,54,55,59, 110,111,112,113,114,115,116,117, 28,29,30,31, "le poisson", 139,140,141,142,143,144,145,146,147,  "le big bang", 30,     "les piliers",31,32,33,65,61,   `l'Homme est créé ...d'argile!`, 12,13,14,"de feu", 15, "brisée!", 1,                 "nocturne", 1];
 const ahadithsMiraclesScientifiques = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1672,10 +1672,19 @@ const versetsParadis = [25, 15,133,136,169,198, 57, 9, 45,46,47,48, 31,41, 10, 3
 const ahadithsParadis = [];// Fin Le paradis,
 
 // Allah humain?
-const souratesAllahHumain = ["Abraham...", 4,    "Allah...", 4,       "Allah a ...", 5,39,48, "Attention, Allah ...", 6,    "Allah...",11,13,20,69,            "Allah...", 15,30,32,43,43,44,86,86,   "Allah...", 16, 51, "Allah...", 64, "Allah...", 75,75, 81,84,85,85,85,85, 86,86, 90,92,92,92, 93,93,];
-const versetsAllahHumain = ["ami d'Allah!", 125, "le trompeur!", 142, "deux mains!", 64,67,10, "n'a pas de compagne!", 101, "a un trône, sur l'eau!",7,2,5,17, "le vengeur!",79,47,22,25,55,16,15,16, "a des sentiments!", 23, 57, "demande un prêt", 17, "jure!", 1,2, 15,16,1,2,3,5, 1,11, 1,1,2,3, 1,2,];
+const souratesAllahHumain = ["Abraham...", 4,    "Allah...", 4,       "Allah a ...", 5,39,48, "Attention, Allah ...", 6,    "Allah...",11,13,20,69,            "Allah...", 15,30,32,43,43,44,86,86,   "Allah...", 16, 51,          "Allah...", 2, 5, 57,57, 64,        "Allah...", 75,75, 81,84,85,85,85,85, 86,86, 90,92,92,92, 93,93,];
+const versetsAllahHumain = ["ami d'Allah!", 125, "le trompeur!", 142, "deux mains!", 64,67,10, "n'a pas de compagne!", 101, "a un trône, sur l'eau!",7,2,5,17, "le vengeur!",79,47,22,25,55,16,15,16, "a des sentiments!", 23, 57, "demande un prêt", 245, 12, 11,18, 17, "jure!", 1,2, 15,16,1,2,3,5, 1,11, 1,1,2,3, 1,2,];
 const ahadithsAllahHumain = [];// Fin Allah humain,
 
+// Coeur ou cerveau?
+const souratesCoeurCerveau = [2, 22, 47, ];
+const versetsCoeurCerveau = [118, 46, 24, ];
+const ahadithsCoeurCerveau = [];// Fin coeur ou cerveau,
+
+// Les défis
+const souratesDefis = ["Les mequois...", 17,17,17,17,     "Allah défie ...",2,2,10, 11,11, 17,17,17,17, 28, 52, ];
+const versetsDefis = ["défient le prophète",90,91,92,93,  "les mequois", 23,24,38, 13,14, 88,94,95,96, 49, 34, ];
+const ahadithsDefis = [];// Fin les défis,
 //////////////////,142,255, ,
 // Fonction injecter les sourates selon le thème
 function injecteVersets (titreThematique, sourates, versets, exemples) {
