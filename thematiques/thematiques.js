@@ -10,8 +10,8 @@ const ahadithsIslamReligionUnique = [];
 // Fin Islam Religion unique
 
 // - A L L A H /  O M N I P O T E N T  /   O M N I S C i E N T
-const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9, 11,11,11,11,11, 13, 16,16, 22,22,22,22,22, 32, 33, 35, 36, 40, 42, ]
-const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 5,6, 1,2,3,4,5, 9, 8,40, 6,38,39,40,70, 5, 54, 2, 82, 68, 9, ]
+const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9, 11,11,11,11,11, 13, 16,16, 22,22,22,22,22, 32, 33, 35, 36, 40, 42, "C'est quoi...", 17]
+const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 5,6, 1,2,3,4,5, 9, 8,40, 6,38,39,40,70, 5, 54, 2, 82, 68, 9, "l'âme?", 85]
 let ahadithsAllahOmnipotentOmniscient = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -234,8 +234,8 @@ const ahadithsBeau = [
 
 
 // Allah / Les anges / Le diable
-const souratesAllahAngesSatan = [2,2,2,2,2,2,2,2, 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,17,17,17,17,17,18,22,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,43,67];
-const versetsAllahAngesSatan = [30,31,32,33,34,35,36,37, 11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,61,62,63,64,65,50,52,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,36,5];
+const souratesAllahAngesSatan = ["Allah vs ...", 2,2,2,2,2,2,2,2, 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,17,17,17,17,17,18,22,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,43,67];
+const versetsAllahAngesSatan = ["les anges", 30,31,32,33,34,35,36,37, 11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,61,62,63,64,65,50,52,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,36,5];
 const ahadithsAllahAngesSatan = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -249,8 +249,8 @@ const ahadithsAllahAngesSatan = [
 // - E S C L A V A) G E
 
 // Les versets de l'esclavage
-const souratesEsclavage = [2, 2, 4, 4, 4, 4, 5, 8, 8, 8, 8, 8, 16,16, 17, 24, 24, 30, 33, 33, 33, 48, 48, 48, 58, 58, 59, 59, 59, 59]
-const versetsEsclavage = [178, 221, 24, 25, 36, 92, 89, 1, 41, 69, 70, 71, 75,76, 72, 32, 33, 28, 26, 27, 50, 19, 20, 21, 3, 4, 5, 6, 7, 8]
+const souratesEsclavage = [2, 2, 4, 4, 4, 4, 5, 8, 8, 8, 8, 8, 16,16, 17, 24, 24, 30, 33, 33, 33, 48, 48, 48, 58, 58, 59, 59, 59, 59, "Le sexe...", 23,23,23, 33,33,33,33, ]
+const versetsEsclavage = [178, 221, 24, 25, 36, 92, 89, 1, 41, 69, 70, 71, 75,76, 72, 32, 33, 28, 26, 27, 50, 19, 20, 21, 3, 4, 5, 6, 7, 8, "avec les esclaves est licite!", 5,6,7, 50,51,52,53]
 let ahadithsEsclavage = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -370,8 +370,7 @@ let ahadithsEsclavage = [
     texte:" مَن يَشْتَرِيهِ مِنِّي؟ فاشْتَراهُ نُعَيْمُ بنُ النَّحَّامِ بثَمانِ مِائَةِ دِرْهَمٍ.",
     lien: "https://dorar.net/hadith/sharh/15197",
   },
-];  
-// Fin Esclavage
+];  // Fin Esclavage
 
 // - Juifs Chrtiens Mécréants
 const souratesJuifsChretiensMecreants= [2,2,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,17,18,18,18,18,19,19,19,19,19,21,27,27,45,45];
@@ -703,8 +702,8 @@ const ahadithsInsultesMoqueries = [
 //-  fIN Insultes et moqueries
 
 //- H E R I T A G E
-const souratesHeritage = [2,2,4,4,4,4];
-const versetsHeritage = [180,181,7,11,12,176];
+const souratesHeritage = [2,2,2,      4,4,4,4,4,4,4,4,        5,5,5,      8,  33,  89,89 ];
+const versetsHeritage = [180,181,182, 7,8,9,11,12,19,33,176, 106,107,108, 75, 6,   18,19];
 const ahadithsHeritage = [
   
   {
@@ -734,8 +733,7 @@ const ahadithsHeritage = [
     autres: "6732"
   },
   
-];
-//- fin H E R I T A G E 
+];//- fin H E R I T A G E 
 
 //- P F f  f f f  f  f
 const souratesPfffff = [2,5,5,5,5,6,6,10,10,10,10,16,17,18,20,22,24,24,24,24,24,24,25,25,27,27,27,33,33,35,36,36,36,36,39,39,39,39,40,40,40,43,48,49,49,50,55,59,97,103];
@@ -900,12 +898,11 @@ const ahadithsPfffff = [
     lien: "https://dorar.net/hadith/sharh/67314",
   },
 
-];
-//- fIN P F f  f f f  f  f
+];//- fIN P F f  f f f  f  f
 
 //- Femmes
-const souratesFemmes = [2,2,2,2,4,4,4,4,4,4,4,4,5,24,33,65,65];
-const versetsFemmes = [222,223,228,282,5,23,24,25,34,117,127,176,6,31,55,2,4];
+const souratesFemmes = [2,2,2,2, "La ...", 4,4,4,4,4,4,4,4,4,5,24,33,65,65];
+const versetsFemmes = [222,223,228,282, "polygamie", 3,5,23,24,25,34,117,127,176,6,31,55,2,4];
 const ahadithsFemmes = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1105,12 +1102,11 @@ const ahadithsFemmes = [
     lien: "https://dorar.net/hadith/sharh/20906",
     autres: ""
   },
-];
-//- fin femmes
+];//- fin femmes
 
 //- Miracles scientifiques
-const souratesMiraclesScientifiques = ["Jésus et ...", 3,3,3,3,3,3,3,3, 5,5,5,5,5,5,5,5, 19,19,19,19,                       "Jonas et ...",37,37,37,37,37,37,37,37,37,   "La Terre et ...", 21, "Le toit et ...",21,21,21,22,27,`L'embriologie...`, 23,23,23,             "Les djinns...", 55, "La lune est ...", 54, "Le voyage...", 17];
-const versetsMiraclesScientifiques = ["les miracles", 45,46,47,48,49,54,55,59, 110,111,112,113,114,115,116,117, 28,29,30,31, "le poisson", 139,140,141,142,143,144,145,146,147,  "le big bang", 30,     "les piliers",31,32,33,65,61,   `l'Homme est créé ...d'argile!`, 12,13,14,"de feu", 15, "brisée!", 1,                 "nocturne", 1];
+const souratesMiraclesScientifiques = ["Jésus et ...", 3,3,3,3,3,3,3,3, 5,5,5,5,5,5,5,5, 19,19,19,19,                       "Jonas et ...",37,37,37,37,37,37,37,37,37,   "La Terre et ...", 21, "Le toit et ...",21,21,21,22,27,        `L'embriologie...`, 23,23,23,             "Les djinns...", 55, "La lune est ...", 54, "Le voyage...", 17, "Les deux...", 55,55,55, ];
+const versetsMiraclesScientifiques = ["les miracles", 45,46,47,48,49,54,55,59, 110,111,112,113,114,115,116,117, 28,29,30,31, "le poisson", 139,140,141,142,143,144,145,146,147,  "le big bang", 30,     "les piliers",31,32,33,65,61,   `l'Homme est créé ...d'argile!`, 12,13,14,"de feu", 15,        "brisée!", 1,          "nocturne", 1,      "mers...", 19,20,22,];
 const ahadithsMiraclesScientifiques = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1216,12 +1212,11 @@ const ahadithsMiraclesScientifiques = [
     autres: "",
   },
   
-];
-//- fin Miracles scientifiques
+];//- fin Miracles scientifiques
 
 //- Création de l'Univers
 const souratesCreationUnivers = [
-  2, 6, 6, 7, 7, 7, 10, 11, 14, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
+  24, 2, 4, 6, 6, 7, 7, 7, 10, 11, 14, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
   15,15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 17, 17, 18, 18, 22, 25, 25,
   25, 30, 32, 32, 32, 7, 37, 37, 37, 38, 39, 88, 88, 88, 51, 53, 53, 55, 55, 25,
   40, 41, 50, 50, 41, 64, 65, 67, 67, 73, 75, 75, 75, 78, 79, 79, 80, 80, 80, 86,
@@ -1229,7 +1224,7 @@ const souratesCreationUnivers = [
   
 ];
 const versetsCreationUnivers = [
-  29, 2, 98, 54, 57, 189, 3, 7, 33, 16, 19, 20, 21, 22, 26, 27, 28, 29, 30, 31,
+  45, 29, 1, 2, 98, 54, 57, 189, 3, 7, 33, 16, 19, 20, 21, 22, 26, 27, 28, 29, 30, 31,
   32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 4, 72, 12, 44, 37, 86, 66, 54, 59,
   61, 20, 7, 8, 9, 4, 5, 6, 7, 71, 6, 17, 18, 19, 49, 45, 46, 14, 15, 61,
   64, 9, 6, 7, 12, 3, 12, 3, 9, 37, 5, 38, 39, 8, 27, 28, 17, 18, 19, 6,
@@ -1251,7 +1246,7 @@ const ahadithsCreationUnivers = [
     lien: "https://dorar.net/hadith/sharh/",
     autres: "",
   },
-];7
+];// fin création
 
 //- Forme de la terre
 const souratesFormeTerre = [18,20,31,39,40,41,41,43,51,57,78,78,79,79,88];
@@ -1271,8 +1266,7 @@ const ahadithsFormeTerre = [
     lien: "https://dorar.net/hadith/sharh/",
     autres: "",
   },
-];
-//- Fin Forme de la terre
+];//- Fin Forme de la terre
 
 
 // Les noms des sourates
@@ -1293,7 +1287,7 @@ const ahadithsNomsSourates = [
     lien: "https://dorar.net/hadith/sharh/",
     autres: "",
   },
-];
+]; //fin noms des sourates
 
 // Abrogation
 const souratesAbrogation = [2,16,22,22];
@@ -1564,8 +1558,8 @@ const ahadithsResurection= [
 ]; // Fin résurection,
 
 // Sexe
-const souratesSexe = ["Histoire du prophète", 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12,"Le sexe avec les esclaves est licite sans mariage.", 23,23,23,23,23,23,23,];
-const versetsSexe = [  "Joseph et le sexe",21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,`Sourate 23. ${sourates[23].nom}. ${sourates[23].nomArabe}`,  1,  2,3,4,5,6,7,];
+const souratesSexe = ["La ...", 4,4, 17, 24,24,24,24,24,24, 25,25,25,25, 70,70,70,     "L'adultère...", 4, 24,24,24,24, "Histoire de ...",24,24,24,24,24,24,24,24,24,24, "Histoire du prophète", 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12,"Le sexe avec les esclaves est licite sans mariage.", 23,23,23,23,23,23,23,];
+const versetsSexe = [ "fornication", 15,16, 32, 2,4,23,24,25,26, 68,69,70,71, 29,30,31, "",            25, 6,7,8,9,                 "IFK",11,12,13,14,15,16,17,18,19,20,                    "Joseph et le sexe",21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,`Sourate 23. ${sourates[23].nom}. ${sourates[23].nomArabe}`,  1,  2,3,4,5,6,7,];
 const ahadithsSexe = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1627,8 +1621,8 @@ const ahadithsSexe = [
 ]; // Fin sexe
 
 // Histoires des prophètes
-const souratesHistoiresProphetes = ["Adam", "Jésus", 43, "Énoch. Idrīs ", "Noé. nūḥ", "Abraham. Ibrâhîm", "Ismaël. Ismâʿîl", "Loth. Lût", ];
-const versetsHistoiresProphetes = ["ādam آدم", "A¨ssa",63, "إدريس", " نوح", "إبراهيم", "إسماعيل", "لوط", ]
+const souratesHistoiresProphetes = ["Adam", 2, 2, 2, 2, 2, 2, 2, 2, 7, "Jésus", 43, "Énoch. Idrīs ", "Noé. nūḥ", 7, 7, 7, 7, 7, 7, "Hud", 7, 7, 7, 7, 7, 7, 7, 7, "Salah", 7, 7, 7, 7, 7, 7, 7, "Loth. Lût", 7, 7, 7, 7, 7, "Chouʿayb", 7, 7, 7, 7, 7, 7, 7, 7, 7, "Moïse", 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7, "Abraham. Ibrâhîm", "Ismaël. Ismâʿîl",  ];
+const versetsHistoiresProphetes = ["ādam آدم",30,31,32,33,34,35,36,37,11,"A¨ssa",63,"إدريس"," نوح",59,60,61,62,63,64,"hūd هُود ",65,66,67,68,69,70,71,72,   "[ṣāliḥ] صَالِح",73,74,75,76,77,78,79,  "لوط",80,81,82,83,84, "شُعَيْب", 85,86,87,88,89,90,91,92,93,        "Mûsâ مُوسَى",103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155, "إبراهيم","إسماعيل",];
 
 const ahadithsHistoiresProphetes = [
 {
@@ -1682,9 +1676,20 @@ const versetsCoeurCerveau = [118, 46, 24, ];
 const ahadithsCoeurCerveau = [];// Fin coeur ou cerveau,
 
 // Les défis
-const souratesDefis = ["Les mequois...", 17,17,17,17,     "Allah défie ...",2,2,10, 11,11, 17,17,17,17, 28, 52, ];
-const versetsDefis = ["défient le prophète",90,91,92,93,  "les mequois", 23,24,38, 13,14, 88,94,95,96, 49, 34, ];
+const souratesDefis = ["Les mequois...", 17,17,17,17,     "Allah défie ...",2,2,10, 11,11, 17,17,17,17, 28, 52, 37,37,37,37];
+const versetsDefis = ["défient le prophète",90,91,92,93,  "les mequois", 23,24,38, 13,14, 88,94,95,96, 49, 34, 154,155,156,157,];
 const ahadithsDefis = [];// Fin les défis,
+
+// La Hidjra
+const souratesHijra = [3, 4,4,4,4,4, 8, 9,9,9,9, 16,16, 22,22, 24];
+const versetsHijra = [195, 97,98,99,100,101, 26, 20,38,39,40, 41,42, 58,59, 22];
+const ahadithsHijra = [];// Fin la Hidjra,
+
+// Répétition / Redondance / Logique / Pas de questions
+const souratesRedondances = ["Redondances...", 2,7,17,18,38,38, "Menaces de ...", 7, "Menaces de ...",5, "Ne posez pas de ...", 5,24,];
+const versetsRedondances = ["Répetitions",34,11,61,50,73,74, "Pharaon", 124, "Allah", 33,                "questions...", 101, 51];
+const ahadithsRedondances = [];// Fin Redondance,
+
 //////////////////,142,255, ,
 // Fonction injecter les sourates selon le thème
 function injecteVersets (titreThematique, sourates, versets, exemples) {
