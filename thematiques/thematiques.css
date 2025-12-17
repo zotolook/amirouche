@@ -5,18 +5,26 @@
 
 .carteThematique {
 width: 180px;
-height: 80px;
+height: 100px;
 background-color: rgb(246, 250, 249);
 margin: 15px;
 color: black;
 border-radius: 5px;
 box-shadow: 2px 2px grey;
-text-align: center;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
 }
 
 .boutonsVersetsAhadiths {
     display: flex;
     justify-content: space-evenly;
+   align-items: center;
+} 
+.boutonsVersetsAhadiths p {
+    margin: 0px;
 }
 
 .titreThematique {

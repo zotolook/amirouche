@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> ISL </title>
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../thematiques/thematiques.css" />
+    <link rel="stylesheet" href="histoiresProphetes.css" />
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Barre de navigation -->
+
+        <nav class="container-fluid navbar navbar-expand-md navbar-dark bg-dark">
+
+            <!-- Brand Logo -->
+
+            <a class="navbar-brand logo" href="../index.html">
+                <div class="logo">
+                    <div class="isl"> <span> ISL </span></div>
+                    <img src="../images/mosque.png" width="70" alt="mosque">
+                </div>
+
+            </a>
+            <!-- My profil -->
+
+            <!-- Toggler/collapsibe Button -->
+            <div class="navbar-toggler btn-humburger " data-toggle="collapse" data-target="#collapsibleNavbar">
+                <!--<span class="navbar-toggler-icon icon"></span>-->
+                <span class="icon"></span>
+
+            </div>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse menu" id="collapsibleNavbar">
+
+                <ul class="navbar-nav mr-auto text-center menu_ul">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html"> Accueil </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./thematiques.html"> Thématiques </a>
+                    </li>
+
+                    <!-- Drop down button -->
+                    <li class="nav-item">
+                        <div class="dropdown ">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Lire
+                            </button>
+                            <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
+                                <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
+                                <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown-item" onclick="lireVerset()"> Lire un verset</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!--Infos -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../infos/infos.html"> Infos Islam </a>
+                    </li>
+                    <!-- -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="chercher()"> Chercher </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- Fin barre de navigation -->
+    </header>
+
+    <main>
+        <div id="tableau" class="container text-justify">
+            <h3 class="text-center"> histoires des prophètes </h3>
+
+            <ul class="d-flex ulThematiques justify-content-evenly align-items-center flex-wrap">
+
+                <!-- Adam -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 1. Adam آدم ādam </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Adam` , souratesAdam, versetsAdam)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoire du prophète Adam`,ahadithsAdam)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+                <!-- Énoch إدريس, idrīs Idrîs-->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 2. Énoch إدريس, idrīs </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Idris` , souratesIdris, versetsIdris)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète Idris`,ahadithsIdris)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Noé نوح, nūḥ Nuh -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 3. Noé نوح nūḥ </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Noé` , souratesNoe, versetsNoe)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète Noé`,ahadithsNoe)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Abraham[26]إبراهيم, ibrāhīm Ibrâhîm -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 4. Abraham إبراهيم ibrāhīm </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Abraham` , souratesAbraham, versetsAbraham)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète Abraham`,ahadithsAbraham)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Ismaël[27] إسماعيل, ismāʿīl Ismâʿîl -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 5. Ismaël إسماعيل ismāʿīl </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Ismael` , souratesIsmael, versetsIsmael)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète Ismael`,ahadithsIsmael)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Loth[28] لوط, lūṭ Lût -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 6. Luth لوط lūṭ  </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Luth` , souratesLuth, versetsLuth)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète Luth`,ahadithsLuth)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Isaac[29] إسحاق, isḥāq Ishâq -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 7. Isaac إسحاق isḥāq </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Isaac` , souratesIsaac, versetsIsaac)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète isaac`,ahadithsIsaac)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Jacob[27] يعقوب, yaʿqūb Yaʿqûb -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 8. Jacob يعقوب yaʿqūb  </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Jacob` , souratesJacob, versetsJacob)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète Jacob`,ahadithsJacob)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- Joseph[30] يوسف, yūsuf Yûsuf (fils de Jacob) -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 9. Joseph يوسف yūsuf  </h3>
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` Histoire du prophète Joseph (fils de Jacob)` , souratesJoseph, versetsJoseph)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Histoires du prophète Joseph (fils de Jacob)`,ahadithsJoseph)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                    <!-- Shelah[31] prophète des Thamud صالح, ṣāliḥ -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 10. Shelah صالح ṣāliḥ </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Shelah prophète des Thamud` , souratesSaleh, versetsSaleh)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Shelah prophète des Thamud`,ahadithsSaleh)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Eber[32] prophète des ʿAd هود, hūd Hûd (dénommé Abir)-->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 11. Eber هود hūd  </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Eber[32] prophète des ʿAd هود, hūd Hûd (dénommé Abir)` , souratesHud, versetsHud)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Eber[32] prophète des ʿAd هود, hūd Hûd (dénommé Abir)`,ahadithsHud)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!--Moïse[33] مُوسَى, mūsā Moussa-->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 12. Moïse مُوسَى Moussa </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Moïse[33] مُوسَى, mūsā Moussa` , souratesMoise, versetsMoise)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Moïse[33] مُوسَى, mūsā Moussa`,ahadithsMoise)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!--Aaron[27] هارون, hārūn Hârûn-->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 13. Aaron  هارون hārūn  </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Aaron هارون, hārūn Hârûn` , souratesAaron, versetsAaron)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Aaron هارون, hārūn Hârûn`,ahadithsAaron)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!--Jethro[34] prophète des Madianites شُعَيْب, šuʿayb, Chuʿayb-->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 14. Jethro شُعَيْب Chuʿayb </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Jethro[34] prophète des Madianites شُعَيْب, šuʿayb, Chuʿayb` , souratesJethro, versetsJethro)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Jethro[34] prophète des Madianites شُعَيْب, šuʿayb, Chuʿayb`,ahadithsJethro)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Job[27] أَيّوب, ayyūb Ayyûb -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 15. Job أَيّوب ayyūb  </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Job  أَيّوب, ayyūb Ayyûb` , souratesJob, versetsJob)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Job  أَيّوب, ayyūb Ayyûb`,ahadithsJob)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- David[27] داوود, dāwūd Dâwûd -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 16. David داوود dāwūd </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète David داوود, dāwūd` , souratesDavid, versetsDavid)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète David داوود, dāwūd `,ahadithsDavid)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Salomon[27] سُلَيْمان, sulaymān Sulaymân -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 17. Salomon سُلَيْمان sulaymān  </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Salomon سُلَيْمان, sulaymān` , souratesSalomon, versetsSalomon)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Salomon سُلَيْمان, sulaymān `,ahadithsSalomon)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Élie إِلْيَاس, ilyās -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 18. Élie إِلْيَاس ilyās </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Élie إِلْيَاس, ilyās` , souratesElie, versetsElie)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Élie إِلْيَاس, ilyās `,ahadithsElie)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!--Élisée[36] اليسع, al yassar   -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 19. Élisée اليسع al yassar </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Élisée اليسع, al yassar` , souratesElisee, versetsElisee)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Élisée اليسع, al yassar `,ahadithsElisee)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Jonas[37] يونس, yūnous Yûnous -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 20. Jonas يونس yūnous </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Jonas يونس, yūnous` , souratesJonas, versetsJonas)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Jonas يونس, yūnous`,ahadithsJonas)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Ézéchiel ذَو الكِفْل, ḏū'l-kifl Dhul Kifl -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 21. Ézéchiel ذَو الكِفْل ḏū'l-kifl </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Ézéchiel ذَو الكِفْل, ḏū'l-kifl Dhul Kifl` , souratesEzekiel, versetsEzekiel)">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Ézéchiel ذَو الكِفْل, ḏū'l-kifl Dhul Kifl`,ahadithsEzekiel)">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Zacharie[38] زَكَرِيَّا, zakarīyā" -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 22. Zacharie زَكَرِيَّا zakarīyā </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Zacharie زَكَرِيَّا, zakarīyā` , souratesZacharie , versetsZacharie )">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Zacharie زَكَرِيَّا, zakarīyā`,ahadithsZacharie )">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Jean le Baptiste يحْيى, yaḥyā Yahyâ -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 23. Jean le Baptiste يحْيى yaḥyā </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Jean le Baptiste يحْيى, yaḥyā` , souratesJean , versetsJean )">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Jean le Baptiste يحْيى, yaḥyā`,ahadithsJean )">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+
+                    <!-- Jésus عِيسى, ʿīsā ʿIsâ -->
+                    <li class="carteThematique">
+                        <h3 class="titreThematique"> 24. Jésus عِيسى ʿīsā </h3>
+                        <div class="boutonsVersetsAhadiths">
+                            <p> <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="injecteVersets(` Histoire du prophète Jésus عِيسى, ʿīsā` , souratesJesus , versetsJesus )">
+                                    Versets
+                                </button></p>
+                            <p><button type="button" class="btn btn-secondary btn-sm"
+                                    onclick="injecteAhadiths(`Histoires du prophète Jésus عِيسى, ʿīsā`,ahadithsJesus )">
+                                    Ahadiths</button></p>
+                        </div>
+                    </li>
+                <!--   
+
+
+
+Abraham[26]إبراهيم, ibrāhīm Ibrâhîm
+Ismaël[27] إسماعيل, ismāʿīl Ismâʿîl
+Loth[28] لوط, lūṭ Lût
+Isaac[29] إسحاق, isḥāq Ishâq
+Jacob[27] يعقوب, yaʿqūb Yaʿqûb (surnommé Israël)
+Joseph[30] يوسف, yūsuf Yûsuf (fils de Jacob)
+Shelah[31] prophète des Thamud صالح, ṣāliḥ
+Eber[32] prophète des ʿAd هود, hūd Hûd (dénommé Abir)
+Moïse[33] مُوسَى, mūsā Moussa
+Aaron[27] هارون, hārūn Hârûn
+Jethro[34] prophète des Madianites شُعَيْب, šuʿayb, Chuʿayb
+Job[27] أَيّوب, ayyūb Ayyûb
+David[27] داوود, dāwūd Dâwûd
+Salomon[27] سُلَيْمان, sulaymān Sulaymân
+Élie[35] إِلْيَاس, ilyās Ilyâs
+Élisée[36] اليسع, al yassar Al Yassa
+Jonas[37] يونس, yūnous Yûnous
+Ézéchiel[24] ذَو الكِفْل, ḏū'l-kifl Dhul Kifl
+Zacharie[38] زَكَرِيَّا, zakarīyā"
+Jean le Baptiste[39] يحْيى, yaḥyā Yahyâ
+Jésus[40] عِيسى, ʿīsā ʿIsâ                
+-->
+
+
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <button class="btn btn-danger btn-sm boutonFixeHaut" onclick="haut()"> Haut</button>
+        <button class="btn btn-danger btn-sm boutonFixeBas" onclick="bas()"> Bas</button>
+    </footer>
+
+
+
+    <script src="../index.js"></script>
+    <script src="../accueil.js"></script>
+    <script src="../thematiques/thematiques.js"></script>
+    <script src="./hstoiresProphetes.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
