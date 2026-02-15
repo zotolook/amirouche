@@ -1,0 +1,11 @@
+.sv {
+    color: red;
+}
+.legende {
+    text-align: center;
+    background-color: rgb(68, 73, 73);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border:1px solid red;
+}
