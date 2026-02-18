@@ -10,8 +10,8 @@ const ahadithsIslamReligionUnique = [];
 // Fin Islam Religion unique
 
 // - A L L A H /  O M N I P O T E N T  /   O M N I S C i E N T
-const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9, 11,11,11,11,11, 13, 16,16, 22,22,22,22,22, 32, 33, 35, 36, 40, 42, "C'est quoi...", 17]
-const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 5,6, 1,2,3,4,5, 9, 8,40, 6,38,39,40,70, 5, 54, 2, 82, 68, 9, "l'âme?", 85]
+const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9, 11,11,11,11,11, 13, 16,16, 22,22,22,22,22, 32, 33, 35, 36, 40, 42,42, "C'est quoi...", 17]
+const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 5,6, 1,2,3,4,5, 9, 8,40, 6,38,39,40,70, 5, 54, 2, 82, 68, 9,17, "l'âme?", 85]
 let ahadithsAllahOmnipotentOmniscient = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -20,164 +20,6 @@ let ahadithsAllahOmnipotentOmniscient = [
     lien: "https://dorar.net/hadith/sharh/65277",
   },
 ];
-// - Piliers de l'Islam
-const souratesPiliersIslam = [11, 23, 24, 24, 24, 29, 22]
-const versetsPiliersIslam = [114, 2, 37, 56, 58, 45, 3]
-const ahadithsPiliersIslam = [
-  // La prière
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 7517,
-    texte: " لَيْلَةَ أُسْرِيَ برَسولِ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ ...",
-    lien: "https://dorar.net/hadith/sharh/5828",
-    autres: 3342,
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 135,
-    texte: "لا يقبلُ اللَّهُ صلاةَ أحدِكُم إذا أحدَثَ حتَّى يتَوضَّأ ",
-    lien: "https://dorar.net/hadith/sharh/36704",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 625,
-    texte:
-      " قالَ عمرُ رضيَ اللَّهُ عنهُ أوَلا تَبعثونَ رجلًا يُنادي بالصَّلاةِ فقالَ رسولُ اللَّهِ صلَّى اللَّهُ عليهِ وسلَّمَ : يا بلالُ قُم فَنادِ بالصَّلاةِ",
-    lien: "https://dorar.net/hadith/sharh/2197",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 722,
-    texte:
-      " أَقِيمُوا الصَّفَّ في الصَّلاةِ؛ فإنَّ إقامَةَ الصَّفِّ مِن حُسْنِ الصَّلاةِ.",
-    lien: "https://dorar.net/hadith/sharh/25329",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 854,
-    texte:
-      "مَن أَكَلَ مِن هذِهِ الشَّجرةِ. قالَ : أوَّلَ يومٍ ( الثُّومِ ) ثمَّ قالَ: الثُّومِ والبصلِ والكرَّاثِ - فلا يقربنا في مساجدنا؛ فإنَّ الملائِكَةَ تتأذَّى ممَّا يتأذَّى منهُ الإنسُ ",
-    lien: "https://dorar.net/hadith/sharh/33240",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4133,
-    texte:
-      " أنَّ النبيَّ صلَّى اللهُ عليه وسلم صلَّى صلاةَ الخوفِ بإحدَى الطائفتينِ ركعةً والطائفةُ الأخرَى مُواجِهةُ العدوِّ ، ثمَّ انصرفوا فقاموا في مقامِ أولئك وجاء أولئك فصلَّى بهم ركعةً أخرَى ثمَّ سلَّم ، فقام هؤلاءِ فقضَوا ركعتَهم [ وقام هؤلاءِ فقضَوا ركعتَهم",
-    lien: "https://dorar.net/hadith/sharh/75539",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1013,
-    texte: " صلاة الإستسقاء",
-    lien: "https://dorar.net/hadith/sharh/36909",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4534,
-    texte: "حَافِظُوا علَى الصَّلَوَاتِ والصَّلَاةِ الوُسْطَى وقُومُوا لِلَّهِ قَانِتِينَ",
-    lien: "https://dorar.net/hadith/sharh/13786",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4607,
-    texte: "فأنْزَلَ اللَّهُ آيَةَ التَّيَمُّمِ",
-    lien: "https://dorar.net/hadith/sharh/8175",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 6823,
-    texte: "تُكفِّرُ السَّيِّئاتِ  الصَّلاةُ ",
-    lien: "https://dorar.net/hadith/sharh/11770",
-  },
-
-  // La zakat
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1503,
-    texte: " زَكَاةَ الفِطْرِ",
-    lien: "https://dorar.net/hadith/sharh/132064",
-  },
-
-  // Le ramadan
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1658,
-    texte: "صيامِ يومِ عرفةَ ",
-    lien: "https://dorar.net/hadith/sharh/118226",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4504,
-    texte: " صِيامُ عاشوراءَ",
-    lien: "https://dorar.net/hadith/sharh/13834",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 3277,
-    texte:
-      "  إذا جاءَ رَمَضانُ فُتِّحَتْ أبْوابُ الجَنَّةِ، وغُلِّقَتْ أبْوابُ النَّارِ، وصُفِّدَتِ الشَّياطِينُ.",
-    lien: "https://dorar.net/hadith/sharh/16077",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1900,
-    texte:
-      " إذا رَأَيْتُمُوهُ فَصُومُوا، وإذا رَأَيْتُمُوهُ فأفْطِرُوا، فإنْ غُمَّ علَيْكُم فاقْدِرُوا له.",
-    lien: "https://dorar.net/hadith/sharh/16474",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1917,
-    texte:
-      "... البقرة: 187  وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الْأَبْيَضُ مِنَ الْخَيْطِ الْأَسْوَدِ ",
-    lien: "https://dorar.net/hadith/sharh/88426",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 6709,
-    texte: " وقَعْتُ علَى امْرَأَتي في رَمَضَانَ",
-    lien: "https://dorar.net/hadith/sharh/7347",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1949,
-    texte: " فِدْيَةٌ طَعامُ مَساكِينَ... مَنْسُوخَةٌ.",
-    lien: "https://dorar.net/hadith/sharh/151384",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1955,
-    texte:
-      " إِذَا أقْبَلَ اللَّيْلُ مِن هَا هُنَا، وأَدْبَرَ النَّهَارُ مِن هَا هُنَا، وغَرَبَتِ الشَّمْسُ فقَدْ أفْطَرَ الصَّائِمُ.",
-    lien: "https://dorar.net/hadith/sharh/21507",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1915,
-    texte: "عَلِمَ اللَّهُ أنَّكُمْ كُنْتُمْ تَخْتانُونَ أنْفُسَكُمْ فَتابَ علَيْكُم وعَفا عَنْكُمْ. أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَى نِسَائِكُ. [البقرة: 187",
-    lien: "https://dorar.net/hadith/sharh/5647",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4509,
-    texte: "كانَ الخَيْطُ الأبْيَضُ، والأسْوَدُ تَحْتَ وِسَادَتِكَ",
-    lien: "https://dorar.net/hadith/sharh/8391",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 419,
-    texte: " أتِمُّوا الرُّكوعَ والسجودَ ، فواللهِ إنِّي لأراكم من خلفِ ظهري ، في ركوعِكم وسجودِكم",
-    lien: "https://dorar.net/hadith/sharh/22692",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1464,
-    texte: "ليس على المُسلِمِ في عبدِه، ولا في فَرَسِه صَدَقةٌ.",
-    lien: "https://dorar.net/hadith/sharh/135580",
-  },
-];
-// Fin piliers de l'islam
 
 // - Obéir à Allah et au prophète
 const souratesObeirAllahProphete = [3,3,4,4,6,24,24,24,33,33,47,48,49,49,57,57]
@@ -729,8 +571,8 @@ const ahadithsHeritage = [
 ];//- fin H E R I T A G E 
 
 //- P F f  f f f  f  f
-const souratesPfffff = [2, 5,5,5,5,        6,6,     7,7,7,       10,10,10,10, 16,17,18,20,22, 24,24,24,24,24,24, 25,25, 27,27,27, 33,33, 35, 36,36,36,36, 39,39,39,39, 40,40,40, 43,48, 49,49,50,55,59,97,103];
-const versetsPfffff = [189, 67,106,107,108, 59,142, 145,148,154, 28,29,30,94, 80,64,25,71,18, 27,35,28,29,58,60, 24,47, 18,82,86, 56,72, 41, 71,72,73,80, 10,13,15,45, 67,79,80, 45,17, 4,5, 30,6,21,97,103];
+const souratesPfffff = [2,2,    5,5,5,5,        6,6,     7,7,7,       10,10,10,10, 16,17,18,20,22, 24,24,24,24,24,24, 25,25, 27,27,27, 33,33, 35, 36,36,36,36, 39,39,39,39, 40,40,40, 43,48, 49,49,50,55,59,97,103];
+const versetsPfffff = [137,189, 67,106,107,108, 59,142, 145,148,154, 28,29,30,94, 80,64,25,71,18, 27,35,28,29,58,60, 24,47, 18,82,86, 56,72, 41, 71,72,73,80, 10,13,15,45, 67,79,80, 45,17, 4,5, 30,6,21,97,103];
 const ahadithsPfffff = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1225,10 +1067,10 @@ const versetsCreationUnivers = [
 ];
 const ahadithsCreationUnivers = [
   {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
+    auteur: "El Boukhari  صحيح  البخاري" ,
+    numero: 1901,
+    texte: "مَن صَامَ رَمَضَانَ إيمَانًا واحْتِسَابًا غُفِرَ له ما تَقَدَّمَ مِن ذَنْبِهِ",
+    lien: "https://dorar.net/hadith/sharh/10254",
     autres: "",
   },
   {
@@ -1282,8 +1124,33 @@ const ahadithsNomsSourates = [
 ]; //fin noms des sourates
 
 // Abrogation
-const souratesAbrogation = [2,16,22,22];
-const versetsAbrogation = [106,101,52,53,];
+const souratesAbrogation = [
+ 
+ "Versets en lien avec ... ", 2, 13, 16, 22, 22,
+  "Exemples de versets... ",
+  
+  "1. ",
+  "Tolérance implicite ", 16,
+  "Le mal est supérieur au bien", 2,
+  "Interdiction partielle", 4,
+  "Interdiction diffinitive", 5, 5,
+  "Autres versets lié à l'alcool", 47,83,83,
+
+];
+const versetsAbrogation = [
+  
+  "l'abrogation", 106, 39, 101, 52, 53,
+  "abrogeants et abrogés",
+
+  "L'alcool",
+  "(période mecquoise)", 67,
+  "(période intermédiaire - médine)", 219,
+  "pendant la prière", 43,
+  "Selon l'interprétation majoritaire", 90, 91,
+  "(le vin au paradis)", 15,25,26,
+
+  
+];
 const ahadithsAbrogation = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -1300,16 +1167,7 @@ const ahadithsAbrogation = [
     autres: "",
   },
 ];
-const exemples = [
-  {
-    s: 4,
-    v: 43, 
-  },
-  {
-    s: 16,
-    v:101
-  }
-]
+
 
 // La volonté d'Allah
 const souratesVolonteAllah = [2,2,2,2,2,2,2,2,2,2,2,            3,3,3,3,      4,4,4,4,     6,6,6,6,6,6,6,6,6,6,6,                   7,7,     9,9,9,      10,10,10,  11, 13,13, 14,14, 15, 16,16,16,16,16,16,16,16, 17,  18,18, 22, 25, 28, 35,35, 36, 42, 43, 45, 47, 63,63, 76,76, 81];
@@ -1467,8 +1325,8 @@ const ahadithsHaine = [
 ]; // Fin haine
 
 // Erreurs ...?
-const souratesErreurs = [2,2,   6,6,     7,  9,  10, 12,12,12, 16,16,16,16, 19, 23,23,23, 26, 30,30, 31, 35, 36,36,36, 54, 61, 66,66, 67, 94];
-const versetsErreurs = [22,258, 143,144, 57, 36, 22, 2,3,4,    15,16,48,49, 28, 12,13,14, 7,  2,3,   10, 11, 38,39,40, 1,  6,  11,12, 3,  1];
+const souratesErreurs = [2,2,   6,6,     7,  9,  10, 12,12,12, 16,16,16,16, 19, 23,23,23, 26, 30,30, 31, 35, 36,36,36, 54, 61, 66,66, 67, 94, "Erreurs de langue", 88, 109,109,109,109,109,109,];
+const versetsErreurs = [22,258, 143,144, 57, 36, 22, 2,3,4,    15,16,48,49, 28, 12,13,14, 7,  2,3,   10, 11, 38,39,40, 1,  6,  11,12, 3,  1, "", 22, 1,2,3,4,5,6,];
 const ahadithsErreurs = [
 {
     auteur: "El Boukhari صحيح البخاري",
@@ -1777,8 +1635,8 @@ const versetsClairsIncomprehensibles = ["clairs!", 2,99,    15,19, 114, 52, 1,15
 const ahadithsclaires = [];// Clair ou incompréhensible?
 
 // La carotte et le baton
-const souratesCarotteEtBaton = [ "La carotte", 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,                        3,  4,  5,5,  6,6,6,    7,7,7,7,     8,8,   9,  13, 14,14,14,14,14,14, 15,15,15,15,15,15,15,15,15, 16,16,16,16,16,16,  17,17, 18,18,18, 19,19,19,19,19,19, 21,21,21, 22,22,22,22,  24, 28, 29,29,29,29, 31,31,31, 32,32,32,32, 33,33, 34,34,34, 35,35, 37,37,37,37,37,37,37,37,37,37, 38,38,38,38,38,38,38,38,38,38, 39,39,39,39, 40,40,40,40,40,40,40,40,40,40,40,40,  43,43,43,43,43,43,43,  44,44,44,44,44,44,44,44,  48, 50,50,50, 52,52,52,52,52,52,52,52,52,52, 66, 67,67,67,67,67,67,67, 69,69,69,69,69,69,69,69,69, 70,70, 70,70,70,70,70,70,70,70,70,70,  75, 76, 77,77,77,77,77,77,77,77,77,77,77,77,77,77, 78,78,78,78,78,78,78,78,78,78, 82, 83,83,83,83,83, 87,87, 88,88,88,88,88,88,88, 92,92,92,92,92,92,92,92, 95, 98,98, 104,104,104,104,104 ];
-const versetsCarotteEtBaton = ["", 21,28,38,39,81,103,104,105,110,112,114,126,145,151,152,161,162,165,174,257, 30, 56, 9,10, 31,32,70, 46,50,51,53, 37,38, 35, 35, 16,17,18,49,50,51, 42,43,44,45,46,47,48,49,50,  28,29,30,32,33,41,  97,98, 2,3,106, 68,69,70,71,72,73, 98,99,100, 19,20,21,22, 57, 60, 53,54,55,64, 8,9,21,   19,20,21,22, 8,56,  3,33,38,  36,37, 62,63,64,65,66,67,68,69,70,71, 55,56,57,58,59,60,61,62,63,64, 16,32,71,72, 18,22,49,60,70,71,72,73,74,75,76,77,  74,75,76,77,78,79,80,  43,44,45,46,47,48,49,50,  13, 19,20,30,  7,8,9,10,11,12,13,14,15,16,   10, 6,7,8,9,10,11,12,     25,26,27,28,29,30,31,32,33, 15,16,  35,36,37,38,39,40,41,42,43,44, 24,  4, 32,33,34,35,36,37,38,39,40,45,46,47,48,49, 21,22,23,24,25,26,27,28,29,30, 13, 29,30,31,32,33, 12,13, 1,2,3,4,5,6,7,        14,15,16,17,18,19,20,21, 6,  6,7,   5,6,7,8,9,]
+const souratesCarotteEtBaton = [ "La carotte", 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,                        3,  4,  5,5,  6,6,6,    7,7,7,7,     8,8,   9,  13, 14,14,14,14,14,14, 15,15,15,15,15,15,15,15,15, 16,16,16,16,16,16,  17,17, 18,18,18, 19,19,19,19,19,19, 21,21,21, 22,22,22,22,  24, 28, 29,29,29,29, 31,31,31, 32,32,32,32, 33,33, 34,34,34, 35,35, 37,37,37,37,37,37,37,37,37,37, 38,38,38,38,38,38,38,38,38,38, 39,39,39,39, 40,40,40,40,40,40,40,40,40,40,40,40,  43,43,43,43,43,43,43,  44,44,44,44,44,44,44,44,  48, 50,50,50, 52,52,52,52,52,52,52,52,52,52, 66, 67,67,67,67,67,67,67, 69,69,69,69,69,69,69,69,69, 70,70, 70,70,70,70,70,70,70,70,70,70,  75, 76, 77,77,77,77,77,77,77,77,77,77,77,77,77,77, 78,78,78,78,78,78,78,78,78,78, 82,82, 83,83,83,83,83, 87,87, 88,88,88,88,88,88,88, 92,92,92,92,92,92,92,92, 95, 98,98, 104,104,104,104,104 ];
+const versetsCarotteEtBaton = ["", 21,28,38,39,81,103,104,105,110,112,114,126,145,151,152,161,162,165,174,257, 30, 56, 9,10, 31,32,70, 46,50,51,53, 37,38, 35, 35, 16,17,18,49,50,51, 42,43,44,45,46,47,48,49,50,  28,29,30,32,33,41,  97,98, 2,3,106, 68,69,70,71,72,73, 98,99,100, 19,20,21,22, 57, 60, 53,54,55,64, 8,9,21,   19,20,21,22, 8,56,  3,33,38,  36,37, 62,63,64,65,66,67,68,69,70,71, 55,56,57,58,59,60,61,62,63,64, 16,32,71,72, 18,22,49,60,70,71,72,73,74,75,76,77,  74,75,76,77,78,79,80,  43,44,45,46,47,48,49,50,  13, 19,20,30,  7,8,9,10,11,12,13,14,15,16,   10, 6,7,8,9,10,11,12,     25,26,27,28,29,30,31,32,33, 15,16,  35,36,37,38,39,40,41,42,43,44, 24,  4, 32,33,34,35,36,37,38,39,40,45,46,47,48,49, 21,22,23,24,25,26,27,28,29,30, 13,14, 29,30,31,32,33, 12,13, 1,2,3,4,5,6,7,        14,15,16,17,18,19,20,21, 6,  6,7,   5,6,7,8,9,]
 
 const ahadithsCarottesEtBaton = [];// La carotte et le baton,
 
@@ -1813,9 +1671,9 @@ const versetsHijra = [195, 97,98,99,100,101, 26, 20,38,39,40, 41,42, 58,59, 22];
 const ahadithsHijra = [];// Fin la Hidjra,
 
 // La logique // Contradiction
-const souratesLogique = ["Je n'ai ...",14,  24,24, 89, 105, "Le coran en ...", 12,];
-const versetsLogique = ["rien vu!",    28,  41,43, 6,  1,   "langue arabe!",   2, ];
-const ahadithsLogique = [];// Fin la logique,
+const souratesLogiqueContradictions = ["Logique et ...",4,  "Je n'ai ...",14,  24,24, 89, 105, "Le coran en ...", 12,];
+const versetsLogiqueContradictions = ["contradictions", 82, "rien vu!",    28,  41,43, 6,  1,   "langue arabe!",   2, ];
+const ahadithsLogiqueContradictions = [];// Fin la logique,
 
 // Répétition / Redondance / Logique / Pas de questions
 const souratesRedondances = ["Redondances...", 2,7,17,18,38,38, "Menaces de ...", 7, "Menaces de ...",5, "Ne posez pas de ...", 5,24,];
@@ -1830,11 +1688,11 @@ const ahadithsTemporel = [];// Fin temporalité,
 
 // Ils ont mécru
 const souratesMecru = [
-  "Ils ont mécru ... ",7,7,10,11,11,21,23,26,26,54,
+  "Ils ont mécru ... ", 7, 7, 10, 11, 11, 21, 23, 26, 26, 54,
   "Ils ont mécru ...", 19,
   "Ils ont mécru ...", 7,
   "Ils ont mécru ...", 17,
-  "Ils ont mécru ...", 17,17,17,17,17,17, 31,31, 38,38,
+  "Ils ont mécru ...", 16, 17,17,17,17,17,17, 31,31, 38,38,
 ];
 
 const versetsMecru = [
@@ -1842,7 +1700,7 @@ const versetsMecru = [
   "Abraham", 46,
   "les preuves d'Allah !", 146,
   "Salah", 59,
-  "Muhammad", 89,90,91,92,93,94, 7,21, 67,68,
+  "Muhammad", 101, 89,90,91,92,93,94, 7,21, 67,68,
   
 ];
 
@@ -1850,7 +1708,7 @@ const ahadithsMecru = [];// ils ont mécru,
 
 //////////////////,142,255, ,
 // Fonction injecter les sourates selon le thème
-function injecteVersets (titreThematique, sourates, versets, exemples) {
+function injecteVersets (titreThematique, sourates, versets) {
   tableau.innerHTML = "";
   
    pTitreThematique.textContent = `Versets sur ${titreThematique}`;
@@ -1870,8 +1728,8 @@ function injecteVersets (titreThematique, sourates, versets, exemples) {
       numeroSourate = sourates[index]
       numeroVerset = `s${numeroSourate}v${versets[index]}`;
     
-      sourate = coran[numeroSourate - 1]
-      verset = sourate[numeroVerset]
+     let sourate = coran[numeroSourate - 1]
+     let verset = sourate[numeroVerset]
   
       pVerset.innerHTML = `<span class="numeroVerset">  ${numeroVerset}. </span> </br> ${verset}`;
       
@@ -1879,6 +1737,7 @@ function injecteVersets (titreThematique, sourates, versets, exemples) {
   }
 
   // Exemple versets abrogation
+  /*
   if (exemples) {
     let divExemples = document.createElement("div")
     divExemples.setAttribute('class', 'divSourate')
@@ -1897,7 +1756,7 @@ function injecteVersets (titreThematique, sourates, versets, exemples) {
       divExemples.appendChild(pVerset)
       
     })    
-  }
+  }*/
   // fin exemples
 }
 
