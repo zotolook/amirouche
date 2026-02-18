@@ -9,6 +9,15 @@ const versetsIslamReligionUnique = [19,85,99,92,33,9,13,14];
 const ahadithsIslamReligionUnique = [];
 // Fin Islam Religion unique
 
+// Hadith général sur les piliers de l'islam
+const hadithPiliers = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 8,
+    texte: "بُنِيَ الإسلامُ على خمسٍ",
+    lien: "https://dorar.net/hadith/sharh/62472",
+  },
+];
 // - A L L A H /  O M N I P O T E N T  /   O M N I S C i E N T
 const souratesAllahOmnipotentOmniscient = [ 2, 2,  6, 6, 6, 7, 9, 11,11,11,11,11, 13, 16,16, 22,22,22,22,22, 32, 33, 35, 36, 40, 42,42, "C'est quoi...", 17]
 const versetsAllahOmnipotentOmniscient = [ 181, 244, 18, 103, 115, 5,6, 1,2,3,4,5, 9, 8,40, 6,38,39,40,70, 5, 54, 2, 82, 68, 9,17, "l'âme?", 85]

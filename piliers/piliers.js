@@ -1,11 +1,11 @@
 // 1- Le témoignage de foi
-const souratesTemoignageFoi = [];
-const versetsTemoignageFoi = [];
+const souratesTemoignageFoi = [2,3,47,];
+const versetsTemoignageFoi = [255,18,19,];
 const ahadithsTemoignageFoi = [];
 
 // 2- La prière
-const souratesPriere = [11, 23, 24, 24, 24, 29, ];
-const versetsPriere = [114, 2, 37, 56, 58, 45, ];
+const souratesPriere = [2,4,5,11, 23, 24, 24, 24, 29, ];
+const versetsPriere = [3,103,6,114, 2, 37, 56, 58, 45, ];
 const ahadithsPriere = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -195,11 +195,18 @@ const ahadithsRamadhan = [
     lien: "https://dorar.net/hadith/sharh/24597",
     autres: "",
   },
+  {
+    auteur: "Muslim  صحيح مسلم ",
+    numero: 1927,
+    texte: " ....إنَّ في الجَنَّةِ بَابًا يُقَالُ له الرَّيَّانُ",
+    lien: "https://dorar.net/hadith/sharh/21306",
+    autres: "",
+  },
 ];
 
 // 4- L'aumône
-const souratesAumone = [];
-const versetsAumone = [];
+const souratesAumone = [2,2,2,2,2,2,2,2,9,];
+const versetsAumone = [177,267,268,269,270,271,272,273,60];
 const ahadithsAumone = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -210,6 +217,6 @@ const ahadithsAumone = [
 ];
 
 // 5- Le pélerinage
-const souratesPelerinage = [];
-const versetsPelerinage = [];
+const souratesPelerinage = [2,3,22,22,22,];
+const versetsPelerinage = [196,97,27,28,29,];
 const ahadithsPelerinage = [];
