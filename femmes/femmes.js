@@ -1,26 +1,26 @@
 // 1- Le mariage 
-const souratesFemmesMariage = ["La polygamie", 4,"mariages interdits",4, "Mariage avec les esclaves musulmanes",4, "Le mariage avec les orphelines", 4,"Le mariage avec des petites filles", 65,65];
-const versetsFemmesMariage = ["", 3,"", 23, "", 25,"", 127,"", 2,4];
+const souratesFemmesMariage = ["La polygamie", 4, "mariage avec non-musulmans",2, "mariages interdits",4, "Mariage avec les esclaves musulmanes",4, "Le mariage avec les orphelines", 4,"Le mariage avec des petites filles", 65,65];
+const versetsFemmesMariage = ["", 3, "", 221, "", 23, "", 25,"", 127,"", 2,4];
 const ahadithsFemmesMariage = []
 
 // 2- le divorce
-const souratesFemmesDivorce = [65,65,65,65,65,];
-const versetsFemmesDivorce = [1,2,3,4,6,];
+const souratesFemmesDivorce = ["Le divorce avant consommation", 2,2, "La médiation avant le divorce",4, "Le divorce trois fois", 2,2,  "Période d'attente d'une femme divorcée", 2,"Autres cas de période d'attente", 65, "Droits d'une femme divorcée",2,2, 65,65,65,65,65, ];
+const versetsFemmesDivorce = ["", 236,237,                            "",35,                            "", 229,230,                    "", 228,                                     "",4,                                  "", 231,232, 1,2,3,6,7,                             ];
 const ahadithsFemmesDivorce = [];
 
 // 3. L'héritage
-const souratesFemmesHeritage = ["La femme hérite la moitié de l'homme !", 4, ];
-const versetsFemmesHeritage = ["", 176, ];
+const souratesFemmesHeritage = ["La femme hérite la moitié de l'homme !", 4,4, ];
+const versetsFemmesHeritage = ["", 11,176, ];
 const ahadithsFemmesHeritage = [];
 
 // 4. L'intélligence
-const souratesFemmesIntelligence = [];
-const versetsFemmesIntelligence = [];
+const souratesFemmesIntelligence = ["la création",4, "Le témoignage", 2, ];
+const versetsFemmesIntelligence = ["",1,              "", 282, ];
 const ahadithsFemmesIntelligence = [];
 
 // 5. L'esclavage
-const souratesFemmesEsclaves = ["Le sexe est permis avec les esclaves sans mariage", 4,];
-const versetsFemmesEsclaves = ["", 24,];
+const souratesFemmesEsclaves = ["Le sexe est permis avec les esclaves sans mariage", 4,23,23, 70,70,  ];
+const versetsFemmesEsclaves = ["", 24,5,6, 29,30, ];
 const ahadithsFemmesEsclaves = [];
 
 // 6. Les comparaisons
@@ -29,8 +29,8 @@ const versetsFemmesComparaison= ["", 5,"", 117, "",6,];
 const ahadithsFemmesComparaison = []
 
 // 7. Le sexe
-const souratesFemmesSexe = ["Le sexe est permis avec les esclaves sans mariage", 4,];
-const versetsFemmesSexe = ["", 24, ];
+const souratesFemmesSexe = [2, "Période de privation de sexe avec l'épouse",2,2, "Le sexe est permis avec les esclaves sans mariage", 4,];
+const versetsFemmesSexe = [223, "",226,227, "", 24, ];
 const ahadithsFemmesSexe = []
 
 // 8- le voile

@@ -1481,8 +1481,8 @@ const versetsLogiqueContradictions = ["contradictions", 82, "rien vu!",    28,  
 const ahadithsLogiqueContradictions = [];// Fin la logique,
 
 // Répétition / Redondance / Logique / Pas de questions
-const souratesRedondances = ["Redondances...", 2,7,17,18,38,38, "Menaces de ...", 7, "Menaces de ...",5, "Ne posez pas de ...", 5,24,];
-const versetsRedondances = ["Répetitions",34,11,61,50,73,74, "Pharaon", 124, "Allah", 33,                "questions...", 101, 51];
+const souratesRedondances = ["Redondances...", 2,7,17,18,38,38,"Le sexe avec les esclaves",23,23,70,70,  "Menaces de ...", 7, "Menaces de ...",5, "Ne posez pas de ...", 5,24,];
+const versetsRedondances = ["Répetitions",34,11,61,50,73,74, "",5,6,29,30, "Pharaon", 124, "Allah", 33,                "questions...", 101, 51];
 const ahadithsRedondances = [];// Fin Redondance,
 
 // Temporalité
