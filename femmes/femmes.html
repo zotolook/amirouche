@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> ISL </title>
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../thematiques/thematiques.css" />
+    <link rel="stylesheet" href="./femmes.css" />
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Barre de navigation -->
+
+        <nav class="container-fluid navbar navbar-expand-md navbar-dark bg-dark">
+
+            <!-- Brand Logo -->
+
+            <a class="navbar-brand logo" href="../index.html">
+                <div class="logo">
+                    <div class="isl"> <span> ISL </span></div>
+                    <img src="../images/mosque.png" width="70" alt="mosque">
+                </div>
+
+            </a>
+            <!-- My profil -->
+
+            <!-- Toggler/collapsibe Button -->
+            <div class="navbar-toggler btn-humburger " data-toggle="collapse" data-target="#collapsibleNavbar">
+                <!--<span class="navbar-toggler-icon icon"></span>-->
+                <span class="icon"></span>
+
+            </div>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse menu" id="collapsibleNavbar">
+
+                <ul class="navbar-nav mr-auto text-center menu_ul">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html"> Accueil </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../thematiques/thematiques.html"> Thématiques </a>
+                    </li>
+
+                    <!-- Drop down button -->
+                    <li class="nav-item">
+                        <div class="dropdown ">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Lire
+                            </button>
+                            <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
+                                <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
+                                <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown-item" onclick="lireVerset()"> Lire un verset</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!--Infos -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../infos/infos.html"> Infos Islam </a>
+                    </li>
+                    <!-- -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="chercher()"> Chercher </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- Fin barre de navigation -->
+    </header>
+
+    <main>
+        <div id="tableau" class="container text-justify">
+            <h3 class="text-center"> Les femmes dans l'islam</h3>
+            <div class="legende">
+                <p class="sv"> </p>
+                <p> </p>
+                <p> </p>
+
+            </div>
+            <ul class="d-flex ulThematiques justify-content-evenly align-items-center flex-wrap">
+
+                <!-- 1- Le mariage -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 1. Le mariage</h3>
+
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`le mariage` , souratesFemmesMariage, versetsFemmesMariage)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Le mariage`,ahadithsFemmesMariage)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 2- Le divorce -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 2. Le divorce</h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`le divorce` , souratesFemmesDivorce, versetsFemmesDivorce)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`Le divorce`,ahadithsFemmesDivorce)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 3- L'héritage -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 3 . L'héritage </h3>
+
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`l'héritage` , souratesFemmesHeritage, versetsFemmesHeritage)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`l'héritage`,ahadithsFemmesHeritage)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 4 . l'intelligence-->
+                <li class="carteThematique">
+
+                    <h3 class="titreThematique"> 4 .L'intellegence </h3>
+
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`l'intellegence ` , souratesFemmesIntellegence, versetsFemmesIntelligence)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`l'intellegence `,ahadithsFemmesIntellegence)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 5. L'esclavage  -->
+                <li class="carteThematique">
+
+                    <h3 class="titreThematique"> 5. L'esclavage </h3>
+
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`L'esclavage `, souratesFemmesEsclavage, versetsFemmesEsclavage)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`l'esclavage`,ahadithsFemmesEsclavage)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 6. Comparaison -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 6. Comparaison </h3>
+
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`la comparaison`, souratesFemmesComparaison, versetsFemmesComparaison)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`la comparaison`,ahadithsFemmesComparaison)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 7. Le sexe -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 7. Le sexe </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`le sexe`, souratesFemmesSexe, versetsFemmesSexe)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`le sexe`,ahadithsFemmesSexe)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 8. Le voile -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 8. Le voile </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`le voile`, souratesFemmesVoile, versetsFemmesVoile)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm" onclick="injecteAhadiths(`le voile`,ahadithsFemmesVoile)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 9. L'homme a autorité sur la femme' -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 9. L'autorité </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`l'autorité`, souratesFemmesAutorite, versetsFemmesAutorite)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`l'autorité'`,ahadithsFemmesAutorite)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <button class="btn btn-danger btn-sm boutonFixeHaut" onclick="haut()"> Haut</button>
+        <button class="btn btn-danger btn-sm boutonFixeBas" onclick="bas()"> Bas</button>
+    </footer>
+
+
+
+    <script src="../index.js"></script>
+    <script src="../accueil.js"></script>
+    <script src="../thematiques/thematiques.js"></script>
+    <script src="./femmes.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
