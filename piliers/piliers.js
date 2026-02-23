@@ -1,11 +1,21 @@
 // 1- Le témoignage de foi
-const souratesTemoignageFoi = [2,3,47,];
-const versetsTemoignageFoi = [255,18,19,];
-const ahadithsTemoignageFoi = [];
+const souratesTemoignageFoi = [2,3,47,48,];
+const versetsTemoignageFoi = [255,18,19,29,];
+const ahadithsTemoignageFoi = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 8,
+    texte:
+      " بُنِيَ الإسْلَامُ علَى خَمْسٍ: شَهَادَةِ أنْ لا إلَهَ إلَّا اللَّهُ وأنَّ مُحَمَّدًا رَسولُ اللَّهِ، وإقَامِ الصَّلَاةِ، وإيتَاءِ الزَّكَاةِ، والحَجِّ، وصَوْمِ رَمَضَانَ.",
+    lien: "https://dorar.net/hadith/sharh/62472",
+    autres: "مسلم (16)",
+  },
+
+];
 
 // 2- La prière
-const souratesPriere = [2,4,5,11, 23, 24, 24, 24, 29, ];
-const versetsPriere = [3,103,6,114, 2, 37, 56, 58, 45, ];
+const souratesPriere = [2,2,4,5,11, 23, 24, 24, 24, 29, ];
+const versetsPriere = [3,43,103,6,114, 2, 37, 56, 58, 45, ];
 const ahadithsPriere = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -72,6 +82,29 @@ const ahadithsPriere = [
     numero: 6823,
     texte: "تُكفِّرُ السَّيِّئاتِ  الصَّلاةُ ",
     lien: "https://dorar.net/hadith/sharh/11770",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 526,
+    texte:
+      "وَأَقِمِ الصَّلَاةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ ... ",
+    lien: "https://dorar.net/hadith/sharh/36540",
+    autres: " (مسلم (2763)  أبو داود 4468)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 554,
+    texte:
+      " وَسَبِّحْ بحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ الشَّمْسِ وقَبْلَ الغُرُوبِ... ",
+    lien: "https://dorar.net/hadith/sharh/24478",
+    autres: " مسلم (633)، وأبو داود (4729 )، وابن ماجه (177 )",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 613,
+    texte: "  للأَذانِ بالصَّلاةِ ... ",
+    lien: "https://dorar.net/hadith/sharh/69806",
+    autres: " النسائي (677) وأحمد (16828) ",
   },
 ];
 
@@ -205,8 +238,8 @@ const ahadithsRamadhan = [
 ];
 
 // 4- L'aumône
-const souratesAumone = [2,2,2,2,2,2,2,2,9,];
-const versetsAumone = [177,267,268,269,270,271,272,273,60];
+const souratesAumone = [2,2,2,2,2,2,2,2,2,9,9,];
+const versetsAumone = [43,177,267,268,269,270,271,272,273,60,103,];
 const ahadithsAumone = [
   {
     auteur: "El Boukhari صحيح البخاري",

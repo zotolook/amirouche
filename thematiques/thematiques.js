@@ -1580,6 +1580,7 @@ function injecteAhadiths(titreThematique, ahadiths) {
   <p> Numéro du hadith: ${hadith.numero} </p>
   <p> Résumé du texte: ${hadith.texte} </p>
   <p> Plus d'infos: <a href= '${hadith.lien}'  target='_blank'> Dorar الدرر السنية</a> </p>
+  <p> Autres Ahadiths: ${hadith.autres} </p>
   `;
    tableau.appendChild(divHadith)
   })
