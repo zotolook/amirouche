@@ -102,9 +102,38 @@ const ahadithsPriere = [
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 613,
-    texte: "  للأَذانِ بالصَّلاةِ ... ",
+    texte: "  للأَذانِ بالصَّلاةِ ...الدعاء  ",
     lien: "https://dorar.net/hadith/sharh/69806",
     autres: " النسائي (677) وأحمد (16828) ",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 613,
+    texte: " صلاةُ الجماعةِ أفضلُ مِن صلاةِ الفذِّ بسبعٍ وعشرينَ درجةً  ",
+    lien: "https://dorar.net/hadith/sharh/6948",
+    autres: " مسلم (650) ",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 881,
+    texte: "مَنِ اغْتَسَلَ يَومَ الجُمُعَةِ ... ",
+    lien: "https://dorar.net/hadith/sharh/6788",
+    autres: " مسلم (850) ",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 881,
+    texte:
+      " أَتِمُّوا الرُّكُوعَ والسُّجُودَ، فَوالذي نَفْسِي بيَدِهِ، إنِّي لَأَراكُمْ مِن بَعْدِ ظَهْرِي إذا ما رَكَعْتُمْ، وإذا ما سَجَدْتُمْ.... ",
+    lien: "https://dorar.net/hadith/sharh/15695",
+    autres: " مسلم (425)",
+  },
+  {
+    auteur: "صحيح البخاري",
+    numero: 2010,
+    texte: " صلاة التراويح",
+    lien: "https://dorar.net/hadith/sharh/11887",
+    autres: "الفريابي في ((الصيام)) (173) مالك (378)",
   },
 ];
 
@@ -127,22 +156,19 @@ const ahadithsRamadhan = [
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 3277,
-    texte:
-      "  إذا جاءَ رَمَضانُ فُتِّحَتْ أبْوابُ الجَنَّةِ، وغُلِّقَتْ أبْوابُ النَّارِ، وصُفِّدَتِ الشَّياطِينُ.",
+    texte:"  إذا جاءَ رَمَضانُ فُتِّحَتْ أبْوابُ الجَنَّةِ، وغُلِّقَتْ أبْوابُ النَّارِ، وصُفِّدَتِ الشَّياطِينُ.",
     lien: "https://dorar.net/hadith/sharh/16077",
   },
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 1900,
-    texte:
-      " إذا رَأَيْتُمُوهُ فَصُومُوا، وإذا رَأَيْتُمُوهُ فأفْطِرُوا، فإنْ غُمَّ علَيْكُم فاقْدِرُوا له.",
+    texte:" إذا رَأَيْتُمُوهُ فَصُومُوا، وإذا رَأَيْتُمُوهُ فأفْطِرُوا، فإنْ غُمَّ علَيْكُم فاقْدِرُوا له.",
     lien: "https://dorar.net/hadith/sharh/16474",
   },
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 1917,
-    texte:
-      "... البقرة: 187  وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الْأَبْيَضُ مِنَ الْخَيْطِ الْأَسْوَدِ ",
+    texte:"... البقرة: 187  وَكُلُوا وَاشْرَبُوا حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الْأَبْيَضُ مِنَ الْخَيْطِ الْأَسْوَدِ ",
     lien: "https://dorar.net/hadith/sharh/88426",
   },
   {
@@ -235,6 +261,20 @@ const ahadithsRamadhan = [
     lien: "https://dorar.net/hadith/sharh/21306",
     autres: "",
   },
+    {
+    auteur: "صحيح البخاري",
+    numero: 2010,
+    texte: " صلاة التراويح",
+    lien: "https://dorar.net/hadith/sharh/11887",
+    autres: "الفريابي في ((الصيام)) (173) مالك (378)",
+  },
+     {
+    auteur: "أبو داود (506)",
+    numero: 506,
+    texte: " أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَى نِسَائِكُمْ} [البقرة: 187]",
+    lien: "https://dorar.net/hadith/sharh/29517",
+    autres: "Jami` at-Tirmidhi ٢٩٨٠",
+  },
 ];
 
 // 4- L'aumône
@@ -247,9 +287,48 @@ const ahadithsAumone = [
     texte: " زَكَاةَ الفِطْرِ",
     lien: "https://dorar.net/hadith/sharh/132064",
   },
+  {
+    auteur: "مسلم (982)",
+    numero: 982,
+    texte: " ليسَ في الخيلِ والرَّقيقِ زَكاةٌ إلَّا زَكاةُ الفطرِ في الرَّقيقِ",
+    lien: "https://dorar.net/hadith/sharh/30568",
+    autres: "أبو داود (1594)",
+  },
+  {
+    auteur: "مسلم (2588)",
+    numero: 2588,
+    texte:
+      "ما نقصت صدقةٌ من مالٍ ، وما زاد اللهُ عبدًا بعفوٍ إلا عزًّا ، وما تواضع عبدٌ إلا رفعه اللهُ",
+    lien: "https://dorar.net/hadith/sharh/65137",
+    autres: "من أفراد مسلم على البخاري",
+  },
 ];
 
 // 5- Le pélerinage
 const souratesPelerinage = [2,3,22,22,22,];
 const versetsPelerinage = [196,97,27,28,29,];
-const ahadithsPelerinage = [];
+const ahadithsPelerinage = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 7288,
+    texte: "  قد فُرِضَ عليكم الحجُّ فحُجُّوا...",
+    lien: "https://dorar.net/hadith/sharh/68342",
+    autres: "مسلم (1337)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1521,
+    texte:
+      " من أَتَى هذا البيتَ فلم يَرفُثْ ، ولم يَفسُقْ رَجَع كما ولَدَتْه أمُّه",
+    lien: "https://dorar.net/hadith/sharh/70154",
+    autres: "مسلم (1350)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1519,
+    texte: "أيُّ الأعمالِ أفضلُ ...",
+    lien: "https://dorar.net/hadith/sharh/72868",
+    autres: " الترمذي (1658)"
+  },
+
+];

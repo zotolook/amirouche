@@ -217,6 +217,13 @@ const ahadithsFemmesSexe = [
       " إذا دعا أحدُكم امرأتَه إلى فراشِه فأبتْ أنْ تجيءَ لعَنتْها الملائكةُ حتَّى تُصبِحَ",
     lien: "https://dorar.net/hadith/sharh/10597",
   },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4788,
+    texte: "أما تَسْتَحِي المَرْأَةُ أنْ تَهَبَ نَفْسَهَا لِلرَّجُلِ",
+    lien: "https://dorar.net/hadith/sharh/25624",
+    autres: "مسلم (1464)، والنسائي (3199)، وابن ماجه (2000)",
+  },
 ];
 
 // 8- le voile

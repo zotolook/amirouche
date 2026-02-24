@@ -872,11 +872,19 @@ const versetsCreationUnivers = [
 ];
 const ahadithsCreationUnivers = [
   {
-    auteur: "El Boukhari  صحيح  البخاري" ,
+    auteur: "El Boukhari  صحيح  البخاري",
     numero: 1901,
-    texte: "مَن صَامَ رَمَضَانَ إيمَانًا واحْتِسَابًا غُفِرَ له ما تَقَدَّمَ مِن ذَنْبِهِ",
+    texte:
+      "مَن صَامَ رَمَضَانَ إيمَانًا واحْتِسَابًا غُفِرَ له ما تَقَدَّمَ مِن ذَنْبِهِ",
     lien: "https://dorar.net/hadith/sharh/10254",
     autres: "",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero:3208 ,
+    texte: "أنَّ خَلْقَ أحَدِكُمْ يُجْمَعُ في بَطْنِ أُمِّهِ أرْبَعِينَ يَوْمًا",
+    lien: "https://dorar.net/hadith/sharh/4722",
+    autres: "مسلم (2643)",
   },
   {
     auteur: "El Boukhari صحيح البخاري",
