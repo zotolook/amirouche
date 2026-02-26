@@ -7863,6 +7863,14 @@ let coran = [
     s114v5: ` الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ</br> </br> qui souffle le mal dans les poitrines des hommes,`,
     s114v6: ` مِنَ الْجِنَّةِ وَالنَّاسِ</br> </br> qu'il (le conseiller) soit un djinn, ou un être humain".`,
   },
+  // Sourates perdus
+  {
+    s115v1: ` والشَّيْخُ وَالشَّيخةُ إذا زَنَيَا فارْجُموهما الْبتَّةَ نَكالًا مِن اللهِ <br/> Le vieil homme et la vieille femme, s’ils commettent la fornication, lapidez-les absolument, en punition exemplaire venant d’Allah. Et Allah est Puissant et Sage.`,
+    s115v2: `عَشرُ رضعاتٍ معلوماتٍ يحرِّمنَ ثمَّ نُسِخنَ بخمسٍ معلوماتٍ </br> Dix tétées connues (ayant lieu) rendent interdites, puis cela a été abrogé par cinq tétées connues.`,
+    s115v3: `يا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولونَ ما لا تَفْعَلُونَ، فَتُكْتَبُ شَهَادَةً في أَعْنَاقِكُمْ، فَتُسْأَلُونَ عَنْهَا يَومَ القِيَامَةِ. </br> Ô vous qui avez cru, pourquoi dites-vous ce que vous ne faites pas ?C’est une grande abomination auprès d’Allah que de dire ce que vous ne faites pas.`,
+    s115v4: `لَوْ كانَ لاِبْنِ آدَمَ وادِيانِ مِن مالٍ لابْتَغَى وادِيًا ثالِثًا، ولا يَمْلأُ جَوْفَ ابْنِ آدَمَ إلَّا التُّرابُ، ويَتُوبُ اللَّهُ علَى مَن تابَ. </br> Si l’homme possédait deux vallées de biens, il en chercherait une troisième, et rien ne remplit le ventre de l’homme sauf la poussière. Et Allah accepte le repentir de celui qui se repent.`,
+    s115v5: `لا ترغَبوا عن آبائِكم فإنَّ كفرًا بكم أنْ ترغَبوا عن آبائِكم </br> Ne vous détournez pas de vos pères, car ce serait une forme de mécréance envers eux que de vous détourner d’eux.`,
+  },
 ];
 
 // Bouton haut

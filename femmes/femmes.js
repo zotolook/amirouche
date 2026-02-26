@@ -332,3 +332,52 @@ const ahadithsFemmesAutorite = [
   },
 ];
 
+// 10- L'allaitement de l'adulte
+const souratesFemmesAllaitementAdulte = ["La chasteté", 24,24,      "Maharims", 33,                                    "histoire de Saouda",33,33,];
+const versetsFemmesAllaitementAdulte = ["mot utilisé: khimar", 30,31, "La femme est autorisée à enlever son voile", 55, "Mots utilisé: djilbab et voile", 53,59, ];
+const ahadithsFemmesAllaitementAdulte = [
+  {
+    auteur: "صحيح مسلم",
+    numero: 1453,
+    texte:
+      " فَقالَ النبيُّ صَلَّى اللَّهُ عليه وَسَلَّمَ: أَرْضِعِيهِ، قالَتْ: وَكيفَ أُرْضِعُهُ؟ وَهو رَجُلٌ كَبِيرٌ.",
+    lien: "https://dorar.net/hadith/sharh/21812",
+    autres: "ابن ماجه (1943)، وأحمد (24108)، والحميدي (280)",
+  },
+  {
+    auteur: " ابن ماجه",
+    numero: 1944,
+    texte:
+      " لقد نزلت آيةُ الرَّجمِ، ورضاعةُ الْكبيرِ عشرًا، ولقد كانَ في صحيفةٍ تحتَ سريري، فلمَّا ماتَ رسولُ اللهِ صلَّى الله عليْهِ وسلَّمَ وتشاغلنا بموتِهِ، دخلَ داجنٌ فأَكلَها.",
+    lien: "https://dorar.net/h/Z37Cebfw",
+    autres:
+      "الطبراني في ((المعجم الأوسط)) (7805)، والبيهقي في ((معرفة السنن والآثار)) (15468)",
+  },
+  {
+    auteur: " مسلم",
+    numero: 1452,
+    texte:
+      "انَ فيما أَنزَلَ اللَّهُ عزَّ وجلَّ وقال الحارثُ فيما أُنزِلَ منَ القرآنِ عَشرُ رضعاتٍ معلوماتٍ يحرِّمنَ ثمَّ نُسِخنَ بخمسٍ معلوماتٍ فتوُفِّيَ رسولُ اللَّهِ وهي مِمَّا يُقرَأُ منَ القرآنِ ",
+    lien: "https://dorar.net/hadith/sharh/20239",
+    autres:
+      "أبو داود (2062)، والترمذي بعد حديث (1150)، والنسائي (3307) واللفظ له، وابن ماجه (1942)",
+  },
+
+  {
+    auteur: "Imam Malik  موطأ مالك",
+    numero: "ج2 ص605 ح1265",
+    texte:
+      " فأخذت بذلك عائشة أم المؤمنين فيمن تحب أن يدخل عليها من الرجال فكانت تأمر أختها أم كلثوم بنت أبي بكر الصديق وبنات أخيها أن يرضعن من أحبت أن يدخل عليها من الرجال وأبى سائر أزواج الرسول صلى الله عليه وسلم أن يدخل عليهن بتلك الرضاعة أحد من الناس",
+    lien: "https://dorar.net/h/Z37Cebfw",
+    autres: "Mouwatta'a de l'Imam Mâlik, v.2 p.605 hadith 1265",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 2647,
+    texte: " يا رسولَ اللهِ، إنه أخي مِنَ الرَّضاعةِ",
+    lien: "https://dorar.net/hadith/sharh/33820",
+    autres:
+      "مسلم (1455)، وأبو داود (2058)، والنسائي (3312) واللفظ له، وابن ماجه (1945)، وأحمد (25457)",
+  },
+  
+];
