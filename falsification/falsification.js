@@ -281,14 +281,13 @@ const ahadithsFalsificationVersetsPerdus = [
 
 // 8- Les sept lectures
 const souratesFalsificationSeptLectures = [];
-const versetsFalsificationSeptLectures = [
-    
-];
+const versetsFalsificationSeptLectures = [];
 const ahadithsFalsificationSeptLectures = [
   {
     auteur: "El Boukhari  صحيح  البخاري",
     numero: 6936,
-    texte:" إنَّ هذا القُرْآنَ أُنْزِلَ علَى سَبْعَةِ أحْرُفٍ، فاقْرَؤُوا ما تَيَسَّرَ منه.",
+    texte:
+      " إنَّ هذا القُرْآنَ أُنْزِلَ علَى سَبْعَةِ أحْرُفٍ، فاقْرَؤُوا ما تَيَسَّرَ منه.",
     lien: "https://dorar.net/hadith/sharh/626",
     autres: "مسلم (818)",
   },
@@ -296,12 +295,20 @@ const ahadithsFalsificationSeptLectures = [
 
 // 9- Le coran incomplet
 const souratesFalsificationCoranIncomplet = [
-  "سورة الأحزاب كانت تعدل البقرة",115, 115,1115,
-  " المعوذتين ليستا من كتاب الله", "", 
+  "سورة الأحزاب كانت تعدل البقرة",
+  115,
+  115,
+  1115,
+  " المعوذتين ليستا من كتاب الله",
+  "",
 ];
 const versetsFalsificationCoranIncomplet = [
-  "", 3,4,5,
-  "Pour plus d'infos: voir les ahadiths","voir: Tafsir al-Tabari (Jāmiʿ al-Bayān), au début du tafsīr de سورة الفلق et سورة الناس ",
+  "",
+  3,
+  4,
+  5,
+  "Pour plus d'infos: voir les ahadiths",
+  "voir: Tafsir al-Tabari (Jāmiʿ al-Bayān), au début du tafsīr de سورة الفلق et سورة الناس ",
 ];
 const ahadithsFalsificationCoranIncomplet = [
   {
@@ -336,3 +343,38 @@ const ahadithsFalsificationCoranIncomplet = [
       " مسند أحمد – مسند عبد الله بن مسعودتفسير الطبري – تفسير سورتي الفلق والناس",
   },
 ];
+
+// 10- Les différences entre les corans
+const souratesFalsificationDifferences = [
+  ` <span class="titreDifferences"> أمثلة لِلفروق بين رواية ورش و حفص </span>`,
+  
+  ` <span class="versets">سورة الفاتحة (L’Ouverture) – 1:4 </span>`,
+  ` <span class="versets">  سورة البقرة (La Vache) – 2:125 </span>`,
+  ` <span class="versets">  سورة البقرة (La Vache) – 2:184 </span>`,
+  ` <span class="versets"> سورة الأنبياء (Les Prophètes) – 21:4</span>`,
+  ` <span class="versets"> سورة الزخرف (L’Ornement) – 43:19 </span>`,
+  ` <span class="versets"> سورة الحديد (Le Fer) – 57:24 </span>`,
+  
+  ` <span class="versets"> </span>`,
+  ` <span class="versets"> </span>`,
+  ` <span class="versets"> </span>`,
+  ` <span class="versets"> </span>`,
+  ` <span class="versets"> </span>`,
+];
+const versetsFalsificationDifferences = [
+  ` <span class="titreDifferences">Exemples de dfférences entre Warch et Haf's </span>`,
+  
+  
+  `حفص: <span class="titreDifferences">Maître مَالِكِ</span> يَوْمِ الدِّينِ</br> ورش: <span class="titreDifferences">Roi مَلِكِ</span> يَوْمِ الدِّينِ`,
+  `حفص: <span class="titreDifferences"> وَاتَّخِذُوا</span> مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى</br> ورش: <span class="titreDifferences"> وَاتَّخَذُوا</span> مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى`,
+
+  `حفص: فِدْيَةٌ طَعَامُ <span class="titreDifferences">مِسْكِينٍ  </span> </br> ورش:  فِدْيَةٌ طَعَامُ<span class="titreDifferences"> مَسَاكِينَ</span> `,
+  `حفص: <span class="titreDifferences"> قَالَ</span> رَبِّي يَعْلَمُ</br> ورش: <span class="titreDifferences"> قُلْ</span> رَبِّي يَعْلَمُ`,
+  `حفص: <span class="titreDifferences">عِبَادُ </span> الرَّحْمَٰنِ </br> ورش: <span class="titreDifferences"> عِندَ</span> الرَّحْمَٰنِ`,
+  `حفص:فَإِنَّ اللَّهَ <span class="titreDifferences">هُوَ </span> الْغَنِيُّ الْحَمِيدُ</br> ورش: <span class="titreDifferences"> </span> فَإِنَّ اللَّهَ الْغَنِيُّ الْحَمِيدُ`,
+  `حفص: <span class="titreDifferences"> </span> </br> ورش: <span class="titreDifferences"> </span> `,
+  `حفص: <span class="titreDifferences"> </span> </br> ورش: <span class="titreDifferences"> </span> `,
+  `حفص: <span class="titreDifferences"> </span> </br> ورش: <span class="titreDifferences"> </span> `,
+];
+const ahadithsFalsificationDifferences = [];
+

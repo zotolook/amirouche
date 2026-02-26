@@ -1544,7 +1544,7 @@ function injecteVersets (titreThematique, sourates, versets) {
      let sourate = coran[numeroSourate - 1]
      let verset = sourate[numeroVerset]
   
-      pVerset.innerHTML = `<span class="numeroVerset">  ${numeroVerset}. </span> </br> ${verset}`;
+      pVerset.innerHTML = `<span class="numeroVerset ">  ${numeroVerset}. </span> </br> ${verset}`;
       
     }
   }

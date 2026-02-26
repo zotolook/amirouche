@@ -6,3 +6,13 @@ h3 {
     padding: .2rem;
     margin: 5px;
 }
+
+.titreDifferences {
+color: rgb(245, 167, 167);
+}
+.numeroVerset {
+    color: aliceblue;
+}
+.versets {
+    color: rgb(18, 240, 240);
+}
