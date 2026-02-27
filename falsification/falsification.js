@@ -347,34 +347,76 @@ const ahadithsFalsificationCoranIncomplet = [
 // 10- Les différences entre les corans
 const souratesFalsificationDifferences = [
   ` <span class="titreDifferences"> أمثلة لِلفروق بين رواية ورش و حفص </span>`,
-  
-  ` <span class="versets">سورة الفاتحة (L’Ouverture) – 1:4 </span>`,
-  ` <span class="versets">  سورة البقرة (La Vache) – 2:125 </span>`,
+
+  // 1- Différences de voyelles
+  `<h3 class="titreType"> 1- Différences de voyelles (حركات). (sens différent)</h3>`,
+  ` <span class="versets"> 📖 سورة الفاتحة (L’Ouverture) – 1:4 </span>`,
+  ` <span class="versets">📖 Maryam — سورة مريم — 19:19</span>`,
+  ` <span class="versets"> 📖 سورة البقرة — Al-Baqara (La Vache) 2:184 </span>`,
+
+  // 2- Différences de personne / pronom (ضمائر)
+  `<h3 class="titreType"> 2- Différences de personne / pronom (ضمائر) </h3>`,
+  ` <span class="versets"> 📖 Al Imran — سورة آل عمران — 3:81</span>`,
+  ` <span class="versets"> 📖 Al-Baqara — سورة البقرة — 2:140 </span>`,
+  ` <span class="versets"> 📖 Al-Hijr — سورة الحجر — 15:8 </span>`,
+
+  //3- Différences de mode verbal (impératif / récit)
+  `<h3 class="titreType"> 3) Différences de mode verbal (impératif / récit) </h3>`,
+  ` <span class="versets"> 📖 Al-Anbiya — سورة الأنبياء — 21:4 </span>`,
+  ` <span class="versets"> 📖 سورة البقرة (La Vache) – 2:125 </span>`,
+  ` <span class="versets"> 📖 Sourate آل عمران — Āl-‘Imrān (La Famille d’Imran) 3:146 </span>`,
+
+  // 4- Différences de consonne (lettre différente)
+  `<h3 class="titreType"> 4- Différences de consonne (lettre différente) </h3>`,
+  ` <span class="versets"> 📖 Al-Baqara — سورة البقرة — 2:259 </span>`,
+  ` <span class="versets"> 📖 Az-Zukhruf — سورة الزخرف — 43:19 </span>`,
+
+  // 5- Différence d’ajout ou omission de lettre
+  `<h3 class="titreType"> 5- Différence d’ajout ou omission de lettre </h3>`,
+  ` <span class="versets"> 📖 Al-Baqara — سورة البقرة — 2:125 </span>`,
+
   ` <span class="versets">  سورة البقرة (La Vache) – 2:184 </span>`,
-  ` <span class="versets"> سورة الأنبياء (Les Prophètes) – 21:4</span>`,
-  ` <span class="versets"> سورة الزخرف (L’Ornement) – 43:19 </span>`,
   ` <span class="versets"> سورة الحديد (Le Fer) – 57:24 </span>`,
-  
-  ` <span class="versets"> </span>`,
-  ` <span class="versets"> </span>`,
+
   ` <span class="versets"> </span>`,
   ` <span class="versets"> </span>`,
   ` <span class="versets"> </span>`,
 ];
 const versetsFalsificationDifferences = [
   ` <span class="titreDifferences">Exemples de dfférences entre Warch et Haf's </span>`,
-  
-  
-  `حفص: <span class="titreDifferences">Maître مَالِكِ</span> يَوْمِ الدِّينِ</br> ورش: <span class="titreDifferences">Roi مَلِكِ</span> يَوْمِ الدِّينِ`,
-  `حفص: <span class="titreDifferences"> وَاتَّخِذُوا</span> مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى</br> ورش: <span class="titreDifferences"> وَاتَّخَذُوا</span> مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى`,
+  // 1- Différences de voyelles
+  "",
+  ` Haf's: « Maître du Jour du Jugement » حفص: <span class="titreDifferences"> مَالِكِ</span> يَوْمِ الدِّينِ</br> Warch: « Roi du Jour du Jugement » ورش: <span class="titreDifferences"> مَلِكِ</span> يَوْمِ الدِّينِ`,
+  `Haf's: « afin que Je t’accorde » حفص:  <span class="titreDifferences">  لِأَهَبَ </span> لَكِ  </br> Warch: « afin qu’Il t’accorde » ورش:  <span class="titreDifferences"> لِيَهَبَ</span> لَكِ`,
+  `Haf's: « une compensation, la nourriture d’un pauvre » حفص: فِدْيَةٌ طَعَامُ <span class="titreDifferences">مِسْكِينٍ  </span> </br> Warch: « … la nourriture de pauvres (plusieurs) ورش:  فِدْيَةٌ طَعَامُ<span class="titreDifferences"> مَسَاكِينَ</span> `,
+  // 2- Différences de personne / pronom (ضمائر)
+  "",
+  `Haf's: « Je vous ai donné » حفص: <span class="titreDifferences"> آتَيْتُكُمْ </span>  </br>Warch: « Nous vous avons donné » ورش: <span class="titreDifferences"> آتَيْنَاكُمْ </span> `,
+  `Haf's: « vous dites » حفص: <span class="titreDifferences"> تَقُولُونَ </span> </br>Warch: « ils disent »  ورش: <span class="titreDifferences"> يَقُولُونَ </span> `,
+  `Haf's: « Nous ne faisons pas descendre » حفص: <span class="titreDifferences"> مَا نُنَزِّلُ </span> </br>Warch: « Ils ne descendent pas » ورش: <span class="titreDifferences"> مَا تَنَزَّلُ </span> `,
 
-  `حفص: فِدْيَةٌ طَعَامُ <span class="titreDifferences">مِسْكِينٍ  </span> </br> ورش:  فِدْيَةٌ طَعَامُ<span class="titreDifferences"> مَسَاكِينَ</span> `,
-  `حفص: <span class="titreDifferences"> قَالَ</span> رَبِّي يَعْلَمُ</br> ورش: <span class="titreDifferences"> قُلْ</span> رَبِّي يَعْلَمُ`,
-  `حفص: <span class="titreDifferences">عِبَادُ </span> الرَّحْمَٰنِ </br> ورش: <span class="titreDifferences"> عِندَ</span> الرَّحْمَٰنِ`,
+  // 3- Différences de mode verbal (impératif / récit)
+  "",
+  `Haf's: « Il dit » حفص: <span class="titreDifferences"> قَالَ</span> رَبِّي يَعْلَمُ</br> Warch: « Dis ! » ورش: <span class="titreDifferences"> قُلْ</span> رَبِّي يَعْلَمُ`,
+  `Haf's: « Prenez ! » حفص: <span class="titreDifferences"> وَاتَّخِذُوا</span> مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى</br>Warch: « Ils ont pris » ورش: <span class="titreDifferences"> وَاتَّخَذُوا</span> مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى`,
+  `Haf's: « Combien de prophètes ont combattu avec eux… » حفص: <span class="titreDifferences"> قَاتَلَ </span> مَعَهُ رِبِّيُّونَ كَثِيرٌ </br>Warch: « Combien de prophètes furent tués avec eux… » ورش: <span class="titreDifferences"> قُتِلَ </span> مَعَهُ رِبِّيُّونَ كَثِيرٌ`,
+
+  // 4- Différences de consonne (lettre différente)
+  "",
+  `Haf's: « Nous la reconstituons » حفص: <span class="titreDifferences"> نُنْشِزُهَا </span> </br>Warch: « Nous la ressuscitons / déployons » ورش: <span class="titreDifferences"> نُنْشِرُهَا </span> `,
+  `Haf's: « les serviteurs du Tout Miséricordieux » حفص: <span class="titreDifferences"> عِبَادُ الرَّحْمَٰنِ </span> </br>Warch: « auprès du Tout Miséricordieux » ورش: <span class="titreDifferences"> عِندَ الرَّحْمَٰنِ </span> `,
+
+  // 5- Différence d’ajout ou omission de lettre
+  "",
+  `Haf's:  حفص: <span class="titreDifferences"> </span> </br>Warch:  ورش: <span class="titreDifferences"> </span> `,
+
   `حفص:فَإِنَّ اللَّهَ <span class="titreDifferences">هُوَ </span> الْغَنِيُّ الْحَمِيدُ</br> ورش: <span class="titreDifferences"> </span> فَإِنَّ اللَّهَ الْغَنِيُّ الْحَمِيدُ`,
-  `حفص: <span class="titreDifferences"> </span> </br> ورش: <span class="titreDifferences"> </span> `,
-  `حفص: <span class="titreDifferences"> </span> </br> ورش: <span class="titreDifferences"> </span> `,
-  `حفص: <span class="titreDifferences"> </span> </br> ورش: <span class="titreDifferences"> </span> `,
+
+  `Haf's:  حفص: <span class="titreDifferences"> </span> </br>Warch:  ورش: <span class="titreDifferences"> </span> `,
+  `Haf's:  حفص: <span class="titreDifferences"> </span> </br>Warch:  ورش: <span class="titreDifferences"> </span> `,
+  `Haf's:  حفص: <span class="titreDifferences"> </span> </br>Warch:  ورش: <span class="titreDifferences"> </span> `,
+  `Haf's:  حفص: <span class="titreDifferences"> </span> </br>Warch:  ورش: <span class="titreDifferences"> </span> `,
+  `Haf's:  حفص: <span class="titreDifferences"> </span> </br>Warch:  ورش: <span class="titreDifferences"> </span> `,
 ];
 const ahadithsFalsificationDifferences = [];
 
