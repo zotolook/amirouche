@@ -96,7 +96,7 @@ const ahadithsFemmesIntelligence = [
     texte:
       "اطَّلَعْتُ في النَّارِ فرأَيْتُ أكثَرَ أهلِها النِّساءَ واطَّلَعْتُ في الجنَّةِ فرأَيْتُ أكثَرَ أهلِها الفُقراءَ",
     lien: "https://dorar.net/hadith/sharh/21365",
-    autres: "",
+    autres: "مسلم (2738)",
   },
 ];
 

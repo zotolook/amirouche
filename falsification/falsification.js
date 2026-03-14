@@ -351,7 +351,6 @@ const souratesFalsificationDifferences = [
   // 1- Différences de voyelles
   `<span class="titreType"> 1- Différences de voyelles. (sens différent)</span>`,
   ` <span class="versets"> 📖 سورة الفاتحة (L’Ouverture) – 1:4 </span>`,
-
   ` <span class="versets"> 📖 سورة البقرة — Al-Baqara 2:222 </span>`,
 
   // 2- Différences de personne / pronom (ضمائر)
@@ -401,8 +400,6 @@ const souratesFalsificationDifferences = [
   ` <span class="versets"> 📖 سورة الحج — Al-Ḥajj 22:19 </span>`,
   ` <span class="versets"> 📖 سورة النور — An-Nūr 24:4 </span>`,
   ` <span class="versets"> 📖 سورة سبأ — Saba’ 34:19 </span>`,
-
-  ` <span class="versets"> 📖 </span>`,
 ];
 const versetsFalsificationDifferences = [
   ` <span class="titreDifferences">Exemples de dfférences entre Warch et Haf's </span>`,
@@ -459,8 +456,44 @@ const versetsFalsificationDifferences = [
   `Haf's: « Deux adversaires qui se disputèrent » حفص: خَصْمَانِ <span class="titreDifferences"> اخْتَصَمُوا </span> </br>Warch: « Deux adversaires qui se disputèrent » ورش: خَصْمَانِ <span class="titreDifferences"> اخْتَصَمَا </span> `,
   `Haf's: « avec quatre témoins » حفص: بِأَرْبَعَةِ <span class="titreDifferences"> شُهَدَاءَ </span> </br>Warch: « avec quatre témoins » ورش: بِأَرْبَعَةِ <span class="titreDifferences"> شَهِيدٍ </span> `,
   `Haf's: « entre nos voyages » حفص: بَيْنَ <span class="titreDifferences"> أَسْفَارِنَا </span> </br>Warch: « entre notre voyage » ورش: بَيْنَ <span class="titreDifferences">سَفَرِنَا  </span> `,
-
-  `Haf's:  حفص: <span class="titreDifferences"> </span> </br>Warch:  ورش: <span class="titreDifferences"> </span> `,
 ];
 const ahadithsFalsificationDifferences = [];
 
+// 11- Les erreurs d'orthographe الأخطاء الإملائية
+const souratesFalsificationOrthographe = [
+  ` <span class="versets"> 📖 Sourate 20 (طه), verset 63 </span>`,
+  ` <span class="versets"> 📖 Sourate 5 (المائدة), verset 69 </span>`,
+  ` <span class="versets"> 📖 Sourate 4 (النساء), verset 162 </span>`,
+  ` <span class="versets"> 📖 Sourate 2 (البقرة), verset 43 </span>`,
+  ` <span class="versets"> 📖 Sourate 51 (الذاريات), verset 47 </span>`,
+
+  ` <span class="versets"> 📖 Sourate 2 (البقرة), verset 29 </span>`,
+  ` <span class="versets"> 📖 Sourate 4 (النساء), verset 103 </span>`,
+  ` <span class="versets"> 📖 Sourate 22 – الحج (Al-Ḥajj) Verset 19 </span>`,
+  ` <span class="versets"> 📖 Sourate 2 (البقرة), verset 124 </span>`,
+  ` <span class="versets"> 📖 Sourate 7 (الأعراف), verset 160 </span>`,
+
+  ` <span class="versets"> 📖 Sourate 24 (النور), verset 31 </span>`,
+  ` <span class="versets"> 📖 Sourate 2 (البقرة), verset 177 </span>`,
+  ` <span class="versets"> 📖 </span>`,
+  ` <span class="versets"> 📖 </span>`,
+];
+const versetsFalsificationOrthographe = [
+  ` إِنْ هَذَانِ لَسَاحِرَانِ / <span class="titreDifferences"> إِنَّ هذين لساحرين </span> `,
+  ` وَالصَّابِئُونَ وَالنَّصَارَى / <span class="titreDifferences"> وَالصَّابئينَ وَالنَّصَارَى </span> `,
+  `  وَالْمُقِيمِينَ الصَّلَاةَ / <span class="titreDifferences"> وَالْمُقِيمُونَ الصَّلَاةَ </span> `,
+  ` وَأَقِيمُوا الصَّلْوَةَ وَآتُوا الزَّكْوَةَ / <span class="titreDifferences"> وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ </span> `,
+  ` وَالسَّمَاءَ بَنَيْنَاهَا بِأَيِّيْدٍ / <span class="titreDifferences"> وَالسَّمَاءَ بَنَيْنَاهَا </span> `,
+
+  `  هُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالأَرْضَ وَمَا بَيْنَهُمَا / <span class="titreDifferences"> هُوَ الَّذِي خَلَقَ السَّمَاءَ وَالأَرْضَ وَمَا بَيْنَهُمَا </span> `,
+  ` إِنَّ الصَّلْوَةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا / <span class="titreDifferences"> إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا </span> `,
+  ` هَذَانِ خَصْمَانِ اخْتَصَمُوا / <span class="titreDifferences"> هَذَانِ خَصْمَانِ اخْتَصَمَا </span> `,
+  `  لَا يَنَالُ عَهْدِي الظَّالِمِينَ/ <span class="titreDifferences">  لَا يَنَالُ عَهْدِي الظَّالِمُونَ </span> `,
+  `   اثْنَتَيْ عَشْرَةَ أَسْبَاطًا /  <span class="titreDifferences"> اثْنَتَيْ عَشْرَةَ سِبْطًا </span> `,
+
+  ` أَوِ الطِّفْلِ الَّذِينَ لَمْ يَظْهَرُوا / <span class="titreDifferences"> أَوِ الطِّفْلِ الَّذِي لَمْ يَظْهَرْ</span> `,
+  ` وَالْمُوفُونَ بِعَهْدِهِمْ / <span class="titreDifferences"> وَالْمُوفِينَ بِعَهْدِهِمْ</span> `,
+  `  / <span class="titreDifferences">  </span> `,
+  `  / <span class="titreDifferences">  </span> `,
+];
+const ahadithsFalsificationOrthographe = [];
