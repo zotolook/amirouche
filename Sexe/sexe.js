@@ -73,6 +73,37 @@ const ahadithsSexeAdultere = [
     lien: "https://dorar.net/hadith/sharh/564",
     autres: "مسلم (1697)",
   },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4556,
+    texte:
+      " ... فأمَرَ بهِما فَرُجِما قَرِيبًا مِن حَيْثُ مَوْضِعُ الجَنَائِزِ عِنْدَ المَسْجِدِ، فَرَأَيْتُ صَاحِبَهَا يَحْنِي عَلَيْهَا يَقِيهَا الحِجَارَةَ. ",
+    lien: "https://dorar.net/hadith/sharh/15537",
+    autres: "مسلم (1699)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4556,
+    texte: "  الولدُ للفِراشِ، وللعاهِرِ الحَجَرُ ",
+    lien: "https://dorar.net/hadith/sharh/126374",
+    autres: "مسلم (1458)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3849,
+    texte:
+      "  رَأَيْتُ في الجَاهِلِيَّةِ قِرْدَةً اجْتَمع عَلَيْهَا قِرَدَةٌ، قدْ زَنَتْ، فَرَجَمُوهَا، فَرَجَمْتُهَا معهُمْ. ",
+    lien: "https://dorar.net/hadith/sharh/150656",
+    autres:
+      "ابن أبي خيثمة في ((التاريخ)) (6137)، والخرائطي في ((مساوئ الأخلاق)) (469)، وأبو نعيم الأصبهاني في ((معرفة الصحابة)) (5139)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5270,
+    texte: " فأمَرَ به أنْ يُرْجَمَ بالمُصَلَّى ",
+    lien: "https://dorar.net/h/eOuzTvqp?sims=1",
+    autres: "",
+  },
 ];
 
 // 4. L'histoire du prophète Joseph
@@ -166,4 +197,25 @@ const ahadithsSexeJouissance = [
 const souratesSexeAllaitementAdultes = [];
 const versetsSexeAllaitementAdultes = [];
 const ahadithsSexeAllaitementAdultes = [];
+
+// 11. L'enfant appartient au lit الولد للفراش
+const souratesSexeEnfantLit = [];
+const versetsSexeEnfantLit = [];
+const ahadithsSexeEnfantLit = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4556,
+    texte: "  الولدُ للفِراشِ، وللعاهِرِ الحَجَرُ ",
+    lien: "https://dorar.net/hadith/sharh/126374",
+    autres: "مسلم (1458)",
+  },
+
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 7182,
+    texte: "   أخِي وابنُ ولِيدَةِ أبِي، وُلِدَ علَى فِرَاشِهِ، ",
+    lien: "https://dorar.net/hadith/sharh/8293",
+    autres: "مسلم (1457)",
+  },
+];
 
