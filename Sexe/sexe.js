@@ -1,7 +1,23 @@
 // 1. Cadre du mariage
 const souratesSexeMariage = [];
 const versetsSexeMariage = [];
-const ahadithsSexeMariage = [];
+const ahadithsSexeMariage = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5825,
+    texte: " ... لا حتَّى تذوقي عُسَيْلتَهُ ويذوقَ عُسَيْلتَكِ ... ",
+    lien: "https://dorar.net/hadith/sharh/81456",
+    autres:
+      " مسلم (1433) أبو نعيم الحداد في ((جامع الصحيحين)) (1927) بلفظه، والبيهقي (14416) ",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5825,
+    texte:" إذا دعا أحدُكم امرأتَه إلى فراشِه فأبتْ أنْ تجيءَ لعَنتْها الملائكةُ حتَّى تُصبِحَ ",
+    lien: "https://dorar.net/hadith/sharh/10597",
+    autres: " مسلم (1436)، وأبو داود (2141)، وأحمد (9671) ",
+  },
+];
 
 // 2. La fornication
 const souratesSexeFornication = [4, 4, 17, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 70, 70, 70,];

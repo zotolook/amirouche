@@ -5,8 +5,7 @@ const ahadithsFemmesMariage = [
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 5134,
-    texte:
-      "أنَّ النبيَّ صَلَّى اللهُ عليه وسلَّمَ تَزَوَّجَهَا وهي بنْتُ سِتِّ سِنِينَ، وبَنَى بهَا وهي بنْتُ تِسْعِ سِنِينَ ",
+    texte:"أنَّ النبيَّ صَلَّى اللهُ عليه وسلَّمَ تَزَوَّجَهَا وهي بنْتُ سِتِّ سِنِينَ، وبَنَى بهَا وهي بنْتُ تِسْعِ سِنِينَ ",
     lien: "https://dorar.net/hadith/sharh/15625",
     autres: "مسلم (1422)، وأبو داود (4935)، والنسائي (3379)",
   },
@@ -17,6 +16,7 @@ const ahadithsFemmesMariage = [
     lien: "https://dorar.net/hadith/sharh/85239",
     autres: " أخرجه أبو داود (2085)، والترمذي (1101)، وابن ماجه (1881)",
   },
+
 ];
 
 // 2- le divorce
@@ -97,6 +97,13 @@ const ahadithsFemmesIntelligence = [
       "اطَّلَعْتُ في النَّارِ فرأَيْتُ أكثَرَ أهلِها النِّساءَ واطَّلَعْتُ في الجنَّةِ فرأَيْتُ أكثَرَ أهلِها الفُقراءَ",
     lien: "https://dorar.net/hadith/sharh/21365",
     autres: "مسلم (2738)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5185,
+    texte:"إِنَّ المرأةَ خُلِقَتْ مِنْ ضِلَعٍ ، وإِنَّكَ إِنْ تُرِدْ إِقامَةَ الضِلَعِ تكْسِرُهَا ، فدارِها تَعِشْ بِها",
+    lien: "https://dorar.net/hadith/sharh/70332",
+    autres: "مسلم (1468, 47)",
   },
 ];
 
@@ -224,6 +231,14 @@ const ahadithsFemmesSexe = [
     lien: "https://dorar.net/hadith/sharh/25624",
     autres: "مسلم (1464)، والنسائي (3199)، وابن ماجه (2000)",
   },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3237,
+    texte:
+      " إذا دَعا الرَّجُلُ امرَأتَه إلى فِراشِه فلم تَأتِه، فباتَ غَضبانَ عليها، لَعَنَتها المَلائِكةُ حتَّى تُصبِحَ. ",
+    lien: "https://dorar.net/hadith/sharh/10590",
+    autres: "مسلم (1436)",
+  },
 ];
 
 // 8- le voile
@@ -245,6 +260,13 @@ const ahadithsFemmesVoile = [
 const souratesFemmesAutorite = ["L'homme a autorité sur la femme...", 4,2,];
 const versetsFemmesAutorite = ["L'homme peut frapper son épouse", 34,228,];
 const ahadithsFemmesAutorite = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3006,
+    texte:
+      " لا تُسافِرِ المرأةُ إلَّا مع ذي مَحْرَمٍ، ولا يُدْخَلْ عليها إلَّا ومعها مَحْرَمٌ",
+    lien: "https://dorar.net/hadith/sharh/76155",
+  },
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 3006,
@@ -323,12 +345,28 @@ const ahadithsFemmesAutorite = [
     autres: "",
   },
   {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3237,
+    texte:
+      " إذا دَعا الرَّجُلُ امرَأتَه إلى فِراشِه فلم تَأتِه، فباتَ غَضبانَ عليها، لَعَنَتها المَلائِكةُ حتَّى تُصبِحَ. ",
+    lien: "https://dorar.net/hadith/sharh/10590",
+    autres: "مسلم (1436)",
+  },
+  {
     auteur: "أبو داود (2140)",
     numero: 2141,
     texte:
       "لو كنتُ آمِرًا أحدًا أن يسجدَ لأحدٍ، لأمرتُ المرأةَ أن تسجدَ لزوجِها",
     lien: "https://dorar.net/hadith/sharh/79090",
     autres: "Sunan al-Tirmidhi (1159),  Sunan Ibn Majah (1853)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5185,
+    texte:
+      "إِنَّ المرأةَ خُلِقَتْ مِنْ ضِلَعٍ ، وإِنَّكَ إِنْ تُرِدْ إِقامَةَ الضِلَعِ تكْسِرُهَا ، فدارِها تَعِشْ بِها",
+    lien: "https://dorar.net/hadith/sharh/70332",
+    autres: "مسلم (1468, 47)",
   },
 ];
 
