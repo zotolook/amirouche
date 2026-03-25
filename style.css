@@ -233,7 +233,7 @@ nav {
 
 /* Nombre d'occurences*/
 .pNombre {margin-top: 15px;}
-.numeroVerset, .nombre, .motTrouve {
+.numeroVerset, .nombre, .motTrouve .couleurinfos{
   color: rgb(132, 255, 0);
 }
 
@@ -286,11 +286,6 @@ nav {
   border-radius: 50%;
   background-color: #f95c5c;
 
-}
-
-/*  */ 
-.couleurinfos {
-  color: rgb(73, 248, 9)
 }
 
 /* Bouton fixes haut et bas */

@@ -1,8 +1,6 @@
 let pTitreThematique = document.createElement("p")
 pTitreThematique.setAttribute('class', 'pTitreThematique')
 
-
-
 // - Islam religion unique
 const souratesIslamReligionUnique= [3,3,3,6,9,61,86,86];
 const versetsIslamReligionUnique = [19,85,99,92,33,9,13,14];
@@ -1493,7 +1491,8 @@ function injecteAhadiths(titreThematique, ahadiths) {
     
     let divHadith = document.createElement('div')
     divHadith.setAttribute('class', 'carteHadith')
-  divHadith.innerHTML = `
+    divHadith.innerHTML = `
+  <h4 class = "couleurinfos"> Sujet: ${hadith.sujet} </h3>
   <p> Auteur: ${hadith.auteur} </p>
   <p> Numéro du hadith: ${hadith.numero} </p>
   <p> Résumé du texte: ${hadith.texte} </p>
