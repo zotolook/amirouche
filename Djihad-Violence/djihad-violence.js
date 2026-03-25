@@ -256,22 +256,75 @@ const ahadithsViolenceEnfants = [
 ];
 
 // 5- Exécution des apostats-- >
-const souratesExecutionApostats = [2];
-const versetsExecutionApostats = [217];
+const souratesExecutionApostats = [2,2,2,      3,3,3,3,3,       4,   5,  16,  47,47,47,];
+const versetsExecutionApostats = [217,109,217, 86,87,88,89,90,  137, 54, 106, 25,26,27,];
 const ahadithsExecutionApostats = [
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3017,
+    texte: "مَن بدَّلَ دينَه فاقتُلوهُ",
+    lien: "https://dorar.net/hadith/sharh/5702",
+    autres: "صحيح ابن ماجه | الصفحة أو الرقم : 2070",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6878,
+    texte:
+      "لا يحِلُّ دمُ امرءٍ مسلمٍ إلَّا بإحدَى ثلاثٍ , الزِّنَى , والنَّفسُ بالنَّفسِ , والتَّاركُ لدينِه المفارقُ للجماعةِ",
+    lien: "https://dorar.net/hadith/sharh/73887",
+    autres: "مسلم (1676)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6922,
+    texte: "أُتيَ عَليٌّ رَضيَ اللهُ عنه بزَنادِقةٍ فأحرَقَهم ... ",
+    lien: "https://dorar.net/hadith/sharh/5704",
+    autres: "من أفراد البخاري على مسلم",
+  },
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 1399,
     texte: "واللَّهِ لَأُقَاتِلَنَّ مَن فَرَّقَ بيْنَ الصَّلَاةِ والزَّكَاةِ ",
     lien: "https://dorar.net/hadith/sharh/67078",
-    autres: 1456,
+    autres:
+      "البخاري (7284، 7285)، ومسلم (20)، وأبو داود (1556)، والترمذي (2607) واللفظ له، والنسائي (3970)، وأحمد (117)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4351,
+    texte: "« إني لم أومر أن أنقب عن قلوب الناس ولا أشق بطونهم » ",
+    lien: "https://dorar.net/hadith/sharh/984",
+    autres: "مسلم (1064).",
+  },
+  {
+    auteur: "صحيح النسائي",
+    numero: 4079,
+    texte:
+      "انَ رجلٌ منَ الأنصارِ أسلمَ ثمَّ ارتدَّ ولحقَ بالشِّرْكِ ثمَّ تندَّمَ ",
+    lien: "https://dorar.net/hadith/sharh/85639",
+    autres: "أحمد (2218) بنحوه، والطبري في ((التفسير)) (7360)",
+  },
+  {
+    auteur: "صحيح أبي داود",
+    numero: 4359,
+    texte: " أما كان فيكم رجلٌ رشيدٌ ... عبدُ اللهِ بنُ أبي السَّرحِ",
+    lien: "https://dorar.net/hadith/sharh/30712",
+    autres:
+      " https://tafsir.app/tabari/6/92?utm_source=chatgpt.com النسائي (4067)، والحاكم (4360)",
+    Tabari: "https://tafsir.app/tabari/6/92?utm_source=chatgpt.com",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3518,
+    texte: "دَعْه، لا يَتَحَدَّثُ النَّاسُ أنَّ مُحَمَّدًا يَقتُلُ أصحابَه. ",
+    lien: "https://dorar.net/hadith/sharh/21796",
+    autres: "مسلم (2584).",
   },
 ];
 
 // 6- Couper la main du voleur -->
-
-const souratesCouperMainVoleurs = [];
-const versetsCouperMainVoleurs = [];
+const souratesCouperMainVoleurs = [5, ];
+const versetsCouperMainVoleurs = [38, ];
 const ahadithsCouperMainVoleurs = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -279,6 +332,22 @@ const ahadithsCouperMainVoleurs = [
     texte:
       " والذي نفسُ محمدٍ بيدِه لو أن فاطمةَ بنتَ محمدٍ سَرَقَتْ لقَطَعَتُ يدَها. ",
     lien: "https://dorar.net/hadith/sharh/2028",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 2648,
+    texte:
+      "كانت امرأةٌ مخزوميَّةٌ تستعيرُ المتاعَ وتجحَدُه  فقطع النَّبيُّ صلَّى اللهُ عليه وسلَّم يدَها ...  ",
+    lien: "https://dorar.net/hadith/sharh/33105",
+    autres:
+      " مسلم (1688)، وأبو داود (4397) واللفظ له، والنسائي (4898)، وأحمد (25297) ",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6795,
+    texte: "  أن النبيَّ صلى الله عليه وسلم قَطَعَ يدَ سارقٍ ",
+    lien: "https://dorar.net/hadith/sharh/30720",
+    autres: "مسلم (1686)  أبو داود (4386)  النسائي (4909)",
   },
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -299,12 +368,81 @@ const ahadithsCouperMainVoleurs = [
     texte: " كان يبيعُ نخلَ بني النضيرِ ، ويحبِسُ لأهْلِهِ قوتَ سنتِهم",
     lien: "https://dorar.net/hadith/sharh/24736",
   },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6783,
+    texte:
+      " لعن اللهُ السارقَ يسرقُ البيضةَ فتُقطَعُ يدُه ويسرقُ الحبلَ فتُقطَعُ يدُه ",
+    lien: "https://dorar.net/hadith/sharh/12804",
+    autres: "مسلم (1687)",
+  },
+  {
+    auteur: " أبو داود ",
+    numero: 4410,
+    texte:
+      "  جيءَ بِسارقٍ إلى النَّبيِّ صلَّى اللَّهُ عليهِ وسلَّمَ فَقالَ : اقتُلوهُ ",
+    lien: "https://dorar.net/h/INaGhEMw?osoul=1",
+    autres: " النسائي (4978) ",
+  },
+  {
+    auteur: "  إرواء الغليل",
+    numero: 2425,
+    texte: " لا يُقطعُ السارقُ حتى يشهدَ على نفسه مرتينِ ",
+    lien: "https://dorar.net/h/ka92o90C?osoul=1",
+    autres:
+      " أخرجه البيهقي في ((معرفة السنن والآثار)) (17223) بنحوه، وعبد الرزاق (18783)، والطحاوي في ((معاني الآثار)) (4980) ",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6794,
+    texte:
+      "  أن رسولَ اللهِ صلى الله عليه وسلم قَطَعَ في مَجِنٍّ ثمنُه ثلاثةُ دراهمَ. ",
+    lien: "https://dorar.net/hadith/sharh/15677",
+    autres: "  النسائي (4908)  مسلم (1685)",
+  },
+  {
+    auteur: "صحيح أبي داود",
+    numero: 4394,
+    texte: "  فهلَّا كان هذا قبل أن تأتيَني به ",
+    lien: "https://dorar.net/hadith/sharh/72363",
+    autres: " ابن ماجه (2595) النسائي (4883) ",
+  },
+  {
+    auteur: " الترمذي",
+    numero: 1450,
+    texte: " لا تُقطَعُ الأيدي في الغَزوِ. ",
+    lien: "https://dorar.net/h/3G96HTOC",
+    autres: "  النسائي (4979) ",
+  },
+  {
+    auteur: " صحيح أبي داود ",
+    numero: 4408,
+    texte: "  لا تُقطَعُ الأيدي في السَّفَرِ",
+    lien: "https://dorar.net/hadith/sharh/30811",
+    autres: "  النسائي (4979) الترمذي (1450)، وأحمد (17626)",
+  },
+  {
+    auteur: " صحيح أبي داود ",
+    numero: 4388,
+    texte: " لا قَطْعَ في ثَمَرٍ ولا كَثَرٍ ",
+    lien: "https://dorar.net/hadith/sharh/30728",
+    autres:
+      " الترمذي (1449)، والنسائي (4960)، وابن ماجه (2593)، وأحمد (15804) ",
+  },
+  {
+    auteur: " البدر المنير",
+    numero: 8 / 679,
+    texte: " عن عمرَ رضيَ اللهُ عنهُ أنَّه لا قطْعَ في عامِ المجاعةِ ",
+    lien: "https://dorar.net/h/1Qj8cRvg",
+    autres:
+      "  تاريخ أصبهان (1/162)   ضعف الحديث الألباني في السلسلة الضعيفة (1673)",
+  },
 ];
 
 // 7- Fouettement des fornicateurs et alccol -->
 
-const souratesFouettementFornicateurs = [24];
-const versetsFouettementFornicateurs = [4];
+const souratesFouettementFornicateurs = [4, 24,24,24,24,24,];
+const versetsFouettementFornicateurs = [25, 2,3,4,13,14,];
 const ahadithsFouettementFornicateurs = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -316,6 +454,31 @@ const ahadithsFouettementFornicateurs = [
   },
   {
     auteur: "El Boukhari صحيح البخاري",
+    numero: 2234,
+    texte: " إذا زَنَت أمةُ أحَدِكُم، فتَبَيَّنَ زِناها، فليَجلِدْها الحَدَّ ...",
+    lien: "https://dorar.net/hadith/sharh/15817",
+    autres: " مسلم (1703)",
+  },
+
+  {
+    auteur: "صحيح أبي داود",
+    numero: 4413,
+    texte:
+      " وَاللَّاتِي يَأْتِينَ الْفَاحِشَةَ مِنْ نِسَائِكُمْ فَاسْتَشْهِدُوا عَلَيْهِنَّ أَرْبَعَةً مِنْكُمْ ...",
+    lien: "https://dorar.net/hadith/sharh/126384",
+    autres: " البيهقي (17357)",
+  },
+  {
+    auteur: " الترمذي ",
+    numero: 1438,
+    texte:
+      "أنَّ النَّبيَّ صلَّى اللَّهُ عليهِ وسلَّمَ ضربَ وغرَّب ، وأنَّ أبا بَكرٍ ضربَ وغرَّبَ ، وأنَّ عُمَرَ ضربَ وغرَّبَ ",
+    lien: "https://dorar.net/hadith/sharh/110828",
+    autres: " النسائي في ((السنن الكبرى)) (7342)، والحاكم (8105)",
+  },
+
+  {
+    auteur: "El Boukhari صحيح البخاري",
     numero: 6777,
     texte:
       " أنَّ النبيَّ صَلَّى اللهُ عليه وسلَّمَ ضَرَبَ في الخَمْرِ بالجَرِيدِ والنِّعالِ، وجَلَدَ أبو بَكْرٍ أرْبَعِينَ.",
@@ -325,8 +488,8 @@ const ahadithsFouettementFornicateurs = [
 
 // 8- Lapidation des adultères -->
 
-const souratesLapidationAdulteres = [];
-const versetsLapidationAdulteres = [];
+const souratesLapidationAdulteres = [4,24,24,24,24,115];
+const versetsLapidationAdulteres = [25,6,7,8,9,1];
 const ahadithsLapidationAdulteres = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -337,17 +500,108 @@ const ahadithsLapidationAdulteres = [
   },
   {
     auteur: "El Boukhari صحيح البخاري",
+    numero: 6841,
+    texte:
+      " أنَّ اليَهودَ جاؤوا إلى النَّبيِّ صلَّى اللهُ عليه وسلَّم برَجُلٍ منهم وامرَأةٍ قد زَنَيا ...  فأمَرَ بهِما فرُجِما",
+    lien: "https://dorar.net/hadith/sharh/11200",
+    autres: "أبو داود (4479)، والترمذي (1443)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
     numero: 6840,
     texte:
       " رَجَمَ النبيُّ صَلَّى اللهُ عليه وسلَّمَ فَقُلتُ: أقَبْلَ النُّورِ أمْ بَعْدَهُ؟ قالَ: لا أدْرِي.",
     lien: "https://dorar.net/hadith/sharh/11551",
   },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6830,
+    texte:
+      " فَكانَ فيما أُنزِلَ عليهِ آيةُ الرَّجمِ، فقرأناها ووَعيناها، ورجمَ رسولُ اللَّهِ صلَّى اللَّهُ عليهِ وسلَّمَ، ورجمنا من بعدِهِ ... ",
+    lien: "https://dorar.net/hadith/sharh/36779",
+    autres: " مسلم (1691) أبو داود (4418) أحمد (156)",
+  },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6824,
+    texte:
+      " « أَنَّ مَاعِزَ بْنَ مَالِكٍ أَتَى النَّبِيَّ ﷺ فَأَقَرَّ بِالزِّنَا… فَأَمَرَ بِهِ فَرُجِمَ ",
+    lien: "https://dorar.net/hadith/sharh/139921",
+    autres: "  النسائي (7204)، وأحمد (9809)",
+  },
+  {
+    auteur: " صحيح أبي داود ",
+    numero: 4440,
+    texte:
+      " « أَنَّ امْرَأَةً مِنْ جُهَيْنَةَ أَتَتِ النَّبِيَّ ﷺ وَهِيَ حُبْلَى مِنَ الزِّنَا… فَأَمَرَ بِهَا فَرُجِمَتْ ",
+    lien: "https://dorar.net/hadith/sharh/17250",
+    autres:
+      " مسلم (1696)، والنسائي (1957)، بلفظ مقارب، وابن ماجه (2555)، مختصرا. ",
+  },
+  {
+    auteur: " صحيح مسل ",
+    numero: 1690,
+    texte:
+      " خُذُوا عَنِّي، خُذُوا عَنِّي، قَدْ جَعَلَ اللَّهُ لَهُنَّ سَبِيلًا،البِكْرُ بِالبِكْرِ جَلْدُ مِائَةٍ وَنَفْيُ سَنَةٍ،وَالثَّيِّبُ بِالثَّيِّبِ جَلْدُ مِائَةٍ وَالرَّجْمُ » ",
+    lien: "https://dorar.net/hadith/sharh/17294",
+    autres:
+      "  أحمد (22703)، والنسائي في ((الكبرى)) (7926)، وابن حبان (4443) باختلاف يسير. ",
+  },
+  {
+    auteur: " صحيح البخاري ",
+    numero: 3849,
+    texte:
+      " رَأيتُ في الجاهِليَّةِ قِردةً اجتَمع عليها قِرَدةٌ، قد زَنَت، فرَجَموها، فرَجَمتُها معهُم. ",
+    lien: "https://dorar.net/hadith/sharh/150656",
+    autres:
+      "  ابن أبي خيثمة في ((التاريخ)) (6137)، والخرائطي في ((مساوئ الأخلاق)) (469)، وأبو نعيم الأصبهاني في ((معرفة الصحابة)) (5139) جميعهم باختلاف يسير. ",
+  },
+  {
+    auteur: " صحيح البخاري ",
+    numero: 6633,
+    texte:
+      " ... أما والذي نَفسي بيَدِه، لَأقضيَنَّ بينَكُما بكِتابِ اللهِ،  ... ",
+    lien: "https://dorar.net/hadith/sharh/559",
+    autres: " مسلم  1697  أبو داود (4445)، والترمذي (1433)",
+  },
 ];
 
 // 9- La violence contre les homosexuels -->
-const souratesViolencesHomosexuels = [];
-const versetsViolencesHomosexuels = [];
-const ahadithsViolencesHomosexuels = [];
+const souratesViolenceHomosexuels = [7,7, 11,11,11, 26,26, 27,27, 29,29, 21];
+const versetsViolenceHomosexuels = [80,81, 77,78,79, 165,166, 54,55, 28,29, 74, ];
+const ahadithsViolenceHomosexuels = [
+  {
+    auteur: "صحيح الجامع",
+    numero: 5891,
+    texte: " لَعَنَ اللَّهُ مَنْ عَمِلَ عَمَلَ قَوْمِ لُوطٍ ...",
+    lien: "https://dorar.net/hadith/sharh/116214",
+    autres: " أحمد (1875)  ابن حبان (4417)، والطبراني (11/218) (11546)",
+  },
+  {
+    auteur: "  صحيح الترمذي ",
+    numero: 1457,
+    texte: "  إنَّ أخوَفَ ما أخافُ على أمَّتي من عملِ قومِ لوطٍ",
+    lien: "https://dorar.net/hadith/sharh/72929",
+    autres: " ابن ماجه (2563)، وأحمد (15093) ",
+  },
+
+  {
+    auteur: " صحيح أبي داود",
+    numero: 4462,
+    texte:
+      " مَنْ وجدتُموهُ يعملُ عملَ قومِ لوطٍ ، فاقتلوا الفاعلَ والمفعولَ بهِ",
+    lien: "https://dorar.net/hadith/sharh/120445",
+    autres: " الترمذي (1456)، وابن ماجه (2561)، وأحمد (2732) ",
+  },
+  {
+    auteur: "  التعليقات الرضية",
+    numero: 284,
+    texte: " ينظرُ أعلى بناءٍ في القريةِ ؛ فيرمى به مُنكََّسًا ، ثم يُتْبَعُ الحجارةَ .",
+    lien: "https://dorar.net/h/PNKHTUsX?sims=1",
+    autres: " الراوي : [أبو نضرة المنذر بن مالك] | المحدث : ابن حجر العسقلاني | المصدر : الدراية تخريج أحاديث الهداية الصفحة أو الرقم : 2/103 ",
+    },
+  
+];
 
 // 10- Exécutions
 const souratesDjihadViolencesExecutions = [4, 60];
@@ -448,5 +702,12 @@ const ahadithsDjihadViolencesExecutions = [
       "لَمَّا رَجَعَ النبيُّ صَلَّى اللهُ عليه وسلَّمَ مِنَ الخَنْدَقِ، ووَضَعَ السِّلَاحَ واغْتَسَلَ، أتَاهُ جِبْرِيلُ عليه السَّلَامُ، فَقالَ: قدْ وضَعْتَ السِّلَاحَ؟ واللَّهِ ما وضَعْنَاهُ، فَاخْرُجْ إليهِم قالَ: فَإِلَى أيْنَ؟ قالَ: هَا هُنَا، وأَشَارَ إلى بَنِي قُرَيْظَةَ، فَخَرَجَ النبيُّ صَلَّى اللهُ عليه وسلَّمَ إليهِم ",
     lien: "https://dorar.net/hadith/sharh/21196",
     autres: 4117,
+  },
+  {
+    auteur: "صحيح النسائي",
+    numero: 4078,
+    texte: " اقتُلوهم وإن وجَدتُموهم متَعلِّقينَ بأَستارِ الكَعبةِ ",
+    lien: "https://dorar.net/hadith/sharh/138269",
+    autres: "أبو داود (2683)",
   },
 ];

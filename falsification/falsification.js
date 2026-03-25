@@ -291,6 +291,14 @@ const ahadithsFalsificationSeptLectures = [
     lien: "https://dorar.net/hadith/sharh/626",
     autres: "مسلم (818)",
   },
+  {
+    auteur: "صحيح أبي داود",
+    numero: 1477,
+    texte:
+      " قرأ أبيٌّ آيةً وقرأ ابنُ مسعودٍ آيةً خلافَها وقرأ رجلٌ آخرُ خلافَهُما ...",
+    lien: "https://dorar.net/hadith/sharh/138192",
+    autres: "التمهيد | الصفحة أو الرقم : 8/282",
+  },
 ];
 
 // 9- Le coran incomplet
@@ -393,7 +401,7 @@ const souratesFalsificationDifferences = [
   ` <span class="versets"> 📖 سورة سبأ — Saba’ (Saba) 34:3 </span>`,
   ` <span class="versets"> 📖 سورة الأنعام — Al-An‘ām (Les Bestiaux) 6:124 </span>`,
   ` <span class="versets"> 📖 Sourate البقرة — Al-Baqara 2:285 </span>`,
-  
+
   // 6- Différences / erreurs grammaticales
   `<span  class="titreType"> 6- Différences / erreurs grammaticales </span>`,
   ` <span class="versets"> 📖 سورة الأنبياء — Al-Anbiyā’ 21:105 </span>`,
@@ -497,3 +505,18 @@ const versetsFalsificationOrthographe = [
   `  / <span class="titreDifferences">  </span> `,
 ];
 const ahadithsFalsificationOrthographe = [];
+
+// 12- L'apostasie de Abd ellah ibn sarh
+const souratesFalsificationApostasie = [23,23,23, 6,];
+const versetsFalsificationApostasie = [12,13,14, 93,];
+const ahadithsFalsificationApostasie = [
+  {
+    auteur: "صحيح أبي داود",
+    numero: 4359,
+    texte: " أما كان فيكم رجلٌ رشيدٌ ... عبدُ اللهِ بنُ أبي السَّرحِ",
+    lien: "https://dorar.net/hadith/sharh/30712",
+    autres:
+      " https://tafsir.app/tabari/6/92?utm_source=chatgpt.com النسائي (4067)، والحاكم (4360)",
+    Tabari: "https://tafsir.app/tabari/6/92?utm_source=chatgpt.com",
+  },
+];

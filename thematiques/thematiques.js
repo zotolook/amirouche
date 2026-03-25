@@ -1166,6 +1166,20 @@ const ahadithsSexe = [
     lien: "https://dorar.net/hadith/sharh/9430",
     autres: "مسلم (94)",
   },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6612,
+    texte: " ... إنَّ اللهَ كَتَبَ على ابنِ آدَمَ حَظَّه مِنَ الزِّنا ...",
+    lien: "https://dorar.net/hadith/sharh/64033",
+    autres: " أبو داود (2152) مسلم (2657)",
+  },
+  {
+    auteur: " صحيح النسائي",
+    numero: 7611,
+    texte: " ... قُلْتُ لهما: ما هؤلاء؟ قالا: هُمُ الزُّناةُ والزَّواني. ...",
+    lien: "https://dorar.net/h/Jiy0bALe",
+    autres: " أحمد (20094)، والبزار (4513) ",
+  },
 ]; // Fin sexe
 
 // Histoires des prophètes
