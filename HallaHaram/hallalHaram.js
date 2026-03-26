@@ -210,9 +210,6 @@ const souratesHallalHaramAlimentation = [
     " La nourriture interdite ",2, 5, 6,6, 16,
     " La viande du porc",2,5,6,16,
     " L'alcool",16,2,4,5,5, 
-
-
-
 ];
 const versetsHallalHaramAlimentation = [
     "", 168, 4, 5, 88, 96, 118 ,114, 
@@ -222,5 +219,105 @@ const versetsHallalHaramAlimentation = [
     
 ];
 const ahadithsHallalHaramAlimentation = [
-
+  // Produits hallal
+  {
+    sujet: "Produits de la mer",
+    auteur: " صحيح الترمذي ",
+    numero: 69,
+    texte: " كلُّ ما خرَج مِن البحرِ حلالٌ",
+    lien: "https://dorar.net/hadith/sharh/86657",
+    autres: " أبو داود (83)، وابن ماجه (386)، وأحمد (8720)",
+  },
+  {
+    sujet: "الضب",
+    auteur: " صحيح البخاري",
+    numero: 5391,
+    texte:
+      " قال خالِدُ بنُ الوليدِ: أحَرامٌ الضَّبُّ يا رَسولَ اللهِ؟ قال: لا ",
+    lien: "https://dorar.net/hadith/sharh/86657",
+    autres: " مسلم (1946)",
+  },
+  // Interdits alimentaires
+  {
+    sujet: "Interdits alimentares",
+    auteur: " صحيح مسلم ",
+    numero: 1934,
+    texte:
+      " نهَى رسولُ اللهِ صلَّى اللهُ عليه وسلَّم عن أكلِ كلِّ ذي نابٍ من السِّباعِ وعن كلِّ ذي مِخلَبٍ من الطَّيرِ",
+    lien: "https://dorar.net/hadith/sharh/131062",
+    autres: " الترمذي (1474)، والطبراني (648)",
+  },
+  {
+    sujet: "Interdits alimentares",
+    auteur: " صحيح مسلم ",
+    numero: 1940,
+    texte: " إنَّ اللهَ ورَسوله يَنهَيانِكُم عن لُحومِ الحُمُرِ؛ فإنَّها رِجسٌ",
+    lien: "https://dorar.net/hadith/sharh/25471",
+    autres: " البخاري (4198)",
+  },
+  {
+    sujet: "Interdits alimentares",
+    auteur: " صحيح أبو داود ",
+    numero: 3785,
+    texte:
+      " نهَى النبيُّ عن أكلِ الجلالةِ وألبانِها وفي روايةٍ : نهَى عن ركوبِ جلالةِ الإبلِ",
+    lien: "https://dorar.net/hadith/sharh/119880",
+    autres: " الترمذي (1824)، وابن ماجه (3189) ",
+  },
+  // Alcool
+  {
+    sujet: "L'alcool",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5585,
+    texte: " كلُّ شرابٍ أسكرَ فهو حرامٌ.",
+    lien: "https://dorar.net/hadith/sharh/2072",
+    autres: "مسلم (2001)، وأبو داود (3682)، والترمذي (1863)، والنسائي (559)",
+  },
+  {
+    sujet: "L'alcool",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5575,
+    texte:
+      " مَن شَرِبَ الخَمرَ في الدُّنيا، ثُمَّ لم يَتُبْ مِنها؛ حُرِمَها في الآخِرةِ.",
+    lien: "https://dorar.net/hadith/sharh/34714",
+    autres: " مسلم (2003) ",
+  },
+  // Rituels
+  {
+    sujet: "Rituel alimentaire",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5376,
+    texte: " ... سَمِّ اللهَ، وكُلْ بيَمينِكَ، وكُلْ ممَّا يَليكَ ...",
+    lien: "https://dorar.net/hadith/sharh/130676",
+    autres: " مسلم (2022) ",
+  },
+  {
+    sujet: "Rituel alimentaire",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5376,
+    texte: " ... لا تَشرَبوا في آنيةِ الذَّهَبِ والفِضَّةِ ...",
+    lien: "https://dorar.net/hadith/sharh/12558",
+    autres: " مسلم (2067)  أبو داود (3723) البيهقي (102)",
+  },
+  {
+    sujet: "Rituel alimentaire",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5456,
+    texte:
+      " إذا أكَلَ أحَدُكُم فلا يَمسَحْ يَدَه حتَّى يَلعَقَها أو يُلعِقَها.",
+    lien: "https://dorar.net/hadith/sharh/37253",
+    autres: " مسلم (2031) )",
+  },
+  // Superstition
+  {
+    sujet: "Alimentation & superstition",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5445,
+    texte:
+      " مَن تَصَبَّحَ كُلَّ يَومٍ سَبعَ تَمَراتٍ عَجوةً، لم يَضُرَّه في ذلك اليَومِ سُمٌّ ولا سِحرٌ.",
+    lien: "https://dorar.net/hadith/sharh/20979",
+    autres: " مسلم (2047) ) أبو داود (3876)",
+  },
 ];
+
+// 3. Hallal / Haram / 

@@ -47,7 +47,15 @@ const ahadithsFalsificationAnciensLivres = [];
 // 3- Ordre de révélation
 const souratesFalsificationOrdreRevelation = [96];
 const versetsFalsificationOrdreRevelation = [1];
-const ahadithsFalsificationOrdreRevelation = [];
+const ahadithsFalsificationOrdreRevelation = [
+  {
+    auteur: "El Boukhari  صحيح  البخاري",
+    numero: 3758,
+    texte: " استَقرِئوا القُرآنَ مِن أربَعةٍ",
+    lien: "https://dorar.net/hadith/sharh/1692",
+    autres: "مسلم (2464)",
+  },
+];
 
 // 4- Le prophète oublie le coran
 const souratesFalsificationOubli = [
@@ -285,11 +293,17 @@ const versetsFalsificationSeptLectures = [];
 const ahadithsFalsificationSeptLectures = [
   {
     auteur: "El Boukhari  صحيح  البخاري",
-    numero: 6936,
-    texte:
-      " إنَّ هذا القُرْآنَ أُنْزِلَ علَى سَبْعَةِ أحْرُفٍ، فاقْرَؤُوا ما تَيَسَّرَ منه.",
+    numero: 4992,
+    texte: " إنَّ هذا القُرْآنَ أُنْزِلَ علَى سَبْعَةِ أحْرُفٍ، فاقْرَؤُوا ما تَيَسَّرَ منه.",
     lien: "https://dorar.net/hadith/sharh/626",
     autres: "مسلم (818)",
+  },
+  {
+    auteur: "El Boukhari  صحيح  البخاري",
+    numero: 3743,
+    texte:" هؤلاء يُريدوني على أن أقرَأ: {وما خَلَقَ الذَّكَرَ والأُنثى} واللهِ لا أُتابِعُهم.",
+    lien: "https://dorar.net/hadith/sharh/15430",
+    autres: "مسلم (824)",
   },
   {
     auteur: "صحيح أبي داود",

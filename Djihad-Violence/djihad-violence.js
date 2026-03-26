@@ -530,6 +530,13 @@ const ahadithsLapidationAdulteres = [
     autres: "  النسائي (7204)، وأحمد (9809)",
   },
   {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5271,
+    texte: "  اذهَبوا به فارجُموه. وكان قد أُحصِنَ. ",
+    lien: "https://dorar.net/hadith/sharh/3878",
+    autres: " مسلم (1691) ",
+  },
+  {
     auteur: " صحيح أبي داود ",
     numero: 4440,
     texte:
