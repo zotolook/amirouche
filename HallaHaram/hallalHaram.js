@@ -1,24 +1,63 @@
 // 1. Hallal / Haram / Mariage
 const souratesHallalHaramMariage = [
-    "La polygamie", 4,
-    "Le mariage temporaire",4,60,
-    "La dot obligatoire", 4,
-    "Les femmes interdites", 4,4,
-    "Sexe avec les esclaves", 4,5,23,23,23,23,23,23,23,
-    "Mariage entre fornicateurs (ices)", 24,
-    "Mariage avec les non musulmanes", 2, 5, 60,
-    "Remariage après divorce", 2,
+  "La polygamie",
+  4,
+  "Le mariage temporaire",
+  4,
+  60,
+  "La dot obligatoire",
+  4,
+  "Les femmes interdites",
+  4,
+  4,
+  "Sexe avec les esclaves",
+  4,
+  5,
+  23,
+  23,
+  23,
+  23,
+  23,
+  23,
+  23,
+  "Mariage entre fornicateurs (ices)",
+  24,
+  "Mariage avec les non musulmanes",
+  2,
+  5,
+  60,
+  "Remariage après divorce",
+  2,
 ];
 const versetsHallalHaramMariage = [
-    "", 3,
-    "",24,10,
-    "", 4,
-    "", 22,23,
-    "", 24,5,1,2,3,4,5,6,7,
-    "", 3,
-    "", 221, 5, 10,
-    "",230,
-    
+  "",
+  3,
+  "",
+  24,
+  10,
+  "",
+  4,
+  "",
+  22,
+  23,
+  "",
+  24,
+  5,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  "",
+  3,
+  "",
+  221,
+  5,
+  10,
+  "",
+  230,
 ];
 const ahadithsHallalHaramMariage = [
   // La polygamie
@@ -205,18 +244,58 @@ const ahadithsHallalHaramMariage = [
 
 // 2. Hallal / Haram / Alimentation
 const souratesHallalHaramAlimentation = [
-    
-    " La bonne nourriture ",2,5, 5, 5, 5, 6,16,
-    " La nourriture interdite ",2, 5, 6,6, 16,
-    " La viande du porc",2,5,6,16,
-    " L'alcool",16,2,4,5,5, 
+  " La bonne nourriture ",
+  2,
+  5,
+  5,
+  5,
+  5,
+  6,
+  16,
+  " La nourriture interdite ",
+  2,
+  5,
+  6,
+  6,
+  16,
+  " La viande du porc",
+  2,
+  5,
+  6,
+  16,
+  " L'alcool",
+  16,
+  2,
+  4,
+  5,
+  5,
 ];
 const versetsHallalHaramAlimentation = [
-    "", 168, 4, 5, 88, 96, 118 ,114, 
-    "", 173, 3, 121, 145, 115,
-    "",173,3,145,115,
-    "",67,219,43,90, 91,
-    
+  "",
+  168,
+  4,
+  5,
+  88,
+  96,
+  118,
+  114,
+  "",
+  173,
+  3,
+  121,
+  145,
+  115,
+  "",
+  173,
+  3,
+  145,
+  115,
+  "",
+  67,
+  219,
+  43,
+  90,
+  91,
 ];
 const ahadithsHallalHaramAlimentation = [
   // Produits hallal
@@ -320,4 +399,166 @@ const ahadithsHallalHaramAlimentation = [
   },
 ];
 
-// 3. Hallal / Haram / 
+// 3. Hallal / Haram / Habits
+const souratesHallalHaramHabits = [
+  " Les vêtements en général ",
+  7,
+  7,
+  " Le voile ",
+  24,
+  24,
+  33,
+  33,
+  33,
+  24,
+  33,
+];
+const versetsHallalHaramHabits = ["", 26, 31, "", 30, 31, 33, 53, 59, 60, 55];
+const ahadithsHallalHaramHabits = [
+  {
+    sujet: " Le vêtement blanc recommandé ",
+    auteur: " صحيح أبي داود ",
+    numero: 3878,
+    texte1: " البِسوا من ثيابِكُمُ البياضَ فإنَّها مِن خيرِ ثيابِكُم ",
+    texte2:
+      " Portez des vêtements blancs, car ce sont parmi vos meilleurs vêtements.",
+    lien: "https://dorar.net/hadith/sharh/124154",
+    autres: " الترمذي (994)، وابن ماجه (3566)، وأحمد (3426) ",
+  },
+  {
+    sujet: " Allah est beau ! ",
+    auteur: " صحيح مسلم ",
+    numero: 91,
+    texte1: " ... إنَّ اللهَ جَميلٌ يُحِبُّ الجَمالَ ... ",
+    texte2: "Allah est Beau et Il aime la beauté.",
+    lien: "https://dorar.net/hadith/sharh/26239",
+    autres: " من أفراد مسلم على البخاري ",
+  },
+  {
+    sujet: "عورَةٌ Parties intimes",
+    auteur: " صحيح أبو داود ",
+    numero: 495,
+    texte1: " ما بينَ السُّرَّةِ والرُّكْبَةِ عورَةٌ ",
+    texte2: " Ce qui est entre le nombril et les genoux est une ʿawra.",
+    lien: "https://dorar.net/hadith/sharh/140409",
+    autres: "  أحمد (6756) ",
+  },
+  {
+    sujet: " Vêtements sous les chevilles (izar) ",
+    auteur: " صحيح  البخاري ",
+    numero: 5787,
+    texte1: " ما أسفَلَ مِنَ الكَعبَينِ مِنَ الإزارِ ففي النَّارِ. ",
+    texte2: "Ce qui descend sous les chevilles du vêtement est en Enfer.",
+    lien: "https://dorar.net/hadith/sharh/16342",
+    autres: "   ",
+  },
+  {
+    sujet: " L’orgueil dans le vêtement ",
+    auteur: " صحيح  البخاري ",
+    numero: 3665,
+    texte1: " لا ينظرُ اللهُ يومَ القيامةِ إلى من جرَّ ثوبَه من الخُيلاءِ",
+    texte2:
+      "Allah ne regardera pas celui qui laisse traîner son vêtement par orgueil.",
+    lien: "https://dorar.net/hadith/sharh/4841",
+    autres: " مسلم (2085)  ",
+  },
+  {
+    sujet: " Interdiction de la soie et de l’or aux hommes ",
+    auteur: " صحيح أبي داود ",
+    numero: 3665,
+    texte1:
+      " حُرِّمَ لباسُ الحريرِ والذَّهبِ على ذُكورِ أمَّتي وأُحلَّ لإناثِهم",
+    texte2: "La soie et l’or ont été interdits aux hommes de ma communauté…",
+    lien: "https://dorar.net/hadith/sharh/28058",
+    autres: " أحمد (935) ",
+  },
+  {
+    sujet: " Interdiction des vêtements ostentatoires  شُهْرَةٍ",
+    auteur: " صحيح أبي داود ",
+    numero: 4029,
+    texte1:
+      " مَن لَبِسَ ثوبَ شُهرةٍ في الدُّنيا، ألْبَسَهُ اللهُ ثوبَ مَذلَّةٍ يومَ القيامةِ.",
+    texte2: "",
+    lien: "https://dorar.net/hadith/sharh/88187",
+    autres: " النسائي 9560, ابن ماجه (3607)",
+  },
+  {
+    sujet: " Interdiction de s’envelopper de manière indécente ",
+    auteur: " صحيح البخاري ",
+    numero: 584,
+    texte1:
+      " نَهَى عَنِ اشْتِمَالِ الصَّمَّاءِ وَالِاحْتِبَاءِ فِي ثَوْبٍ وَاحِدٍ",
+    texte2:
+      "Le Prophète a interdit de s’envelopper entièrement dans un seul vêtement (de façon à exposer la ʿawra)",
+    lien: "https://dorar.net/hadith/sharh/7709",
+    autres: " مسلم (825، 1511)",
+  },
+  {
+    sujet: " Interdiction des vêtements teints au safran ",
+    auteur: " صحيح مسلم ",
+    numero: 2078,
+    texte1: " نَهَى النَّبِيُّ ﷺ عَنْ الْمُعَصْفَرِ",
+    texte2: " Le Prophète ﷺ a interdit les vêtements teints au safran",
+    lien: "https://dorar.net/hadith/sharh/34242",
+    autres: " الترمذي (1737)، وأحمد (924)",
+  },
+  {
+    sujet: " Couvrir la ʿawra ",
+    auteur: " صحيح مسلم ",
+    numero: 338,
+    texte1:
+      " لَا يَنْظُرُ الرَّجُلُ إِلَى عَوْرَةِ الرَّجُلِ وَلَا الْمَرْأَةُ إِلَى عَوْرَةِ الْمَرْأَةِ",
+    texte2: " Qu’un homme ne regarde pas la ʿawra d’un autre homme… ",
+    lien: "https://dorar.net/hadith/sharh/21397",
+    autres: " الترمذي(2793) أبو داود (4018)",
+  },
+];
+
+// 4- Le comportement d'un musulman
+const souratesHallalHaramComportements = [
+  
+];
+const versetsHallalHaramComportements = [
+
+];
+const ahadithsHallalHaramComportements = [
+  {
+    sujet: " Interdiction d’imiter le sexe opposé",
+    auteur: " صحيح البخاري",
+    numero: 5886,
+    texte1:
+      " لَعَنَ رَسُولُ اللَّهِ ﷺ الْمُتَشَبِّهِينَ مِنَ الرِّجَالِ بِالنِّسَاءِ",
+    texte2: "Le Messager d’Allah ﷺ a maudit les hommes qui imitent les femmes…",
+    lien: "https://dorar.net/hadith/sharh/15192",
+    autres: " من أفراد البخاري على مسلم",
+  },
+  {
+    sujet: " Couvrir la ʿawra ",
+    auteur: " صحيح مسلم ",
+    numero: 338,
+    texte1:
+      " لَا يَنْظُرُ الرَّجُلُ إِلَى عَوْرَةِ الرَّجُلِ وَلَا الْمَرْأَةُ إِلَى عَوْرَةِ الْمَرْأَةِ",
+    texte2: " Qu’un homme ne regarde pas la ʿawra d’un autre homme… ",
+    lien: "https://dorar.net/hadith/sharh/21397",
+    autres: " الترمذي(2793) أبو داود (4018)",
+  },
+  {
+    sujet: " Couvrir la ʿawra ",
+    auteur: " صحيح الترمذي ",
+    numero: 1173,
+    texte1: " إنَّ المرأةَ عورةٌ ، فإذا خرجتِ استشرفها الشَّيطانُ",
+    texte2:
+      " La femme est ʿawra ; lorsqu’elle sort, le diable la rend séduisante (aux yeux des hommes).",
+    lien: "https://dorar.net/hadith/sharh/119924",
+    autres: "ابن خزيمة (1685)، وابن حبان (5598) ",
+  },
+  {
+    sujet: " Abandonner ce qui est douteux ",
+    auteur: " صحيح الترمذي ",
+    numero: 2518,
+    texte1: " دعْ ما يَريبُكَ إلى ما لا يُريبُكَ فإنَّ الصدقَ طُمأنينةٌ وإنَّ الكذبَ رِيبَةٌ",
+    texte2: " Délaisse ce qui te met dans le doute pour ce qui ne te met pas dans le doute.",
+    lien: "https://dorar.net/hadith/sharh/66595",
+    autres: " النسائي (5711) أحمد (1723)",
+  },
+];
