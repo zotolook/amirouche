@@ -68,8 +68,8 @@ const ahadithsAimerProphete = [
 // Fin aimer le prophète
 
 // C'est beau
-const souratesBeau = [6,6,16,17,17,21,29,31,31,46,49,49,53,53];
-const versetsBeau = [151,152,90,31,35,107,46,14,15,15,6,13,38,39];
+const souratesBeau = [2,3,4,5,         6,  6,  16,17,17,17,21, 25,25,29,31,31,31,41, 46, 49,49,49,49,53,53,83,83,83,];
+const versetsBeau = [83,135,134,1,    151, 152,90,23,31,35,107,63,67,46,14,15,18,34, 15, 6, 11,12,13,38,39, 1,2,3,   ];
 const ahadithsBeau = [
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -77,7 +77,45 @@ const ahadithsBeau = [
     texte: "كُلُّكُمْ رَاعٍ ومَسْؤُولٌ عن رَعِيَّتِهِ ",
     lien: "https://dorar.net/hadith/sharh/66037",
   },
-  
+  {
+    sujet: " La triche ",
+    auteur: " صحيح مسلم ",
+    numero: 102,
+    texte1: " مَن غَشَّ فليسَ مِنِّي. ",
+    texte2: " Celui qui trompe n’est pas des nôtres.",
+    lien: "https://dorar.net/hadith/sharh/60453",
+    autres: " من أفراد مسلم على البخاري",
+  },
+  {
+    sujet: " l’insulte et l’obscénité ",
+    auteur: " صحيح الترمذي ",
+    numero: 1977,
+    texte1:
+      " لَيْسَ الْمُؤْمِنُ بِالطَّعَّانِ وَلَا اللَّعَّانِ وَلَا الْفَاحِشِ",
+    texte2: " Le croyant n’est pas insultant, ni grossier, ni obscène.",
+    lien: "https://dorar.net/hadith/sharh/119924",
+    autres: "أحمد (3839)",
+  },
+  {
+    sujet: " Aimer son frère ",
+    auteur: " صحيح مسلم ",
+    numero: 45,
+    texte1:
+      " لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ ",
+    texte2:
+      "Aucun de vous ne croit vraiment jusqu’à ce qu’il aime pour son frère ce qu’il aime pour lui-même.",
+    lien: "https://dorar.net/hadith/sharh/60453",
+    autres: " البخاري (13) النسائي (5017)",
+  },
+  {
+    sujet: " Importance de l’intention ",
+    auteur: " صحيح مسلم ",
+    numero: 1907,
+    texte1: " إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ ",
+    texte2: "Les actes ne valent que par les intentions.",
+    lien: "https://dorar.net/hadith/sharh/60453",
+    autres: " البخاري (54) أبو داود (2201))",
+  },
 ];// Fin c'est beau
 
 // L'esclavage

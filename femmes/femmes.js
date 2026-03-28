@@ -257,8 +257,14 @@ const ahadithsFemmesVoile = [
 ];
 
 // 9- L'autorité de l'homme sur la femme
-const souratesFemmesAutorite = ["L'homme a autorité sur la femme...", 4,2,];
-const versetsFemmesAutorite = ["L'homme peut frapper son épouse", 34,228,];
+const souratesFemmesAutorite = [
+  "L'homme a autorité sur la femme...", 4,2,
+  "L'homme peut frapper son épouse",4,
+];
+const versetsFemmesAutorite = [
+  " ", 34,228,
+  "",34,
+];
 const ahadithsFemmesAutorite = [
   {
     auteur: "El Boukhari صحيح البخاري",

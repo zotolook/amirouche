@@ -361,6 +361,17 @@ const ahadithsHallalHaramAlimentation = [
     lien: "https://dorar.net/hadith/sharh/34714",
     autres: " مسلم (2003) ",
   },
+  {
+    sujet: " vente d'alcool ",
+    auteur: "  صحيح مسلم",
+    numero: 1581,
+    texte1:
+      " إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَا بَيْعَ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ",
+    texte2:
+      " Allah et Son Messager ont interdit la vente de l’alcool, de la bête morte, du porc et des idoles.",
+    lien: "https://dorar.net/hadith/sharh/118846",
+    autres: " أبو داود (3490)  الترمذي (1297)، والنسائي (4256)",
+  },
   // Rituels
   {
     sujet: "Rituel alimentaire",
@@ -516,12 +527,32 @@ const ahadithsHallalHaramHabits = [
 
 // 4- Le comportement d'un musulman
 const souratesHallalHaramComportements = [
+    "Discipline conjugale", 4,
+    "Réponse au mal", 42,
+    "L'alliance et le désaveu", 5,
+    "Combat et violence", 9,
+    "Autorité et obéissance", 4,
   
 ];
 const versetsHallalHaramComportements = [
-
+    "", 34,
+    "", 40,
+    "", 51,
+    "", 5,
+    "", 59,
 ];
 const ahadithsHallalHaramComportements = [
+  {
+    sujet: " Allah a prescrit des limites",
+    auteur: " الدارقطني",
+    numero: 183 - 4,
+    texte1:
+      " إنَّ اللهَ تعالى فَرَضَ فرائِضَ فلا تُضَيِّعوها، وحَدَّ حُدودًا فلا تَعْتَدوها، وحرَّم أشياءَ فلا تَنْتَهكوها",
+    texte2:
+      "Allah a prescrit des obligations… et interdit des choses, alors ne les transgressez pas…",
+    lien: "https://dorar.net/hadith/sharh/151586",
+    autres: " الحاكم (7114)، والبيهقي (20217)",
+  },
   {
     sujet: " Interdiction d’imiter le sexe opposé",
     auteur: " صحيح البخاري",
@@ -556,9 +587,136 @@ const ahadithsHallalHaramComportements = [
     sujet: " Abandonner ce qui est douteux ",
     auteur: " صحيح الترمذي ",
     numero: 2518,
-    texte1: " دعْ ما يَريبُكَ إلى ما لا يُريبُكَ فإنَّ الصدقَ طُمأنينةٌ وإنَّ الكذبَ رِيبَةٌ",
-    texte2: " Délaisse ce qui te met dans le doute pour ce qui ne te met pas dans le doute.",
+    texte1:
+      " دعْ ما يَريبُكَ إلى ما لا يُريبُكَ فإنَّ الصدقَ طُمأنينةٌ وإنَّ الكذبَ رِيبَةٌ",
+    texte2:
+      " Délaisse ce qui te met dans le doute pour ce qui ne te met pas dans le doute.",
     lien: "https://dorar.net/hadith/sharh/66595",
     autres: " النسائي (5711) أحمد (1723)",
+  },
+  {
+    sujet: " La triche ",
+    auteur: " صحيح مسلم ",
+    numero: 102,
+    texte1: " مَن غَشَّ فليسَ مِنِّي. ",
+    texte2: " Celui qui trompe n’est pas des nôtres.",
+    lien: "https://dorar.net/hadith/sharh/60453",
+    autres: " من أفراد مسلم على البخاري",
+  },
+  {
+    sujet: " l’insulte et l’obscénité ",
+    auteur: " صحيح الترمذي ",
+    numero: 1977,
+    texte1:
+      " لَيْسَ الْمُؤْمِنُ بِالطَّعَّانِ وَلَا اللَّعَّانِ وَلَا الْفَاحِشِ",
+    texte2: " Le croyant n’est pas insultant, ni grossier, ni obscène.",
+    lien: "https://dorar.net/hadith/sharh/119924",
+    autres: "أحمد (3839)",
+  },
+  {
+    sujet: " Aimer son frère ",
+    auteur: " صحيح مسلم ",
+    numero: 45,
+    texte1:
+      " لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ ",
+    texte2:
+      "Aucun de vous ne croit vraiment jusqu’à ce qu’il aime pour son frère ce qu’il aime pour lui-même.",
+    lien: "https://dorar.net/hadith/sharh/60453",
+    autres: " البخاري (13) النسائي (5017)",
+  },
+  {
+    sujet: " Importance de l’intention ",
+    auteur: " صحيح مسلم ",
+    numero: 1907,
+    texte1: " إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ ",
+    texte2: "Les actes ne valent que par les intentions.",
+    lien: "https://dorar.net/hadith/sharh/60453",
+    autres: " البخاري (54) أبو داود (2201))",
+  },
+  {
+    sujet: " Malédiction des imageurs ",
+    auteur: " صحيح مسلم ",
+    numero: 2109,
+    texte1: " إِنَّ أَشَدَّ النَّاسِ عَذَابًا... الَّذِينَ يُصَوِّرُونَ",
+    texte2:
+      "Les gens les plus sévèrement châtiés… sont ceux qui font des images.",
+    lien: "https://dorar.net/hadith/sharh/123620",
+    autres: " النسائي (5364)",
+  },
+  {
+    sujet: " Suivre aveuglément les dirigeants ",
+    auteur: " صحيح مسلم ",
+    numero: 1847,
+    texte1: "تَسْمَعُ وَتُطِيعُ لِلْأَمِيرِ... ",
+    texte2: " Tu écoutes et tu obéis au dirigeant…",
+    lien: "https://dorar.net/hadith/sharh/14801",
+    autres: " ",
+  },
+  {
+    sujet: " Laisser pousser la barbe ",
+    auteur: " صحيح مسلم ",
+    numero: 259,
+    texte1: " أَعْفُوا اللِّحَى وَقُصُّوا الشَّوَارِبَ ",
+    texte2: " Laissez pousser les barbes et taillez les moustaches.",
+    lien: "https://dorar.net/hadith/sharh/1088",
+    autres: "  البخاري (5892)",
+  },
+  {
+    sujet: " La circoncision ",
+    auteur: " صحيح مسلم ",
+    numero: 257,
+    texte1:
+      " الْفِطْرَةُ خَمْسٌ: الْخِتَانُ وَالِاسْتِحْدَادُ وَقَصُّ الشَّارِبِ وَتَقْلِيمُ الْأَظْفَارِ وَنَتْفُ الْإِبْطِ ",
+    texte2:
+      " Cinq choses font partie de la nature : la circoncision, le rasage des poils pubiens, couper la moustache, couper les ongles et épiler les aisselles.",
+    lien: "https://dorar.net/hadith/sharh/73032",
+    autres: "  (البخاري (5889",
+  },
+  {
+    sujet: " Teindre les cheveux blancs ",
+    auteur: "  صحيح الترمذي ",
+    numero: 1752,
+    texte1: " غَيِّرُوا الشَّيْبَ وَلَا تَشَبَّهُوا بِالْيَهُودِ",
+    texte2: " Changez les cheveux blancs et ne ressemblez pas aux juifs.",
+    lien: "https://dorar.net/hadith/sharh/67922",
+    autres: " أحمد (7545) ",
+  },
+  {
+    sujet: " Teindre les cheveux blancs ",
+    auteur: "  صحيح مسلم",
+    numero: 2102,
+    texte1: "اجتَنِبوا السَّوادَ. ",
+    texte2: " Évitez le noir.",
+    lien: "https://dorar.net/hadith/sharh/16984",
+    autres: " من أفراد مسلم على البخاري",
+  },
+  {
+    sujet: " Interdiction de raser partiellement (qaza‘) ",
+    auteur: "  صحيح مسلم",
+    numero: 2120,
+    texte1: " نَهَى رَسُولُ اللَّهِ ﷺ عَنِ الْقَزَعِ",
+    texte2: " Le Messager d’Allah a interdit le rasage partiel des cheveux.",
+    lien: "https://dorar.net/hadith/sharh/62827",
+    autres: "  5920 البخاري",
+  },
+  {
+    sujet: " Interdiction de s’épiler les sourcils ",
+    auteur: "  صحيح مسلم",
+    numero: 2125,
+    texte1: " لَعَنَ اللَّهُ النَّامِصَاتِ وَالْمُتَنَمِّصَاتِ ",
+    texte2: " Allah a maudit celles qui épilent les sourcils…",
+    lien: "https://dorar.net/hadith/sharh/121832",
+    autres: " أبو داود (4170) ",
+  },
+  {
+    sujet: " vente d'alcool ",
+    auteur: "  صحيح مسلم",
+    numero: 1581,
+    texte1:
+      " إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَا بَيْعَ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ",
+    texte2:
+      " Allah et Son Messager ont interdit la vente de l’alcool, de la bête morte, du porc et des idoles.",
+    lien: "https://dorar.net/hadith/sharh/118846",
+    autres: " أبو داود (3490)  الترمذي (1297)، والنسائي (4256)",
   },
 ];
