@@ -67,120 +67,152 @@ const versetsSatan = [
 ];
 const ahadithsSatan = [
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 608,
-    texte:
+    texteArabe:
       " إذا نُودي للصَّلاةِ أدبر الشَّيطانُ له ضُراطٌ حتَّى لا يسمَعَ النِّداءَ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/62780",
     autres: "مسلم (389)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 1232,
-    texte:
+    texteArabe:
       "إنَّ أحَدَكُمْ إذَا قَامَ يُصَلِّي جَاءَ الشَّيْطَانُ، فَلَبَسَ عليه حتَّى لا يَدْرِيَ كَمْ صَلَّى",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/63747",
     autres: "مسلم (389)، وأبو داود (1030)، وابن خزيمة (1020)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 1629,
-    texte:
+    texteArabe:
       "ثلاثُ ساعاتٍ كانَ رسولُ اللَّهِ صلَّى اللَّهُ عليهِ وسلَّمَ يَنهانا أن نصلِّيَ فيهنَّ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/34109",
     autres: " النسائي (565) واللفظ له، وأخرجه مسلم (831) باختلاف يسير",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 2311,
-    texte:
+    texteArabe:
       "وَكَّلَني رسولُ اللَّهِ صلَّى اللَّهُ عليهِ وسلَّمَ بحفظِ زَكاةِ رمضانَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/80989",
     autres:
       "النسائي في ((السنن الكبرى)) (10795)، وابن خزيمة (2424) باختلاف يسير، والبيهقي في ((شعب الإيمان)) (2170)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3104,
-    texte:
+    texteArabe:
       "الفِتْنَةُ هَا هُنَا الفِتْنَةُ هَا هُنَا، مِن حَيْثُ يَطْلُعُ قَرْنُ الشَّيْطَانِ، - أوْ قالَ: قَرْنُ الشَّمْسِ -.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/2961",
     autres: "مسلم (2905) ",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3292,
-    texte:
+    texteArabe:
       " الرُّؤْيا الصَّالِحَةُ مِنَ اللَّهِ، والحُلُمُ مِنَ الشَّيْطانِ، فإذا حَلَمَ أحَدُكُمْ حُلُمًا يَخافُهُ فَلْيَبْصُقْ عن يَسارِهِ، ولْيَتَعَوَّذْ باللَّهِ مِن شَرِّها، فإنَّها لا تَضُرُّهُ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/1580",
     autres: "مسلم (2261) ",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3303,
-    texte:
+    texteArabe:
       " إذا سمعتُم صِياحَ الدِّيكةِ فسَلُوا الله تعالى من فَضْلِه؛ فإنَّها رأت مَلَكًا، وإذا سمعتُم نهيقَ الحِمارِ فتعَوَّذوا بالله من الشَّيطانِ؛ فإنَّها رأت شيطانًا",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10511",
     autres: " , الترمذي (3459) مسلم (2729) ",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 5623,
-    texte:
+    texteArabe:
       " إِذَا كانَ جُنْحُ اللَّيْلِ، أَوْ أَمْسَيْتُمْ، فَكُفُّوا صِبْيَانَكُمْ، فإنَّ الشَّيْطَانَ يَنْتَشِرُ حِينَئِذٍ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10191",
     autres: "مسلم (2012) ",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 461,
-    texte:
+    texteArabe:
       " إنَّ عِفْرِيتًا مِنَ الجِنِّ جَعَلَ يَفْتِكُ عَلَيَّ البارِحَةَ، لِيَقْطَعَ عَلَيَّ الصَّلاةَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/12321",
     autres: "مسلم (541) ",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 1142,
-    texte:
+    texteArabe:
       " يَعْقِدُ الشَّيْطَانُ علَى قَافِيَةِ رَأْسِ أَحَدِكُمْ إذَا هو نَامَ ثَلَاثَ عُقَدٍ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/9600",
     autres: "مسلم (776)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 6223,
-    texte: "  إنَّ اللهَ يُحِبُّ العُطاسَ ويكرَهُ التَّثاؤبَ",
+    texteArabe: "  إنَّ اللهَ يُحِبُّ العُطاسَ ويكرَهُ التَّثاؤبَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/15100",
     autres: "أبو داود (5028)، والترمذي (2746)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3295,
-    texte:
+    texteArabe:
       " إذا استيقظ أحدُكم من منامِه فتوضَّأَ فلْيَسْتَنْثِرْ ثلاثَ مراتٍ ، فإنَّ الشيطانَ يبِيتُ على خياشيمِه ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/3551",
     autres: "مسلم (238)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3303,
-    texte:
+    texteArabe:
       "  إذا سمعتُم صِياحَ الدِّيكةِ فسَلُوا الله تعالى من فَضْلِه؛ فإنَّها رأت مَلَكًا، وإذا سمعتُم نهيقَ الحِمارِ فتعَوَّذوا بالله من الشَّيطانِ؛ فإنَّها رأت شيطانًا",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10511",
     autres: "مسلم (2729)، والترمذي (3459)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3431,
-    texte: " ما مِن بَنِي آدَمَ مَوْلُودٌ إلَّا يَمَسُّهُ الشَّيْطَانُ حِينَ يُولَدُ",
+    texteArabe:
+      " ما مِن بَنِي آدَمَ مَوْلُودٌ إلَّا يَمَسُّهُ الشَّيْطَانُ حِينَ يُولَدُ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/63283",
     autres: "مسلم (2366)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 5165,
-    texte:" أَمَا لو أنَّ أحَدَهُمْ يَقولُ حِينَ يَأْتي أهْلَهُ: باسْمِ اللَّهِ، اللَّهُمَّ جَنِّبْنِي الشَّيْطانَ",
+    texteArabe:
+      " أَمَا لو أنَّ أحَدَهُمْ يَقولُ حِينَ يَأْتي أهْلَهُ: باسْمِ اللَّهِ، اللَّهُمَّ جَنِّبْنِي الشَّيْطانَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/134166",
     autres: "مسلم (1434)",
   },
@@ -207,37 +239,48 @@ const versetsAnges = [
 ];
 const ahadithsAnges = [
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3992,
-    texte: "مَنْ شهِدَ بدْرًا من الملائِكةِ همْ عِندَنا خِيارُ الملائِكةِ ",
+    texteArabe:
+      "مَنْ شهِدَ بدْرًا من الملائِكةِ همْ عِندَنا خِيارُ الملائِكةِ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10482",
     autres: "ابن ماجه (160)، وأحمد (15820)، وابن أبي شيبة (37886)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3995,
-    texte: " هذا جبريلُ آخِذٌ برأْسِ فرَسِهِ ، عليه أداةُ الحرْبِ ",
+    texteArabe: " هذا جبريلُ آخِذٌ برأْسِ فرَسِهِ ، عليه أداةُ الحرْبِ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/68773",
     autres: "الطبراني (11/ 342) (11952)، والبيهقي في ((دلائل النبوة)) (3/ 54)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3232,
-    texte: " رأيتُ جبريلَ لهُ سِتُّمِائةِ جَناحٍ",
+    texteArabe: " رأيتُ جبريلَ لهُ سِتُّمِائةِ جَناحٍ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/141412",
     autres: "مسلم (174)",
   },
   {
+    sujet: "",
     auteur: "صحيح البخاري",
     numero: 3217,
-    texte: " يا عَائِشَةُ هذا جِبْرِيلُ يَقْرَأُ عَلَيْكِ السَّلَامَ ",
+    texteArabe: " يا عَائِشَةُ هذا جِبْرِيلُ يَقْرَأُ عَلَيْكِ السَّلَامَ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/4740",
     autres: "مسلم (2447)، وأبو داود (5232)، والنسائي (3953)",
   },
   {
+    sujet:"",
     auteur: "El Boukhari صحيح البخاري",
     numero: 6443,
-    texte: ".مَن مات من أُمَّتِكَ لا يُشرِكُ باللهِ شيئًا دخل الجنَّةَ",
+    texteArabe: ".مَن مات من أُمَّتِكَ لا يُشرِكُ باللهِ شيئًا دخل الجنَّةَ",
+     texteFrancais:"",
     lien: "https://dorar.net/hadith/sharh/9430",
     autres: "مسلم (94)",
   },

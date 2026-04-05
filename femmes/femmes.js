@@ -3,20 +3,24 @@ const souratesFemmesMariage = ["La polygamie", 4, "mariage avec non-musulmans",2
 const versetsFemmesMariage = ["", 3, "", 221, "", 23, "", 25,"", 127,"", 2,4];
 const ahadithsFemmesMariage = [
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5134,
-    texte:"أنَّ النبيَّ صَلَّى اللهُ عليه وسلَّمَ تَزَوَّجَهَا وهي بنْتُ سِتِّ سِنِينَ، وبَنَى بهَا وهي بنْتُ تِسْعِ سِنِينَ ",
+    texteArabe:
+      "أنَّ النبيَّ صَلَّى اللهُ عليه وسلَّمَ تَزَوَّجَهَا وهي بنْتُ سِتِّ سِنِينَ، وبَنَى بهَا وهي بنْتُ تِسْعِ سِنِينَ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/15625",
     autres: "مسلم (1422)، وأبو داود (4935)، والنسائي (3379)",
   },
   {
+    sujet: "",
     auteur: "أبو داود (2085)",
     numero: 2085,
-    texte: "لا نِكاحَ إلَّا بوليٍّ. ",
+    texteArabe: "لا نِكاحَ إلَّا بوليٍّ. ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/85239",
     autres: " أخرجه أبو داود (2085)، والترمذي (1101)، وابن ماجه (1881)",
   },
-
 ];
 
 // 2- le divorce
@@ -24,10 +28,12 @@ const souratesFemmesDivorce = ["Le divorce avant consommation", 2,2, "La médiat
 const versetsFemmesDivorce = ["", 236,237,                            "",35,                            "", 229,230,                    "", 228,                                     "",4,                                  "", 231,232, 1,2,3,6,7,                             ];
 const ahadithsFemmesDivorce = [
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 2639,
-    texte:
+    texteArabe:
       "أتريدينَ أن ترجِعي إلى رفاعةَ لا حتَّى تذوقي عُسَيلتَهُ ويذوقَ عُسَيلتَكِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/112150",
     autres: "",
   },
@@ -38,11 +44,14 @@ const souratesFemmesHeritage = ["La femme hérite la moitié de l'homme !", 4,4,
 const versetsFemmesHeritage = ["", 11,176, ];
 const ahadithsFemmesHeritage = [
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 6737,
-    texte:
+    texteArabe:
       "  ألحِقوا الفرائضَ بأصحابِها، فما أبقَت الفرائضُ فلأَولَى رجُلٍ ذَكَرٍ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/85399",
+    autres:"",
   },
 ];
 
@@ -51,36 +60,52 @@ const souratesFemmesIntelligence = ["la création",4, "Le témoignage", 2, ];
 const versetsFemmesIntelligence = ["",1,              "", 282, ];
 const ahadithsFemmesIntelligence = [
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 29,
-    texte: " أُرِيتُ النَّارَ فَإِذَا أكْثَرُ أهْلِهَا النِّسَاءُ، يَكْفُرْنَ",
+    texteArabe:
+      " أُرِيتُ النَّارَ فَإِذَا أكْثَرُ أهْلِهَا النِّسَاءُ، يَكْفُرْنَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/3118",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 304,
-    texte: " ما رَأَيْتُ مِن نَاقِصَاتِ عَقْلٍ ودِينٍ",
+    texteArabe: " ما رَأَيْتُ مِن نَاقِصَاتِ عَقْلٍ ودِينٍ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/26045",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: " صحيح مسلم",
     numero: 79,
-    texte:
+    texteArabe:
       "ما رأيتُ من ناقصاتِ عقلٍ ودينٍ أسلب لِلُبِّ الرَّجُلِ الحازِمِ منكن",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/68487",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4425,
-    texte: "لن يُفْلِحَ قومٌ ولَّوْا أمرَهَمُ امرأَةً",
+    texteArabe: "لن يُفْلِحَ قومٌ ولَّوْا أمرَهَمُ امرأَةً",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/68355",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5195,
-    texte:
+    texteArabe:
       "لا تَصُمِ المَرْأَةُ وبَعْلُها شاهِدٌ إلَّا بإذْنِهِ، ولا تَأْذَنْ في بَيْتِهِ وهو شاهِدٌ إلَّا بإذْنِهِ، وما أنْفَقَتْ مِن كَسْبِهِ مِن غيرِ أمْرِهِ، فإنَّ نِصْفَ أجْرِهِ له.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/13201",
+    autres: "",
   },
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -91,17 +116,22 @@ const ahadithsFemmesIntelligence = [
     autres: "5197. dorar:67314",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3241,
-    texte:
+    texteArabe:
       "اطَّلَعْتُ في النَّارِ فرأَيْتُ أكثَرَ أهلِها النِّساءَ واطَّلَعْتُ في الجنَّةِ فرأَيْتُ أكثَرَ أهلِها الفُقراءَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/21365",
     autres: "مسلم (2738)",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5185,
-    texte:"إِنَّ المرأةَ خُلِقَتْ مِنْ ضِلَعٍ ، وإِنَّكَ إِنْ تُرِدْ إِقامَةَ الضِلَعِ تكْسِرُهَا ، فدارِها تَعِشْ بِها",
+    texteArabe:
+      "إِنَّ المرأةَ خُلِقَتْ مِنْ ضِلَعٍ ، وإِنَّكَ إِنْ تُرِدْ إِقامَةَ الضِلَعِ تكْسِرُهَا ، فدارِها تَعِشْ بِها",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/70332",
     autres: "مسلم (1468, 47)",
   },
@@ -112,18 +142,22 @@ const souratesFemmesEsclaves = ["Le sexe est permis avec les esclaves sans maria
 const versetsFemmesEsclaves = ["", 24,5,6, 29,30, ];
 const ahadithsFemmesEsclaves = [
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5210,
-    texte:
+    texteArabe:
       "أَصَبْنَا سَبْيًا، فَكُنَّا نَعْزِلُ، فَسَأَلْنَا رَسولَ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ، فَقالَ: أوَإنَّكُمْ لَتَفْعَلُونَ - قالَهَا ثَلَاثًا - ما مِن نَسَمَةٍ كَائِنَةٍ إلى يَومِ القِيَامَةِ إلَّا هي كَائِنَةٌ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/11752",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4942,
-    texte:
+    texteArabe:
       "يَعْمِدُ أحَدُكُمْ، فَيَجْلِدُ امْرَأَتَهُ جَلْدَ العَبْدِ، فَلَعَلَّهُ يُضَاجِعُهَا مِن آخِرِ يَومِهِ. ثُمَّ وعَظَهُمْ في ضَحِكِهِمْ مِنَ الضَّرْطَةِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/207882",
     autres: "",
   },
@@ -134,36 +168,50 @@ const souratesFemmesComparaison = ["La femme ... débile !",4, "La femme ... dia
 const versetsFemmesComparaison= ["", 5,                   "", 117,                       "",6,                              "", 223,];
 const ahadithsFemmesComparaison = [
   {
+    sujet: "",
     auteur: "صحيح مسلم",
     numero: 510,
-    texte: "  يَقطعُ الصَّلاةَ ، المرأةُ ، والحمارُ ، والكَلبُ الأسوَدُ .",
+    texteArabe: "  يَقطعُ الصَّلاةَ ، المرأةُ ، والحمارُ ، والكَلبُ الأسوَدُ .",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/77949",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 511,
-    texte: " لقَدْ جَعَلْتُمُونَا كِلَابًا!",
+    texteArabe: " لقَدْ جَعَلْتُمُونَا كِلَابًا!",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/11981",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 2858,
-    texte: "إنَّما الشُّؤمُ في ثَلاثةٍ: في المرأَةِ والدَّارِ والدَّابَّةِ",
+    texteArabe:
+      "إنَّما الشُّؤمُ في ثَلاثةٍ: في المرأَةِ والدَّارِ والدَّابَّةِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/77765",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5753,
-    texte:
+    texteArabe:
       "لا عَدْوَى ولا طِيَرَةَ وإنَّما الشُّؤْمُ في ثَلاثَةٍ: المَرْأَةِ، والْفَرَسِ، والدَّارِ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10085",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4942,
-    texte:
+    texteArabe:
       "يَعْمِدُ أحَدُكُمْ، فَيَجْلِدُ امْرَأَتَهُ جَلْدَ العَبْدِ، فَلَعَلَّهُ يُضَاجِعُهَا مِن آخِرِ يَومِهِ. ثُمَّ وعَظَهُمْ في ضَحِكِهِمْ مِنَ الضَّرْطَةِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/207882",
     autres: "",
   },
@@ -174,68 +222,90 @@ const souratesFemmesSexe = [2, "Période de privation de sexe avec l'épouse",2,
 const versetsFemmesSexe = [223, "",226,227, "", 24, ];
 const ahadithsFemmesSexe = [
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4615,
-    texte:
+    texteArabe:
       "نَّا نَغْزُو مع النَّبيِّ صلَّى اللهُ عليه وسلَّم وليسَ معنَا نِسَاءٌ، فَقُلْنَا: ألَا نَخْتَصِي؟ فَنَهَانَا عن ذلكَ، فَرَخَّصَ لَنَا بَعْدَ ذلكَ أنْ نَتَزَوَّجَ المَرْأَةَ بالثَّوْبِ، ثُمَّ قَرَأَ: {يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُحَرِّمُوا طَيِّبَاتِ مَا أَحَلَّ اللَّهُ لَكُمْ} [المائدة: 87]",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/14580",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3237,
-    texte:
+    texteArabe:
       " إذا دعا أحدُكم امرأتَه إلى فراشِه فأبتْ أنْ تجيءَ لعَنتْها الملائكةُ حتَّى تُصبِحَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10597",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5210,
-    texte:
+    texteArabe:
       "أَصَبْنَا سَبْيًا، فَكُنَّا نَعْزِلُ، فَسَأَلْنَا رَسولَ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ، فَقالَ: أوَإنَّكُمْ لَتَفْعَلُونَ - قالَهَا ثَلَاثًا - ما مِن نَسَمَةٍ كَائِنَةٍ إلى يَومِ القِيَامَةِ إلَّا هي كَائِنَةٌ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/11752",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5240,
-    texte: "لا تُباشِرِ المرأةُ المرأةَ فتَنعتَها لزوجِها كأنَّهُ ينظرُ إليها",
+    texteArabe:
+      "لا تُباشِرِ المرأةُ المرأةَ فتَنعتَها لزوجِها كأنَّهُ ينظرُ إليها",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/73809",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 1800,
-    texte: "إذا أطالَ أحَدُكُمُ الغَيْبَةَ فلا يَطْرُقْ أهْلَهُ لَيْلًا.",
+    texteArabe: "إذا أطالَ أحَدُكُمُ الغَيْبَةَ فلا يَطْرُقْ أهْلَهُ لَيْلًا.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/13452",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 2639,
-    texte:
+    texteArabe:
       "أتريدينَ أن ترجِعي إلى رفاعةَ لا حتَّى تذوقي عُسَيلتَهُ ويذوقَ عُسَيلتَكِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/112150",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3237,
-    texte:
+    texteArabe:
       " إذا دعا أحدُكم امرأتَه إلى فراشِه فأبتْ أنْ تجيءَ لعَنتْها الملائكةُ حتَّى تُصبِحَ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10597",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4788,
-    texte: "أما تَسْتَحِي المَرْأَةُ أنْ تَهَبَ نَفْسَهَا لِلرَّجُلِ",
+    texteArabe: "أما تَسْتَحِي المَرْأَةُ أنْ تَهَبَ نَفْسَهَا لِلرَّجُلِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/25624",
     autres: "مسلم (1464)، والنسائي (3199)، وابن ماجه (2000)",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3237,
-    texte:
+    texteArabe:
       " إذا دَعا الرَّجُلُ امرَأتَه إلى فِراشِه فلم تَأتِه، فباتَ غَضبانَ عليها، لَعَنَتها المَلائِكةُ حتَّى تُصبِحَ. ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10590",
     autres: "مسلم (1436)",
   },
@@ -246,14 +316,14 @@ const souratesFemmesVoile = ["La chasteté", 24,24,      "Maharims", 33,        
 const versetsFemmesVoile = ["mot utilisé: khimar", 30,31, "La femme est autorisée à enlever son voile", 55, "Mots utilisé: djilbab et voile", 53,59, ];
 const ahadithsFemmesVoile = [
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5235,
-    texte: "لا يَدْخُلَنَّ هذا عَلَيْكُنَّ.",
+    texteArabe: "لا يَدْخُلَنَّ هذا عَلَيْكُنَّ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/14199",
     autres: "",
   },
-  
-
 ];
 
 // 9- L'autorité de l'homme sur la femme
@@ -267,110 +337,158 @@ const versetsFemmesAutorite = [
 ];
 const ahadithsFemmesAutorite = [
   {
+    sujet: " Frapper ",
     auteur: "El Boukhari صحيح البخاري",
-    numero: 3006,
-    texte:
-      " لا تُسافِرِ المرأةُ إلَّا مع ذي مَحْرَمٍ، ولا يُدْخَلْ عليها إلَّا ومعها مَحْرَمٌ",
-    lien: "https://dorar.net/hadith/sharh/76155",
+    numero: 2559,
+    texteArabe: "",
+    texteFrancais: " Lorsque l’un de vous frappe, qu’il évite le visage. ",
+    lien: "https://dorar.net/hadith/sharh/43205",
+    autres: "مسلم (2612)",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3006,
-    texte:
+    texteArabe:
       " لا تُسافِرِ المرأةُ إلَّا مع ذي مَحْرَمٍ، ولا يُدْخَلْ عليها إلَّا ومعها مَحْرَمٌ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/76155",
+    autres: "",
   },
   {
+    sujet: "",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3006,
+    texteArabe:
+      " لا تُسافِرِ المرأةُ إلَّا مع ذي مَحْرَمٍ، ولا يُدْخَلْ عليها إلَّا ومعها مَحْرَمٌ",
+    texteFrancais: "",
+    lien: "https://dorar.net/hadith/sharh/76155",
+    autres: "",
+  },
+  {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 1203,
-    texte: "التَّسْبِيحُ لِلرِّجَالِ، والتَّصْفِيقُ لِلنِّسَاءِ.",
+    texteArabe: "التَّسْبِيحُ لِلرِّجَالِ، والتَّصْفِيقُ لِلنِّسَاءِ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/13733",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 362,
-    texte: "لا تَرْفَعْنَ رُؤُوسَكُنَّ حتَّى يَسْتَوِيَ الرِّجَالُ جُلُوسًا.",
+    texteArabe:
+      "لا تَرْفَعْنَ رُؤُوسَكُنَّ حتَّى يَسْتَوِيَ الرِّجَالُ جُلُوسًا.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/22733",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 1864,
-    texte:
+    texteArabe:
       "أَلَّا تُسَافِرَ امْرَأَةٌ مَسِيرَةَ يَوْمَيْنِ لَيْسَ مَعَهَا زَوْجُهَا أَوْ ذُو مَحْرَمٍ، وَلا صَوْمَ يَوْمَيْنِ: الفِطْرِ وَالأَضْحَى، وَلا صَلاةَ بَعْدَ صَلاتَيْنِ: بَعْدَ العَصْرِ حَتَّى تَغْرُبَ الشَّمْسُ، وَبَعْدَ الصُّبْحِ حَتَّى تَطْلُعَ الشَّمْسُ، وَلا تُشَدُّ الرِّحَالُ إِلَّا إِلَى ثَلاثَةِ مَسَاجِدَ: مَسْجِدِ الحَرَامِ، وَمَسْجِدِي، وَمَسْجِدِ الأَقْصَى.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/61335",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5185,
-    texte:
+    texteArabe:
       "إنَّ المرأةَ خُلِقَتْ من ضِلَعٍ ، فإن أقمتَها كسرتَها ، فدارِها تعِشْ بها .",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/61112",
     autres: " البخاري (5185، 5186)، ومسلم (47، 1468)",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5186,
-    texte:
+    texteArabe:
       "واسْتَوْصُوا بالنِّساءِ خَيْرًا؛ فإنَّهُنَّ خُلِقْنَ مِن ضِلَعٍ، وإنَّ أعْوَجَ شَيءٍ في الضِّلَعِ أعْلاهُ، فإنْ ذَهَبْتَ تُقِيمُهُ كَسَرْتَهُ، وإنْ تَرَكْتَهُ لَمْ يَزَلْ أعْوَجَ، فاسْتَوْصُوا بالنِّساءِ خَيْرًا.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/151208",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4425,
-    texte: "لن يُفْلِحَ قومٌ ولَّوْا أمرَهَمُ امرأَةً",
+    texteArabe: "لن يُفْلِحَ قومٌ ولَّوْا أمرَهَمُ امرأَةً",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/68355",
+    autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3377,
-    texte: "لا يضربُ أحدُكم امرأتَه ضربَ الأمةِ ثم يضاجعُها",
+    texteArabe: "لا يضربُ أحدُكم امرأتَه ضربَ الأمةِ ثم يضاجعُها",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/138072",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5237,
-    texte: "قدْ أذِنَ اللَّهُ لَكُنَّ أنْ تَخْرُجْنَ لِحَوائِجِكُنَّ.",
+    texteArabe: "قدْ أذِنَ اللَّهُ لَكُنَّ أنْ تَخْرُجْنَ لِحَوائِجِكُنَّ.",
+
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/25946",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4942,
-    texte:
+    texteArabe:
       "يَعْمِدُ أحَدُكُمْ، فَيَجْلِدُ امْرَأَتَهُ جَلْدَ العَبْدِ، فَلَعَلَّهُ يُضَاجِعُهَا مِن آخِرِ يَومِهِ. ثُمَّ وعَظَهُمْ في ضَحِكِهِمْ مِنَ الضَّرْطَةِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/207882",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3411,
-    texte:
+    texteArabe:
       "كَمَلَ مِنَ الرِّجَالِ كَثِيرٌ، وَلَمْ يَكْمُلْ مِنَ النِّسَاءِ: إِلَّا آسِيَةُ امْرَأَةُ فِرْعَوْنَ، وَمَرْيَمُ بنْتُ عِمْرَانَ، وإنَّ فَضْلَ عَائِشَةَ علَى النِّسَاءِ كَفَضْلِ الثَّرِيدِ علَى سَائِرِ الطَّعَامِ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/20906",
     autres: "",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 3237,
-    texte:
+    texteArabe:
       " إذا دَعا الرَّجُلُ امرَأتَه إلى فِراشِه فلم تَأتِه، فباتَ غَضبانَ عليها، لَعَنَتها المَلائِكةُ حتَّى تُصبِحَ. ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/10590",
     autres: "مسلم (1436)",
   },
   {
+    sujet: "",
     auteur: "أبو داود (2140)",
     numero: 2141,
-    texte:
+    texteArabe:
       "لو كنتُ آمِرًا أحدًا أن يسجدَ لأحدٍ، لأمرتُ المرأةَ أن تسجدَ لزوجِها",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/79090",
     autres: "Sunan al-Tirmidhi (1159),  Sunan Ibn Majah (1853)",
   },
   {
+    sujet: "",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5185,
-    texte:
+    texteArabe:
       "إِنَّ المرأةَ خُلِقَتْ مِنْ ضِلَعٍ ، وإِنَّكَ إِنْ تُرِدْ إِقامَةَ الضِلَعِ تكْسِرُهَا ، فدارِها تَعِشْ بِها",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/70332",
     autres: "مسلم (1468, 47)",
   },
@@ -381,47 +499,56 @@ const souratesFemmesAllaitementAdulte = ["La chasteté", 24,24,      "Maharims",
 const versetsFemmesAllaitementAdulte = ["mot utilisé: khimar", 30,31, "La femme est autorisée à enlever son voile", 55, "Mots utilisé: djilbab et voile", 53,59, ];
 const ahadithsFemmesAllaitementAdulte = [
   {
+    sujet: "",
     auteur: "صحيح مسلم",
     numero: 1453,
-    texte:
+    texteArabe:
       " فَقالَ النبيُّ صَلَّى اللَّهُ عليه وَسَلَّمَ: أَرْضِعِيهِ، قالَتْ: وَكيفَ أُرْضِعُهُ؟ وَهو رَجُلٌ كَبِيرٌ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/21812",
     autres: "ابن ماجه (1943)، وأحمد (24108)، والحميدي (280)",
   },
   {
+    sujet: "",
     auteur: " ابن ماجه",
     numero: 1944,
-    texte:
+    texteArabe:
       " لقد نزلت آيةُ الرَّجمِ، ورضاعةُ الْكبيرِ عشرًا، ولقد كانَ في صحيفةٍ تحتَ سريري، فلمَّا ماتَ رسولُ اللهِ صلَّى الله عليْهِ وسلَّمَ وتشاغلنا بموتِهِ، دخلَ داجنٌ فأَكلَها.",
+    texteFrancais: "",
     lien: "https://dorar.net/h/Z37Cebfw",
     autres:
       "الطبراني في ((المعجم الأوسط)) (7805)، والبيهقي في ((معرفة السنن والآثار)) (15468)",
   },
   {
+    sujet: "",
     auteur: " مسلم",
     numero: 1452,
-    texte:
+    texteArabe:
       "انَ فيما أَنزَلَ اللَّهُ عزَّ وجلَّ وقال الحارثُ فيما أُنزِلَ منَ القرآنِ عَشرُ رضعاتٍ معلوماتٍ يحرِّمنَ ثمَّ نُسِخنَ بخمسٍ معلوماتٍ فتوُفِّيَ رسولُ اللَّهِ وهي مِمَّا يُقرَأُ منَ القرآنِ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/20239",
     autres:
       "أبو داود (2062)، والترمذي بعد حديث (1150)، والنسائي (3307) واللفظ له، وابن ماجه (1942)",
   },
 
   {
+    sujet: "",
     auteur: "Imam Malik  موطأ مالك",
     numero: "ج2 ص605 ح1265",
-    texte:
+    texteArabe:
       " فأخذت بذلك عائشة أم المؤمنين فيمن تحب أن يدخل عليها من الرجال فكانت تأمر أختها أم كلثوم بنت أبي بكر الصديق وبنات أخيها أن يرضعن من أحبت أن يدخل عليها من الرجال وأبى سائر أزواج الرسول صلى الله عليه وسلم أن يدخل عليهن بتلك الرضاعة أحد من الناس",
+    texteFrancais: "",
     lien: "https://dorar.net/h/Z37Cebfw",
     autres: "Mouwatta'a de l'Imam Mâlik, v.2 p.605 hadith 1265",
   },
   {
+    sujet:"",
     auteur: "El Boukhari صحيح البخاري",
     numero: 2647,
-    texte: " يا رسولَ اللهِ، إنه أخي مِنَ الرَّضاعةِ",
+    texteArabe: " يا رسولَ اللهِ، إنه أخي مِنَ الرَّضاعةِ",
+     texteFrancais:"",
     lien: "https://dorar.net/hadith/sharh/33820",
     autres:
       "مسلم (1455)، وأبو داود (2058)، والنسائي (3312) واللفظ له، وابن ماجه (1945)، وأحمد (25457)",
   },
-  
 ];

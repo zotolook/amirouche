@@ -65,8 +65,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " La polygamie",
     auteur: " صحيح أبي داود",
     numero: 2241,
-    texte:
+    texteArabe:
       " سلَمتُ وعندي ثمانِ نسوةٍ، فذَكرتُ ذلِكَ للنَّبيِّ صلَّى اللَّهُ عليْهِ وسلَّم، فقالَ النَّبيُّ صلَّى اللَّهُ عليْهِ وسلَّم: اختَر منْهنَّ أربعًا",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/65840",
     autres: " ابن ماجه (1952)",
   },
@@ -74,8 +75,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " La polygamie",
     auteur: " صحيح أبي داود",
     numero: 2133,
-    texte:
+    texteArabe:
       " مَنْ كانتْ له امرأتان فمال إلى إحداهما جاء يومَ القيامةِ وشِقُّه مائلٌ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/81251",
     autres: " الترمذي (1141)، والنسائي (3942) ابن ماجه (1969)",
   },
@@ -83,8 +85,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " La polygamie",
     auteur: " صحيح البخاري",
     numero: 5215,
-    texte:
+    texteArabe:
       " أنَّ نَبيَّ اللهِ صلَّى اللهُ عليه وسلَّم كان يَطوفُ على نِسائِه في اللَّيلةِ الواحِدةِ، وله يَومَئذٍ تِسعُ نِسوةٍ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/24883",
     autres: " مسلم (309)",
   },
@@ -94,8 +97,9 @@ const ahadithsHallalHaramMariage = [
     sujet: "Le mariage temporaire",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5116,
-    texte:
+    texteArabe:
       "سَمِعْتُ ابْنَ عَبَّاسٍ: سُئِلَ عن مُتْعَةِ النِّسَاءِ فَرَخَّصَ، فَقالَ له مَوْلًى له: إنَّما ذلكَ في الحَالِ الشَّدِيدِ، وفي النِّسَاءِ قِلَّةٌ؟ أوْ نَحْوَهُ، فَقالَ ابنُ عَبَّاسٍ: نَعَمْ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/151313",
     autres: "",
   },
@@ -103,8 +107,9 @@ const ahadithsHallalHaramMariage = [
     sujet: "Le mariage temporaire",
     auteur: "El Boukhari صحيح البخاري",
     numero: 4216,
-    texte:
+    texteArabe:
       "نهى عنْ مُتعةِ النساءِ يومَ خيبرَ ، وعنْ أكلِ لحومِ الحُمُرِ الإنسيِّةِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/116370",
     autres: "مسلم (1407) مالك (503) واللفظ لهم، والترمذي (1794)",
   },
@@ -112,7 +117,8 @@ const ahadithsHallalHaramMariage = [
     sujet: "Le mariage temporaire",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5117,
-    texte: "  إنَّه قد أُذِنَ لَكُم أن تَستَمتِعوا، فاستَمتِعوا. ...",
+    texteArabe: "  إنَّه قد أُذِنَ لَكُم أن تَستَمتِعوا، فاستَمتِعوا. ...",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/116370",
     autres: "مسلم (1405)، وأحمد (16534)، والنسائي في ((السنن الكبرى)) (5514)",
   },
@@ -122,7 +128,8 @@ const ahadithsHallalHaramMariage = [
     sujet: " La dot obligatoire",
     auteur: " صحيح البخاري",
     numero: 5871,
-    texte: "... قد مَلَّكتُكَها بما معك مِنَ القُرآنِ. ...",
+    texteArabe: "... قد مَلَّكتُكَها بما معك مِنَ القُرآنِ. ...",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/20157",
     autres: " مسلم (1425)",
   },
@@ -130,7 +137,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " La dot obligatoire",
     auteur: " صحيح مسلم ",
     numero: 1426,
-    texte: "... فهذا صَداقُ رَسولِ اللهِ صلَّى اللهُ عليه وسلَّم لأزواجِه. ...",
+    texteArabe:
+      "... فهذا صَداقُ رَسولِ اللهِ صلَّى اللهُ عليه وسلَّم لأزواجِه. ...",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/139692",
     autres:
       " أحمد (24626)، والدارمي (2245) باختلاف يسير، وأبو داود (2105) مختصرًا.",
@@ -139,7 +148,8 @@ const ahadithsHallalHaramMariage = [
     sujet: " La dot obligatoire",
     auteur: " صحيح مسلم ",
     numero: 1418,
-    texte: ".أحَقُّ الشُّروطِ أن توفوا به ما استَحلَلتُم به الفُروجَ..",
+    texteArabe: ".أحَقُّ الشُّروطِ أن توفوا به ما استَحلَلتُم به الفُروجَ..",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/139692",
     autres: " أبو داود (2139) واللفظ له، وأخرجه البخاري (2721)",
   },
@@ -147,8 +157,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " La dot obligatoire",
     auteur: " صحيح البخاري",
     numero: 371,
-    texte:
+    texteArabe:
       " أعتقَ رسولُ اللَّهِ صلَّى اللَّهُ عليهِ وسلَّمَ صفيَّةَ وجعلَ عِتقَها صداقَها",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/20157",
     autres: " مسلم (1365)",
   },
@@ -157,7 +168,8 @@ const ahadithsHallalHaramMariage = [
     sujet: " Les femmes interdites",
     auteur: " صحيح البخاري",
     numero: 2645,
-    texte: " يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ النَّسَبِ ",
+    texteArabe: " يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ النَّسَبِ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/16282",
     autres: " مسلم (1447)",
   },
@@ -165,8 +177,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " Les femmes interdites",
     auteur: " صحيح البخاري",
     numero: 5110,
-    texte:
+    texteArabe:
       " لا يُجْمَعُ بَيْنَ المَرْأَةِ وَعَمَّتِهَا، وَلا بَيْنَ المَرْأَةِ وَخَالَتِهَا ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/20833",
     autres: " مسلم (1408)",
   },
@@ -174,8 +187,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " Les femmes interdites",
     auteur: " الطبري",
     numero: 8938,
-    texte:
+    texteArabe:
       " كانَ أهلُ الجاهِليَّةِ يُحَرِّمونَ ما حَرَّمَ اللهُ، إلَّا امرأةَ الأبِ، والجَمعَ بَينَ الأُختَيْنِ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/216239",
     autres: " ابن المنذر في ((التفسير)) (1523) باختلاف يسير",
   },
@@ -185,8 +199,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " Le sexe avec les esclaves",
     auteur: " صحيح البخاري",
     numero: 2542,
-    texte:
+    texteArabe:
       " ما عليكم أن لا تفعَلوا ، ما من نسمةٍ كائنةٍ إلى يومِ القيامةِ إلا وهي كائنةٌ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/64976",
     autres: " مسلم (1438)",
   },
@@ -194,8 +209,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " Le sexe avec les esclaves",
     auteur: " صحيح البخاري",
     numero: 2542,
-    texte:
+    texteArabe:
       " ما عليكم أن لا تفعَلوا ، ما من نسمةٍ كائنةٍ إلى يومِ القيامةِ إلا وهي كائنةٌ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/64976",
     autres: " مسلم (1438)",
   },
@@ -203,7 +219,8 @@ const ahadithsHallalHaramMariage = [
     sujet: " Le sexe avec les esclaves",
     auteur: " صحيح مسلم",
     numero: 1456,
-    texte: " أصبْنا سبيًا من سبيِ أوطاسَ ... ",
+    texteArabe: " أصبْنا سبيًا من سبيِ أوطاسَ ... ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/73574",
     autres: "أحمد (11709) الطبري في ((تفسيره)) (8/153)",
   },
@@ -213,7 +230,8 @@ const ahadithsHallalHaramMariage = [
     sujet: " Le mariage des fornicateurs",
     auteur: " صحيح ابن ماجة",
     numero: 4250,
-    texte: " التَّائِبُ مِنَ الذَّنْبِ كَمَنْ لا ذَنْبَ لهُ ",
+    texteArabe: " التَّائِبُ مِنَ الذَّنْبِ كَمَنْ لا ذَنْبَ لهُ ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/73574",
     autres:
       " ابن ماجه (2055) الطبراني في ((المعجم الكبير )) (10/ 150) (10281 )",
@@ -224,7 +242,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " Le mariage avec des non musulmanes",
     auteur: " مِنَ الإجماعِ ",
     numero: "",
-    texte: " يَحرُمُ نِكاحُ النِّساءِ الكافِراتِ  مِن غَيرِ أهلِ الكِتابِ. ",
+    texteArabe:
+      " يَحرُمُ نِكاحُ النِّساءِ الكافِراتِ  مِن غَيرِ أهلِ الكِتابِ. ",
+    texteFrancais: "",
     lien: "https://dorar.net/feqhia/4272/%D8%A7%D9%84%D9%85%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D9%86%D9%83%D8%A7%D8%AD-%D8%A7%D9%84%D9%83%D9%81%D8%A7%D8%B1-%D9%85%D9%86-%D8%BA%D9%8A%D8%B1-%D8%A3%D9%87%D9%84-%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8",
     autres:
       " الشَّافِعيُّ ، وابنُ المُنذِر ، والبَغَويُّ ، وابنُ قُدامةَ ، والقرطبيُّ ، وابنُ تيميَّةَ  ",
@@ -235,8 +255,9 @@ const ahadithsHallalHaramMariage = [
     sujet: " Le re-mariage après divorce",
     auteur: " صحيح البخاري",
     numero: 5261,
-    texte:
+    texteArabe:
       " إذا طلَّقَ الرَّجُلُ امرَأتَه ثلاثًا لم تَحِلَّ له حتى تَنكِحَ زَوجًا غَيرَه، ويَذوقَ كُلُّ واحدٍ منهما عُسَيلةَ صاحِبِه. ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/137887",
     autres: " مسلم (1433)",
   },
@@ -303,7 +324,8 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Produits de la mer",
     auteur: " صحيح الترمذي ",
     numero: 69,
-    texte: " كلُّ ما خرَج مِن البحرِ حلالٌ",
+    texteArabe: " كلُّ ما خرَج مِن البحرِ حلالٌ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/86657",
     autres: " أبو داود (83)، وابن ماجه (386)، وأحمد (8720)",
   },
@@ -311,8 +333,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "الضب",
     auteur: " صحيح البخاري",
     numero: 5391,
-    texte:
+    texteArabe:
       " قال خالِدُ بنُ الوليدِ: أحَرامٌ الضَّبُّ يا رَسولَ اللهِ؟ قال: لا ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/86657",
     autres: " مسلم (1946)",
   },
@@ -321,8 +344,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Interdits alimentares",
     auteur: " صحيح مسلم ",
     numero: 1934,
-    texte:
+    texteArabe:
       " نهَى رسولُ اللهِ صلَّى اللهُ عليه وسلَّم عن أكلِ كلِّ ذي نابٍ من السِّباعِ وعن كلِّ ذي مِخلَبٍ من الطَّيرِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/131062",
     autres: " الترمذي (1474)، والطبراني (648)",
   },
@@ -330,7 +354,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Interdits alimentares",
     auteur: " صحيح مسلم ",
     numero: 1940,
-    texte: " إنَّ اللهَ ورَسوله يَنهَيانِكُم عن لُحومِ الحُمُرِ؛ فإنَّها رِجسٌ",
+    texteArabe:
+      " إنَّ اللهَ ورَسوله يَنهَيانِكُم عن لُحومِ الحُمُرِ؛ فإنَّها رِجسٌ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/25471",
     autres: " البخاري (4198)",
   },
@@ -338,8 +364,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Interdits alimentares",
     auteur: " صحيح أبو داود ",
     numero: 3785,
-    texte:
+    texteArabe:
       " نهَى النبيُّ عن أكلِ الجلالةِ وألبانِها وفي روايةٍ : نهَى عن ركوبِ جلالةِ الإبلِ",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/119880",
     autres: " الترمذي (1824)، وابن ماجه (3189) ",
   },
@@ -348,7 +375,8 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "L'alcool",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5585,
-    texte: " كلُّ شرابٍ أسكرَ فهو حرامٌ.",
+    texteArabe: " كلُّ شرابٍ أسكرَ فهو حرامٌ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/2072",
     autres: "مسلم (2001)، وأبو داود (3682)، والترمذي (1863)، والنسائي (559)",
   },
@@ -356,8 +384,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "L'alcool",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5575,
-    texte:
+    texteArabe:
       " مَن شَرِبَ الخَمرَ في الدُّنيا، ثُمَّ لم يَتُبْ مِنها؛ حُرِمَها في الآخِرةِ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/34714",
     autres: " مسلم (2003) ",
   },
@@ -365,9 +394,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: " vente d'alcool ",
     auteur: "  صحيح مسلم",
     numero: 1581,
-    texte1:
+    texteArabe:
       " إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَا بَيْعَ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ",
-    texte2:
+    texteFrancais:
       " Allah et Son Messager ont interdit la vente de l’alcool, de la bête morte, du porc et des idoles.",
     lien: "https://dorar.net/hadith/sharh/118846",
     autres: " أبو داود (3490)  الترمذي (1297)، والنسائي (4256)",
@@ -377,7 +406,8 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Rituel alimentaire",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5376,
-    texte: " ... سَمِّ اللهَ، وكُلْ بيَمينِكَ، وكُلْ ممَّا يَليكَ ...",
+    texteArabe: " ... سَمِّ اللهَ، وكُلْ بيَمينِكَ، وكُلْ ممَّا يَليكَ ...",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/130676",
     autres: " مسلم (2022) ",
   },
@@ -385,7 +415,8 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Rituel alimentaire",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5376,
-    texte: " ... لا تَشرَبوا في آنيةِ الذَّهَبِ والفِضَّةِ ...",
+    texteArabe: " ... لا تَشرَبوا في آنيةِ الذَّهَبِ والفِضَّةِ ...",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/12558",
     autres: " مسلم (2067)  أبو داود (3723) البيهقي (102)",
   },
@@ -393,8 +424,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Rituel alimentaire",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5456,
-    texte:
+    texteArabe:
       " إذا أكَلَ أحَدُكُم فلا يَمسَحْ يَدَه حتَّى يَلعَقَها أو يُلعِقَها.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/37253",
     autres: " مسلم (2031) )",
   },
@@ -403,8 +435,9 @@ const ahadithsHallalHaramAlimentation = [
     sujet: "Alimentation & superstition",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5445,
-    texte:
+    texteArabe:
       " مَن تَصَبَّحَ كُلَّ يَومٍ سَبعَ تَمَراتٍ عَجوةً، لم يَضُرَّه في ذلك اليَومِ سُمٌّ ولا سِحرٌ.",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/20979",
     autres: " مسلم (2047) ) أبو داود (3876)",
   },
@@ -430,8 +463,8 @@ const ahadithsHallalHaramHabits = [
     sujet: " Le vêtement blanc recommandé ",
     auteur: " صحيح أبي داود ",
     numero: 3878,
-    texte1: " البِسوا من ثيابِكُمُ البياضَ فإنَّها مِن خيرِ ثيابِكُم ",
-    texte2:
+    texteArabe: " البِسوا من ثيابِكُمُ البياضَ فإنَّها مِن خيرِ ثيابِكُم ",
+    texteFrancais:
       " Portez des vêtements blancs, car ce sont parmi vos meilleurs vêtements.",
     lien: "https://dorar.net/hadith/sharh/124154",
     autres: " الترمذي (994)، وابن ماجه (3566)، وأحمد (3426) ",
@@ -440,8 +473,8 @@ const ahadithsHallalHaramHabits = [
     sujet: " Allah est beau ! ",
     auteur: " صحيح مسلم ",
     numero: 91,
-    texte1: " ... إنَّ اللهَ جَميلٌ يُحِبُّ الجَمالَ ... ",
-    texte2: "Allah est Beau et Il aime la beauté.",
+    texteArabe: " ... إنَّ اللهَ جَميلٌ يُحِبُّ الجَمالَ ... ",
+    texteFrancais: "Allah est Beau et Il aime la beauté.",
     lien: "https://dorar.net/hadith/sharh/26239",
     autres: " من أفراد مسلم على البخاري ",
   },
@@ -449,8 +482,8 @@ const ahadithsHallalHaramHabits = [
     sujet: "عورَةٌ Parties intimes",
     auteur: " صحيح أبو داود ",
     numero: 495,
-    texte1: " ما بينَ السُّرَّةِ والرُّكْبَةِ عورَةٌ ",
-    texte2: " Ce qui est entre le nombril et les genoux est une ʿawra.",
+    texteArabe: " ما بينَ السُّرَّةِ والرُّكْبَةِ عورَةٌ ",
+    texteFrancais: " Ce qui est entre le nombril et les genoux est une ʿawra.",
     lien: "https://dorar.net/hadith/sharh/140409",
     autres: "  أحمد (6756) ",
   },
@@ -458,8 +491,8 @@ const ahadithsHallalHaramHabits = [
     sujet: " Vêtements sous les chevilles (izar) ",
     auteur: " صحيح  البخاري ",
     numero: 5787,
-    texte1: " ما أسفَلَ مِنَ الكَعبَينِ مِنَ الإزارِ ففي النَّارِ. ",
-    texte2: "Ce qui descend sous les chevilles du vêtement est en Enfer.",
+    texteArabe: " ما أسفَلَ مِنَ الكَعبَينِ مِنَ الإزارِ ففي النَّارِ. ",
+    texteFrancais: "Ce qui descend sous les chevilles du vêtement est en Enfer.",
     lien: "https://dorar.net/hadith/sharh/16342",
     autres: "   ",
   },
@@ -477,9 +510,9 @@ const ahadithsHallalHaramHabits = [
     sujet: " Interdiction de la soie et de l’or aux hommes ",
     auteur: " صحيح أبي داود ",
     numero: 3665,
-    texte1:
+    texteArabe:
       " حُرِّمَ لباسُ الحريرِ والذَّهبِ على ذُكورِ أمَّتي وأُحلَّ لإناثِهم",
-    texte2: "La soie et l’or ont été interdits aux hommes de ma communauté…",
+    texteFrancais: "La soie et l’or ont été interdits aux hommes de ma communauté…",
     lien: "https://dorar.net/hadith/sharh/28058",
     autres: " أحمد (935) ",
   },
@@ -487,9 +520,9 @@ const ahadithsHallalHaramHabits = [
     sujet: " Interdiction des vêtements ostentatoires  شُهْرَةٍ",
     auteur: " صحيح أبي داود ",
     numero: 4029,
-    texte1:
+    texteArabe:
       " مَن لَبِسَ ثوبَ شُهرةٍ في الدُّنيا، ألْبَسَهُ اللهُ ثوبَ مَذلَّةٍ يومَ القيامةِ.",
-    texte2: "",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/88187",
     autres: " النسائي 9560, ابن ماجه (3607)",
   },
@@ -497,9 +530,9 @@ const ahadithsHallalHaramHabits = [
     sujet: " Interdiction de s’envelopper de manière indécente ",
     auteur: " صحيح البخاري ",
     numero: 584,
-    texte1:
+    texteArabe:
       " نَهَى عَنِ اشْتِمَالِ الصَّمَّاءِ وَالِاحْتِبَاءِ فِي ثَوْبٍ وَاحِدٍ",
-    texte2:
+    texteFrancais:
       "Le Prophète a interdit de s’envelopper entièrement dans un seul vêtement (de façon à exposer la ʿawra)",
     lien: "https://dorar.net/hadith/sharh/7709",
     autres: " مسلم (825، 1511)",
@@ -508,8 +541,8 @@ const ahadithsHallalHaramHabits = [
     sujet: " Interdiction des vêtements teints au safran ",
     auteur: " صحيح مسلم ",
     numero: 2078,
-    texte1: " نَهَى النَّبِيُّ ﷺ عَنْ الْمُعَصْفَرِ",
-    texte2: " Le Prophète ﷺ a interdit les vêtements teints au safran",
+    texteArabe: " نَهَى النَّبِيُّ ﷺ عَنْ الْمُعَصْفَرِ",
+    texteFrancais: " Le Prophète ﷺ a interdit les vêtements teints au safran",
     lien: "https://dorar.net/hadith/sharh/34242",
     autres: " الترمذي (1737)، وأحمد (924)",
   },
@@ -517,9 +550,9 @@ const ahadithsHallalHaramHabits = [
     sujet: " Couvrir la ʿawra ",
     auteur: " صحيح مسلم ",
     numero: 338,
-    texte1:
+    texteArabe:
       " لَا يَنْظُرُ الرَّجُلُ إِلَى عَوْرَةِ الرَّجُلِ وَلَا الْمَرْأَةُ إِلَى عَوْرَةِ الْمَرْأَةِ",
-    texte2: " Qu’un homme ne regarde pas la ʿawra d’un autre homme… ",
+    texteFrancais: " Qu’un homme ne regarde pas la ʿawra d’un autre homme… ",
     lien: "https://dorar.net/hadith/sharh/21397",
     autres: " الترمذي(2793) أبو داود (4018)",
   },
@@ -546,9 +579,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " Allah a prescrit des limites",
     auteur: " الدارقطني",
     numero: 183 - 4,
-    texte1:
+    texteArabe:
       " إنَّ اللهَ تعالى فَرَضَ فرائِضَ فلا تُضَيِّعوها، وحَدَّ حُدودًا فلا تَعْتَدوها، وحرَّم أشياءَ فلا تَنْتَهكوها",
-    texte2:
+    texteFrancais:
       "Allah a prescrit des obligations… et interdit des choses, alors ne les transgressez pas…",
     lien: "https://dorar.net/hadith/sharh/151586",
     autres: " الحاكم (7114)، والبيهقي (20217)",
@@ -557,9 +590,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " Interdiction d’imiter le sexe opposé",
     auteur: " صحيح البخاري",
     numero: 5886,
-    texte1:
+    texteArabe:
       " لَعَنَ رَسُولُ اللَّهِ ﷺ الْمُتَشَبِّهِينَ مِنَ الرِّجَالِ بِالنِّسَاءِ",
-    texte2: "Le Messager d’Allah ﷺ a maudit les hommes qui imitent les femmes…",
+    texteFrancais: "Le Messager d’Allah ﷺ a maudit les hommes qui imitent les femmes…",
     lien: "https://dorar.net/hadith/sharh/15192",
     autres: " من أفراد البخاري على مسلم",
   },
@@ -567,9 +600,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " Couvrir la ʿawra ",
     auteur: " صحيح مسلم ",
     numero: 338,
-    texte1:
+    texteArabe:
       " لَا يَنْظُرُ الرَّجُلُ إِلَى عَوْرَةِ الرَّجُلِ وَلَا الْمَرْأَةُ إِلَى عَوْرَةِ الْمَرْأَةِ",
-    texte2: " Qu’un homme ne regarde pas la ʿawra d’un autre homme… ",
+    texteFrancais: " Qu’un homme ne regarde pas la ʿawra d’un autre homme… ",
     lien: "https://dorar.net/hadith/sharh/21397",
     autres: " الترمذي(2793) أبو داود (4018)",
   },
@@ -577,8 +610,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Couvrir la ʿawra ",
     auteur: " صحيح الترمذي ",
     numero: 1173,
-    texte1: " إنَّ المرأةَ عورةٌ ، فإذا خرجتِ استشرفها الشَّيطانُ",
-    texte2:
+    texteArabe: " إنَّ المرأةَ عورةٌ ، فإذا خرجتِ استشرفها الشَّيطانُ",
+    texteFrancais:
       " La femme est ʿawra ; lorsqu’elle sort, le diable la rend séduisante (aux yeux des hommes).",
     lien: "https://dorar.net/hadith/sharh/119924",
     autres: "ابن خزيمة (1685)، وابن حبان (5598) ",
@@ -587,9 +620,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " Abandonner ce qui est douteux ",
     auteur: " صحيح الترمذي ",
     numero: 2518,
-    texte1:
+    texteArabe:
       " دعْ ما يَريبُكَ إلى ما لا يُريبُكَ فإنَّ الصدقَ طُمأنينةٌ وإنَّ الكذبَ رِيبَةٌ",
-    texte2:
+    texteFrancais:
       " Délaisse ce qui te met dans le doute pour ce qui ne te met pas dans le doute.",
     lien: "https://dorar.net/hadith/sharh/66595",
     autres: " النسائي (5711) أحمد (1723)",
@@ -598,8 +631,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " La triche ",
     auteur: " صحيح مسلم ",
     numero: 102,
-    texte1: " مَن غَشَّ فليسَ مِنِّي. ",
-    texte2: " Celui qui trompe n’est pas des nôtres.",
+    texteArabe: " مَن غَشَّ فليسَ مِنِّي. ",
+    texteFrancais: " Celui qui trompe n’est pas des nôtres.",
     lien: "https://dorar.net/hadith/sharh/60453",
     autres: " من أفراد مسلم على البخاري",
   },
@@ -607,9 +640,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " l’insulte et l’obscénité ",
     auteur: " صحيح الترمذي ",
     numero: 1977,
-    texte1:
+    texteArabe:
       " لَيْسَ الْمُؤْمِنُ بِالطَّعَّانِ وَلَا اللَّعَّانِ وَلَا الْفَاحِشِ",
-    texte2: " Le croyant n’est pas insultant, ni grossier, ni obscène.",
+    texteFrancais: " Le croyant n’est pas insultant, ni grossier, ni obscène.",
     lien: "https://dorar.net/hadith/sharh/119924",
     autres: "أحمد (3839)",
   },
@@ -617,9 +650,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " Aimer son frère ",
     auteur: " صحيح مسلم ",
     numero: 45,
-    texte1:
+    texteArabe:
       " لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ ",
-    texte2:
+    texteFrancais:
       "Aucun de vous ne croit vraiment jusqu’à ce qu’il aime pour son frère ce qu’il aime pour lui-même.",
     lien: "https://dorar.net/hadith/sharh/60453",
     autres: " البخاري (13) النسائي (5017)",
@@ -637,8 +670,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Malédiction des imageurs ",
     auteur: " صحيح مسلم ",
     numero: 2109,
-    texte1: " إِنَّ أَشَدَّ النَّاسِ عَذَابًا... الَّذِينَ يُصَوِّرُونَ",
-    texte2:
+    texteArabe: " إِنَّ أَشَدَّ النَّاسِ عَذَابًا... الَّذِينَ يُصَوِّرُونَ",
+    texteFrancais:
       "Les gens les plus sévèrement châtiés… sont ceux qui font des images.",
     lien: "https://dorar.net/hadith/sharh/123620",
     autres: " النسائي (5364)",
@@ -647,8 +680,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Suivre aveuglément les dirigeants ",
     auteur: " صحيح مسلم ",
     numero: 1847,
-    texte1: "تَسْمَعُ وَتُطِيعُ لِلْأَمِيرِ... ",
-    texte2: " Tu écoutes et tu obéis au dirigeant…",
+    texteArabe: "تَسْمَعُ وَتُطِيعُ لِلْأَمِيرِ... ",
+    texteFrancais: " Tu écoutes et tu obéis au dirigeant…",
     lien: "https://dorar.net/hadith/sharh/14801",
     autres: " ",
   },
@@ -656,8 +689,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Laisser pousser la barbe ",
     auteur: " صحيح مسلم ",
     numero: 259,
-    texte1: " أَعْفُوا اللِّحَى وَقُصُّوا الشَّوَارِبَ ",
-    texte2: " Laissez pousser les barbes et taillez les moustaches.",
+    texteArabe: " أَعْفُوا اللِّحَى وَقُصُّوا الشَّوَارِبَ ",
+    texteFrancais: " Laissez pousser les barbes et taillez les moustaches.",
     lien: "https://dorar.net/hadith/sharh/1088",
     autres: "  البخاري (5892)",
   },
@@ -665,9 +698,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " La circoncision ",
     auteur: " صحيح مسلم ",
     numero: 257,
-    texte1:
+    texteArabe:
       " الْفِطْرَةُ خَمْسٌ: الْخِتَانُ وَالِاسْتِحْدَادُ وَقَصُّ الشَّارِبِ وَتَقْلِيمُ الْأَظْفَارِ وَنَتْفُ الْإِبْطِ ",
-    texte2:
+    texteFrancais:
       " Cinq choses font partie de la nature : la circoncision, le rasage des poils pubiens, couper la moustache, couper les ongles et épiler les aisselles.",
     lien: "https://dorar.net/hadith/sharh/73032",
     autres: "  (البخاري (5889",
@@ -676,8 +709,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Teindre les cheveux blancs ",
     auteur: "  صحيح الترمذي ",
     numero: 1752,
-    texte1: " غَيِّرُوا الشَّيْبَ وَلَا تَشَبَّهُوا بِالْيَهُودِ",
-    texte2: " Changez les cheveux blancs et ne ressemblez pas aux juifs.",
+    texteArabe: " غَيِّرُوا الشَّيْبَ وَلَا تَشَبَّهُوا بِالْيَهُودِ",
+    texteFrancais: " Changez les cheveux blancs et ne ressemblez pas aux juifs.",
     lien: "https://dorar.net/hadith/sharh/67922",
     autres: " أحمد (7545) ",
   },
@@ -685,8 +718,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Teindre les cheveux blancs ",
     auteur: "  صحيح مسلم",
     numero: 2102,
-    texte1: "اجتَنِبوا السَّوادَ. ",
-    texte2: " Évitez le noir.",
+    texteArabe: "اجتَنِبوا السَّوادَ. ",
+    texteFrancais: " Évitez le noir.",
     lien: "https://dorar.net/hadith/sharh/16984",
     autres: " من أفراد مسلم على البخاري",
   },
@@ -694,8 +727,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Interdiction de raser partiellement (qaza‘) ",
     auteur: "  صحيح مسلم",
     numero: 2120,
-    texte1: " نَهَى رَسُولُ اللَّهِ ﷺ عَنِ الْقَزَعِ",
-    texte2: " Le Messager d’Allah a interdit le rasage partiel des cheveux.",
+    texteArabe: " نَهَى رَسُولُ اللَّهِ ﷺ عَنِ الْقَزَعِ",
+    texteFrancais: " Le Messager d’Allah a interdit le rasage partiel des cheveux.",
     lien: "https://dorar.net/hadith/sharh/62827",
     autres: "  5920 البخاري",
   },
@@ -703,8 +736,8 @@ const ahadithsHallalHaramComportements = [
     sujet: " Interdiction de s’épiler les sourcils ",
     auteur: "  صحيح مسلم",
     numero: 2125,
-    texte1: " لَعَنَ اللَّهُ النَّامِصَاتِ وَالْمُتَنَمِّصَاتِ ",
-    texte2: " Allah a maudit celles qui épilent les sourcils…",
+    texteArabe: " لَعَنَ اللَّهُ النَّامِصَاتِ وَالْمُتَنَمِّصَاتِ ",
+    texteFrancais: " Allah a maudit celles qui épilent les sourcils…",
     lien: "https://dorar.net/hadith/sharh/121832",
     autres: " أبو داود (4170) ",
   },
@@ -712,9 +745,9 @@ const ahadithsHallalHaramComportements = [
     sujet: " vente d'alcool ",
     auteur: "  صحيح مسلم",
     numero: 1581,
-    texte1:
+    texteArabe:
       " إِنَّ اللَّهَ وَرَسُولَهُ حَرَّمَا بَيْعَ الْخَمْرِ وَالْمَيْتَةِ وَالْخِنْزِيرِ وَالأَصْنَامِ",
-    texte2:
+    texteFrancais:
       " Allah et Son Messager ont interdit la vente de l’alcool, de la bête morte, du porc et des idoles.",
     lien: "https://dorar.net/hadith/sharh/118846",
     autres: " أبو داود (3490)  الترمذي (1297)، والنسائي (4256)",
