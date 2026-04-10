@@ -168,81 +168,6 @@ const ahadithsJuifsChretiensMecreants = [
 
 ];// Fin Juifs Chrtiens Mécréants
 
-//- Insultes et moqueries
-const souratesInsultesMoqueries = [1,2,2,2,5,5,7,7,7,9,9,9,10,10,25,31,39,54,54,62,68,68,111,111,111,111,111];
-const versetsInsultesMoqueries = [7,18,65,171,60,64,166,176,179,28,29,95,26,43,44,19,64,7,31,5,13,16,1,2,3,4,5];
-const ahadithsInsultesMoqueries = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 691,
-    texte:
-      " أما يخشى الَّذي يرفَعُ رأسَهُ قبلَ الإمامِ راكعًا أو ساجدًا أن يحوِّلَ اللَّهُ رأسَهُ رأسَ حمارٍ أو صورتَهُ صورةَ حمارٍ",
-    lien: "https://dorar.net/hadith/sharh/72198",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 797,
-    texte: "فيدعو للمؤمنينَ ويلعنُ الْكافرينَ",
-    lien: "https://dorar.net/hadith/sharh/36802",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 3453,
-    texte:
-      "لَعْنَةُ اللَّهِ علَى اليَهُودِ والنَّصارَى؛ اتَّخَذُوا قُبُورَ أنْبِيائِهِمْ مَساجِدَ. يُحَذِّرُ ما صَنَعُوا.",
-    lien: "https://dorar.net/hadith/sharh/347",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1358,
-    texte:
-      "كُلُّ مَوْلُودٍ يُولَدُ علَى الفِطْرَةِ، فأبَوَاهُ يُهَوِّدَانِهِ، أوْ يُنَصِّرَانِهِ، أوْ يُمَجِّسَانِهِ، كَمَثَلِ البَهِيمَةِ تُنْتَجُ البَهِيمَةَ هلْ تَرَى فِيهَا جَدْعَاءَ.",
-    lien: "https://dorar.net/hadith/sharh/11465",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1394,
-    texte:
-      "قالَ أبو لَهَبٍ عليه لَعْنَةُ اللَّهِ للنبيِّ صَلَّى اللهُ عليه وسلَّمَ: تَبًّا لكَ سَائِرَ اليَومِ فَنَزَلَتْ: {تَبَّتْ يَدَا أبِي لَهَبٍ وتَبَّ} [المسد: 1]",
-    lien: "https://dorar.net/hadith/sharh/4292",
-    autres: "4770, 4801",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 3330,
-    texte:
-      " لَوْلَا بَنُو إِسْرَائِيلَ، لَمْ يَخْبُثِ الطَّعَامُ، وَلَمْ يَخْنَزِ اللَّحْمُ، وَلَوْلَا حَوَّاءُ لَمْ تَخُنْ أُنْثَى زَوْجَهَا الدَّهْرَ.",
-    lien: "https://dorar.net/hadith/sharh/22158",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 3462,
-    texte: "إنَّ اليَهُودَ وَالنَّصَارَى لا يَصْبُغُونَ، فَخَالِفُوهُمْ.",
-    lien: "https://dorar.net/hadith/sharh/34253",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4475,
-    texte:
-      "إذا قالَ الإمامُ: {غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ} [الفاتحة: 7] فَقُولوا آمِينَ، فمَن وافَقَ قَوْلُهُ قَوْلَ المَلائِكَةِ غُفِرَ له ما تَقَدَّمَ مِن ذَنْبِهِ",
-    lien: "https://dorar.net/hadith/sharh/11383",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 5395,
-    texte:
-      "إنَّ الكَافِرَ يَأْكُلُ في سَبْعَةِ أمْعَاءٍ فَقالَ: فأنَا أُومِنُ باللَّهِ ورَسولِهِ. ",
-    lien: "https://dorar.net/hadith/sharh/5157",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 5885,
-    texte:
-      "لعن اللهُ المتشبهين بالنساءِ من الرجالِ والمتشبهاتِ من النساءِ بالرجالِ. ",
-    lien: "https://dorar.net/hadith/sharh/80461",
-  },
-];//-  fIN Insultes et moqueries
-
 //- H E R I T A G E
 const souratesHeritage = [2,2,2,      4,4,4,4,4,4,4,4,        5,5,5,      8,  33,  89,89 ];
 const versetsHeritage = [180,181,182, 7,8,9,11,12,19,33,176, 106,107,108, 75, 6,   18,19];
@@ -1405,13 +1330,13 @@ function injecteAhadiths(titreThematique, ahadiths) {
     let divHadith = document.createElement('div')
     divHadith.setAttribute('class', 'carteHadith')
     divHadith.innerHTML = `
-  <h4 class = "couleurinfos"> Sujet: ${hadith.sujet} </h3>
-  <p> Auteur: ${hadith.auteur} </p>
-  <p> Numéro du hadith: ${hadith.numero} </p>
-  <p> Texte en arabe: ${hadith.texteArabe} </p>
-  <p> Texte en français: ${hadith.texteFrancais} </p>
-  <p> Plus d'infos: <a href= '${hadith.lien}'  target='_blank'> Dorar الدرر السنية</a> </p>
-  <p> Autres Ahadiths: ${hadith.autres} </p>
+  <h4 class = "couleurSujet"> Sujet: ${hadith.sujet}  </h3>
+  <p> Auteur: <span class="fst-italic">${hadith.auteur} </span></p>
+  <p> Numéro du hadith: <span class="fst-italic">${hadith.numero} </span></p>
+  <p> Hadith en arabe: <span class="fst-italic">${hadith.texteArabe} </span></p>
+  <p> Hadith en français: <span class="fst-italic">${hadith.texteFrancais} </span></p>
+  <p> Plus d'infos: <span class="fst-italic"><a href= '${hadith.lien}'  target='_blank'> Dorar الدرر السنية</a> </span></p>
+  <p> Autres Ahadiths:<span class="fst-italic"> ${hadith.autres} </span></p>
   `;
    tableau.appendChild(divHadith)
   })
