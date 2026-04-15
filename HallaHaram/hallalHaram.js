@@ -492,7 +492,8 @@ const ahadithsHallalHaramHabits = [
     auteur: " صحيح  البخاري ",
     numero: 5787,
     texteArabe: " ما أسفَلَ مِنَ الكَعبَينِ مِنَ الإزارِ ففي النَّارِ. ",
-    texteFrancais: "Ce qui descend sous les chevilles du vêtement est en Enfer.",
+    texteFrancais:
+      "Ce qui descend sous les chevilles du vêtement est en Enfer.",
     lien: "https://dorar.net/hadith/sharh/16342",
     autres: "   ",
   },
@@ -512,7 +513,8 @@ const ahadithsHallalHaramHabits = [
     numero: 3665,
     texteArabe:
       " حُرِّمَ لباسُ الحريرِ والذَّهبِ على ذُكورِ أمَّتي وأُحلَّ لإناثِهم",
-    texteFrancais: "La soie et l’or ont été interdits aux hommes de ma communauté…",
+    texteFrancais:
+      "La soie et l’or ont été interdits aux hommes de ma communauté…",
     lien: "https://dorar.net/hadith/sharh/28058",
     autres: " أحمد (935) ",
   },
@@ -555,6 +557,17 @@ const ahadithsHallalHaramHabits = [
     texteFrancais: " Qu’un homme ne regarde pas la ʿawra d’un autre homme… ",
     lien: "https://dorar.net/hadith/sharh/21397",
     autres: " الترمذي(2793) أبو داود (4018)",
+  },
+  {
+    sujet: " Le voile ",
+    auteur: " صحيح البخاري",
+    numero: 6240,
+    texteArabe:
+      " فقال: عَرَفتُكِ يا سَودةُ؛ حِرصًا على أن يُنزَلَ الحِجابُ، قالت: فأنزَلَ اللهُ عزَّ وجلَّ آيةَ الحِجابِ.",
+    texteFrancais:
+      "... Elle (Saouda) dit : “Alors Allah, Puissant et Majestueux, révéla le verset du voile.” ",
+    lien: "https://dorar.net/hadith/sharh/25945",
+    autres: " مسلم (2170)، وأحمد (25866)، والبيهقي (13634)",
   },
 ];
 
