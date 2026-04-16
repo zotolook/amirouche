@@ -492,6 +492,17 @@ const ahadithsFemmesAutorite = [
     lien: "https://dorar.net/hadith/sharh/70332",
     autres: "مسلم (1468, 47)",
   },
+  {
+    sujet: "Règles de deuil (ʿidda)",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 5341,
+    texteArabe:
+      "نهى رسول الله ﷺ أن تحدّ المرأة فوق ثلاث إلا على زوج أربعة أشهر وعشرًا",
+    texteFrancais:
+      "Le Prophète ﷺ a interdit à une femme de porter le deuil plus de trois jours, sauf pour son mari : quatre mois et dix jours",
+    lien: "https://dorar.net/hadith/sharh/24732",
+    autres: "مسلم (938)",
+  },
 ];
 
 // 10- L'allaitement de l'adulte
@@ -550,5 +561,22 @@ const ahadithsFemmesAllaitementAdulte = [
     lien: "https://dorar.net/hadith/sharh/33820",
     autres:
       "مسلم (1455)، وأبو داود (2058)، والنسائي (3312) واللفظ له، وابن ماجه (1945)، وأحمد (25457)",
+  },
+];
+
+// 11- Les femmes dans le coran
+const souratesFemmesCoran = ["Réponse du coran à la question d'Umm Salama" ,33, ];
+const versetsFemmesCoran = ["",35];
+const ahadithsFemmesCoran = [
+  {
+    sujet: " Pourquoi les femmes ne sont-elle pas citées dans le coran? ",
+    auteur: "  صحيح الترمذي ",
+    numero: 3211,
+    texteArabe:
+      "قلتُ يا رسولَ اللهِ ما لنا لا نُذْكَرُ في القرآنِ كما يُذكرُ الرجالُ",
+    texteFrancais:
+      "Ô Messager d’Allah, pourquoi ne sommes-nous pas mentionnées dans le Coran comme les hommes ?",
+    lien: "https://dorar.net/hadith/sharh/85464",
+    autres: "الطبراني (25/31) (51)، وأبو نعيم في ((معرفة الصحابة)) (7993)",
   },
 ];

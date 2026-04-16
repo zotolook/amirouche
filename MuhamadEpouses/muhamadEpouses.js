@@ -11,7 +11,61 @@ const versetsMuhamadEpousesFemmes = [
     "...",29, 31,
     "...",  30,
 ];
-const ahadithsMuhamadEpousesFemmes = [];
+const ahadithsMuhamadEpousesFemmes = [
+  {
+    sujet: " Le Prophète passe du temps équitablement entre ses épouses",
+    auteur: "صحيح أبو داود ",
+    numero: 2134,
+    texteArabe: "أنَّه صلَّى اللهُ عليه وسلَّم كان يقسِمُ بين نسائهِ فيعدلُ",
+    texteFrancais:
+      "Le Prophète ﷺ répartissait équitablement son temps entre ses épouses.”",
+    lien: "https://dorar.net/hadith/sharh/120138",
+    autres: "الترمذي (1140)، والدارمي (2253)",
+  },
+  {
+    sujet: " Tirage au sort pour les voyages ",
+    auteur: " صحيح مسلم ",
+    numero: 2445,
+    texteArabe:
+      " كان النبي ﷺ إذا أراد سفرًا أقرع بين نسائه، فأيُّهن خرج سهمها خرج بها معه",
+    texteFrancais:
+      " Lorsque le Prophète ﷺ voulait voyager, il tirait au sort entre ses épouses, et celle dont le nom sortait partait avec lui",
+    lien: "https://dorar.net/hadith/sharh/139434",
+    autres: "البخاري (5211) ",
+  },
+  {
+    sujet: " Neuf épouses en une nuit ",
+    auteur: " صحيح مسلم ",
+    numero: 309,
+    texteArabe:
+      " كان النبيُّ ﷺ يَطوفُ على نسائِه في الليلةِ الواحدةِ، وله يومئذٍ تسعُ نسوةٍ",
+    texteFrancais:
+      " Le Prophète ﷺ faisait le tour de ses épouses en une seule nuit, et il avait à ce moment-là neuf femmes.",
+    lien: "https://dorar.net/hadith/sharh/24883",
+    autres: "البخاري (5215) ",
+  },
+  {
+    sujet: " Equivalent de 30 hommes ",
+    auteur: " صحيح مسلم ",
+    numero: 309,
+    texteArabe: "كنا نتحدث أنه أُعطي قوة ثلاثين ",
+    texteFrancais:
+      " Nous disions qu’il avait reçu la force de trente (hommes).",
+    lien: "https://dorar.net/hadith/sharh/71665#:~:text=%D9%81%D9%82%D8%A7%D9%84%3A%20%D9%83%D9%86%D9%8E%D9%91%D8%A7%20%D9%86%D9%8E%D8%AA%D8%AD%D8%AF%D9%8E%D9%91%D8%AB%D9%8F%20%D8%A3%D9%86%D9%8E%D9%91%D9%87%20%D8%A3%D9%8F%D8%B9%D8%B7%D9%90%D9%8A%D9%8E,%D9%88%D9%8A%D9%8E%D8%AD%D8%AA%D9%85%D9%90%D9%84%D9%8F%20%D8%AA%D9%8E%D8%B1%D9%92%D9%83%D9%8E%20%D8%A7%D9%84%D9%88%D9%8F%D8%B6%D9%88%D8%A1%D9%90%20%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%90%20%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D8%B2%D9%90.",
+    autres: "البخاري (5215) ",
+  },
+  {
+    sujet: " Le prophète boude ses femmes ...",
+    auteur: " صحيح البخاري",
+    numero: 2468,
+    texteArabe:
+      " وجَدَتْ حَفْصةُ رسولَ اللهِ صلَّى اللهُ عليه وسلَّم مع أُمِّ إبراهيمَ في يَومِ عائشةَ",
+    texteFrancais:
+      "Le Prophète ﷺ confia un secret à Hafsa. Elle le révéla à Aisha… alors Allah révéla : ‘Si vous vous repentez toutes les deux…’",
+    lien: "https://dorar.net/hadith/sharh/135684",
+    autres: "مسلم (1479)، والترمذي (3318)، وأحمد (222)",
+  },
+];
 
 // 1- Khadidja
 const souratesMuhamadEpousesKhadidja = [
@@ -191,7 +245,17 @@ const ahadithsMuhamadEpousesAicha = [
     autres: " البزار (153)، وأبو عوانة (12140)، والبيهقي (19902)",
   },
   {
-    sujet: " La femme la plus aimée ",
+    sujet: " L'histoire de la calomnie' ",
+    auteur: " صحيح البخاري",
+    numero: 2661,
+    texteArabe: " واللهِ ما كُنتُ أظُنُّ أنَّ اللهَ يُنزِلُ في شَأني وحيًا",
+    texteFrancais:
+      "Par Allah, je ne pensais pas qu’Allah révélerait à mon sujet une révélation récitée… Puis Allah révéla : ‘Ceux qui sont venus avec la calomnie…",
+    lien: "https://dorar.net/hadith/sharh/7615",
+    autres: " مسلم (2770)، وأحمد (25623)، والنسائي في ((الكبرى)) (8882)",
+  },
+  {
+    sujet: " Aicha, la femme la plus aimée ",
     auteur: " صحيح البخاري",
     numero: 3662,
     texteArabe:
@@ -202,7 +266,7 @@ const ahadithsMuhamadEpousesAicha = [
     autres: " مسلم (2384)، والترمذي (3885)، وأحمد (17811)",
   },
   {
-    sujet: " Salutation de Jibril",
+    sujet: " Salutation de Jibril sur Aicha",
     auteur: " صحيح البخاري",
     numero: 3217,
     texteArabe: " يا عائِشةُ، هذا جِبريلُ يَقرَأُ عليكِ السَّلامَ",
@@ -211,7 +275,7 @@ const ahadithsMuhamadEpousesAicha = [
     autres: " مسلم (2447)، وأبو داود (5232)، والنسائي (3953)",
   },
   {
-    sujet: " Sa science",
+    sujet: " La science de Aicha",
     auteur: " صحيح الترمذي",
     numero: 3883,
     texteArabe: "فسأَلْنا عائشةَ إلَّا وجَدْنا عندَها منه عِلْمًا ",
@@ -221,7 +285,7 @@ const ahadithsMuhamadEpousesAicha = [
     autres: " ابن عدي في ((الكامل في الضعفاء)) (4/ 144)",
   },
   {
-    sujet: " Mort du Prophète chez elle",
+    sujet: " Mort du Prophète chez Aicha",
     auteur: " صحيح البخاري",
     numero: 4449,
     texteArabe:
@@ -231,27 +295,230 @@ const ahadithsMuhamadEpousesAicha = [
     lien: "https://dorar.net/hadith/sharh/136161",
     autres: " مسلم (418، 2443، 2444) أحمد (24216)، وابن حبان (7116)",
   },
+  {
+    sujet: " Aicha joue avec des poupées",
+    auteur: " صحيح البخاري",
+    numero: 6130,
+    texteArabe: " ... كُنتُ ألعَبُ بالبَناتِ في بَيتِه، وهنَّ اللُّعَبُ.",
+    texteFrancais: "Je jouais avec des poupées chez le Prophète ﷺ…",
+    lien: "https://dorar.net/hadith/sharh/5530",
+    autres: " أحمد (24298) مسلم (2440)",
+  },
+  {
+    sujet: " Révélation dans la maison de Aicha",
+    auteur: " صحيح البخاري",
+    numero: 3775,
+    texteArabe: " ما نزل على النبي ﷺ الوحي وهو في لحاف امرأة منكن غيري",
+    texteFrancais:
+      "La révélation n’est descendue sur le Prophète ﷺ sous la couverture d’aucune d’entre vous, sauf moi.",
+    lien: "https://dorar.net/hadith/sharh/8733",
+    autres: "الترمذي (3879)",
+  },
+  {
+    sujet: " Course entre Aisha et le Prophète",
+    auteur: " صحيح أبي داود",
+    numero: 2578,
+    texteArabe:
+      "سابقني النبي ﷺ فسبقته، ثم سابقني بعد ما حملت اللحم فسبقني، فقال: هذه بتلك ",
+    texteFrancais:
+      "Le Prophète ﷺ fit une course avec moi et je le dépassai.Puis plus tard, après que j’eus pris du poids, il me dépassa et dit : ‘Ceci compense cela.",
+    lien: "https://dorar.net/hadith/sharh/83792",
+    autres: "أحمد (24118) ابن ماجه (1979)",
+  },
+  {
+    sujet: " Aicha buvait après le prophète",
+    auteur: " صحيح مسلم",
+    numero: 300,
+    texteArabe:
+      " كنت أشرب وأنا حائض، ثم أناوله النبي ﷺ فيضع فاه على موضع فيَّ ",
+    texteFrancais:
+      "Je buvais alors que j’étais en période menstruelle, puis je donnais le récipient au Prophète ﷺ, et il posait sa bouche à l’endroit où j’avais bu.",
+    lien: "https://dorar.net/hadith/sharh/21571",
+    autres: "والنسائي (380) أحمد (25594)",
+  },
+  {
+    sujet: " Aicha, la jalouse",
+    auteur: " صحيح مسلم",
+    numero: 2435,
+    texteArabe: " ما غرت على امرأة ما غرت على خديجة ",
+    texteFrancais:
+      "Je n’ai jamais été jalouse d’une femme autant que je l’ai été de Khadija.",
+    lien: "https://dorar.net/hadith/sharh/21571",
+    autres: " البخاري (3818) ابن ماجه (1997) والنسائي (8361 )أحمد (24310)",
+  },
+  {
+    sujet: " Aicha, conseillère juridique",
+    auteur: " صحيح مسلم",
+    numero: 770,
+    texteArabe: " كان أصحاب النبي ﷺ إذا اختلفوا في شيء سألوا عائشة ",
+    texteFrancais:
+      "Les compagnons du Prophète ﷺ, lorsqu’ils divergeaient sur une chose, interrogeaient Aïcha.",
+    lien: "https://dorar.net/hadith/sharh/37099",
+    autres:
+      "أبو داود (767)، والترمذي (3420)، والنسائي (1625)، وابن ماجه (1357)",
+  },
+  {
+    sujet: " Le prophète pousse violemment Aicha",
+    auteur: " صحيح مسلم",
+    numero: 974,
+    texteArabe:
+      " فَلَهَدَنِي في صدري لهدةً أوجعتني، ثم قال: أظننتِ أن يحيف الله عليك ورسوله؟ ",
+    texteFrancais:
+      "Il me donna un coup dans la poitrine qui me fit mal, puis il dit :‘Pensais-tu qu’Allah et Son Messager seraient injustes envers toi ?’",
+    lien: "https://dorar.net/hadith/sharh/12880",
+    autres: "أحمد (25855) النسائي (2037)",
+  },
 ];
 
 // 4- Hafsa
-const souratesMuhamadEpousesHafsa = [];
-const versetsMuhamadEpousesHafsa = [];
-const ahadithsMuhamadEpousesHafsa = [];
+const souratesMuhamadEpousesHafsa = [66,66,66,];
+const versetsMuhamadEpousesHafsa = [3,4,5, ];
+const ahadithsMuhamadEpousesHafsa = [
+  {
+    sujet: " Le prophète avec Maria ",
+    auteur: " صحيح البخاري",
+    numero: 2468,
+    texteArabe: " وجَدَتْ حَفْصةُ رسولَ اللهِ صلَّى اللهُ عليه وسلَّم مع أُمِّ إبراهيمَ في يَومِ عائشةَ",
+    texteFrancais:
+      "Le Prophète ﷺ confia un secret à Hafsa. Elle le révéla à Aisha… alors Allah révéla : ‘Si vous vous repentez toutes les deux…’",
+    lien: "https://dorar.net/hadith/sharh/135684",
+    autres: "مسلم (1479)، والترمذي (3318)، وأحمد (222)",
+  },
+  {
+    sujet: " Le secret confié à Hafsa (At-Tahrim) ",
+    auteur: " صحيح البخاري",
+    numero: 6691,
+    texteArabe:
+      "  كان النبي ﷺ أسرَّ إلى حفصة حديثًا، فأخبرت به عائشة… فأنزل الله: إِن تَتُوبَا إِلَى اللَّهِ...",
+    texteFrancais:
+      "Le Prophète ﷺ confia un secret à Hafsa. Elle le révéla à Aisha… alors Allah révéla : ‘Si vous vous repentez toutes les deux…’",
+    lien: "https://dorar.net/hadith/sharh/5377",
+    autres: " مسلم (1474)، وأبي داود (3714)، والنسائي (3421)",
+  },
+  {
+    sujet: " Le divorce puis le retour de Hafsa ",
+    auteur: " صحيح النسائي",
+    numero: 3560,
+    texteArabe: "  طلّق النبي ﷺ حفصة، ثم راجعها بأمر جبريل",
+    texteFrancais:
+      "Le Prophète ﷺ divorça Hafsa, puis il la reprit sur instruction de Gabriel.",
+    lien: "https://dorar.net/hadith/sharh/134490",
+    autres: " أبو داود (2283)، وابن ماجه (2016)",
+  },
+  {
+    sujet: " Hafsa garde les écritures du Coran ",
+    auteur: " صحيح النسائي",
+    numero: 3560,
+    texteArabe:
+      " كانت الصحف التي جمع فيها القرآن عند أبي بكر، ثم عند عمر، ثم عند حفصة",
+    texteFrancais:
+      "Les feuillets du Coran compilés furent d’abord chez Abu Bakr, puis chez Omar, puis chez Hafsa.",
+    lien: "https://dorar.net/hadith/sharh/134490",
+    autres: " أبو داود (2283)، وابن ماجه (2016)",
+  },
+];
 
 // 5- Zaynab bint Khuzayma
-const souratesMuhamadEpousesZaynebKhuzayma = [];
-const versetsMuhamadEpousesZaynebKhuzayma = [];
-const ahadithsMuhamadEpousesZaynebKhuzayma = [];
+const souratesMuhamadEpousesZaynebKhuzayma = [
+  "il n’existe aucun verset du Coran lié spécifiquement à Zaynab bint Khuzayma, si ce n'est les versets qui s'adressent aux épouses du prophète en général. (voir femmes du prophète)",
+];
+const versetsMuhamadEpousesZaynebKhuzayma = [
+  "Zayneb bint Khouzeyma surnommée “Umm al-Masākīn” (mère des pauvres) pour sa générosité. Elle est décédée relativement tôt après son mariage (voir Ahadiths).",
+];
+const ahadithsMuhamadEpousesZaynebKhuzayma = [
+  {
+    sujet: " Le mariage ",
+    auteur: " أخرجه الطبراني",
+    numero: "(24/ 58)، (150)",
+    texteArabe:
+      " تزوَّج رسولُ اللهِ صلَّى اللهُ عليه وسلَّم زينبَ بنتَ خُزَيمةَ الهِلاليَّةَ ...",
+    texteFrancais:
+      "Le Prophète ﷺ épousa Zaynab bint Khuzayma. Elle faisait partie des femmes connues pour leur générosité envers les pauvres, et elle ne resta que peu de temps avec lui avant de mourir.",
+    lien: "https://dorar.net/h/FPJsoLCJ?osoul=1",
+    autres: "البيهقي في ((دلائل النبوة)) (3/ 159)",
+  },
+  {
+    sujet: " Le mariage et le décès ",
+    auteur: " Ibn Saʿd - At-Tabaqāt al-Kubrā",
+    numero: "vol. 8 (épouses du Prophète)",
+    texteArabe:
+      " زينب بنت خزيمة بن الحارث، وكانت تُدعى أمَّ المساكين، لكثرة إطعامها لهم، فتزوجها رسول الله ﷺ، فلم تلبث عنده إلا شهرين أو ثلاثة حتى توفيت",
+    texteFrancais:
+      "Le Messager d’Allah ﷺ l’épousa, mais elle ne resta avec lui que deux ou trois mois avant de mourir.",
+    lien: "https://www.noor-book.com/en/ebook-0138-%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%A4%D9%85%D9%86%D9%8A%D9%86-%D8%B2%D9%8A%D9%86%D8%A8-%D8%A8%D9%86%D8%AA-%D8%AE%D8%B2%D9%8A%D9%85%D9%87-pdf?utm_source=chatgpt.com",
+    autres:
+      "Al-Ṭabarī – Tārīkh al-Rusul wa al-Mulūk, Ibn Ḥajar – Al-Iṣāba fī Tamyīz al-Ṣaḥāba ",
+  },
+];
 
 // 6- Umm Salama
-const souratesMuhamadEpousesUmSalama = [];
-const versetsMuhamadEpousesUmSalama = [];
-const ahadithsMuhamadEpousesUmSalama = [];
+const souratesMuhamadEpousesUmSalama = [
+    "Il n’existe aucun verset du Coran qui mentionne directement Umm Salama (Hind bint Abī Umayya) par son nom.",2, 33,
+];
+const versetsMuhamadEpousesUmSalama = [
+  "Mais plusieurs versets sont liés à elle selon les hadiths et les tafsîr",  222,  35,
+];
+const ahadithsMuhamadEpousesUmSalama = [
+  {
+    sujet: " Son mariage ",
+    auteur: " صحيح مسلم ",
+    numero: 918,
+    texteArabe:
+      "...  أرسَلَ إلَيَّ رَسولُ اللهِ صلَّى اللهُ عليه وسلَّم حاطِبَ بنَ أبي بَلتَعةَ يَخطُبُني له ...",
+    texteFrancais:
+      "Lorsque Abū Salama mourut, j’ai dit cette invocation, et Allah m’a donné en remplacement le Messager d’Allah ﷺ.",
+    lien: "https://dorar.net/hadith/sharh/20590",
+    autres: "من أفراد مسلم على البخاري",
+  },
+  {
+    sujet: " Pourquoi les femmes ne sont-elle pas citées dans le coran? ",
+    auteur: "  صحيح الترمذي ",
+    numero: 3211,
+    texteArabe:
+      "قلتُ يا رسولَ اللهِ ما لنا لا نُذْكَرُ في القرآنِ كما يُذكرُ الرجالُ",
+    texteFrancais:
+      "Ô Messager d’Allah, pourquoi ne sommes-nous pas mentionnées dans le Coran comme les hommes ?",
+    lien: "https://dorar.net/hadith/sharh/85464",
+    autres: "الطبراني (25/31) (51)، وأبو نعيم في ((معرفة الصحابة)) (7993)",
+  },
+  {
+    sujet: " Invocation lors d’un malheur ",
+    auteur: "  صحيح الترمذي ",
+    numero: 3511,
+    texteArabe:
+      " إذا أصابَ أحدَكم مصيبةٌ فليقل إنَّا للَّهِ وإنَّا إليهِ راجعونَ",
+    texteFrancais: "Nous appartenons à Allah et vers Lui nous retournons.",
+    lien: "https://dorar.net/hadith/sharh/40076",
+    autres: "أحمد (16387) صحيح مسلم 918 ",
+  },
+  {
+    sujet: " Conseil lors du traité de Hudaybiyya ",
+    auteur: " صحيح البخاري ",
+    numero: 2731,
+    texteArabe:
+      " فدخل على أم سلمة فذكر لها ما لقي من الناس، فقالت: اخرج فاحلق وانحر…",
+    texteFrancais:
+      "Le Prophète ﷺ entra chez Umm Salama et lui mentionna la réaction des gens.Elle lui dit : ‘Sors, rase-toi la tête et sacrifie…’",
+    lien: "https://dorar.net/hadith/sharh/23644",
+    autres: " أحمد (18928)",
+  },
+];
 
 // 7- Zaynab bent djahch
-const souratesMuhamadEpousesZaynebDhahsh = [];
-const versetsMuhamadEpousesZaynebDhahsh = [];
-const ahadithsMuhamadEpousesZaynebDhahsh = [];
+const souratesMuhamadEpousesZaynabDjahsh = [
+  "Négation de la filiation des enfants adoptifs",
+  33,
+  "Obligation d’attribuer les enfants à leur père biologique",
+  33,
+  "Le mariage de Zayneb avec Zayd",
+  33,
+  "Le mariage de Zayneb avec le prophète",
+  33,
+  "Allah prend la défense du prophète",
+  33,33,33
+];
+const versetsMuhamadEpousesZaynabDjahsh = ["",4,"",5 ,"", 36,"", 37, "",38,39,40];
+const ahadithsMuhamadEpousesZaynabDjahsh = [];
 
 // 8-Juwayriya bint al-Harith
 const souratesMuhamadEpousesJuwayriya = [];
