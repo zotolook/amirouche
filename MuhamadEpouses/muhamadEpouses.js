@@ -518,7 +518,137 @@ const souratesMuhamadEpousesZaynabDjahsh = [
   33,33,33
 ];
 const versetsMuhamadEpousesZaynabDjahsh = ["",4,"",5 ,"", 36,"", 37, "",38,39,40];
-const ahadithsMuhamadEpousesZaynabDjahsh = [];
+const ahadithsMuhamadEpousesZaynabDjahsh = [
+  {
+    sujet: " Khadidja offre Zayd à Muhamad ",
+    auteur: " Ibn Isḥāq / Ibn Hishām (Sîra) ",
+    numero:
+      "Volume : 1. Section : Dhikr Zayd ibn Haritha (ذكر زيد بن حارثة). Édition Dar al-Kutub al-‘Ilmiyya : p. 191–193",
+    texteArabe:
+      "وكانت خديجة قد وهبت لرسول الله ﷺ زيد بن حارثة، فكان عنده، فأعتقه رسول الله ﷺ وتبناه",
+    texteFrancais:
+      "Khadija avait offert à l’Envoyé d’Allah ﷺ Zayd ibn Haritha. Il resta avec lui, puis le Prophète ﷺ l’affranchit et l’adopta.",
+    lien: "https://dorar.net/hadith/sharh/35978",
+    autres:
+      "Tabaqat Ibn Sa'd, vol. 3. p. 39–41, Al-Ṭabarī – Tārīkh al-Rusul wa al-Mulūk. Volume : 2. p. 161–163 ",
+  },
+
+  {
+    sujet: " Zayd fils de Muhamad ",
+    auteur: " صحيح مسلم ",
+    numero: 2425,
+    texteArabe:
+      "ما كنَّا ندعو زيدَ بنَ حارثةَ إلَّا زيدَ ابنَ محمَّدٍ حتَّى نزلَت ادْعُوهُمْ لِآبَائِهِمْ هُوَ أَقْسَطُ عِنْدَ اللَّهِ",
+    texteFrancais:
+      "Nous n’appelions Zayd ibn Haritha que ‘Zayd ibn Muhammad’ jusqu’à ce que soit révélé : ‘Appelez-les du nom de leurs pères’.",
+    lien: "https://dorar.net/hadith/sharh/35978",
+    autres: "الترمذي (3814)  البخاري (4782)",
+  },
+  // Visite de Muhamad
+  {
+    sujet: " Muhamad rend visite à Zayd",
+    auteur: "  ابن سعد في ((الطبقات الكبرى))",
+    numero: "(10/ 99)",
+    texteArabe: "... سُبحانَ اللهِ مُصرِّفِ القُلوبِ ...",
+    texteFrancais:
+      "Gloire à Allah, Celui qui fait évoluer / tourner les cœurs.",
+    lien: "https://dorar.net/h/5zpCKQQo?osoul=1",
+    autres: "الطبري في ((تاريخه)) (2/ 562)",
+  },
+  {
+    sujet: " Muhamad refuse la proposition de Zayd",
+    auteur: " صحيح البخاري ",
+    numero: 7420,
+    texteArabe: "اتَّقِ اللهَ، وأمسِكْ عليك زَوجَكَ ...",
+    texteFrancais: "Garde ton épouse et crains Allah.",
+    lien: "https://dorar.net/hadith/sharh/39396",
+    autres: "الترمذي (3212)، وأحمد (12511)",
+  },
+  {
+    sujet: " Muhamad refuse la proposition de Zayd",
+    auteur: "صحيح مسلم ",
+    numero: 177,
+    texteArabe:
+      "ولَو كانَ مُحَمَّدٌ صلَّى اللهُ عليه وسلَّم كاتِمًا شيئًا ممَّا أُنزِلَ عليه لَكَتَمَ هذه الآيةَ",
+    texteFrancais:
+      "Lorsque fut révélé : ‘Tu cachais en toi ce qu’Allah allait manifester…",
+    lien: "https://dorar.net/hadith/sharh/115062",
+    autres: "أحمد (26041) الترمذي (3207)، والنسائي في ((الكبرى)) (11344)",
+  },
+  {
+    sujet: " Tafsir (Sourate 33:37)",
+    auteur: " Sahih al-Bukhari",
+    numero: "موسوعة التفسير",
+    texteArabe:
+      "ولَو كانَ مُحَمَّدٌ صلَّى اللهُ عليه وسلَّم كاتِمًا شيئًا ممَّا أُنزِلَ عليه لَكَتَمَ هذه الآيةَ",
+    texteFrancais:
+      "Lorsque fut révélé : ‘Tu cachais en toi ce qu’Allah allait manifester…",
+    lien: "https://dorar.net/tafseer/33/12",
+    autres: "Kitab Tafsir Sourate Al-Ahzab (33:37)",
+  },
+  // Mariage
+  {
+    sujet: " Muhamad envoie Zayd pour demander la main de Zaynab ",
+    auteur: " صحيح مسلم ",
+    numero: 1428,
+    texteArabe:
+      "قال رَسولُ اللهِ صلَّى اللهُ عليه وسلَّم لزَيدٍ: فاذكُرْها عَلَيَّ ",
+    texteFrancais:
+      "Le prophète envoie Zayd pour demander la main de son ex femme Zaynab.",
+    lien: "https://dorar.net/hadith/sharh/26667",
+    autres: "",
+  },
+
+  {
+    sujet: " Mariage de Muhamed avec Zaynab",
+    auteur: " مسلم ",
+    numero: 1428,
+    texteArabe: " ثم تزوجها رسول الله ﷺ بأمر الله",
+    texteFrancais: "Puis le Messager d’Allah ﷺ l’épousa sur ordre d’Allah.",
+    lien: "https://www.islamweb.net/ar/fatwa/27512/%D9%82%D8%B5%D8%A9-%D9%88%D8%AD%D9%83%D9%85%D8%A9-%D8%B2%D9%88%D8%A7%D8%AC-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D9%85%D9%86-%D8%B2%D9%8A%D9%86%D8%A8-%D8%A8%D9%86%D8%AA-%D8%AC%D8%AD%D8%B4",
+    autres: "مسلم (1428)",
+  },
+  {
+    sujet: " mention du mariage dans le contexte du verset",
+    auteur: " Sahih al-Bukhari صحيح البخاري",
+    numero: 7420,
+    texteArabe:
+      "كانَت زَينَبُ بنتُ جَحشٍ ، تَفخرُ علَى نِساءِ النَّبيِّ صلَّى اللَّهُ عليهِ وسلَّمَ ، تَقولُ: إنَّ اللَّهَ عزَّ وجلَّ أنكحَني مِنَ السَّماءِ ",
+    texteFrancais: "",
+    lien: "https://dorar.net/hadith/sharh/12284",
+    autres: "الترمذي (3212)، وأحمد (12511) مسلم (1428)",
+  },
+  {
+    sujet: " Différentes versions sur le mariage",
+    auteur: "ملتقى أهل التفسير ",
+    numero: "Lecture des savants",
+    texteArabe: " les positions des grands muhaddithin",
+    texteFrancais: "les versions comparées",
+    lien: "https://mtafsir.net/threads/%D9%82%D8%B5%D8%A9-%D8%B2%D9%88%D8%A7%D8%AC-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D8%B5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%84%D9%8A%D9%87-%D9%88%D8%B3%D9%84%D9%85-%D9%85%D9%86-%D8%B2%D9%8A%D9%86%D8%A8-%D8%A8%D9%86%D8%AA-%D8%AC%D8%AD%D8%B4-%D9%88%D8%A7%D9%84%D8%B4%D8%A8%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AB%D8%A7%D8%B1%D8%A9-%D8%AD%D9%88%D9%84%D9%87%D8%A7.31427/",
+    autres: "Sirat Ibn Hisham , Ibn Ishaq (source originale), Tabari, Ibn Kathir (repris)",
+    },
+  // Fin de l'adoption
+  {
+    sujet: " La filiation ",
+    auteur: " صحيح مسلم ",
+    numero: 61,
+    texteArabe: "ليس مِن رَجُلٍ ادَّعى لغَيرِ أبيه وهو يَعلَمُه إلَّا كَفَرَ",
+    texteFrancais:
+      "Tout homme qui se rattache à un autre que son père en le sachant commet une grave faute",
+    lien: "https://dorar.net/hadith/sharh/3853",
+    autres: "البخاري (3508)",
+  },
+  {
+    sujet: " La filiation ",
+    auteur: " صحيح مسلم ",
+    numero: 63,
+    texteArabe:
+      "منِ ادَّعى إلى غيرِ أبيهِ - وهوَ يعلمُ أنَّهُ غيرَ أبيهِ حرَّمَ اللَّهُ عليهِ الجنَّةَ",
+    texteFrancais: "",
+    lien: "https://dorar.net/hadith/sharh/74270",
+    autres: " ابن ماجة (2610)، وأحمد (1497) البخاري (6766)",
+  },
+];
 
 // 8-Juwayriya bint al-Harith
 const souratesMuhamadEpousesJuwayriya = [];
