@@ -213,7 +213,17 @@ const ahadithsPfffff = [
       "إِذَا أتَى أحَدُكُمُ الغَائِطَ، فلا يَسْتَقْبِلِ القِبْلَةَ ولَا يُوَلِّهَا ظَهْرَهُ، شَرِّقُوا أوْ غَرِّبُوا. ",
     lien: "https://dorar.net/hadith/sharh/22725",
   },
-
+  {
+    sujet: "L'entrée des maisons par leur porte",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1803,
+    texteArabe:
+      " ولَيسَ البِرُّ بِأن تَأتوا البُيوتَ مِن ظُهورِها ولَكِنَّ البِرَّ مَنِ اتَّقى وأتوا البُيوتَ مِن أبوابِها",
+    texteFrancais:
+      "« La piété ne consiste pas à entrer dans les maisons par l’arrière, mais la piété est (celle de) celui qui craint Allah ; entrez donc dans les maisons par leurs portes. »",
+    lien: "https://dorar.net/hadith/sharh/3083",
+    autres: "مسلم (3026)",
+  },
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 153,
@@ -344,11 +354,14 @@ const ahadithsPfffff = [
     lien: "https://dorar.net/hadith/sharh/12844",
   },
   {
-    auteur: "El Boukhari صحيح البخاري",
+    sujet: "Intercession de Nūḥ au Jour du Jugement ",
+    auteur: "  صحيح البخاري",
     numero: 3356,
-    texte:
-      "اخْتَتَنَ إِبْرَاهِيمُ النبيُّ عليه السَّلَامُ، وَهو ابنُ ثَمَانِينَ سَنَةً بالقَدُومِ. ",
+    texteArabe:
+      "اختَتَنَ إبراهيمُ النَّبيُّ عليه السَّلامُ، وهو ابنُ ثَمانينَ سَنةً بالقَدُومِ.",
+    texteFrancais: "« Abraham se fit circoncire à l’âge de 80 ans. »",
     lien: "https://dorar.net/hadith/sharh/16636",
+    autres: "مسلم (2370)",
   },
   {
     auteur: "El Boukhari صحيح البخاري",
@@ -431,13 +444,50 @@ const ahadithsPfffff = [
     autres: "مسلم (2447)، وأبو داود (5232)، والنسائي (3953)",
   },
   {
-    auteur: "El Boukhari صحيح البخاري",
+    sujet: "Lapidation des singes",
+    auteur: " صحيح البخاري ",
     numero: 3849,
-    texte:
-      "  رَأَيْتُ في الجَاهِلِيَّةِ قِرْدَةً اجْتَمع عَلَيْهَا قِرَدَةٌ، قدْ زَنَتْ، فَرَجَمُوهَا، فَرَجَمْتُهَا معهُمْ. ",
+    texteArabe:
+      " رَأيتُ في الجاهِليَّةِ قِردةً اجتَمع عليها قِرَدةٌ، قد زَنَت، فرَجَموها، فرَجَمتُها معهُم. ",
+    texteFrancais:
+      "« J’ai vu à l’époque de l’ignorance (jāhiliyya) une guenon autour de laquelle s’étaient réunis des singes, car elle avait commis la fornication, et ils la lapidèrent, et je la lapidai avec eux. »",
     lien: "https://dorar.net/hadith/sharh/150656",
     autres:
-      "ابن أبي خيثمة في ((التاريخ)) (6137)، والخرائطي في ((مساوئ الأخلاق)) (469)، وأبو نعيم الأصبهاني في ((معرفة الصحابة)) (5139)",
+      "  ابن أبي خيثمة في ((التاريخ)) (6137)، والخرائطي في ((مساوئ الأخلاق)) (469)، وأبو نعيم الأصبهاني في ((معرفة الصحابة)) (5139) جميعهم باختلاف يسير. ",
+  },
+  {
+    sujet:
+      "Combat eschatologique: La pierre qui montre un juif au musulman pour le tuer!",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 2926,
+    texteArabe:
+      " لا تَقُومُ السَّاعَةُ حتَّى تُقاتِلُوا اليَهُودَ، حتَّى يَقُولَ الحَجَرُ وراءَهُ اليَهُودِيُّ: يا مُسْلِمُ، هذا يَهُودِيٌّ وَرائي فاقْتُلْهُ.",
+    texteFrancais:
+      "« …jusqu’à ce que la pierre derrière laquelle se cache le Juif dise : “Ô musulman, voici un Juif derrière moi, tue-le.” »",
+    lien: "https://dorar.net/hadith/sharh/15003",
+    autres: 3593,
+  },
+  {
+    sujet: "Danger et gravité de l’usure",
+    auteur: "صحيح الجامع الألباني",
+    numero: 3539,
+    texteArabe:
+      "الرِّبَا سَبْعُونَ حُوبًا، أَيْسَرُهَا أَنْ يَنْكِحَ الرَّجُلُ أُمَّهُ",
+    texteFrancais:
+      "“L’usure comporte soixante-dix péchés. Le moindre d’entre eux est comparable au fait qu’un homme épouse sa propre mère.”",
+    lien: "https://dorar.net/hadith/sharh/119683",
+    autres:
+      " ابن ماجة (2275 )، وابن المنذر في ((الأوسط)) (8013 )، والحاكم (2259 )، والبيهقي في ((شعب الإيمان)) (5131 )",
+  },
+  {
+    sujet: "Ribā al-faḍl (usure de surplus)",
+    auteur: "صحيح النسائي",
+    numero: 4557,
+    texteArabe:
+      " أَتَى بلالٌ رسولَ اللهِ صَلَّى اللهُ عليه وسلم بتَمْرٍ بَرْنِيٍّ فقال ما هذا ؟ قال : اشتَرَيْتُه صاعًا بصاعَيْنِ، فقال رسولُ اللهِ صلَّى اللهُ عليهِ وسلَّم : أَوَّهْ عَيْنُ الربا ولا تَقْرَبْهُ",
+    texteFrancais: "Bilal apporta au Prophète ﷺ des dattes de qualité (barni). Le Prophète lui dit :“D’où cela vient-il ?”Bilal répondit :“Nous avions des dattes de mauvaise qualité, alors j’ai échangé deux mesures contre une seule (de bonne qualité) afin de nourrir le Prophète.”Le Prophète ﷺ dit alors :“Ah ! Ah ! C’est exactement l’usure (ribā), c’est exactement l’usure. Ne fais pas cela. Mais si tu veux acheter, vends d’abord les dattes contre une autre marchandise, puis achète ensuite.”",
+    lien: "https://dorar.net/hadith/sharh/12352",
+    autres: "البخاري (2312)، ومسلم (1594) ",
   },
 ];//- fIN P F f  f f f  f  f
 

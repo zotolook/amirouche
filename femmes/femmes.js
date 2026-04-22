@@ -21,6 +21,24 @@ const ahadithsFemmesMariage = [
     lien: "https://dorar.net/hadith/sharh/85239",
     autres: " أخرجه أبو داود (2085)، والترمذي (1101)، وابن ماجه (1881)",
   },
+  {
+    sujet: " Le mariage avec la soeur de l'épouse ",
+    auteur: "صحيح البخاري ",
+    numero: 5101,
+    texteArabe: "... يا رسول الله، أنكح أختي ... ",
+    texteFrancais: "Ô Messager d’Allah, pourrais-tu épouser ma sœur ?",
+    lien: "https://dorar.net/hadith/sharh/4228",
+    autres: "مسلم (1449)",
+  },
+  {
+    sujet: " La prédestination (qadar) ",
+    auteur: " صحيح مسلم ",
+    numero: 2663,
+    texteArabe: "... قد سَألتِ اللهَ لآجالٍ مَضروبةٍ ... ",
+    texteFrancais: "les durées de vie sont déjà fixées par Allah.",
+    lien: "https://dorar.net/hadith/sharh/17523",
+    autres: "من أفراد مسلم على البخاري",
+  },
 ];
 
 // 2- le divorce

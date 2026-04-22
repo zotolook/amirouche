@@ -167,6 +167,17 @@ const ahadithsPriere = [
     lien: "https://dorar.net/hadith/sharh/9600",
     autres: "مسلم (776)",
   },
+  {
+    sujet: " les prières surérogatoires (rawâtib) ",
+    auteur: " صحيح الترمذي",
+    numero: 414,
+    texteArabe:
+      " ما من عبدٍ مسلمٍ يصلِّي للهِ تعالى في كلِّ يومٍ ثِنْتي عشرةَ ركعةً تطوُّعًا غيرَ فريضةٍ إلا بنى اللهُ تعالى له بيتًا في الجنَّةِ",
+    texteFrancais:
+      "Tout musulman qui accomplit chaque jour douze unités de prière surérogatoire en plus des obligations, Allah lui construit une maison au Paradis.",
+    lien: "https://dorar.net/hadith/sharh/61632",
+    autres: "النسائي (1794)، وابن ماجه (1140)",
+  },
 ];
 
 // 3- Le ramadhan
@@ -317,6 +328,16 @@ const ahadithsRamadhan = [
     texte: " كُلُّ عَمَلِ ابْنِ آدَمَ له، إلَّا الصِّيَامَ؛ فإنَّه لي",
     lien: "https://dorar.net/hadith/sharh/1607",
     autres: "مسلم (1151)",
+  },
+  {
+    sujet: " Jeûne du vendredi ",
+    auteur: " صحيح البخاري",
+    numero: 1986,
+    texteArabe:
+      " أنَّ النَّبيَّ صلَّى اللهُ عليه وسلَّم دَخَلَ عليها يَومَ الجُمُعةِ وهي صائِمةٌ",
+    texteFrancais: "Le Prophète ﷺ entra chez Juwayriya un vendredi alors qu’elle jeûnait.",
+    lien: "https://dorar.net/hadith/sharh/66121",
+    autres: "أبو داود (2422)، وأحمد (26756)، والنسائي في ((الكبرى)) (2767)",
   },
 ];
 

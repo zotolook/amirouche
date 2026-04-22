@@ -17,6 +17,52 @@ const versetsAdam = [
     71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,
 "Habil et Qabil", 27,28,29,30,31,
 ];
+const ahadithsAdam = [
+  {
+    sujet: "  Création d'Adam et sa taille",
+    auteur: "  صحيح البخاري",
+    numero: 6227,
+    texteArabe:
+      "خَلَقَ اللَّهُ آدَمَ عَلَى صُورَتِهِ، طُولُهُ سِتُّونَ ذِرَاعًا",
+    texteFrancais:
+      "« Allah a créé Adam à Son image, sa taille était de soixante coudées. »",
+    lien: "https://dorar.net/hadith/sharh/12845",
+    autres: "مسلم (2841)",
+  },
+  {
+    sujet: "  Création d'Adam et nombre de prophètes",
+    auteur: " ابن حبان",
+    numero: 3113,
+    texteArabe:
+      "عَدَدُ الْأَنْبِيَاءِ مِائَةُ أَلْفٍ وَأَرْبَعَةٌ وَعِشْرُونَ أَلْفًا، وَآدَمُ أَوَّلُهُمْ",
+    texteFrancais:
+      "« Le nombre des prophètes est de 124 000, et Adam est le premier d’entre eux. »",
+    lien: "https://dorar.net/h/PS82XSL5",
+    autres:
+      "الطبراني (8/ 118) (7545)، وابن عساكر (7/ 446)، والبيهقي في ((الأسماء والصفات)) (440)",
+  },
+  {
+    sujet: "  Le reproche de Moise à Adam",
+    auteur: "  صحيح البخاري",
+    numero: 4738,
+    texteArabe: "حَجَّ آدَمُ موسى.",
+    texteFrancais:
+      "« Moïse discuta avec Adam… » Moïse lui reproche la faute originelle",
+    lien: "https://dorar.net/hadith/sharh/4660",
+    autres: "مسلم (2652)",
+  },
+  {
+    sujet: " Adam et le souffle de l’âme",
+    auteur: " صحيح الترمذي ",
+    numero: 3368,
+    texteArabe:
+      "لَمَّا نَفَخَ اللَّهُ فِيهِ الرُّوحَ، عَطَسَ فَقَالَ: الْحَمْدُ لِلَّهِ.",
+    texteFrancais:
+      "Quand Allah insuffla l’âme en Adam, il éternua et dit :« Alhamdulillah »",
+    lien: "https://dorar.net/hadith/sharh/84440",
+    autres: "البزار (8478)، وابن خزيمة في ((التوحيد)) (1/160)",
+  },
+];
 
 // 2- Idris / Énoch[24] إدريس, idrīs Idrîs
 const souratesIdris = [
@@ -26,6 +72,18 @@ const souratesIdris = [
 const versetsIdris = [
   56, 57,
   85,86,
+];
+const ahadithsIdriss = [
+  {
+    sujet: " Idrīs mentionné dans le voyage du Prophète (Miʿrāj)",
+    auteur: "  صحيح البخاري",
+    numero: 4738,
+    texteArabe:
+      "ثُمَّ رُفِعْتُ إِلَى السَّمَاءِ الرَّابِعَةِ، فَإِذَا بِإِدْرِيسَ",
+    texteFrancais: "« Puis je fus élevé au quatrième ciel, et voilà Idrīs. »",
+    lien: "https://dorar.net/hadith/sharh/68201",
+    autres: "مسلم (163)",
+  },
 ];
 
 // 3- Noe / Noé[25] نوح, nūḥ Nuh
@@ -59,6 +117,19 @@ const versetsNoe = [
   9,10,11,12,13,14,15,16,
   1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,
 ];
+const ahadithsNoe = [
+  {
+    sujet: "Intercession de Nūḥ au Jour du Jugement ",
+    auteur: "  صحيح البخاري",
+    numero: 4476,
+    texteArabe:
+      "يَأْتِي النَّاسُ نُوحًا فَيَقُولُونَ: أَنْتَ أَوَّلُ رَسُولٍ أَرْسَلَهُ اللَّهُ إِلَى أَهْلِ الْأَرْضِ",
+    texteFrancais:
+      "« Les gens viendront à Nūḥ et diront :“Tu es le premier messager envoyé aux habitants de la terre.” »",
+    lien: "https://dorar.net/h/ZTpLJiKu",
+    autres: "مسلم (193)",
+  },
+];
 
 // 4- Abraham / Abraham[26]إبراهيم, ibrāhīm Ibrâhîm
 const souratesAbraham = [
@@ -84,6 +155,29 @@ const versetsAbraham = [
   45, 46, 47,
   26, 27, 28,
   24,25,26,27,28,29,30,31,32,33,34,35,36,37,
+];
+const ahadithsAbraham = [
+  {
+    sujet: "La circoncision d'Abraham ",
+    auteur: "  صحيح البخاري",
+    numero: 3356,
+    texteArabe:
+      "اختَتَنَ إبراهيمُ النَّبيُّ عليه السَّلامُ، وهو ابنُ ثَمانينَ سَنةً بالقَدُومِ.",
+    texteFrancais: "« Abraham se fit circoncire à l’âge de 80 ans. »",
+    lien: "https://dorar.net/hadith/sharh/16636",
+    autres: "مسلم (2370)",
+  },
+  {
+    sujet: "Abraham dans le Miʿrāj",
+    auteur: " الألباني صحيح الجامع",
+    numero: 127,
+    texteArabe:
+      "فَإِذَا إِبْرَاهِيمُ مُسْنِدٌ ظَهْرَهُ إِلَى الْبَيْتِ الْمَعْمُورِ",
+    texteFrancais:
+      "« Et voilà Abraham adossé à la Maison peuplée (al-Bayt al-Maʿmūr). »",
+    lien: "https://dorar.net/hadith/sharh/119174",
+    autres: "مسلم (162)",
+  },
 ];
 
 // 5- Ismael / Ismaël[27] إسماعيل, ismāʿīl Ismâʿîl

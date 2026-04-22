@@ -1,4 +1,4 @@
-// 1. Esclavage autorisé
+// 1. Achat et vente des esclaves
 const souratesEsclavageAutorise = [ 2, 4,16, 16, 24, 24, 30,33,];
 const versetsEsclavageAutorise = [ 178,3,  75,76,  32,33,28,50,];
 const ahadithsEsclavageAutorise = [
@@ -199,6 +199,15 @@ const ahadithsEsclavageLiberation = [
     lien: "https://dorar.net/hadith/sharh/85652",
     autres: "  ابن حزم 8/300",
   },
+  {
+    sujet: " La femme du prophète affranchit une esclave!",
+    auteur: " صحيح البخاري",
+    numero: 2536,
+    texteArabe: "اشتَرَيتُ بَريرةَ، فاشتَرَطَ أهلُها ولاءَها...",
+    texteFrancais: " ",
+    lien: "https://dorar.net/h/Upd3sK7F?sims=1",
+    autres: "صحيح أبي داود 2233",
+  },
 ];
 
 // 6. Traitement des esclaves
@@ -235,5 +244,20 @@ const ahadithsEsclavageEgalite = [
   
 ];
 
-
+// 7- L'esclave qui fuit son maître
+const souratesEsclavageFuite = [];
+const versetsEsclavageFuite = [];
+const ahadithsEsclavageFuite = [
+  {
+    sujet: " L'esclave qui fuit son maître",
+    auteur: "صحيح مسلم",
+    numero: 68,
+    texteArabe:
+      "أيُّما عَبدٍ أبَقَ مِن مَواليه فقد كَفَرَ حتَّى يَرجِعَ إليهم.",
+    texteFrancais:
+      " « Tout esclave qui fuit ses maîtres a commis une faute grave jusqu’à ce qu’il retourne vers eux. » ",
+    lien: "https://dorar.net/hadith/sharh/78481",
+    autres: "أحمد (19243)",
+  },
+];
 

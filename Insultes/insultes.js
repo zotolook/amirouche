@@ -54,6 +54,17 @@ const souratesInsultesMecreants = [2, 7, 7,  10, 25, 31];
 const versetsInsultesMecreants = [171, 176, 179,  43, 44, 19];
 const ahadithsInsultesMecreants = [
   {
+    sujet: "Se réclamer du tribalisme",
+    auteur: "صحيح الجامع  الألباني",
+    numero: 797,
+    texteArabe: "من تعزَّى بعزاءِ الجاهليةِ فأَعِضُّوه و لا تكنُوه",
+    texteFrancais:
+      "Celui qui se réclame des solidarités de l’époque préislamique (jāhiliyya),dites-lui : ‘mords le sexe de ton père’, sans euphémisme.",
+    lien: "https://dorar.net/hadith/sharh/146345",
+    autres:
+      "أحمد (21271)، والنسائي في ((السنن الكبرى)) (10812)، والطبراني (1/198) (534)",
+  },
+  {
     sujet: "Insultes envers les mécréants",
     auteur: "El Boukhari صحيح البخاري",
     numero: 797,
@@ -62,7 +73,7 @@ const ahadithsInsultesMecreants = [
     lien: "https://dorar.net/hadith/sharh/36802",
     autres: "",
   },
-  
+
   {
     sujet: "Les mécréants",
     auteur: "El Boukhari صحيح البخاري",

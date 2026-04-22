@@ -651,38 +651,316 @@ const ahadithsMuhamadEpousesZaynabDjahsh = [
 ];
 
 // 8-Juwayriya bint al-Harith
-const souratesMuhamadEpousesJuwayriya = [];
-const versetsMuhamadEpousesJuwayriya = [];
-const ahadithsMuhamadEpousesJuwayriya = [];
+const souratesMuhamadEpousesJuwayriya = [
+  "il n’existe aucun verset du Coran révélé spécifiquement à propos de Juwayriya bint al-Harith.", 33,
+];
+const versetsMuhamadEpousesJuwayriya = [
+  "Versets indirectement liés (contexte historique)(Voir ahadiths)",
+  50,
+];
+const ahadithsMuhamadEpousesJuwayriya = [
+  {
+    sujet: " Le mariage de Muhamad avec Djuwayriya ",
+    auteur: "صحيح أبي داود  ",
+    numero: 3931,
+    texteArabe:
+      "«كانت جويرية بنت الحارث وقعت في سهم ثابت بن قيس بن شماس، فكاتَبَتْه على نفسها",
+    texteFrancais:
+      "Juwayriya tomba captive et conclut un contrat pour sa liberté. Elle vint demander de l’aide au Prophète ﷺ. Il lui proposa de payer sa rançon et de l’épouser.",
+    lien: "https://dorar.net/hadith/sharh/30341",
+    autres: " أحمد (26365)",
+  },
+  {
+    sujet: " Jeûne du vendredi ",
+    auteur: " صحيح البخاري",
+    numero: 1986,
+    texteArabe:
+      " أنَّ النَّبيَّ صلَّى اللهُ عليه وسلَّم دَخَلَ عليها يَومَ الجُمُعةِ وهي صائِمةٌ",
+    texteFrancais:
+      "Le Prophète ﷺ entra chez Juwayriya un vendredi alors qu’elle jeûnait.",
+    lien: "https://dorar.net/hadith/sharh/66121",
+    autres: "أبو داود (2422)، وأحمد (26756)، والنسائي في ((الكبرى)) (2767)",
+  },
+];
 
 // 9- Umm Habiba
-const souratesMuhamadEpousesUmHabiba = [];
-const versetsMuhamadEpousesUmHabiba = [];
-const ahadithsMuhamadEpousesUmHabiba = [];
+const souratesMuhamadEpousesUmHabiba = [
+  "Aucun verset ne cite directement Umm Habiba",
+];
+const versetsMuhamadEpousesUmHabiba = ["Elle est incluse dans : </br > - les versets sur les épouses du Prophète, </br > - les règles spécifiques de leur statut",
+];
+const ahadithsMuhamadEpousesUmHabiba = [
+  {
+    sujet: " les prières surérogatoires (rawâtib) ",
+    auteur: " صحيح الترمذي",
+    numero: 414,
+    texteArabe:
+      " ما من عبدٍ مسلمٍ يصلِّي للهِ تعالى في كلِّ يومٍ ثِنْتي عشرةَ ركعةً تطوُّعًا غيرَ فريضةٍ إلا بنى اللهُ تعالى له بيتًا في الجنَّةِ",
+    texteFrancais:
+      "Tout musulman qui accomplit chaque jour douze unités de prière surérogatoire en plus des obligations, Allah lui construit une maison au Paradis.",
+    lien: "https://dorar.net/hadith/sharh/61632",
+    autres: "النسائي (1794)، وابن ماجه (1140)",
+  },
+  {
+    sujet: " Le mariage avec la soeur de l'épouse ",
+    auteur: "صحيح البخاري ",
+    numero: 5101,
+    texteArabe: "... يا رسول الله، أنكح أختي ... ",
+    texteFrancais: "Ô Messager d’Allah, pourrais-tu épouser ma sœur ?",
+    lien: "https://dorar.net/hadith/sharh/4228",
+    autres: "مسلم (1449)",
+  },
+];
 
 // 10- Safiyya bint Huyayy
-const souratesMuhamadEpousesSafiya = [];
-const versetsMuhamadEpousesSafiya = [];
-const ahadithsMuhamadEpousesSafiya = [];
+const souratesMuhamadEpousesSafiya = [
+  "Il n’existe aucun verset du Coran qui mentionne explicitement par son nom Safiyya bint Huyayy.",
+];
+const versetsMuhamadEpousesSafiya = [
+  "Cependant, comme pour les autres épouses du Prophète Muhammad, elle est incluse indirectement dans plusieurs versets révélés sur les “épouses du Prophète”.",
+];
+const ahadithsMuhamadEpousesSafiya = [
+  {
+    sujet: " Le mariage ",
+    auteur: "  صحيح البخاري",
+    numero: 371,
+    texteArabe: " ... أعتقها النبي ﷺ وجعل صداقها عتقه ...",
+    texteFrancais: "Le Prophète ﷺ l’affranchit et fit de sa liberté sa dot.",
+    lien: "https://dorar.net/hadith/sharh/123495",
+    autres: "مسلم (1365)، والنسائي في ((السنن الكبرى)) (5549) البيهقي (3280)",
+  },
+  {
+    sujet: " Les pleurs de Safya ",
+    auteur: " صحيح الترمذي",
+    numero: 3894,
+    texteArabe: " إنكِ لابنة نبي، وإن عمكِ لنبي، وإنكِ لتحت نبي، ففيمَ تبكين؟",
+    texteFrancais:
+      "« Tu es la fille d’un prophète (Hârûn), ton oncle était un prophète, et tu es l’épouse d’un prophète. Pourquoi pleures-tu ? »",
+    lien: "https://dorar.net/hadith/sharh/86986",
+    autres: "أحمد (12415)، والنسائي في ((السنن الكبرى)) (8919)",
+  },
+  {
+    sujet: " L'inéquité du prophète et la jalousie de ses épouses' ",
+    auteur: "  صحيح البخاري",
+    numero: 2581,
+    texteArabe: " لم أرَ امرأةً قطُّ أحبَّ إلى رسول الله ﷺ من صفية ...",
+    texteFrancais:
+      "« Je n’ai jamais vu une femme plus aimée du Prophète ﷺ que Safiyya… »",
+    lien: "https://dorar.net/hadith/sharh/8730",
+    autres: "مسلم (2442) الترمذي (3879) مختصرا، والنسائي (3944)",
+  },
+];
 
 // 11-Maymuna bint al-Harith
-const souratesMuhamadEpousesMaymuna = [];
-const versetsMuhamadEpousesMaymuna = [];
-const ahadithsMuhamadEpousesMaymuna = [];
+const souratesMuhamadEpousesMaymuna = [
+  "Il n’existe aucun verset du Coran qui mentionne explicitement par son nom Maymuna bint al-Harith.",
+];
+const versetsMuhamadEpousesMaymuna = [
+  "Comme pour les autres épouses du Prophète Muhammad, elle est toutefois incluse dans les versets généraux concernant les “épouses du Prophète”.",
+];
+const ahadithsMuhamadEpousesMaymuna = [
+  {
+    sujet: " Le mariage ",
+    auteur: "  صحيح البخاري",
+    numero: 4258,
+    texteArabe:
+      "تَزَوَّجَ النَّبيُّ صلَّى اللهُ عليه وسلَّم مَيمونةَ وهو مُحرِمٌ، وبَنى بها وهو حَلالٌ، وماتَت بسَرِفَ. ",
+    texteFrancais:
+      "Le Prophète ﷺ a épousé Maymuna bint al-Harith alors qu’il était en état d’ihram (sacralisation),il consomma le mariage alors qu’il était redevenu licite,et elle est morte à Sarif.",
+    lien: "https://dorar.net/hadith/sharh/14416",
+    autres: "مسلم (1410)",
+  },
+  {
+    sujet: "Après accouchement ... ",
+    auteur: "  صحيح أبي داود",
+    numero: 311,
+    texteArabe:
+      " كانتِ النُّفساءُ على عهدِ رسولِ اللَّهِ صلَّى اللَّهُ عليهِ وسلَّمَ تقعدُ بعدَ نفاسِها أربعينَ يومًا",
+    texteFrancais:
+      "« À l’époque du Messager d’Allah ﷺ, la femme en état de lochies (après l’accouchement) restait (en repos / s’abstenait) pendant quarante jours après son accouchement. »gfvc ",
+    lien: "https://dorar.net/hadith/sharh/73484",
+    autres: "الترمذي (139)",
+  },
+];
 
 // 12- Mariya la copte
-const souratesMuhamadEpousesMariya = [];
-const versetsMuhamadEpousesMariya = [];
-const ahadithsMuhamadEpousesMariya = [];
+const souratesMuhamadEpousesMariya = ["La polygamie",4,"Le statut de Mariya",33,"Le Prophète ﷺ aurait juré de s’éloigner de Marya",66,];
+const versetsMuhamadEpousesMariya = ["",24, "La mère d'enfant",50,"Voir Hadith: Le prophète avec Mariya.",1];
+const ahadithsMuhamadEpousesMariya = [
+  {
+    sujet: " Le cadeau ",
+    auteur: "  الطبراني في ((الأوسط)) (7305)",
+    numero: 7305,
+    texteArabe:
+      "  أهدى المقوقِسُ مَلِكُ [القِبطِ] إلى رسولِ اللهِ صلَّى اللهُ عليه وسلَّم مُكحُلة عيدان شاميَّة ومرآةً ومُشطًا.",
+    texteFrancais:
+      "Marya la Copte fut offerte au Prophète ﷺ par le gouverneur d’Égypte (al-Muqawqis).",
+    lien: "https://dorar.net/h/BMY3b0cz",
+    autres: "",
+  },
+  {
+    sujet: " Le cadeau ",
+    auteur: "البيهقي عن حاطب بن أبي بلتعة",
+    numero: "",
+    texteArabe:
+      " بعثني رسول الله- صلى الله عليه وسلم- إلى المقوقس ملك الإسكندرية",
+    texteFrancais:
+      "Marya la Copte fut offerte au Prophète ﷺ par le gouverneur d’Égypte (al-Muqawqis).",
+    lien: "https://www.islamweb.net/ar/library/content/200/17743/%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D8%B5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%84%D9%8A%D9%87-%D9%88%D8%B3%D9%84%D9%85-%D8%AD%D8%A7%D8%B7%D8%A8-%D8%A8%D9%86-%D8%A3%D8%A8%D9%8A-%D8%A8%D9%84%D8%AA%D8%B9%D8%A9-%D8%B1%D8%B6%D9%8A-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%86%D9%87-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%82%D9%88%D9%82%D8%B3-%D9%85%D9%84%D9%83-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9",
+    autres: "Tabaqat Ibn Saad, Tarikh al-Tabari",
+  },
+  {
+    sujet: " Le cadeau ",
+    auteur: "الطبراني في ((المعجم الأوسط)",
+    numero: "3549",
+    texteArabe:
+      " أهدى المُقَوْقِسُ القِبْطِيُّ إلى رسولِ اللهِ صلَّى اللهُ عليه وسلَّمَ جاريتينِ أُخْتينِ ...",
+    texteFrancais:
+      "Le gouverneur d’Égypte a offert deux esclaves au Prophète ﷺ. Il garda Māriya et donna l’autre (Sīrīn) à Ḥassān ibn Thābit.",
+    lien: "https://dorar.net/h/47l84LBb?osoul=1",
+    autres:
+      ", أبو نعيم في ((معرفة الصحابة)) (7488) الطحاوي في ((شرح مشكل الآثار)) (2569)",
+  },
+  {
+    sujet: " Le prophète avec Mariya ",
+    auteur: " صحيح البخاري",
+    numero: 2468,
+    texteArabe:
+      " وجَدَتْ حَفْصةُ رسولَ اللهِ صلَّى اللهُ عليه وسلَّم مع أُمِّ إبراهيمَ في يَومِ عائشةَ",
+    texteFrancais:
+      "Le Prophète ﷺ confia un secret à Hafsa. Elle le révéla à Aisha… alors Allah révéla : ‘Si vous vous repentez toutes les deux…’",
+    lien: "https://dorar.net/hadith/sharh/135684",
+    autres: "مسلم (1479)، والترمذي (3318)، وأحمد (222)",
+  },
+  {
+    sujet: " Le prophète avec Mariya ",
+    auteur: " الطبراني في ((المعجم الأوسط)) (2316)",
+    numero: 2316,
+    texteArabe:
+      "دخَل رسولُ اللهِ صلَّى اللهُ عليه وسلَّم بماريةَ القِبطيَّةِ سُرِّيَّتِه بَيتَ حَفصَةَ بنتِ عُمَرَ، فوَجَدتْها معه ",
+    texteFrancais:
+      " « Le Prophète ﷺ était avec Māriya dans la maison de Ḥafṣa. Alors Ḥafṣa éprouva de la jalousie, et il se l’interdit à lui-même. Puis le verset (coranique) fut révélé… »",
+    lien: "https://dorar.net/h/6q5qZwAG",
+    autres: "",
+  },
+  {
+    sujet: " Le secret confié à Hafsa (At-Tahrim) ",
+    auteur: " صحيح البخاري",
+    numero: 6691,
+    texteArabe:
+      "  كان النبي ﷺ أسرَّ إلى حفصة حديثًا، فأخبرت به عائشة… فأنزل الله: إِن تَتُوبَا إِلَى اللَّهِ...",
+    texteFrancais:
+      "Le Prophète ﷺ confia un secret à Hafsa. Elle le révéla à Aisha… alors Allah révéla : ‘Si vous vous repentez toutes les deux…’",
+    lien: "https://dorar.net/hadith/sharh/5377",
+    autres: " مسلم (1474)، وأبي داود (3714)، والنسائي (3421)",
+  },
+  {
+    sujet: " La naissance d'Ibrahim ",
+    auteur: "  صحيح البخاري",
+    numero: 1303,
+    texteArabe: "  وُلِدَ لي اللَّيلةَ غُلامٌ، فسَمَّيتُه باسمِ أبي إبراهيمَ",
+    texteFrancais:
+      "« Un garçon m’est né cette nuit, je l’ai nommé du nom de mon père Ibrāhīm. »",
+    lien: "https://dorar.net/hadith/sharh/9621",
+    autres: "مسلم (2315)",
+  },
+  {
+    sujet: " La mort d'Ibrahim ",
+    auteur: "  صحيح البخاري",
+    numero: 1303,
+    texteArabe:
+      "... لقد رأيتُهُ يَكيدُ بنفسِهِ ( أي يقارِبُ الموتَ ) بينَ يدي رسولِ اللَّهِ ",
+    texteFrancais:
+      "Les yeux pleurent, le cœur est triste, mais nous ne disons que ce qui satisfait notre Seigneur. Et nous sommes profondément attristés par ta séparation, ô Ibrahim.",
+    lien: "https://dorar.net/hadith/sharh/43440",
+    autres: "مسلم (2315)",
+  },
+  {
+    sujet: " La mort d'Ibrahim ",
+    auteur: "  صحيح البخاري",
+    numero: 1382,
+    texteArabe:
+      " لَمَّا توفِّيَ إبراهيمُ عليه السَّلامُ قال رَسولُ اللهِ صلَّى اللهُ عليه وسلَّم: إنَّ له مُرضِعًا في الجَنَّةِ.",
+    texteFrancais: "« Il a une nourrice au Paradis. »",
+    lien: "https://dorar.net/hadith/sharh/5380",
+    autres: "أحمد (18664)، وابن حبان (6949)، والحاكم (6820)",
+  },
+];
+
 
 // 13- Rayhana bint Zayd (ريحانة بنت زيد)
 const souratesMuhamadEpousesRayhana = [];
 const versetsMuhamadEpousesRayhana = [];
-const ahadithsMuhamadEpousesRayhana = [];
+const ahadithsMuhamadEpousesRayhana = [
+  {
+    sujet: " La capture ",
+    auteur: "  المستدرك على الصحيحين",
+    numero: 6915,
+    texteArabe: " كان سباها في شوال سنة أربع . قال أبو عبيدة : وهن أربع",
+    texteFrancais:
+      "Rayhana bint Zayd faisait partie de Banū Qurayẓa. Elle fut capturée lors du conflit, et le Prophète ﷺ la choisit pour lui-même.",
+    lien: "https://www.islamweb.net/ar/library/content/74/6752/%D8%B0%D9%83%D8%B1-%D8%B1%D9%8A%D8%AD%D8%A7%D9%86%D8%A9-%D9%85%D9%88%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D8%B5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%84%D9%8A%D9%87-%D9%88%D8%A2%D9%84%D9%87-%D9%88%D8%B3%D9%84%D9%85-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D8%B3%D8%B1%D9%8A",
+    autres:
+      "Récit d’Ibn Sa‘d (Tabaqāt), Récit d’Ibn Ishaq (via Ibn Hisham), Tarikh al-Tabari ",
+    },
+    
+];
 
 
 // 14- mariage d’offrande
-const souratesMuhamadEpousesMariageOffrande = [];
-const versetsMuhamadEpousesMariageOffrande = [];
-const ahadithsMuhamadEpousesMariageOffrande = [];
+const souratesMuhamadEpousesMariageOffrande = [33,33];
+const versetsMuhamadEpousesMariageOffrande = [50,51];
+const ahadithsMuhamadEpousesMariageOffrande = [
+  {
+    sujet: " Une femme s'offre au prophète",
+    auteur: "  صحيح البخاري",
+    numero: 5871,
+    texteArabe: "جاءت امرأة إلى النبي ﷺ فقالت: وهبت نفسي لك… ...",
+    texteFrancais:
+      "Une femme vint au Prophète ﷺ et dit :« Je me suis offerte à toi. »",
+    lien: "https://dorar.net/hadith/sharh/20114",
+    autres: "مسلم (1425)",
+  },
+  {
+    sujet: " Une femme s'offre au prophète: خَولةُ بنتُ حَكيمٍ",
+    auteur: "  صحيح البخاري",
+    numero: 5113,
+    texteArabe:
+      "كانَت خَولةُ بنتُ حَكيمٍ مِنَ اللَّائي وهَبنَ أنفُسَهنَّ للنَّبيِّ ...",
+    texteFrancais:
+      "« Khawla bint Hakim faisait partie des femmes qui s’étaient offertes (en mariage) au Prophète ﷺ. »",
+    lien: "https://dorar.net/hadith/sharh/25624",
+    autres: "مسلم (1464)",
+  },
+  {
+    sujet: " Observation de Aisha bint Abi Bakr",
+    auteur: "  صحيح البخاري",
+    numero: 5113,
+    texteArabe: "أما تستحي المرأة أن تهب نفسها للرجل؟ ",
+    texteFrancais: "« Une femme n’a-t-elle pas honte de s’offrir ? »",
+    lien: "https://dorar.net/hadith/sharh/42528",
+    autres: "مسلم (1464)",
+  },
+  {
+    sujet:
+      " Observation de Aisha: « Je vois que ton Seigneur se hâte de satisfaire tes souhaits. »",
+    auteur: "  صحيح البخاري",
+    numero: 4788,
+    texteArabe: "ما أرى ربَّكَ إلَّا يسارعُ لَكَ في هواكَ",
+    texteFrancais:
+      "« Je vois que ton Seigneur se hâte de satisfaire tes souhaits. »",
+    lien: "https://dorar.net/hadith/sharh/41605",
+    autres: "مسلم (1464)",
+  },
+  {
+    sujet: " Le prophète demande à une femme de s'offrir à lui",
+    auteur: "  صحيح البخاري",
+    numero: 5255,
+    texteArabe: "هَبي نَفسَكِ لي ... وهل تَهَبُ المَلِكةُ نَفسَها للسُّوقةِ؟!",
+    texteFrancais:
+      "« Offre-toi à moi. » ... « Est-ce qu’une reine se donne à un homme du peuple ? »",
+    lien: "https://dorar.net/hadith/sharh/34290",
+    autres: "النسائي (3417)",
+  },
+];
 

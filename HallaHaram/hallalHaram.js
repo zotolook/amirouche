@@ -263,6 +263,7 @@ const ahadithsHallalHaramMariage = [
   },
 ];
 
+
 // 2. Hallal / Haram / Alimentation
 const souratesHallalHaramAlimentation = [
   " La bonne nourriture ",
@@ -400,6 +401,17 @@ const ahadithsHallalHaramAlimentation = [
       " Allah et Son Messager ont interdit la vente de l’alcool, de la bête morte, du porc et des idoles.",
     lien: "https://dorar.net/hadith/sharh/118846",
     autres: " أبو داود (3490)  الترمذي (1297)، والنسائي (4256)",
+  },
+  {
+    sujet: "Châtiment du vin",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6779,
+    texteArabe:
+      "أنَّ نَبِيَّ اللهِ صَلَّى اللَّهُ عليه وسلَّمَ جَلَدَ في الخَمْرِ بالجَرِيدِ، وَالنِّعَالِ",
+    texteFrancais:
+      "« Le Prophète ﷺ infligea la flagellation pour le vin avec des branches de palmier et des sandales. »",
+    lien: "https://dorar.net/hadith/sharh/11200",
+    autres: "أبو داود (4479)، والترمذي (1443)",
   },
   // Rituels
   {
@@ -764,5 +776,178 @@ const ahadithsHallalHaramComportements = [
       " Allah et Son Messager ont interdit la vente de l’alcool, de la bête morte, du porc et des idoles.",
     lien: "https://dorar.net/hadith/sharh/118846",
     autres: " أبو داود (3490)  الترمذي (1297)، والنسائي (4256)",
+  },
+];
+
+// 5. L'adoption
+const souratesHallalHaramAdoption = [
+  "Négation de la filiation des enfants adoptifs",
+  33,
+  "Obligation d’attribuer les enfants à leur père biologique",
+  33,
+  "Le mariage de Zayneb avec Zayd",
+  33,
+  "Le mariage de Zayneb avec le prophète",
+  33,
+  "Allah prend la défense du prophète",
+  33,
+  33,
+  33,
+];
+const versetsHallalHaramAdoption = [
+  "",
+  4,
+  "",
+  5,"",36,"",37,"",38,39,40,];
+const ahadithssHallalHaramAdoption = [
+  {
+    sujet: " Khadidja offre Zayd à Muhamad ",
+    auteur: " Ibn Isḥāq / Ibn Hishām (Sîra) ",
+    numero:
+      "Volume : 1. Section : Dhikr Zayd ibn Haritha (ذكر زيد بن حارثة). Édition Dar al-Kutub al-‘Ilmiyya : p. 191–193",
+    texteArabe:
+      "وكانت خديجة قد وهبت لرسول الله ﷺ زيد بن حارثة، فكان عنده، فأعتقه رسول الله ﷺ وتبناه",
+    texteFrancais:
+      "Khadija avait offert à l’Envoyé d’Allah ﷺ Zayd ibn Haritha. Il resta avec lui, puis le Prophète ﷺ l’affranchit et l’adopta.",
+    lien: "https://dorar.net/hadith/sharh/35978",
+    autres:
+      "Tabaqat Ibn Sa'd, vol. 3. p. 39–41, Al-Ṭabarī – Tārīkh al-Rusul wa al-Mulūk. Volume : 2. p. 161–163 ",
+  },
+
+  {
+    sujet: " Zayd fils de Muhamad ",
+    auteur: " صحيح مسلم ",
+    numero: 2425,
+    texteArabe:
+      "ما كنَّا ندعو زيدَ بنَ حارثةَ إلَّا زيدَ ابنَ محمَّدٍ حتَّى نزلَت ادْعُوهُمْ لِآبَائِهِمْ هُوَ أَقْسَطُ عِنْدَ اللَّهِ",
+    texteFrancais:
+      "Nous n’appelions Zayd ibn Haritha que ‘Zayd ibn Muhammad’ jusqu’à ce que soit révélé : ‘Appelez-les du nom de leurs pères’.",
+    lien: "https://dorar.net/hadith/sharh/35978",
+    autres: "الترمذي (3814)  البخاري (4782)",
+  },
+  // Visite de Muhamad
+  {
+    sujet: " Muhamad rend visite à Zayd",
+    auteur: "  ابن سعد في ((الطبقات الكبرى))",
+    numero: "(10/ 99)",
+    texteArabe: "... سُبحانَ اللهِ مُصرِّفِ القُلوبِ ...",
+    texteFrancais:
+      "Gloire à Allah, Celui qui fait évoluer / tourner les cœurs.",
+    lien: "https://dorar.net/h/5zpCKQQo?osoul=1",
+    autres: "الطبري في ((تاريخه)) (2/ 562)",
+  },
+  {
+    sujet: " Muhamad refuse la proposition de Zayd",
+    auteur: " صحيح البخاري ",
+    numero: 7420,
+    texteArabe: "اتَّقِ اللهَ، وأمسِكْ عليك زَوجَكَ ...",
+    texteFrancais: "Garde ton épouse et crains Allah.",
+    lien: "https://dorar.net/hadith/sharh/39396",
+    autres: "الترمذي (3212)، وأحمد (12511)",
+  },
+  {
+    sujet: " Muhamad refuse la proposition de Zayd",
+    auteur: "صحيح مسلم ",
+    numero: 177,
+    texteArabe:
+      "ولَو كانَ مُحَمَّدٌ صلَّى اللهُ عليه وسلَّم كاتِمًا شيئًا ممَّا أُنزِلَ عليه لَكَتَمَ هذه الآيةَ",
+    texteFrancais:
+      "Lorsque fut révélé : ‘Tu cachais en toi ce qu’Allah allait manifester…",
+    lien: "https://dorar.net/hadith/sharh/115062",
+    autres: "أحمد (26041) الترمذي (3207)، والنسائي في ((الكبرى)) (11344)",
+  },
+  {
+    sujet: " Tafsir (Sourate 33:37)",
+    auteur: " Sahih al-Bukhari",
+    numero: "موسوعة التفسير",
+    texteArabe:
+      "ولَو كانَ مُحَمَّدٌ صلَّى اللهُ عليه وسلَّم كاتِمًا شيئًا ممَّا أُنزِلَ عليه لَكَتَمَ هذه الآيةَ",
+    texteFrancais:
+      "Lorsque fut révélé : ‘Tu cachais en toi ce qu’Allah allait manifester…",
+    lien: "https://dorar.net/tafseer/33/12",
+    autres: "Kitab Tafsir Sourate Al-Ahzab (33:37)",
+  },
+  // Fin de l'adoption
+  {
+    sujet: " La filiation ",
+    auteur: " صحيح مسلم ",
+    numero: 61,
+    texteArabe: "ليس مِن رَجُلٍ ادَّعى لغَيرِ أبيه وهو يَعلَمُه إلَّا كَفَرَ",
+    texteFrancais:
+      "Tout homme qui se rattache à un autre que son père en le sachant commet une grave faute",
+    lien: "https://dorar.net/hadith/sharh/3853",
+    autres: "البخاري (3508)",
+  },
+  {
+    sujet: " La filiation ",
+    auteur: " صحيح مسلم ",
+    numero: 63,
+    texteArabe:
+      "منِ ادَّعى إلى غيرِ أبيهِ - وهوَ يعلمُ أنَّهُ غيرَ أبيهِ حرَّمَ اللَّهُ عليهِ الجنَّةَ",
+    texteFrancais: "",
+    lien: "https://dorar.net/hadith/sharh/74270",
+    autres: " ابن ماجة (2610)، وأحمد (1497) البخاري (6766)",
+  },];
+
+// 6. L'usure
+const souratesHallalHaramUsure = [
+  "Interdiction progressive de l'usure",
+  2,
+  2,
+  2,
+  2,
+  "L’usure multipliée est interdite",
+  3,
+  "Condamnation des pratiques injustes",
+  4,
+  "Contraste entre usure et aumône",30,
+];
+const versetsHallalHaramUsure = ["", 275,276,278,279,"",130,"",161,"",39,];
+const ahadithsHallalHaramUsure = [
+  {
+    sujet: " Les 7 grands péchés destructeurs",
+    auteur: " صحيح البخاري",
+    numero: 2766,
+    texteArabe: " اجْتَنِبُوا السَّبْعَ الْمُوبِقَاتِ",
+    texteFrancais:
+      "“Évitez les sept péchés destructeurs.”On demanda : “Quels sont-ils ?”Il répondit : “L’association à Allah, la sorcellerie, le meurtre injuste, et la consommation de l’usure…”",
+    lien: "https://dorar.net/hadith/sharh/133864",
+    autres: " مسلم (89) ",
+  },
+
+  {
+    sujet: " Malédiction liée à l’usure",
+    auteur: " صحيح مسلم",
+    numero: 1597,
+    texteArabe:
+      "لَعَنَ رَسُولُ اللَّهِ آكِلَ الرِّبَا وَمُوكِلَهُ وَكَاتِبَهُ وَشَاهِدَيْهِ",
+    texteFrancais:
+      "“Le Messager d’Allah a maudit celui qui consomme l’usure, celui qui la donne, celui qui l’écrit et ses deux témoins.”",
+    lien: "https://dorar.net/hadith/sharh/17202",
+    autres: " من أفراد مسلم على البخاري ",
+  },
+  {
+    sujet: " Interdiction des intérêts même faibles ",
+    auteur: " ابن ماجة",
+    numero: 2275,
+    texteArabe:
+      "الرِّبَا سَبْعُونَ بَابًا، أَيْسَرُهَا مِثْلُ أَنْ يَنْكِحَ الرَّجُلُ أُمَّهُ",
+    texteFrancais:
+      "“L’usure comporte soixante-dix portes (formes). La plus légère est comme le fait qu’un homme épouse sa mère.”",
+    lien: "https://dorar.net/hadith/sharh/119683",
+    autres:
+      " ابن ماجة (2275 )، وابن المنذر في ((الأوسط)) (8013 )، والحاكم (2259 )، والبيهقي في ((شعب الإيمان)) (5131 ) ",
+  },
+  {
+    sujet: "Danger et gravité de l’usure",
+    auteur: "صحيح الجامع الألباني",
+    numero: 3539,
+    texteArabe:
+      "الرِّبَا سَبْعُونَ حُوبًا، أَيْسَرُهَا أَنْ يَنْكِحَ الرَّجُلُ أُمَّهُ",
+    texteFrancais:
+      "“L’usure comporte soixante-dix péchés. Le moindre d’entre eux est comparable au fait qu’un homme épouse sa propre mère.”",
+    lien: "https://dorar.net/hadith/sharh/119683",
+    autres:
+      " ابن ماجة (2275 )، وابن المنذر في ((الأوسط)) (8013 )، والحاكم (2259 )، والبيهقي في ((شعب الإيمان)) (5131 )",
   },
 ];
