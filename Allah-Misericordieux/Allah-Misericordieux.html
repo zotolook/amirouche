@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> ISL </title>
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../thematiques/thematiques.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Barre de navigation -->
+
+        <nav class="container-fluid navbar navbar-expand-md navbar-dark bg-dark">
+
+            <!-- Brand Logo -->
+
+            <a class="navbar-brand logo" href="../index.html">
+                <div class="logo">
+                    <div class="isl"> <span> ISL </span></div>
+                    <img src="../images/mosque.png" width="70" alt="mosque">
+                </div>
+
+            </a>
+            <!-- My profil -->
+
+            <!-- Toggler/collapsibe Button -->
+            <div class="navbar-toggler btn-humburger " data-toggle="collapse" data-target="#collapsibleNavbar">
+                <!--<span class="navbar-toggler-icon icon"></span>-->
+                <span class="icon"></span>
+
+            </div>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse menu" id="collapsibleNavbar">
+
+                <ul class="navbar-nav mr-auto text-center menu_ul">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html"> Accueil </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../thematiques/thematiques.html"> Thématiques </a>
+                    </li>
+
+                    <!-- Drop down button -->
+                    <li class="nav-item">
+                        <div class="dropdown ">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Lire
+                            </button>
+                            <ul class="dropdown-menu s_entrainer" aria-labelledby="dropdownMenuButton1">
+                                <li class="dropdown-item" onclick="lireCoran()"> Lire le coran </li>
+                                <li class="dropdown-item" onclick="lireSourate()"> Lire une sourate</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="dropdown-item" onclick="lireVerset()"> Lire un verset</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!--Infos -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../infos/infos.html"> Infos Islam </a>
+                    </li>
+                    <!-- -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="chercher()"> Chercher </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- Fin barre de navigation -->
+    </header>
+
+    <main>
+        <div id="tableau" class="container text-justify">
+            <h3 class="text-center"> Allah le miséricordieux </h3>
+
+            <ul class="d-flex ulThematiques justify-content-evenly align-items-center flex-wrap">
+
+                <!-- 1. هلاك الأمم والعقوبات (Destruction des peuples / châtiment des nations)  -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique"> 1. هلاك الأمم والعقوبات (Destruction des peuples / châtiment des nations) </h3>
+
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` la destruction des peuples / châtiment des nations هلاك الأمم والعقوبات ` , souratesAllahMisericordieuxDestruction, versetsAllahMisericordieuxDestruction)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`la destruction des peuples / châtiment des nations هلاك الأمم والعقوبات `,ahadithsAllahMisericordieuxDestruction)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 2. Châtiments de l’au-delà / Enfer عذاب الآخرة  -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique">2. Châtiments de l’au-delà / Enfer عذاب الآخرة </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` les châtiments de l’au-delà / Enfer عذاب الآخرة ` , souratesAllahMisericordieuxEnfer, versetsAllahMisericordieuxEnfer)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`les châtiments de l’au-delà / Enfer عذاب الآخرة `,ahadithsAllahMisericordieuxEnfer)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 3. Justice et sagesse العدل والحكمة  -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique">3. Justice et sagesse العدل والحكمة</h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` la justice et la sagesse العدل والحكمة ` , souratesAllahMisericordieuxJustice, versetsAllahMisericordieuxJustice)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`la justice et la sagesse العدل والحكمة `,ahadithsAllahMisericordieuxJustice)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 4. Guidance, foi et rejet des signes -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique">4. Guidance, foi et rejet des signes </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` la guidance, la foi et le rejet des signes ` , souratesAllahMisericordieuxFoi, versetsAllahMisericordieuxFoi)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`la guidance, la foi et le rejet des signes `,ahadithsAllahMisericordieuxFoi)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 5. قدرة الله وحكمه (Puissance et souveraineté d’Allah) -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique">5. Puissance et souveraineté d’Allah قدرة الله وحكمه  </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` la puissance et la souveraineté d’Allah قدرة الله وحكمه ` , souratesAllahMisericordieuxPuissance, versetsAllahMisericordieuxPuissance)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`la puissance et souveraineté d’Allah قدرة الله وحكمه `,ahadithsAllahMisericordieuxPuissance)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 6. Science divine العلم الإلهي  -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique">6. Science divine العلم الإلهي </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(` la science divine العلم الإلهي ` , souratesAllahMisericordieuxScience, versetsAllahMisericordieuxScience)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`la science divine العلم الإلهي `,ahadithsAllahMisericordieuxScience)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 7. Paraboles et leçons الأمثال والعبر  -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique">7. Paraboles et leçons الأمثال والعبر </h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`les araboles et leçons الأمثال والعبر  ` , souratesAllahMisericordieuxParaboles, versetsAllahMisericordieuxParaboles)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`les paraboles et leçons الأمثال والعبر `,ahadithsAllahMisericordieuxParaboles)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+                <!-- 8. Résurrection et retour البعث والرجوع إلى الله  -->
+                <li class="carteThematique">
+                    <h3 class="titreThematique">8. Résurrection et retour البعث والرجوع إلى الله</h3>
+                
+                    <div class="boutonsVersetsAhadiths">
+                        <p> <button type="button" class="btn btn-primary btn-sm"
+                                onclick="injecteVersets(`la résurrection et le retour البعث والرجوع إلى الله  ` , souratesAllahMisericordieuxResurection, versetsAllahMisericordieuxResurection)">
+                                Versets
+                            </button></p>
+                        <p><button type="button" class="btn btn-secondary btn-sm"
+                                onclick="injecteAhadiths(`la résurrection et le retour البعث والرجوع إلى الله `,ahadithsAllahMisericordieuxResurection)">
+                                Ahadiths</button></p>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <button class="btn btn-danger btn-sm boutonFixeHaut" onclick="haut()"> Haut</button>
+        <button class="btn btn-danger btn-sm boutonFixeBas" onclick="bas()"> Bas</button>
+    </footer>
+
+
+
+    <script src="../index.js"></script>
+    <script src="../accueil.js"></script>
+    <script src="../thematiques/thematiques.js"></script>
+    <script src="./Allam-Misericordieux.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

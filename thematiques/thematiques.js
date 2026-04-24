@@ -1,29 +1,6 @@
 let pTitreThematique = document.createElement("p")
 pTitreThematique.setAttribute('class', 'pTitreThematique')
 
-// - Islam religion unique
-const souratesIslamReligionUnique= [3,3,3,6,9,61,86,86];
-const versetsIslamReligionUnique = [19,85,99,92,33,9,13,14];
-const ahadithsIslamReligionUnique = [
-  // https://dorar.net/hadith/sharh/132010
-
-];
-// Fin Islam Religion unique
-
-// - A L L A H /  O M N I P O T E N T  /   O M N I S C i E N T
-const souratesAllahOmnipotentOmniscient = [ 2, 2, 3, 6, 6, 6, 7, 9, 11,11,11,11,11, 13, 16,16, 22,22,22,22,22, 32, 33, 35, 36, 40, 42,42, "C'est quoi...", 17]
-const versetsAllahOmnipotentOmniscient = [ 181, 244, 140, 18, 103, 115, 5,6, 1,2,3,4,5, 9, 8,40, 6,38,39,40,70, 5, 54, 2, 82, 68, 9,17, "l'âme?", 85]
-let ahadithsAllahOmnipotentOmniscient = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4584,
-    texte:
-      "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ",
-    lien: "https://dorar.net/hadith/sharh/65277",
-  },
-  // https://dorar.net/hadith/sharh/24773
-];
-
 // - Obéir à Allah et au prophète
 const souratesObeirAllahProphete = [3,3,4,4,6,24,24,24,33,33,47,48,49,49,57,57]
 const versetsObeirAllahProphete = [32,132,59,80,50,51,54,56,21,36,33,17,1,2,7,8]
