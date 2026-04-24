@@ -353,6 +353,8 @@ const versetsMoise = [
   15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
   10,11,12,13,14,
 ];
+// https://dorar.net/hadith/sharh/26282
+// https://dorar.net/hadith/sharh/150775
 
 // 13- Aaron[27] هارون, hārūn Hârûn
 const souratesAaron = [

@@ -598,3 +598,4 @@ const ahadithsFemmesCoran = [
     autres: "الطبراني (25/31) (51)، وأبو نعيم في ((معرفة الصحابة)) (7993)",
   },
 ];
+// https://dorar.net/hadith/sharh/21365

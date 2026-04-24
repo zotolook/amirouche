@@ -5,6 +5,7 @@ const souratesGogMagog = [
 const versetsGogMagog = [
     94, 95, 96, 97, 98, 99, 100,
     95, 96,];
+// https://dorar.net/hadith/sharh/16178
 
 // 2- Les gens de la caverne
 const souratesCaverne = [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18,];
@@ -17,6 +18,41 @@ const versetsLesDeuxHommes = [32,33,34,35,36,37,38,39,40,41,42,43,44,];
 // 4- Le serviteur et Moïse
 const souratesServiteurMoise = [18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,];
 const versetsServiteurMoise = [60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,];
+const ahadithsLegendesServiteurMoise = [
+  {
+    sujet: "Origine du nom ",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3402,
+    texteArabe:
+      " إِنَّمَا سُمِّيَ الْخَضِرَ أَنَّهُ جَلَسَ عَلَى فَرْوَةٍ بَيْضَاءَ، فَاهْتَزَّتْ تَحْتَهُ خَضْرَاءَ",
+    texteFrancais:
+      "“Al-Khidr a été appelé ainsi parce qu’il s’est assis sur une terre blanche desséchée, et celle-ci s’est mise à verdir sous lui.”",
+    lien: "https://dorar.net/hadith/sharh/9895",
+    autres: " الترمذي (3151) ",
+  },
+  {
+    sujet: "Moise et l'enfant ",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 74,
+    texteArabe:
+      "سمِعْتُ رسولَ اللهِ صلَّى اللهُ عليه وسلَّم يقولُ: ( بينما موسى في ملأٍ مِن بني إسرائيلَ إذ جاءه رجلٌ فقال له: هل تعلَمُ أحدًا أعلمَ منك ؟ فقال موسى: لا ",
+    texteFrancais:
+      "Le Prophète ﷺ a dit :“Alors que Moïse se trouvait parmi un groupe des enfants d’Israël, un homme vint à lui et lui dit :‘Connais-tu quelqu’un de plus savant que toi ?’Moïse répondit : ‘Non.’",
+    lien: "https://dorar.net/hadith/sharh/124",
+    autres: " مسلم (2380) ",
+  },
+  {
+    sujet: "L'histoire du Khadhr et Moise",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4725,
+    texteArabe: " ... إنَّ لي عَبدًا بمَجمَعِ البَحرَينِ هو أعلَمُ مِنكَ ...",
+    texteFrancais:
+      "“J’ai un serviteur au confluent des deux mers qui est plus savant que toi.”",
+    lien: "https://dorar.net/hadith/sharh/151386",
+    autres: " مسلم (2380) ",
+    },
+  
+];
 
 // 5- Le Bi-cornu   قصة ذو القرنين 
 const souratesBicornu = [18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,];

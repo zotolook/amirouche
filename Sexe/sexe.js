@@ -34,8 +34,12 @@ const ahadithsSexeMariage = [
 ];
 
 // 2. La fornication
-const souratesSexeFornication = [4, 4, 17, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 70, 70, 70,];
-const versetsSexeFornication = [15, 16, 32, 2, 4, 23, 24, 25, 26, 68, 69, 70, 71, 29, 30, 31,];
+const souratesSexeFornication = [
+  4, 4, 17, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 70, 70, 70,
+];
+const versetsSexeFornication = [
+  15, 16, 32, 2, 4, 23, 24, 25, 26, 68, 69, 70, 71, 29, 30, 31,
+];
 const ahadithsSexeFornication = [
   {
     sujet: "",
@@ -104,6 +108,15 @@ const ahadithsSexeFornication = [
     lien: "https://dorar.net/hadith/sharh/564",
     autres: "مسلم (1697)",
   },
+  {
+    sujet: "",
+    auteur: " صحيح النسائي",
+    numero: 7611,
+    texte: " ... قُلْتُ لهما: ما هؤلاء؟ قالا: هُمُ الزُّناةُ والزَّواني. ...",
+    lien: "https://dorar.net/h/Jiy0bALe",
+    autres: " أحمد (20094)، والبزار (4513) ",
+  },
+  // https://dorar.net/hadith/sharh/120306
 ];
 
 // 3. L'adultère
@@ -162,8 +175,12 @@ const ahadithsSexeAdultere = [
 ];
 
 // 4. L'histoire du prophète Joseph
-const souratesSexeJoseph = [ 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12,];
-const versetsSexeJoseph = [  21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,];
+const souratesSexeJoseph = [
+  12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12,
+];
+const versetsSexeJoseph = [
+  21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+];
 const ahadithsSexeJoseph = [];
 
 // 5. Le sexe au paradis
@@ -295,3 +312,8 @@ const ahadithsSexeEnfantLit = [
   },
 ];
 
+// 12. L'affaire d'Ifk
+const souratesSexeIfk = [24, 24, 24, 24, 24, 24, 24, 24, 24, 24];
+const versetsSexeIfk = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+const ahadithsSexeIfk = [];
+  

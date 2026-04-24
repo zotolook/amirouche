@@ -18,6 +18,17 @@ const souratesPriere = [2,2,4,5,11, 23, 24, 24, 24, 29, ];
 const versetsPriere = [3,43,103,6,114, 2, 37, 56, 58, 45, ];
 const ahadithsPriere = [
   {
+    sujet: "Le voyage nocturne",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3887,
+    texteArabe:
+      " أنَّ نَبيَّ اللهِ صلَّى اللهُ عليه وسلَّم حَدَّثَهم عن لَيلةِ أُسريَ بهِ",
+    texteFrancais:
+      "“Le Prophète d’Allah ﷺ leur raconta ce qui s’était passé la nuit où il fut transporté (en voyage nocturne).”",
+    lien: "https://dorar.net/hadith/sharh/68201",
+    autres: "مسلم (164) الترمذي (3346) والنسائي (448) ",
+  },
+  {
     auteur: "El Boukhari صحيح البخاري",
     numero: 7517,
     texte: " لَيْلَةَ أُسْرِيَ برَسولِ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ ...",
@@ -178,6 +189,20 @@ const ahadithsPriere = [
     lien: "https://dorar.net/hadith/sharh/61632",
     autres: "النسائي (1794)، وابن ماجه (1140)",
   },
+  {
+    sujet: " la prière du vendredi",
+    auteur: " صحيح مسلم ",
+    numero: 863,
+    texteArabe:
+      " ... فَمَرَّتْ عِيرٌ تَحْمِلُ طَعَامًا، فَخَرَجَ النَّاسُ إِلَيْهَا، حَتَّى لَمْ يَبْقَ مَعَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِلَّا اثْنَا عَشَرَ رَجُلًا ...",
+    texteFrancais:
+      "“Nous étions avec le Messager d’Allah ﷺ lors de la prière du vendredi, lorsqu’une caravane transportant de la nourriture passa. Les gens sortirent vers elle, au point qu’il ne resta avec le Prophète ﷺ que douze hommes. Alors le verset du vendredi fut révélé.”",
+    autres: "ابن خزيمة (1823)، والبيهقي (5690) البخاري (936)",
+  },
+  // https://dorar.net/hadith/sharh/24478
+  // https://dorar.net/hadith/sharh/24472
+  // https://dorar.net/hadith/sharh/118087
+  
 ];
 
 // 3- Le ramadhan
@@ -335,10 +360,13 @@ const ahadithsRamadhan = [
     numero: 1986,
     texteArabe:
       " أنَّ النَّبيَّ صلَّى اللهُ عليه وسلَّم دَخَلَ عليها يَومَ الجُمُعةِ وهي صائِمةٌ",
-    texteFrancais: "Le Prophète ﷺ entra chez Juwayriya un vendredi alors qu’elle jeûnait.",
+    texteFrancais:
+      "Le Prophète ﷺ entra chez Juwayriya un vendredi alors qu’elle jeûnait.",
     lien: "https://dorar.net/hadith/sharh/66121",
     autres: "أبو داود (2422)، وأحمد (26756)، والنسائي في ((الكبرى)) (2767)",
   },
+  // https://dorar.net/hadith/sharh/10254
+  // https://dorar.net/hadith/sharh/10255
 ];
 
 // 4- L'aumône

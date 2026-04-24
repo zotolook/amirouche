@@ -163,6 +163,20 @@ const ahadithsDjihadOffensif = [
     lien: "https://dorar.net/hadith/sharh/68773",
     autres: "الطبراني (11/ 342) (11952)، والبيهقي في ((دلائل النبوة)) (3/ 54)",
   },
+  {
+    sujet: " Les cinq caractéristiques",
+    auteur: "صحيح البخاري ",
+    numero: 335,
+    texteArabe: "أُعطيتُ خَمسًا لَم يُعطَهنَّ أحَدٌ قَبلي ...",
+    texteFrancais:
+      "“Cinq choses m’ont été accordées, qui n’ont été accordées à personne avant moi :...",
+    lien: "https://dorar.net/hadith/sharh/15781",
+    autres: "مسلم (521)، والنسائي (432)، وأحمد (14264)",
+  },
+  // غدوةٌ في سبيلِ الله أو روحةٌ خيرٌ من الدنيا وما فيها ولَقَابُ قوْسِ أحدِكم أو موضِعِ قَدَمٍ من الجنةِ خيرٌ من الدنيا
+  // https://dorar.net/hadith/sharh/26605
+  // https://dorar.net/hadith/sharh/122862
+  
 ];
 
 // 2- Mourir en martyr -->
@@ -609,10 +623,11 @@ const ahadithsCouperMainVoleurs = [
     autres:
       "  تاريخ أصبهان (1/162)   ضعف الحديث الألباني في السلسلة الضعيفة (1673)",
   },
+  // https://dorar.net/hadith/sharh/15353
+  // https://dorar.net/hadith/sharh/120306
 ];
 
 // 7- Fouettement des fornicateurs et alccol -->
-
 const souratesFouettementFornicateurs = [4, 24,24,24,24,24,];
 const versetsFouettementFornicateurs = [25, 2,3,4,13,14,];
 const ahadithsFouettementFornicateurs = [
@@ -673,10 +688,11 @@ const ahadithsFouettementFornicateurs = [
     lien: "https://dorar.net/hadith/sharh/11762",
     autres: "",
   },
+  // https://dorar.net/hadith/sharh/15353
+  // https://dorar.net/hadith/sharh/120306
 ];
 
 // 8- Lapidation des adultères -->
-
 const souratesLapidationAdulteres = [4,24,24,24,24,115];
 const versetsLapidationAdulteres = [25,6,7,8,9,1];
 const ahadithsLapidationAdulteres = [
@@ -1012,5 +1028,95 @@ const ahadithsDjihadViolencesExecutions = [
       "« Il ordonna à son sujet : ses mains et ses pieds furent coupés, puis elle fut jetée jusqu’à ce qu’elle meure. »",
     lien: "https://dorar.net/hadith/sharh/138269",
     autres: "Sirat Ibn Ishaq via Ibn Hisham",
+  },
+];
+
+// 11- Le djihad et le butin
+const souratesDjihadViolencesButin = ["Butin hallal", 8,"Répartition du butin", 8, 8, 8, 59,4,"Trahison du butin", 3,];
+const versetsDjihadViolencesButin = ["",69, "",20, 1, 41, 7,95,"",161,];
+const ahadithsDjihadViolencesButin = [
+  {
+    sujet: " Le butin licite!",
+    auteur: "صحيح الترمذي  ",
+    numero: 3085,
+    texteArabe: "كَانَتِ الْغَنَائِمُ لَا تَحِلُّ لِأَحَدٍ قَبْلَنَا",
+    texteFrancais: "“Le butin n’était pas permis à personne avant nous.”",
+    lien: "https://dorar.net/hadith/sharh/42669",
+    autres: "النسائي في ((السنن الكبرى)) (11209)، وأحمد (7433)",
+  },
+  {
+    sujet: " Les cinq caractéristiques",
+    auteur: "صحيح البخاري ",
+    numero: 335,
+    texteArabe: "أُعطيتُ خَمسًا لَم يُعطَهنَّ أحَدٌ قَبلي ...",
+    texteFrancais:
+      "“Cinq choses m’ont été accordées, qui n’ont été accordées à personne avant moi :...",
+    lien: "https://dorar.net/hadith/sharh/15781",
+    autres: "مسلم (521)، والنسائي (432)، وأحمد (14264)",
+  },
+  {
+    sujet: "La corruption !",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 3344,
+    texteArabe:
+      " بَعَثَ عَليٌّ رَضيَ اللهُ عنه إلى النَّبيِّ صلَّى اللهُ عليه وسلَّم بذُهَيبةٍ، فقَسَمَها بينَ الأربَعةِ",
+    texteFrancais:
+      "‘Alî envoya au Prophète ﷺ une petite quantité d’or, et il la distribua entre plusieurs chefs. Les gens de Quraysh et les Ansar se fâchèrent en disant qu’il donnait aux notables de Najd et les délaissait.",
+    lien: "https://dorar.net/hadith/sharh/8019",
+    autres: "مسلم (1064)",
+  },
+  {
+    sujet: " Nous allons manger des dattes!",
+    auteur: "صحيح البخاري ",
+    numero: 4242,
+    texteArabe:
+      "عَن عائِشةَ رَضيَ اللهُ عنها، قالت: لَمَّا فُتِحَت خَيبَرُ قُلنا: الآنَ نَشبَعُ مِنَ التَّمرِ.",
+    texteFrancais:
+      "‘Aïcha (qu’Allah l’agrée) a dit :“Lorsque Khaybar fut conquise, nous avons dit : ‘Maintenant nous allons manger des dattes à satiété.’”",
+    lien: "https://dorar.net/hadith/sharh/150377",
+    autres: "ابن حبان (684)",
+  },
+  {
+    sujet: " Répartition du butin",
+    auteur: "صحيح البخاري ",
+    numero: 4228,
+    texteArabe:
+      "قَسَمَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَوْمَ خَيْبَرَ لِلْفَرَسِ سَهْمَيْنِ وَلِلرَّاجِلِ سَهْمًا",
+    texteFrancais:
+      "“Le Messager d’Allah ﷺ, le jour de Khaybar, attribua deux parts au cavalier et une part au piéton.”",
+    lien: "https://dorar.net/hadith/sharh/150377",
+    autres: "مسلم (1762)",
+  },
+  {
+    sujet: " Répartition du butin",
+    auteur: "صحيح البخاري ",
+    numero: 3140,
+    texteArabe:
+      "يَا رَسُولَ اللَّهِ، أَعْطَيْتَ بَنِي الْمُطَّلِبِ وَتَرَكْتَنَا",
+    texteFrancais:
+      "“Ô Messager d’Allah, tu as donné aux Banū al-Muṭṭalib et tu nous as laissés.”",
+    lien: "https://dorar.net/hadith/sharh/150377",
+    autres: "من أفراد البخاري على مسلم",
+  },
+  {
+    sujet: " Répartition du butin",
+    auteur: "صحيح البخاري ",
+    numero: 4234,
+    texteArabe: "غَنِمنا المَتاعَ والطَّعامَ والثِّيابَ",
+    texteFrancais:
+      "“Nous avons pris comme butin des objets, de la nourriture et des vêtements.”",
+    lien: "https://dorar.net/hadith/sharh/11911",
+    autres: "مسلم (115)",
+  },
+  {
+    sujet: "La corruption !المُؤَلَّفةِ قُلوبُهم",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4330,
+    texteArabe:
+      " لَمَّا أفاءَ اللهُ على رَسولِه صلَّى اللهُ عليه وسلَّم يَومَ حُنَينٍ قَسَمَ في النَّاسِ في المُؤَلَّفةِ قُلوبُهم",
+    texteFrancais:
+      "“Lorsque Allah accorda (le butin) à Son Messager ﷺ le jour de Hunayn, il le répartit parmi les gens, notamment parmi ceux dont les cœurs étaient à gagner.”",
+    lien: "https://dorar.net/hadith/sharh/8019",
+    autres: "مسلم (1061)",
   },
 ];

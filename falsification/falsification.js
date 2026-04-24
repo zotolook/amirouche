@@ -365,6 +365,9 @@ const ahadithsFalsificationSeptLectures = [
     lien: "https://dorar.net/hadith/sharh/138192",
     autres: "التمهيد | الصفحة أو الرقم : 8/282",
   },
+  // https://dorar.net/hadith/sharh/630
+  // https://dorar.net/hadith/sharh/78916
+
 ];
 
 // 9- Le coran incomplet
@@ -427,7 +430,7 @@ const ahadithsFalsificationCoranIncomplet = [
   },
 ];
 
-// 10- Les différences entre les corans
+// 10- Les différences versions du corans
 const souratesFalsificationDifferences = [
   ` <span class="titreDifferences"> أمثلة لِلفروق بين رواية ورش و حفص </span>`,
 
@@ -582,18 +585,61 @@ const versetsFalsificationOrthographe = [
 const ahadithsFalsificationOrthographe = [];
 
 // 12- L'apostasie de Abd ellah ibn sarh
-const souratesFalsificationApostasie = [23,23,23, 6,];
-const versetsFalsificationApostasie = [12,13,14, 93,];
+const souratesFalsificationApostasie = [23, 23, 23, 6];
+const versetsFalsificationApostasie = [12, 13, 14, 93];
 const ahadithsFalsificationApostasie = [
   {
-    sujet:"",
+    sujet: "",
     auteur: "صحيح أبي داود",
     numero: 4359,
     texteArabe: " أما كان فيكم رجلٌ رشيدٌ ... عبدُ اللهِ بنُ أبي السَّرحِ",
-     texteFrancais:"",
+    texteFrancais: "",
     lien: "https://dorar.net/hadith/sharh/30712",
     autres:
       " https://tafsir.app/tabari/6/92?utm_source=chatgpt.com النسائي (4067)، والحاكم (4360)",
     Tabari: "https://tafsir.app/tabari/6/92?utm_source=chatgpt.com",
   },
 ];
+
+// 13. Le rassemblement du coran
+const souratesFalsificationRassemblement = [];
+const versetsFalsificationRassemblement = [];
+const ahadithsFalsificationRassemblement = [
+  {
+    sujet: "La compilation d'Abu Bakr",
+    auteur: "صحيح أبي داود",
+    numero: 4679,
+    texteArabe:
+      "  إنِّي أخشى أن يَستَحِرَّ القَتلُ بقُرَّاءِ القُرآنِ في المَواطِنِ كُلِّها..",
+    texteFrancais:
+      "“Je crains que les combats n’emportent de nombreux récitateurs du Coran dans toutes les batailles, et qu’une grande partie du Coran ne disparaisse. Je pense donc que tu devrais ordonner la compilation du Coran.”",
+    lien: "https://dorar.net/hadith/sharh/3840",
+    autres: "الترمذي (3103) ",
+  },
+  {
+    sujet: "Ibn Khouzayma l'homme aux deux témoignage",
+    auteur: "صحيح أبي داود",
+    numero: 3607,
+    texteArabe:
+      " أنَّ النَّبيَّ صلَّى اللَّهُ عليهِ وسلَّمَ ابتاعَ فرسًا من أعرابيٍّ ...",
+    texteFrancais: "Le Prophète ﷺ acheta un cheval à un bédouin, ...",
+    lien: "https://dorar.net/hadith/sharh/85629",
+    autres: "أحمد (21883)",
+  },
+  {
+    sujet: "Le verset 33:23 Ibn Khouzayma",
+    auteur: "صحيح أبي داود",
+    numero: 2807,
+    texteArabe:
+      "نَسَختُ الصُّحُفَ في المَصاحِفِ، ففقدتُ آيةً مِن سورةِ الأحزابِ ",
+    texteFrancais:
+      "“En recopiant les feuillets dans les exemplaires du Coran, j’ai perdu un verset de la sourate Al-Ahzab que j’entendais le Messager d’Allah ﷺ réciter. Je me suis mis à le chercher et je l’ai trouvé auprès de Khuzayma ibn Thābit",
+    lien: "https://dorar.net/hadith/sharh/11516",
+    autres: "أحمد (21652)",
+  },
+  // https://dorar.net/hadith/sharh/9629
+  // https://dorar.net/hadith/sharh/1694
+  // https://dorar.net/hadith/sharh/3839
+  
+];
+// 

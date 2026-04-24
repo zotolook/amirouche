@@ -4,7 +4,10 @@ pTitreThematique.setAttribute('class', 'pTitreThematique')
 // - Islam religion unique
 const souratesIslamReligionUnique= [3,3,3,6,9,61,86,86];
 const versetsIslamReligionUnique = [19,85,99,92,33,9,13,14];
-const ahadithsIslamReligionUnique = [];
+const ahadithsIslamReligionUnique = [
+  // https://dorar.net/hadith/sharh/132010
+
+];
 // Fin Islam Religion unique
 
 // - A L L A H /  O M N I P O T E N T  /   O M N I S C i E N T
@@ -13,10 +16,12 @@ const versetsAllahOmnipotentOmniscient = [ 181, 244, 140, 18, 103, 115, 5,6, 1,2
 let ahadithsAllahOmnipotentOmniscient = [
   {
     auteur: "El Boukhari صحيح البخاري",
-    numero:4584,
-    texte:"أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ",
+    numero: 4584,
+    texte:
+      "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ",
     lien: "https://dorar.net/hadith/sharh/65277",
   },
+  // https://dorar.net/hadith/sharh/24773
 ];
 
 // - Obéir à Allah et au prophète
@@ -485,10 +490,15 @@ const ahadithsPfffff = [
     numero: 4557,
     texteArabe:
       " أَتَى بلالٌ رسولَ اللهِ صَلَّى اللهُ عليه وسلم بتَمْرٍ بَرْنِيٍّ فقال ما هذا ؟ قال : اشتَرَيْتُه صاعًا بصاعَيْنِ، فقال رسولُ اللهِ صلَّى اللهُ عليهِ وسلَّم : أَوَّهْ عَيْنُ الربا ولا تَقْرَبْهُ",
-    texteFrancais: "Bilal apporta au Prophète ﷺ des dattes de qualité (barni). Le Prophète lui dit :“D’où cela vient-il ?”Bilal répondit :“Nous avions des dattes de mauvaise qualité, alors j’ai échangé deux mesures contre une seule (de bonne qualité) afin de nourrir le Prophète.”Le Prophète ﷺ dit alors :“Ah ! Ah ! C’est exactement l’usure (ribā), c’est exactement l’usure. Ne fais pas cela. Mais si tu veux acheter, vends d’abord les dattes contre une autre marchandise, puis achète ensuite.”",
+    texteFrancais:
+      "Bilal apporta au Prophète ﷺ des dattes de qualité (barni). Le Prophète lui dit :“D’où cela vient-il ?”Bilal répondit :“Nous avions des dattes de mauvaise qualité, alors j’ai échangé deux mesures contre une seule (de bonne qualité) afin de nourrir le Prophète.”Le Prophète ﷺ dit alors :“Ah ! Ah ! C’est exactement l’usure (ribā), c’est exactement l’usure. Ne fais pas cela. Mais si tu veux acheter, vends d’abord les dattes contre une autre marchandise, puis achète ensuite.”",
     lien: "https://dorar.net/hadith/sharh/12352",
     autres: "البخاري (2312)، ومسلم (1594) ",
   },
+  // https://dorar.net/hadith/sharh/26282
+  // https://dorar.net/hadith/sharh/81685
+  // https://dorar.net/hadith/sharh/150775
+
 ];//- fIN P F f  f f f  f  f
 
 //- Miracles scientifiques
@@ -950,17 +960,10 @@ const ahadithsNourritureHabits = [
 
 
 
-// LA résurection
+// LA résurection // Fin du monde
 const souratesResurection = [35, 77,77,77,77,77,77,77,77, 78,78,78,78,78, 79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79, 80,80,80,80,80,80,80,80,80,80,82,82,82,84,84,84,84,84,84, 89,89,89,89,89,89,89, 99,99,99,99,99,99,99,99, 101,101,101,101,101,101,101,101,101,101,101];
 const versetsResurection = [9, 8,9,10,11,12,13,14,15, 17,18,19,20,21, 6,7,8,9,10,11,12,13,14,34,35,36,37,38,39,42,43,44,45,46, 33,34,35,36,37,38,39,40,41,42, 17,18,19, 1,2,3,4,5,6, 21,22,23,24,25,26,27, 1,2,3,4,5,6,7,8, 1,2,3,4,5,6,7,8,9,10,11 ];
-const ahadithsResurection= [
-{
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
+const ahadithsResurection = [
   {
     auteur: "El Boukhari صحيح البخاري",
     numero: 1,
@@ -975,254 +978,32 @@ const ahadithsResurection= [
     lien: "https://dorar.net/hadith/sharh/",
     autres: "",
   },
+  {
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 1,
+    texte: "",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: "",
+  },
+  // https://dorar.net/hadith/sharh/73376
+  // https://dorar.net/hadith/sharh/10332
+  // https://dorar.net/hadith/sharh/10339
+  // https://dorar.net/hadith/sharh/6090
+  // https://dorar.net/hadith/sharh/12583
+  // https://dorar.net/hadith/sharh/391
+  // https://dorar.net/hadith/sharh/16178
+  // https://dorar.net/hadith/sharh/21337
+  // https://dorar.net/hadith/sharh/24843
+  // https://dorar.net/hadith/sharh/7419 
 ]; // Fin résurection,
-
-// Sexe
-const souratesSexe = ["La ...", 4,4, 17, 24,24,24,24,24,24, 25,25,25,25, 70,70,70,     "L'adultère...", 4, 24,24,24,24, "Histoire de ...",24,24,24,24,24,24,24,24,24,24, "Histoire du prophète", 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12,"Le sexe avec les esclaves est licite sans mariage.", 23,23,23,23,23,23,23,];
-const versetsSexe = [ "fornication", 15,16, 32, 2,4,23,24,25,26, 68,69,70,71, 29,30,31, "",            25, 6,7,8,9,                 "IFK",11,12,13,14,15,16,17,18,19,20,                    "Joseph et le sexe",21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,`Sourate 23. ${sourates[23].nom}. ${sourates[23].nomArabe}`,  1,  2,3,4,5,6,7,];
-const ahadithsSexe = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 284,
-    texte:
-      "أنَّ النَّبِيَّ صلَّى اللَّهُ عليهِ وسلَّمَ كان يطوفُ على نسائِهِ بِغُسلٍ واحِدٍ",
-    lien: "https://dorar.net/hadith/sharh/24883",
-    autres: "5215",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4139,
-    texte:
-      "خَرَجْنَا مع رَسولِ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ في غَزْوَةِ بَنِي المُصْطَلِقِ، فأصَبْنَا سَبْيًا مِن سَبْيِ العَرَبِ، فَاشْتَهَيْنَا النِّسَاءَ، فَاشْتَدَّتْ عَلَيْنَا العُزْبَةُ، وأَحْبَبْنَا العَزْلَ، فَسَأَلْنَا رَسولَ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ، فَقالَ: ما علَيْكُم أنْ لا تَفْعَلُوا ما مِن نَسَمَةٍ كَائِنَةٍ إلى يَومِ القِيَامَةِ إلَّا وهي كَائِنَةٌ.",
-    lien: "https://dorar.net/hadith/sharh/11750",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 5075,
-    texte:
-      "كُنَّا نَغْزُو مع النَّبيِّ صلَّى اللهُ عليه وسلَّم وليسَ معنَا نِسَاءٌ، فَقُلْنَا: ألَا نَخْتَصِي؟ فَنَهَانَا عن ذلكَ، فَرَخَّصَ لَنَا بَعْدَ ذلكَ أنْ نَتَزَوَّجَ المَرْأَةَ بالثَّوْبِ، ثُمَّ قَرَأَ: {يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُحَرِّمُوا طَيِّبَاتِ مَا أَحَلَّ اللَّهُ لَكُمْ} [المائدة: 87]",
-    lien: "https://dorar.net/hadith/sharh/14580",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4216,
-    texte:
-      "أنَّ رَسولَ اللَّهِ صلَّى اللهُ عليه وسلَّمَ نَهَى عن مُتْعَةِ النِّسَاءِ يَومَ خَيْبَرَ، وعَنْ أكْلِ لُحُومِ الحُمُرِ الإنْسِيَّةِ.",
-    lien: "https://dorar.net/hadith/sharh/116370",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 5116,
-    texte:
-      "سَمِعْتُ ابْنَ عَبَّاسٍ: سُئِلَ عن مُتْعَةِ النِّسَاءِ فَرَخَّصَ، فَقالَ له مَوْلًى له: إنَّما ذلكَ في الحَالِ الشَّدِيدِ، وفي النِّسَاءِ قِلَّةٌ؟ أوْ نَحْوَهُ، فَقالَ ابنُ عَبَّاسٍ: نَعَمْ.",
-    lien: "https://dorar.net/hadith/sharh/151313",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 5210,
-    texte:
-      "أَصَبْنَا سَبْيًا، فَكُنَّا نَعْزِلُ، فَسَأَلْنَا رَسولَ اللَّهِ صَلَّى اللهُ عليه وسلَّمَ، فَقالَ: أوَإنَّكُمْ لَتَفْعَلُونَ - قالَهَا ثَلَاثًا - ما مِن نَسَمَةٍ كَائِنَةٍ إلى يَومِ القِيَامَةِ إلَّا هي كَائِنَةٌ.",
-    lien: "https://dorar.net/hadith/sharh/11752",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 2229,
-    texte:
-      "أنَّهُ بيْنَما هو جَالِسٌ عِنْدَ النبيِّ صَلَّى اللهُ عليه وسلَّمَ، قالَ: يا رَسولَ اللَّهِ، إنَّا نُصِيبُ سَبْيًا، فَنُحِبُّ الأثْمَانَ، فَكيفَ تَرَى في العَزْلِ؟ فَقالَ أوَإنَّكُمْ تَفْعَلُونَ ذلكَ؟ لا علَيْكُم أنْ لا تَفْعَلُوا ذَلِكُمْ، فإنَّهَا ليسَتْ نَسَمَةٌ كَتَبَ اللَّهُ أنْ تَخْرُجَ إلَّا هي خَارِجَةٌ.",
-    lien: "https://dorar.net/hadith/sharh/11749",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 6443,
-    texte: ".مَن مات من أُمَّتِكَ لا يُشرِكُ باللهِ شيئًا دخل الجنَّةَ",
-    lien: "https://dorar.net/hadith/sharh/9430",
-    autres: "مسلم (94)",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 6612,
-    texte: " ... إنَّ اللهَ كَتَبَ على ابنِ آدَمَ حَظَّه مِنَ الزِّنا ...",
-    lien: "https://dorar.net/hadith/sharh/64033",
-    autres: " أبو داود (2152) مسلم (2657)",
-  },
-  {
-    auteur: " صحيح النسائي",
-    numero: 7611,
-    texte: " ... قُلْتُ لهما: ما هؤلاء؟ قالا: هُمُ الزُّناةُ والزَّواني. ...",
-    lien: "https://dorar.net/h/Jiy0bALe",
-    autres: " أحمد (20094)، والبزار (4513) ",
-  },
-]; // Fin sexe
-
-// Histoires des prophètes
-const souratesHistoiresProphetes = [
-  "Adam",
-  2, 2, 2, 2, 2, 2, 2, 2,
-  7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
-  20,20,20,20,20,20,20,20,20,20,20,20,20,
-  
-  "Jésus",
-  43,
-  
-  "Énoch. Idrīs ",
-  
-  "Noé. nūḥ",
-  7, 7, 7, 7, 7, 7,
-  10,10,10,10,  10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,  10,  10,  10,  10,  10,  10,  10,  10,10,10,10,10,10,10,10,10,10,10,10,
-  21, 21,
-  23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23,
-  25,
-  26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26,
-  29, 29,
-  37, 37, 37, 37, 37, 37, 37, 37,
-  51,
-  54,54,54,54,54,54,54,54,
-  71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-  "Hud",
-  7, 7, 7, 7, 7, 7, 7, 7,
-  26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,
-  
-  "Salah",
-  7,7,7,7,7,7,7,
-  
-  "Loth. Lût",
-  7,7,7,7,7,
-  
-  "Chouʿayb",
-  7, 7, 7, 7, 7, 7, 7, 7, 7,
-  26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26,
-  29,29,
-  
-  "Moïse",
-  7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
-  19, 19, 19, 19,
-  20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,
-  21, 21,
-  23, 23, 23, 23, 23,
-  25, 25,
-  26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26,
-  27, 27, 27, 27, 27, 27, 27, 27,
-  28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,
-  29,
-  32, 32, 32,
-  37, 37, 37, 37, 37, 37, 37, 37, 37,
-  40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40,
-  43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43,
-  44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44,
-  51, 51, 51,
-  54, 54, 54, 54, 54, 54, 54, 54,
-  69, 69,
-  79, 79, 79, 79, 79, 79, 79, 79, 79, 79, 79, 79,
-  89,89,89,89,89,
-  "Abraham. Ibrâhîm",
-  26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,
-  
-  "Ismaël. Ismâʿîl",
-  19, 19,
-  38,38,
-];
-const versetsHistoiresProphetes = [
-  "ādam آدم",
-  30, 31, 32, 33, 34, 35, 36, 37,
-  11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
-  115,116,117,118,119,120,121,122,123,124,125,126,127,
-  
-  "A¨ssa",
-  63,
-  
-  "إدريس",
-  
-  " نوح",
-  59, 60, 61, 62, 63, 64,
-  71,72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109,
-  76, 77,
-  23, 24, 25, 26, 27, 28, 29, 30, 39, 40, 41, 42, 43,
-  37,
-  105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122,
-  14, 15, 
-  75, 76, 77, 78, 79, 80, 81, 82,
-  46,
-  9,10,11,12,13,14,15,16,
-  1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,
-  "hūd هُود ",
-  65, 66, 67, 68, 69, 70, 71, 72,
-  123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,
-  "[ṣāliḥ] صَالِح",
-  73, 74, 75, 76, 77, 78, 79,
-
-  "لوط",
-  80, 81, 82, 83, 84,
-
-  "شُعَيْب",
-  85, 86, 87, 88, 89, 90, 91, 92, 93,
-  176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,
-  36, 37,
-  
-  "Mûsâ مُوسَى",
-  103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 159,160,161,162,163,164,165,166,167,168,169,
-  51, 52, 53, 54, 
-  9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,
-  48, 49,
-  45, 46, 47, 48, 49,
-  35, 36,
-  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66,
-  7, 8, 9, 10, 11, 12, 13, 14,
-  3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
-  39,
-  23, 24, 25,
-  114,115,116,117,118,119,120,121,122,
-  23,24,25,26,27,28,29,30,31,32,33, 36, 53,54,55,
-  46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
-  16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37,
-  38, 39, 40,
-  41, 42, 43, 44, 45, 46, 47, 48,
-  9, 10,
-  15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
-  10,11,12,13,14,
-  
-  "إبراهيم",
-  69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,
-  
-  "إسماعيل",
-  54, 55,
-  48,49,
-];
-
-const ahadithsHistoiresProphetes = [
-{
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-]; // Fin histoires des prophètes
 
 // Clair ou Incompréhensible?
 const souratesClairesIncomprehensibles = ["Versets...",2,2, 5,5,   6,   7,  10,10, 11, 12,12,12, 15, 16, 18, 19, 22, 24,24, 26,26, 27,27, 28, 32, 39, 43,43, 44, 45, 54,  "Versets ...",2,3,7,10,11,12,13,14,19,20,26,26,27,28,28,30,32,38,40,41,42,42,43,44,45,50,68,];
 const versetsClairsIncomprehensibles = ["clairs!", 2,99,    15,19, 114, 52, 1,15,  1,  1,2,37,   1,  44, 1,  97, 16, 1,36,  2,195, 1,2,   2,  2,  28, 2,3,   2,  20, 17,  "Incompréhensibles!", 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 ]
 
-const ahadithsclaires = [];// Clair ou incompréhensible?
+const ahadithsclaires = [
+  // https://dorar.net/hadith/sharh/111819
+];// Clair ou incompréhensible?
 
 // La carotte et le baton
 const souratesCarotteEtBaton = [ "La carotte", 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,                        3,  4,  5,5,  6,6,6,    7,7,7,7,     8,8,   9,  13, 14,14,14,14,14,14, 15,15,15,15,15,15,15,15,15, 16,16,16,16,16,16,  17,17, 18,18,18, 19,19,19,19,19,19, 21,21,21, 22,22,22,22,  24, 28, 29,29,29,29, 31,31,31, 32,32,32,32, 33,33, 34,34,34, 35,35, 37,37,37,37,37,37,37,37,37,37, 38,38,38,38,38,38,38,38,38,38, 39,39,39,39, 40,40,40,40,40,40,40,40,40,40,40,40,  43,43,43,43,43,43,43,  44,44,44,44,44,44,44,44,  48, 50,50,50, 52,52,52,52,52,52,52,52,52,52, 66, 67,67,67,67,67,67,67, 69,69,69,69,69,69,69,69,69, 70,70, 70,70,70,70,70,70,70,70,70,70,  75, 76, 77,77,77,77,77,77,77,77,77,77,77,77,77,77, 78,78,78,78,78,78,78,78,78,78, 82,82, 83,83,83,83,83, 87,87, 88,88,88,88,88,88,88, 92,92,92,92,92,92,92,92, 95, 98,98, 104,104,104,104,104 ];
@@ -1243,12 +1024,41 @@ const ahadithsParadis = [
     lien: "https://dorar.net/hadith/sharh/33044",
     autres: " أحمد (12398) أبو داود (2618)",
   },
+  // https://dorar.net/hadith/sharh/21709
+  // https://dorar.net/hadith/sharh/33448
+  // https://dorar.net/hadith/sharh/11591
+  // https://dorar.net/hadith/sharh/61059
+  // https://dorar.net/hadith/sharh/60801#:~:text=%D9%86%D8%A7%D8%B3%D8%AE%20%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%20%D9%88%D9%85%D9%86%D8%B3%D9%88%D8%AE%D9%87-,%2D%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%D8%B4%D8%AC%D8%B1%D8%A9%D9%8C%20%D9%8A%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B1%D8%A7%D9%83%D8%A8%D9%8F%20%D9%81%D9%8A%20%D8%B8%D9%84%D9%90%D9%91%D9%87%D8%A7%20%D9%85%D8%A7%D8%A6%D8%A9%D9%8F%20%D8%B9%D8%A7%D9%85%D9%8D%20%D9%85%D8%A7,%D9%88%D8%A7%D9%82%D8%B1%D8%A1%D9%88%D8%A7%20%D8%A5%D9%86%20%D8%B4%D8%A6%D8%AA%D9%8F%D9%85%20%D9%88%D9%8E%D8%B8%D9%90%D9%84%D9%8D%D9%91%20%D9%85%D9%8E%D9%85%D9%92%D8%AF%D9%8F%D9%88%D8%AF%D9%8D&text=%7C%20%D8%A7%D9%84%D8%AA%D8%AE%D8%B1%D9%8A%D8%AC%20%3A%20%D8%A3%D8%AE%D8%B1%D8%AC%D9%87%20%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A%20(4881,%D9%88%D9%85%D8%B3%D9%84%D9%85%20(2826)%20%D8%A8%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81%20%D9%8A%D8%B3%D9%8A%D8%B1.
+  // https://dorar.net/hadith/sharh/64080
+  // https://dorar.net/hadith/sharh/5084
+  // https://dorar.net/hadith/sharh/5811
+  // https://dorar.net/hadith/sharh/21709
+  // https://dorar.net/hadith/sharh/26605
+  // https://dorar.net/hadith/sharh/6223
+  // https://dorar.net/hadith/sharh/120306
+  // https://dorar.net/hadith/sharh/15353
+  // https://dorar.net/hadith/sharh/7419
+  // https://dorar.net/hadith/sharh/86811
+
 ];// Fin Le paradis,
 
 // L'enfer'
 const souratesEnfer = [16,16,16,16, 22, 82, ]
 const versetsEnfer = [34, 45,46,47, 22, 14,];
-const ahadithsEnfer = [];// Fin L'enfer',
+const ahadithsEnfer = [
+  // https://dorar.net/hadith/sharh/123620
+  // https://dorar.net/hadith/sharh/21365
+  // https://dorar.net/hadith/sharh/5113
+  // https://dorar.net/hadith/sharh/61988
+  // https://dorar.net/hadith/sharh/37248
+  // https://dorar.net/hadith/sharh/9662
+  // https://dorar.net/hadith/sharh/5105
+  // https://dorar.net/hadith/sharh/1639
+  // https://dorar.net/hadith/sharh/74177
+  // https://dorar.net/hadith/sharh/15115
+  // https://dorar.net/hadith/sharh/5415
+
+];// Fin L'enfer',
 
 // Allah humain?
 const souratesAllahHumain = ["Allah a ...", 4, "Allah...", 4,       "Allah a ...", 5,39,48, "Allah ...", 6, 3,                                "Allah...",11,13,20,69,            "Allah...",7, 15,30,32,43,43,44,86,86,   "Allah...", 16, 51, 25,         "Allah...", 2, 5, 57,57, 64,        "Allah...", 75,75, 81,84,85,85,85,85, 86,86, 90,92,92,92, 93,93, "Allah ...", 7,7,7,7,7, "Allah converse avec...", 38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,];
@@ -1282,7 +1092,9 @@ const ahadithsHijra = [];// Fin la Hidjra,
 // La logique // Contradiction
 const souratesLogiqueContradictions = ["Logique et ...",4,  "Je n'ai ...",14,  24,24, 89, 105, "Le coran en ...", 12,];
 const versetsLogiqueContradictions = ["contradictions", 82, "rien vu!",    28,  41,43, 6,  1,   "langue arabe!",   2, ];
-const ahadithsLogiqueContradictions = [];// Fin la logique,
+const ahadithsLogiqueContradictions = [
+  // https://dorar.net/hadith/sharh/122862
+];// Fin la logique,
 
 // Répétition / Redondance / Logique / Pas de questions
 const souratesRedondances = ["Redondances...", 2,7,17,18,38,38,"Le sexe avec les esclaves",23,23,70,70,  "Menaces de ...", 7, "Menaces de ...",5, "Ne posez pas de ...", 5,24,];
@@ -1313,8 +1125,21 @@ const versetsMecru = [
   
 ];
 
-const ahadithsMecru = [];// ils ont mécru,
+const ahadithsMecru = [
+  // https://dorar.net/hadith/sharh/12039
+  // https://dorar.net/hadith/sharh/24772
+  // https://dorar.net/hadith/sharh/7243
 
+];// ils ont mécru,
+
+// LEs fêtes
+// https://dorar.net/h/0qnMuTLh?sims=1
+// https://dorar.net/hadith/sharh/1
+
+
+// Raisons de révélation
+// https://dorar.net/hadith/sharh/41605
+// 
 //////////////////,142,255, ,
 // Fonction injecter les sourates selon le thème
 function injecteVersets (titreThematique, sourates, versets) {

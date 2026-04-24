@@ -1,3 +1,5 @@
+
+
 // 0- Femmes du prophète Muhamad
 const souratesMuhamadEpousesFemmes = [
     "1- Le statut social des femmes du prophète",  33,33, 
@@ -64,6 +66,26 @@ const ahadithsMuhamadEpousesFemmes = [
       "Le Prophète ﷺ confia un secret à Hafsa. Elle le révéla à Aisha… alors Allah révéla : ‘Si vous vous repentez toutes les deux…’",
     lien: "https://dorar.net/hadith/sharh/135684",
     autres: "مسلم (1479)، والترمذي (3318)، وأحمد (222)",
+  },
+  {
+    sujet: " Le prophète boude ses femmes ...",
+    auteur: "صحيح مسلم",
+    numero: 1479,
+    texteArabe: " لَمَّا اعتَزَلَ نَبيُّ اللهِ صلَّى اللهُ عليه وسلَّم نِساءَه",
+    texteFrancais: "“Lorsque le Prophète d’Allah ﷺ se retira de ses épouses…”",
+    lien: "https://dorar.net/hadith/sharh/27952",
+    autres: "ابن حبان (4188)",
+  },
+  {
+    sujet: " Répartition des épouses du Prophète ﷺ en deux groupes (ḥizbayn) ",
+    auteur: "صحيح مسلم",
+    numero: 2442,
+    texteArabe:
+      " أنَّ نِساءَ رَسولِ اللهِ صلَّى اللهُ عليه وسلَّم كُنَّ حِزبَينِ؛",
+    texteFrancais:
+      "“Les épouses du Messager d’Allah ﷺ étaient divisées en deux groupes.”",
+    lien: "https://dorar.net/hadith/sharh/8721",
+    autres: "صحيح البخاري   2581 الترمذي (3879) مختصرا، والنسائي (3944) " ,
   },
 ];
 
@@ -219,9 +241,30 @@ const ahadithsMuhamadEpousesSaouda = [
 ];
 
 // 3- Aicha
-const souratesMuhamadEpousesAicha = [24,24,24,24,24,24,24,24,24,24,66,66,66,];
-const versetsMuhamadEpousesAicha = [11,12,13,14,15,16,17,18,19,20,3,4,5,];
+const souratesMuhamadEpousesAicha = ["L'affaire d'Ifk",24,24,24,24,24,24,24,24,24, 24,"Le mariage avec de petites filles",65,"", 66,66,66,];
+const versetsMuhamadEpousesAicha = ["",11,12,13,14,15,16,17,18,19,20, "",4,"",3,4,5,];
 const ahadithsMuhamadEpousesAicha = [
+  {
+    sujet: "Le prophète rêve de Aicha...",
+    auteur: " صحيح البخاري",
+    numero: 3895,
+    texteArabe:
+      " رَأيتُكِ في المَنامِ يَجيءُ بكِ المَلَكُ في سَرَقةٍ مِن حَريرٍ ...",
+    texteFrancais:
+      "“Je t’ai vue en rêve : un ange t’apportait enveloppée dans un morceau de soie, et il me dit : ‘Voici ton épouse.’",
+    lien: "https://dorar.net/hadith/sharh/12640",
+    autres: "مسلم (2438) ",
+  },
+  {
+    sujet: " Les fiançailles de Muhamad avec Aisha ",
+    auteur: " صحيح البخاري",
+    numero: 5081,
+    texteArabe: " أنتَ أخي في دينِ اللهِ وكِتابِه، وهي لي حَلالٌ. ..",
+    texteFrancais:
+      "“Tu es mon frère dans la religion d’Allah et dans Son Livre, et elle m’est licite.”",
+    lien: "https://dorar.net/hadith/sharh/150901",
+    autres: " لم نقف عليه إلا في صحيح البخاري ",
+  },
   {
     sujet: " Le mariage de Muhamad avec Aisha ",
     auteur: " صحيح البخاري",
@@ -347,6 +390,16 @@ const ahadithsMuhamadEpousesAicha = [
     autres: " البخاري (3818) ابن ماجه (1997) والنسائي (8361 )أحمد (24310)",
   },
   {
+    sujet: " Aicha, la jalouse",
+    auteur: " صحيح مسلم",
+    numero: 1464,
+    texteArabe: " ما أرى ربَّكَ إلَّا يسارعُ لَكَ في هواكَ ... ",
+    texteFrancais:
+      " ... ‘Par Allah, je ne vois ton Seigneur qu’en s’empressant de satisfaire tes désirs.’”",
+    lien: "https://dorar.net/hadith/sharh/41605",
+    autres: " البخاري (4788) النسائي (3199) ابن ماجه (2000)، وأحمد (25251)",
+  },
+  {
     sujet: " Aicha, conseillère juridique",
     auteur: " صحيح مسلم",
     numero: 770,
@@ -367,6 +420,28 @@ const ahadithsMuhamadEpousesAicha = [
       "Il me donna un coup dans la poitrine qui me fit mal, puis il dit :‘Pensais-tu qu’Allah et Son Messager seraient injustes envers toi ?’",
     lien: "https://dorar.net/hadith/sharh/12880",
     autres: "أحمد (25855) النسائي (2037)",
+  },
+  {
+    sujet: " Les cadeaux pour le prophète le jour de Acha",
+    auteur: " صحيح مسلم",
+    numero: 2441,
+    texteArabe:
+      " أنَّ النَّاسَ كانوا يَتَحَرَّونَ بهَداياهم يَومَ عائِشةَ، يَبتَغونَ بذلك مَرضاةَ رَسولِ اللهِ صلَّى اللهُ عليه وسلَّم.",
+    texteFrancais:
+      "“Les gens choisissaient d’offrir leurs cadeaux le jour où le Prophète ﷺ était chez ‘Aïcha, recherchant ainsi la satisfaction du Messager d’Allah.”",
+    lien: "https://dorar.net/hadith/sharh/8729",
+    autres: "البخاري (2574)، والنسائي (3951)، وابن راهويه (809)",
+  },
+  {
+    sujet: " Nous allons manger des dattes!",
+    auteur: "صحيح البخاري ",
+    numero: 4242,
+    texteArabe:
+      "عَن عائِشةَ رَضيَ اللهُ عنها، قالت: لَمَّا فُتِحَت خَيبَرُ قُلنا: الآنَ نَشبَعُ مِنَ التَّمرِ.",
+    texteFrancais:
+      "‘Aïcha (qu’Allah l’agrée) a dit :“Lorsque Khaybar fut conquise, nous avons dit : ‘Maintenant nous allons manger des dattes à satiété.’”",
+    lien: "https://dorar.net/hadith/sharh/150377",
+    autres: "ابن حبان (684)",
   },
 ];
 
@@ -714,10 +789,10 @@ const ahadithsMuhamadEpousesUmHabiba = [
 
 // 10- Safiyya bint Huyayy
 const souratesMuhamadEpousesSafiya = [
-  "Il n’existe aucun verset du Coran qui mentionne explicitement par son nom Safiyya bint Huyayy.",
+  "Il n’existe aucun verset du Coran qui mentionne explicitement par son nom Safiyya bint Huyayy.",37,
 ];
 const versetsMuhamadEpousesSafiya = [
-  "Cependant, comme pour les autres épouses du Prophète Muhammad, elle est incluse indirectement dans plusieurs versets révélés sur les “épouses du Prophète”.",
+  "Cependant, comme pour les autres épouses du Prophète Muhammad, elle est incluse indirectement dans plusieurs versets révélés sur les “épouses du Prophète”.", 177,
 ];
 const ahadithsMuhamadEpousesSafiya = [
   {
@@ -748,6 +823,17 @@ const ahadithsMuhamadEpousesSafiya = [
       "« Je n’ai jamais vu une femme plus aimée du Prophète ﷺ que Safiyya… »",
     lien: "https://dorar.net/hadith/sharh/8730",
     autres: "مسلم (2442) الترمذي (3879) مختصرا، والنسائي (3944)",
+  },
+  {
+    sujet: " Safiya dans le butin de Dahya ",
+    auteur: "  صحيح ابن ماجه",
+    numero: 1857,
+    texteArabe:
+      " اشتَرى صفيَّةَ بسبعةِ أرؤسٍ، قالَ عبدُ الرَّحمنِ: مِن دِحيةَ الكلبيِّ ",
+    texteFrancais:
+      "“Le Prophète ﷺ a acheté Ṣafiyya pour sept captifs (ou esclaves).”",
+    lien: "https://dorar.net/hadith/sharh/28861",
+    autres: "مسلم (1365) مطولاً، وأبو داود (2997)، وابن ماجه (2272)",
   },
 ];
 
@@ -964,3 +1050,5 @@ const ahadithsMuhamadEpousesMariageOffrande = [
   },
 ];
 
+// 15. La mort du prophète
+// https://dorar.net/hadith/sharh/11721

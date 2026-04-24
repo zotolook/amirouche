@@ -261,6 +261,17 @@ const ahadithsHallalHaramMariage = [
     lien: "https://dorar.net/hadith/sharh/137887",
     autres: " مسلم (1433)",
   },
+
+  {
+    sujet: " frère/sœur de lait",
+    auteur: " صحيح البخاري",
+    numero: 2645,
+    texteArabe: "إنَّها لا تصلحُ لي إنَّها ابنةُ أخي من الرَّضاعةِ ",
+    texteFrancais:
+      "“Elle ne m’est pas permise, car elle est la fille de mon frère de lait.”",
+    lien: "https://dorar.net/hadith/sharh/73592",
+    autres: " مسلم (1447)",
+  },
 ];
 
 
@@ -581,6 +592,39 @@ const ahadithsHallalHaramHabits = [
     lien: "https://dorar.net/hadith/sharh/25945",
     autres: " مسلم (2170)، وأحمد (25866)، والبيهقي (13634)",
   },
+  {
+    sujet: " Le voile ",
+    auteur: " صحيح البخاري",
+    numero: 146,
+    texteArabe:
+      " أنَّ أزواجَ النَّبيّ صلَّى اللهُ عليه وسلَّم كُنَّ يَخرُجنَ باللَّيلِ إذا تَبَرَّزنَ إلى المَناصِعِ ...",
+    texteFrancais:
+      "Les épouses du Prophète ﷺ sortaient la nuit lorsqu’elles allaient satisfaire leurs besoins naturels vers les endroits appelés al-Manāṣi‘.”",
+    lien: "https://dorar.net/hadith/sharh/77019",
+    autres: "مسلم (2170) ",
+  },
+  {
+    sujet: " Les habits du pélerin ",
+    auteur: " صحيح البخاري",
+    numero: 134,
+    texteArabe:
+      " ...  لا يَلبَس القَميصَ ولا البُرنُسَ ولا السَّراويلَ ولا العمامةَ، ولا ثوبًا مَسَّه وَرسٌ ولا زَعْفَران، ولا الخُفَّينِ",
+    texteFrancais:
+      "... qu’il ne porte pas de chemise, ni de turban, ni de pantalon, ni de burnous, ni aucun vêtement touché par le waras ou le safran.”",
+    lien: "https://dorar.net/hadith/sharh/117587",
+    autres: " مسلم (1177)",
+  },
+  {
+    sujet: " La soie... ",
+    auteur: " صحيح مسلم",
+    numero: 2069,
+    texteArabe:
+      " لا تلْبَسوا الحريرَ ، فإِنَّ مَنْ لَبِسَهُ في الدنيا لم يلبسْهُ في الآخرَةِ",
+    texteFrancais:
+      "“Celui qui porte la soie dans ce monde ne la portera pas dans l’au-delà.”",
+    lien: "https://dorar.net/hadith/sharh/67622",
+    autres: " البخاري (5830) أبو داود (2817)",
+  },
 ];
 
 // 4- Le comportement d'un musulman
@@ -617,7 +661,8 @@ const ahadithsHallalHaramComportements = [
     numero: 5886,
     texteArabe:
       " لَعَنَ رَسُولُ اللَّهِ ﷺ الْمُتَشَبِّهِينَ مِنَ الرِّجَالِ بِالنِّسَاءِ",
-    texteFrancais: "Le Messager d’Allah ﷺ a maudit les hommes qui imitent les femmes…",
+    texteFrancais:
+      "Le Messager d’Allah ﷺ a maudit les hommes qui imitent les femmes…",
     lien: "https://dorar.net/hadith/sharh/15192",
     autres: " من أفراد البخاري على مسلم",
   },
@@ -702,6 +747,17 @@ const ahadithsHallalHaramComportements = [
     autres: " النسائي (5364)",
   },
   {
+    sujet: " Punition des imageurs ",
+    auteur: " صحيح مسلم ",
+    numero: 2108,
+    texteArabe:
+      " إنَّ الَّذينَ يصنَعونَ هذهِ الصُّوَرَ يُعذَّبونَ يومَ القيامةِ فيُقالُ لَهُم : أحيوا ما خَلَقتُمْ",
+    texteFrancais:
+      "“Ceux qui fabriquent ces images seront châtiés le Jour de la Résurrection, et il leur sera dit : ‘Donnez vie à ce que vous avez créé.’”",
+    lien: "https://dorar.net/hadith/sharh/20881",
+    autres: " البخاري (5951)",
+  },
+  {
     sujet: " Suivre aveuglément les dirigeants ",
     auteur: " صحيح مسلم ",
     numero: 1847,
@@ -735,7 +791,8 @@ const ahadithsHallalHaramComportements = [
     auteur: "  صحيح الترمذي ",
     numero: 1752,
     texteArabe: " غَيِّرُوا الشَّيْبَ وَلَا تَشَبَّهُوا بِالْيَهُودِ",
-    texteFrancais: " Changez les cheveux blancs et ne ressemblez pas aux juifs.",
+    texteFrancais:
+      " Changez les cheveux blancs et ne ressemblez pas aux juifs.",
     lien: "https://dorar.net/hadith/sharh/67922",
     autres: " أحمد (7545) ",
   },
@@ -753,7 +810,8 @@ const ahadithsHallalHaramComportements = [
     auteur: "  صحيح مسلم",
     numero: 2120,
     texteArabe: " نَهَى رَسُولُ اللَّهِ ﷺ عَنِ الْقَزَعِ",
-    texteFrancais: " Le Messager d’Allah a interdit le rasage partiel des cheveux.",
+    texteFrancais:
+      " Le Messager d’Allah a interdit le rasage partiel des cheveux.",
     lien: "https://dorar.net/hadith/sharh/62827",
     autres: "  5920 البخاري",
   },
@@ -777,6 +835,65 @@ const ahadithsHallalHaramComportements = [
     lien: "https://dorar.net/hadith/sharh/118846",
     autres: " أبو داود (3490)  الترمذي (1297)، والنسائي (4256)",
   },
+  {
+    sujet: " Les 10 de la fitra ",
+    auteur: "  صحيح مسلم",
+    numero: 261,
+    texteArabe: " عَشْرٌ مِنَ الْفِطْرَةِ ...",
+    texteFrancais: " “Dix choses font partie de la fitra (nature saine) : ...",
+    lien: "https://dorar.net/hadith/sharh/26211",
+    autres: "الألباني صحيح الجامع 4009  ",
+  },
+  {
+    sujet: " Jurer par autre qu’Allah et les jeux du hasard ",
+    auteur: "  صحيح مسلم",
+    numero: 1647,
+    texteArabe:
+      "مَن حلَف باللَّاتِ والعزَّى فلْيقُلْ: لا إلهَ إلَّا اللهُ ومَن قال لصاحبِه: تَعالَ أُقامِرْك فلْيتصدَّقْ بشيءٍ",
+    texteFrancais:
+      " “Celui qui jure par al-Lāt et al-‘Uzzā (idoles de la période préislamique), qu’il dise : ‘Il n’y a de divinité qu’Allah’.Et celui qui dit à son compagnon : ‘Viens, je vais parier avec toi’, qu’il fasse une aumône.”",
+    lien: "https://dorar.net/hadith/sharh/138651",
+    autres: " البخاري (6650)",
+  },
+  {
+    sujet: " Jurer par ses parents",
+    auteur: "  صحيح مسلم",
+    numero: 1646,
+    texteArabe: "أَلَا إِنَّ اللَّهَ يَنْهَاكُمْ أَنْ تَحْلِفُوا بِآبَائِكُمْ",
+    texteFrancais: " “Certes, Allah vous interdit de jurer par vos pères.”",
+    lien: "https://dorar.net/hadith/sharh/118450",
+    autres: " البخاري (6108)",
+  },
+  {
+    sujet: " Les règles de salutations",
+    auteur: "  صحيح مسلم",
+    numero: 2160,
+    texteArabe:
+      " يُسَلِّمُ الرَّاكِبُ على الماشي، والماشي على القاعِدِ، والقَليلُ على الكَثيرِ.",
+    texteFrancais:
+      " “Le cavalier doit saluer le piéton, le piéton doit saluer celui qui est assis, et le petit groupe doit saluer le grand groupe.”",
+    lien: "https://dorar.net/hadith/sharh/4467",
+    autres: " البخاري (6233)",
+  },
+  {
+    sujet: " Les 7 choses ordonnées et 7 interdites",
+    auteur: "  صحيح مسلم",
+    numero: 2066,
+    texteArabe:
+      " أَمَرَنَا رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بِسَبْعٍ وَنَهَانَا عَنْ سَبْعٍ:",
+    texteFrancais:
+      "Le Messager d’Allah ﷺ nous a ordonné sept choses et nous en a interdit sept :... ",
+    lien: "https://dorar.net/hadith/sharh/151372",
+    autres: " البخاري (5863)",
+  },
+  // https://dorar.net/hadith/sharh/15932
+  // https://dorar.net/hadith/sharh/10254
+  // https://dorar.net/hadith/sharh/10255
+  // https://dorar.net/hadith/sharh/61165
+  // https://dorar.net/hadith/sharh/11381
+  // https://dorar.net/hadith/sharh/86811
+  // https://dorar.net/hadith/sharh/9897
+  // https://dorar.net/hadith/sharh/111275
 ];
 
 // 5. L'adoption
