@@ -1,45 +1,6 @@
 let pTitreThematique = document.createElement("p")
 pTitreThematique.setAttribute('class', 'pTitreThematique')
 
-// - Obéir à Allah et au prophète
-const souratesObeirAllahProphete = [3,3,4,4,6,24,24,24,33,33,47,48,49,49,57,57]
-const versetsObeirAllahProphete = [32,132,59,80,50,51,54,56,21,36,33,17,1,2,7,8]
-const ahadithsObeirAllahProphete = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 4584,
-    texte:
-      "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ ",
-    lien: "https://dorar.net/hadith/sharh/65277",
-  },
-  {
-    auteur: "Abou Daoud أبو داود",
-    numero: 4607,
-    texte: "فعليكم بسنتي.  أوصيكم بتقوى اللهِ، والسَّمعِ والطاعةِ. ",
-    lien: "https://dorar.net/hadith/sharh/72777",
-  },
-];
-// Fin Obéir à Allah et au prophète
-
-// Aimer le prophète plus que ....
-const souratesAimerProphete = [33];
-const versetsAimerProphete = [6];
-const ahadithsAimerProphete = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 15,
-    texte: "والذي نفسي بيدهِ لا يؤمنُ أحدُكم حتَّى أكونَ أحبَّ إليه من والدهِ وولدهِ والناسِ أجمعينَ",
-    lien: "https://dorar.net/hadith/sharh/74978",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 6632,
-    texte: "والَّذي نَفْسِي بيَدِهِ، حتَّى أكُونَ أحَبَّ إلَيْكَ مِن نَفْسِكَ. الآنَ يا عُمَرُ.  ",
-    lien: "https://dorar.net/hadith/sharh/13097",
-  },
-];
-// Fin aimer le prophète
-
 // C'est beau
 const souratesBeau = [2,3,4,5,         6,  6,  16,17,17,17,21, 25,25,29,31,31,31,41, 46, 49,49,49,49,53,53,83,83,83,];
 const versetsBeau = [83,135,134,1,    151, 152,90,23,31,35,107,63,67,46,14,15,18,34, 15, 6, 11,12,13,38,39, 1,2,3,   ];
@@ -725,27 +686,6 @@ const ahadithsAbrogation = [
   },
 ];
 
-
-// La volonté d'Allah
-const souratesVolonteAllah = [2,2,2,2,2,2,2,2,2,2,2,            3,3,3,3,      4,4,4,4,     6,6,6,6,6,6,6,6,6,6,6,                   7,7,     9,9,9,      10,10,10,  11, 13,13, 14,14, 15, 16,16,16,16,16,16,16,16, 17,  18,18, 22, 25, 28, 35,35, 36, 42, 43, 45, 47, 63,63, 76,76, 81];
-const versetsVolonteAllah = [6,7,8,9,10,26,142,213,253,272,284, 26,27,47,129, 48,49,52,88, 25,35,39,41,110,111,112,123,125,137,149, 100,186, 87,117,127, 74,99,100, 118, 27,31, 4,27, 12, 9,36,37,38,39,93,107,108, 46, 17,57, 16, 31, 56, 8,9,   10, 8,  36, 23, 23, 3,6,   30,31, 29];
-const ahadithsVolonteAllah = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-]; // Fin volonté d'Allah
-
 // La Faune et la Flore
 const souratesFauneFlore = [2,2, 7, 16,16,16, 18,18, 23,23, 27,27, 38,38, 44, 55, 56, 74, 80, 88, 95, 105];
 const versetsFauneFlore = [67,259, 176, 8,11,14, 18,32, 19,20, 18,20, 23,31, 43, 11, 23, 51, 28, 17, 1, 1,];
@@ -826,33 +766,6 @@ const ahadithsMariageDivorce = [
     autres: "",
   },
 ]; // Fin Faune et Flore
-
-// Allah Miséricordieux
-const souratesAllahMisericordieux = [4, 7, 15,15,15,15,15,15,15,15, 16,16,16,16, 17,17,17,17,17,17,17, 18,18,18, 19,19,19,19,19,19, 21,21,21,21,21,21, 22,22,22,22, 23, 25,25,25,25,25,25,25,25, 26, 28,28, 29, 31, 32, 33,33,33,33,33, 34, 37,37,37,37,37,37, 43,43,43, 54, 59, 65,65,65, 66, 68,68,68,68, 69,69,69,69, 84, 88,88, ];
-const versetsAllahMisericordieux = [47, 4, 73,74, 78,79,80,81,82,83, 26,27, 112,113, 15,16,17,18,58,97,98, 29,42,59, 68,69,70,71,72,98, 6,9,11,15,39,40, 19,20,21,22, 44, 13,14,34,36,37,38,39,40, 6, 58,59, 40, 24, 26, 64,65,66,67,68, 33, 22,23, 133,134,135,136, 24,25,55, 37, 2, 8,9,10, 6, 17,18,19,20, 4,5,6,7, 12, 23,24, ];
-const ahadithsAllahMisericordieux = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-]; // Fin Allah Miséricordieux
 
 // La haine
 const souratesHaine = [ 3,3,3,3, 9,9, 59, ];

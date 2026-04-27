@@ -75,6 +75,17 @@ const ahadithsIslamVrai = [
     lien: "https://dorar.net/hadith/sharh/87648",
     autres: "الطبراني (14/53) (14646)، والحاكم (444)",
   },
+  {
+    sujet: "La foi et la reconnaissance des signes",
+    auteur: "صحيح مسلم",
+    numero: 34,
+    texteArabe:
+      "« ذاق طعم الإيمان من رضي بالله ربًّا، وبالإسلام دينًا، وبمحمد رسولًا »",
+    texteFrancais:
+      "« Goûte à la douceur de la foi celui qui accepte Allah comme Seigneur, l’Islam comme religion et Muhammad comme messager. »",
+    lien: "https://dorar.net/hadith/sharh/63646",
+    autres: "الترمذي (2623)، وأحمد (1779)، وابن حبان (1694) ",
+  },
 ];
 
 // 2. Les noms et attributs d'Allah
@@ -384,11 +395,204 @@ let ahadithsIslamAllahOmni = [
   // https://dorar.net/hadith/sharh/24773
 ];
 
+// 4. Obéir à Allah et à son prophète
+const souratesIslamObeissance = [
+  " Obéissance à Allah et au Messager",
+  3,
+  3,
+  4,
+  4,
+  24,
+  47,
+  8,
+  8,
+  64,
+  "Conséquences de l’obéissance et de la désobéissance",
+  3,
+  4,
+  48,
+  8,
+  9,
+  33,
+  "Le rôle du Messager (transmettre, guider, non divin)",
+  6,
+  24,
+  5,
+  16,
+  "Attitude des croyants face au jugement d’Allah et du Messager",
+  24,
+  33,
+  2,
+  24,
+  "Respect et comportement envers le Prophète",
+  49,
+  49,
+  33,33,
+  49,
+  "Le Prophète comme modèle à suivre",
+  33,
+  68,
+  "Foi et engagement (croire + agir)",
+  57,
+  57,
+  4,
+  61,
+  61,
+  "Pratiques religieuses liées à l’obéissance",2,9,24,
+];
+const versetsIslamObeissance = [
+  "",32,132,59,80,54,33,20,24,12,
+  "",32,33,17,13,71,71,
+  "",50,54,99,44,
+  "",51,36,285,52,
+    "",1,2,53,6,3,
+  "",21,4,
+  "",7,8,136,2,3,
+  "",43,103,56
+];
+const ahadithsIslamObeissance = [
+  // 1. Obéissance au Messager
+  {
+    sujet: "Obéissance au Messager",
+    auteur: "صحيح البخاري",
+    numero: 2957,
+    texteArabe:
+      "« مَنْ أَطَاعَنِي فَقَدْ أَطَاعَ اللَّهَ، وَمَنْ عَصَانِي فَقَدْ عَصَى اللَّهَ » ",
+    texteFrancais:
+      "« Celui qui m’obéit a obéi à Allah, et celui qui me désobéit a désobéi à Allah. »",
+    lien: "https://dorar.net/hadith/sharh/21858",
+    autres: "مسلم (1835)",
+  },
+  {
+    sujet: "Obéissance au Messager",
+    auteur: "صحيح البخاري",
+    numero: 7280,
+    texteArabe: "« ... مَن أطاعَني دخل الجنَّةَ ومَن عَصاني فقَد أبَى » ",
+    texteFrancais:
+      "« Toute ma communauté entrera au Paradis sauf celui qui refuse… »",
+    lien: "https://dorar.net/hadith/sharh/67820",
+    autres: "",
+  },
+  {
+    sujet: "Obéissance au Messager",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 4584,
+    texteArabe:
+      "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ ",
+    texteFrancais:
+      "« Obéissez à Allah, obéissez au Messager, et à ceux d’entre vous qui détiennent l’autorité (ou le commandement). »",
+    lien: "https://dorar.net/hadith/sharh/65277",
+    autres: "مسلم (1834)",
+  },
+  {
+    sujet: "Obéissance au Messager",
+    auteur: "Abou Daoud أبو داود",
+    numero: 4607,
+    texteArabe: "فعليكم بسنتي.  أوصيكم بتقوى اللهِ، والسَّمعِ والطاعةِ. ",
+    texteFrancais:
+      "« Attachez-vous à ma Sunna.Je vous recommande la crainte d’Allah, ainsi que l’écoute et l’obéissance. »",
+    lien: "https://dorar.net/hadith/sharh/72777",
+    autres: "أحمد (17185)",
+  },
+  //2.Conséquences (récompense / châtiment)
+  {
+    sujet: "Conséquences (récompense / châtiment)",
+    auteur: "مالك بن أنس (الموطأ)",
+    numero: "(2/899)",
+    texteArabe: "« ... مَن أطاعَني دخل الجنَّةَ ومَن عَصاني فقَد أبَى » ",
+    texteFrancais:
+      "« Je vous ai laissé deux choses… le Livre d’Allah et ma Sunna. »",
+    lien: "https://dorar.net/hadith/sharh/115269",
+    autres: "",
+  },
+  // 3. Rôle du Messager
+  {
+    sujet: "Rôle du Messager",
+    auteur: " الألباني صحيح الجامع ",
+    numero: 2833,
+    texteArabe: " بُعِثتُ لأُتَمِّمَ صالِحَ الأخْلاقِ ",
+    texteFrancais:
+      "« J’ai reçu le Coran et quelque chose de semblable avec lui. »",
+    lien: "https://dorar.net/hadith/sharh/113995",
+    autres: "أحمد (8939)",
+  },
 
-// 4. Allah le miséricordieux
-const souratesIslam= [];
-const versetsIslam = [];
-const ahadithsIslam = [
+  // 4. Attitude des croyants (soumission)
+  {
+    sujet: "Aimer le prophète plus que ses parents et ses enfants",
+    auteur: " صحيح البخاري",
+    numero: 15,
+    texteArabe:
+      " « لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى أَكُونَ أَحَبَّ إِلَيْهِ مِنْ وَالِدِهِ وَوَلَدِهِ وَالنَّاسِ أَجْمَعِينَ »",
+    texteFrancais:
+      "« Aucun de vous ne croit vraiment jusqu’à ce que je sois plus aimé… »",
+    lien: "https://dorar.net/hadith/sharh/",
+    autres: " مسلم (44) أحمد (12814)",
+  },
+  {
+    sujet: "Aimer le prophète plus que soi-même",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6632,
+    texteArabe:
+      "والَّذي نَفْسِي بيَدِهِ، حتَّى أكُونَ أحَبَّ إلَيْكَ مِن نَفْسِكَ. الآنَ يا عُمَرُ.  ",
+    texteFrancais:
+      "« Par Celui qui détient mon âme en Sa main, (ta foi ne sera complète) que lorsque je serai plus aimé pour toi que ta propre personne. »",
+    lien: "https://dorar.net/hadith/sharh/13097",
+    autres: "أحمد (22503)",
+  },
+  // 5. Le Prophète comme modèle
+  {
+    sujet: "Le Prophète comme modèle",
+    auteur: " الألباني صحيح الجامع",
+    numero: 4811,
+    texteArabe: " ... كان خُلُقُه القُرآنَ.",
+    texteFrancais: "« Son comportement était le Coran. »",
+    lien: "https://dorar.net/hadith/sharh/135240",
+    autres: "  أحمد (25302)",
+  },
+  // 6. Pratiques religieuses
+  {
+    sujet: "Pratiques religieuses",
+    auteur: " صحيح البخاري",
+    numero: 818,
+    texteArabe: "« صَلُّوا كَمَا رَأَيْتُمُونِي أُصَلِّي »",
+    texteFrancais: "« Priez comme vous m’avez vu prier. »",
+    lien: "https://dorar.net/hadith/sharh/12052",
+    autres: "  أحمد (20539)",
+  },
+  {
+    sujet: "Pratiques religieuses",
+    auteur: " صحيح مسلم",
+    numero: 1297,
+    texteArabe: "خُذوا ‌عني ‌مناسِكَكم، لعلِي لا أراكم بعد عامي هذا",
+    texteFrancais: "« Prenez de moi vos rites. »",
+    lien: "https://dorar.net/hadith/sharh/87479",
+    autres: "  أحمد (15041)",
+  },
+];
+
+// 4. La volonté d'Allah
+const souratesIslamVolonteAllah = [
+  // 1. La Volonté d’Allah (القدر / المشيئة)
+  "1. La volonté d’Allah (القدر / المشيئة)",2,3,3,3,3,4,6,6,6,6,10,11,14,16,16,22,35,42,76,76,81,5,24,28,39,
+"2. Guidance et égarement (الهداية والضلال)", 2,4,6,6,7,13,14,16,16,16,16,18,25,28,35,43,45,47,63,6,17,29,20,
+  "3. Les Cœurs scellés / refus de croire", 2, 2, 2, 2, 2, 6, 6, 7, 9, 9, 10, 16, 17, 18, 63,83,57,61,2,
+"4. La nature du message et tests de foi", 2,2,3,6,7,16,16,10,16,21,42,
+  "5. La limite du rôle du Prophète (محمد ﷺ)", 2, 10, 16, 28, 35,67,10,11,
+  "6. Le pouvoir absolu d’Allah sur tout", 3, 3, 3, 6, 6, 6, 4,
+
+];
+const versetsIslamVolonteAllah = [
+  "",284,26,27,47,129,48,41,111,112,149,99,118,27,9,93,16,8,8,30,31,29,17,21,68,62,
+  "", 26, 88, 39, 125, 186, 27, 4, 36, 37, 107, 108, 17, 31, 56, 8, 36, 23, 23, 6,88,97,69,50,
+  "", 6, 7, 8, 9, 10, 25, 110, 100, 87, 127, 74, 108, 46, 57, 3,14,16,5,74,
+  "", 142, 213, 129, 35, 100, 39, 36, 74,44,107,48,
+  "", 272, 99, 37, 56, 8,2,19,7,
+  "", 26, 27, 47, 112, 123, 137, 52,
+  "", 
+
+];
+const ahadithsIslamVolonteAllah = [
   // https://dorar.net/hadith/sharh/85969 “Allah est plus miséricordieux envers Ses serviteurs que cette mère envers son enfant.”
   // https://dorar.net/hadith/sharh/16719  “Ô Mes serviteurs, Je Me suis interdit l’injustice et Je l’ai interdite entre vous, ne soyez donc pas injustes.”
 ];

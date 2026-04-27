@@ -128,6 +128,25 @@ const ahadithsInsultesFemmes = [
   },
 ];
 
+// 8. La haine
+const souratesInsultesHaine = [
+  "1. Méfiance envers les hypocrites / ennemis cachés",3,4,4,63,
+  "2. Hostilité envers les croyants et opposition active",3,3,3,2,5,3,
+  "3. La loyauté religieuse vs loyauté familiale",9,58,60,3,
+  "4. Autorité religieuse déviée (culte des savants / religieux)",9,5,42,7,
+  "5. Conflits, pouvoir et domination sous ordre divin", 59,41,7,6,
+];
+const versetsInsultesHaine = [
+  "", 118, 81,142,4,
+  "", 119, 120, 181,109,82,186,
+  "", 23,22,1,28,
+  "", 31,77,21,3,
+  "", 5, 5,146,33,
+  
+  
+];
+const ahadithsInsultesHaine = [];
+
 // 8- Les musulmans
 const souratesInsultesMusulmans = [];
 const versetsInsultesMusulmans = [];
