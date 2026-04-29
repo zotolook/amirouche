@@ -886,6 +886,18 @@ const ahadithsHallalHaramComportements = [
     lien: "https://dorar.net/hadith/sharh/151372",
     autres: " البخاري (5863)",
   },
+  {
+    sujet: " Deux paroles...",
+    auteur: "  صحيح مسلم",
+    numero: 2694,
+    texteArabe:
+      " كَلِمَتانِ خَفيفَتانِ على اللِّسانِ، ثَقيلَتانِ في الميزانِ، حَبيبَتانِ إلى الرَّحمَنِ: سُبحانَ اللهِ وبحَمدِه، سُبحانَ اللهِ العَظيمِ.",
+    texteFrancais:
+      " ",
+    lien: "https://dorar.net/hadith/sharh/3020",
+    autres: " البخاري (6682)",
+  },
+
   // https://dorar.net/hadith/sharh/15932
   // https://dorar.net/hadith/sharh/10254
   // https://dorar.net/hadith/sharh/10255

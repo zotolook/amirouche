@@ -4,7 +4,20 @@ const souratesGogMagog = [
     21, 21,];
 const versetsGogMagog = [
     94, 95, 96, 97, 98, 99, 100,
-    95, 96,];
+  95, 96,];
+const ahadithsGogMagog = [
+  {
+    sujet:
+      "📌 L’ouverture de la barrière de Gog et Magog et l’épreuve générale",
+    auteur: "صحيح البخاري",
+    numero: 3346,
+    texteArabe: "... ويلٌ للعَرَبِ مِن شَرٍّ قدِ اقتَرَبَ!  ",
+    texteFrancais:
+      "“Le Prophète ﷺ entra auprès d’elle effrayé, disant : ‘Il n’y a de divinité qu’Allah ! Malheur aux Arabes à cause d’un mal qui s’est rapproché ! Aujourd’hui une ouverture a été faite dans la barrière de Gog et Magog de cette taille.’Et il forma un cercle avec son pouce et l’index.Zaynab bint Jahsh demanda : ‘Ô Messager d’Allah, périrons-nous alors qu’il y a parmi nous des pieux ?’Il répondit : ‘Oui, lorsque la corruption sera répandue.’”",
+    lien: "https://dorar.net/hadith/sharh/16178",
+    autres: "مسلم (2880)",
+  },
+];
 // https://dorar.net/hadith/sharh/16178
 
 // 2- Les gens de la caverne

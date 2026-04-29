@@ -767,33 +767,6 @@ const ahadithsMariageDivorce = [
   },
 ]; // Fin Faune et Flore
 
-// La haine
-const souratesHaine = [ 3,3,3,3, 9,9, 59, ];
-const versetsHaine = [ 118,119,120,181, 23,31, 5];
-const ahadithsHaine = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-]; // Fin haine
-
 // Erreurs ...?
 const souratesErreurs = [2,2,   6,6,     7,  9,  10, 12,12,12, 16,16,16,16, 19, 23,23,23, 26, 30,30, 31, 35, 36,36,36, 54, 61, 66,66, 67, 94, "Erreurs de langue", 88, 109,109,109,109,109,109,];
 const versetsErreurs = [22,258, 143,144, 57, 36, 22, 2,3,4,    15,16,48,49, 28, 12,13,14, 7,  2,3,   10, 11, 38,39,40, 1,  6,  11,12, 3,  1, "", 22, 1,2,3,4,5,6,];
@@ -821,70 +794,13 @@ const ahadithsErreurs = [
   },
 ]; // Fin Erreurs....?
 
-// Nourriture & habits
-const souratesNourritureHabits = [ "Nourriture: ", 5,5,5,5,5,5, 6,6,6, 9,9, 16,16, "Habits: ", 24, 33,33,33,33, ];
-const versetsNourritureHabits = [ "Hallal & Haram", 3,4,5,90,91,96, 118,121,145, 83,84, 67,115, "Le voile", 31, 53,54,55,59, ];
-const ahadithsNourritureHabits = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 6779,
-    texte:"أنَّ نَبِيَّ اللهِ صَلَّى اللَّهُ عليه وسلَّمَ جَلَدَ في الخَمْرِ بالجَرِيدِ، وَالنِّعَالِ",
-    lien: "https://dorar.net/hadith/sharh/11200",
-    autres: "أبو داود (4479)، والترمذي (1443)",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-]; // Fin Nourriture & habits
-
-
 
 // LA résurection // Fin du monde
 const souratesResurection = [35, 77,77,77,77,77,77,77,77, 78,78,78,78,78, 79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79, 80,80,80,80,80,80,80,80,80,80,82,82,82,84,84,84,84,84,84, 89,89,89,89,89,89,89, 99,99,99,99,99,99,99,99, 101,101,101,101,101,101,101,101,101,101,101];
 const versetsResurection = [9, 8,9,10,11,12,13,14,15, 17,18,19,20,21, 6,7,8,9,10,11,12,13,14,34,35,36,37,38,39,42,43,44,45,46, 33,34,35,36,37,38,39,40,41,42, 17,18,19, 1,2,3,4,5,6, 21,22,23,24,25,26,27, 1,2,3,4,5,6,7,8, 1,2,3,4,5,6,7,8,9,10,11 ];
 const ahadithsResurection = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  // https://dorar.net/hadith/sharh/73376
-  // https://dorar.net/hadith/sharh/10332
-  // https://dorar.net/hadith/sharh/10339
-  // https://dorar.net/hadith/sharh/6090
-  // https://dorar.net/hadith/sharh/12583
-  // https://dorar.net/hadith/sharh/391
-  // https://dorar.net/hadith/sharh/16178
-  // https://dorar.net/hadith/sharh/21337
-  // https://dorar.net/hadith/sharh/24843
-  // https://dorar.net/hadith/sharh/7419 
+
+  
 ]; // Fin résurection,
 
 // Clair ou Incompréhensible?

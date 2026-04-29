@@ -143,14 +143,97 @@ const versetsInsultesHaine = [
   "", 31,77,21,3,
   "", 5, 5,146,33,
   
-  
 ];
-const ahadithsInsultesHaine = [];
+const ahadithsInsultesHaine = [
+  // 2. Hostilité / conflit avec certains groupes
+  {
+    sujet: "Hostilité / conflit avec certains groupes",
+    auteur: "صحيح مسلم",
+    numero: 2922,
+    texteArabe:
+      " « لَا تَقُومُ السَّاعَةُ حَتَّى يُقَاتِلَ الْمُسْلِمُونَ الْيَهُودَ… »",
+    texteFrancais:
+      "“L’Heure n’arrivera pas avant que les musulmans combattent les Juifs…”",
+    lien: "https://dorar.net/hadith/sharh/61547",
+    autres: "صحيح البخاري 2926",
+  },
+  {
+    sujet: "Hostilité / conflit avec certains groupes",
+    auteur: "صحيح مسلم",
+    numero: 531,
+    texteArabe:
+      "  لَعَنَ اللَّهُ الْيَهُودَ وَالنَّصَارَى، اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ » ",
+    texteFrancais:
+      "“Qu’Allah maudisse les Juifs et les chrétiens : ils ont pris les tombes de leurs prophètes comme lieux de prière.”",
+    lien: "https://dorar.net/hadith/sharh/62788",
+    autres: "صحيح البخاري 3453",
+  },
+  {
+    sujet: "Hostilité / conflit avec certains groupes",
+    auteur: "صحيح مسلم",
+    numero: 679,
+    texteArabe:
+      " « اللَّهُمَّ الْعَنْ رِعْلًا وَذَكْوَانَ وَعُصَيَّةَ عَصَوُا اللَّهَ وَرَسُولَهُ »",
+    texteFrancais:
+      "“Qu’Allah maudisse les Juifs et les chrétiens : ils ont pris les tombes de leurs prophètes comme lieux de prière.”",
+    lien: "https://dorar.net/hadith/sharh/25389",
+    autres: " أحمد(16571)، والطبراني (4/ 216 ) ( 4174)، والبيهقي (3174)",
+  },
+  // 3. Loyauté religieuse vs autres appartenances
+  {
+    sujet: "Loyauté religieuse vs autres appartenances",
+    auteur: "صحيح أبي داود",
+    numero: 4031,
+    texteArabe: " « مَنْ تَشَبَّهَ بِقَوْمٍ فَهُوَ مِنْهُمْ »",
+    texteFrancais: "“Celui qui imite un peuple en fait partie.”",
+    lien: "https://dorar.net/hadith/sharh/85602",
+    autres: "أحمد (5114)",
+  },
 
-// 8- Les musulmans
+  // 4. Autorité religieuse déviée
+  {
+    sujet: "Autorité religieuse déviée",
+    auteur: "صحيح مسلم",
+    numero: 1718,
+    texteArabe:
+      "« مَنْ أَحْدَثَ فِي أَمْرِنَا هَذَا مَا لَيْسَ مِنْهُ فَهُوَ رَدٌّ »",
+    texteFrancais:
+      "“Quiconque introduit dans notre religion ce qui n’en fait pas partie, cela est rejeté.”",
+    lien: "https://dorar.net/hadith/sharh/81042",
+    autres: " البخاري (2697",
+  },
+
+  // 5. Conflits, pouvoir et domination
+  {
+    sujet: "5. Conflits, pouvoir et domination",
+    auteur: "صحيح مسلم",
+    numero: 22,
+    texteArabe:
+      "« أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لَا إِلَهَ إِلَّا اللَّهُ… »",
+    texteFrancais:
+      "“Il m’a été ordonné de combattre les gens jusqu’à ce qu’ils témoignent qu’il n’y a de divinité qu’Allah…”",
+    lien: "https://dorar.net/hadith/sharh/3101",
+    autres: " البخاري 25 ",
+  },
+];
+
+// 9- Les musulmans
 const souratesInsultesMusulmans = [];
 const versetsInsultesMusulmans = [];
 const ahadithsInsultesMusulmans = [
+  // Obscéneité
+  {
+    sujet: "Celui qui se réclame de ses ancêtres...",
+    auteur: " أحمد",
+    numero: 21271,
+    texteArabe:
+      " إذا رأيتُم الرجلُ يتعزَّى بعزاءِ الجاهليةِ ، فأَعْضُوهُ بِهِنَّ و لا تُكَنُّوا",
+    texteFrancais:
+      "“Lorsque vous voyez un homme se réclamer de la jâhiliyya”, et se vante de ses pères et ancêtres de la jâhiliyya, “alors insultez-le et dites-lui : “mords le pénis de ton père”, de manière explicite. “Et ne faites pas d’euphémisme”,",
+    lien: "https://dorar.net/hadith/sharh/146345",
+    autres: "النسائي في ((السنن الكبرى)) (10812)، والطبراني (1/198) (534) ",
+  },
+  // Comparaison à l'âne.
   {
     sujet: "Comparaison à l'âne...",
     auteur: "El Boukhari صحيح البخاري",
@@ -161,15 +244,25 @@ const ahadithsInsultesMusulmans = [
     lien: "https://dorar.net/hadith/sharh/72198",
     autres: "",
   },
-  
 ];
 
-// 9- Les bi et homosexuels
-const souratesInsultesBiHomos = [];
-const versetsInsultesBiHomos = [];
+// 10- Les bi et homosexuels
+const souratesInsultesBiHomos = [7,7,26,26,27,27,29,29,];
+const versetsInsultesBiHomos = [80,81,165,166,54,55,28,29,];
 const ahadithsInsultesBiHomos = [
   {
-    sujet: "Les homosexuels",
+    sujet: "T..z les homosexuels !",
+    auteur: "صحيح أبي داود",
+    numero: 4462,
+    texteArabe: "من وجدتموه يعملُ عملَ قومِ لوطٍ فاقتلوا الفاعلَ والمفعولَ به ",
+    texteFrancais:
+      "“Celui que vous trouvez commettant l’acte du peuple de Loth, tuez l’auteur et celui sur qui l’acte est commis.”",
+    lien: "https://dorar.net/hadith/sharh/120445",
+    autres: "الترمذي (1456)، وابن ماجه (2561)، وأحمد (2732)",
+  },
+
+  {
+    sujet: "Les homosexuels maudits!",
     auteur: "El Boukhari صحيح البخاري",
     numero: 5885,
     texteArabe:

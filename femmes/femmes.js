@@ -233,6 +233,7 @@ const ahadithsFemmesComparaison = [
     lien: "https://dorar.net/hadith/sharh/207882",
     autres: "",
   },
+ 
 ];
 
 // 7. Le sexe
@@ -520,6 +521,17 @@ const ahadithsFemmesAutorite = [
       "Le Prophète ﷺ a interdit à une femme de porter le deuil plus de trois jours, sauf pour son mari : quatre mois et dix jours",
     lien: "https://dorar.net/hadith/sharh/24732",
     autres: "مسلم (938)",
+  },
+  {
+    sujet: "📌 Signes sociaux et moraux précédant la fin des temps",
+    auteur: "صحيح البخاري",
+    numero: 5231,
+    texteArabe:
+      "مِن أشراطِ السَّاعةِ أن يُرفَعَ العِلمُ، ويَكثُرَ الجَهلُ، ويَكثُرَ الزِّنا، ويَكثُرَ شُربُ الخَمرِ، ويَقِلَّ الرِّجالُ، ويَكثُرَ النِّساءُ حتَّى يَكونَ لخَمسينَ امرَأةً القَيِّمُ الواحِدُ.",
+    texteFrancais:
+      "“Allah est plus miséricordieux envers Ses serviteurs que cette mère envers son enfant.”",
+    lien: "https://dorar.net/hadith/sharh/73376",
+    autres: "مسلم (2671)",
   },
 ];
 

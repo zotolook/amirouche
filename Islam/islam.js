@@ -571,7 +571,33 @@ const ahadithsIslamObeissance = [
   },
 ];
 
-// 4. La volonté d'Allah
+// 5. Allah le très miséricordieux
+const souratesIslamAllahMisericordieux = [];
+const versetsIslamAllahMisericordieux = [];
+const ahadithsIslamAllahMisericordieux = [
+  {
+    sujet: "Allah est plus mséricordieux qu'une maman",
+    auteur: "صحيح البخاري",
+    numero: 5999,
+    texteArabe: "اللهُ أرحمُ بعبادِه من المرأةِ بولدِها ",
+    texteFrancais:
+      "“Allah est plus miséricordieux envers Ses serviteurs que cette mère envers son enfant.”",
+    lien: "https://dorar.net/hadith/sharh/85969",
+    autres: "مسلم (2754)",
+  },
+  {
+    sujet: "Allah le juste !",
+    auteur: "صحيح مسلم",
+    numero: 2577,
+    texteArabe: " إِنَّي حرمتُ الظلمَ على نفسي ",
+    texteFrancais:
+      "“Ô Mes serviteurs, Je Me suis interdit l’injustice et Je l’ai interdite entre vous, ne soyez donc pas injustes.”",
+    lien: "https://dorar.net/hadith/sharh/16719",
+    autres: "الألباني صحيح الجامع 4345 ",
+  },
+];
+
+// 6. La volonté d'Allah
 const souratesIslamVolonteAllah = [
   // 1. La Volonté d’Allah (القدر / المشيئة)
   "1. La volonté d’Allah (القدر / المشيئة)",2,3,3,3,3,4,6,6,6,6,10,11,14,16,16,22,35,42,76,76,81,5,24,28,39,
@@ -593,7 +619,223 @@ const versetsIslamVolonteAllah = [
 
 ];
 const ahadithsIslamVolonteAllah = [
-  // https://dorar.net/hadith/sharh/85969 “Allah est plus miséricordieux envers Ses serviteurs que cette mère envers son enfant.”
-  // https://dorar.net/hadith/sharh/16719  “Ô Mes serviteurs, Je Me suis interdit l’injustice et Je l’ai interdite entre vous, ne soyez donc pas injustes.”
+  {
+    sujet: "📖 La volonté d’Allah (القدر / المشيئة)",
+    auteur: "الترمذي",
+    numero: 2516,
+    texteArabe:
+      "وَاعْلَمْ أَنَّ مَا أَصَابَكَ لَمْ يَكُنْ لِيُخْطِئَكَ، وَمَا أَخْطَأَكَ لَمْ يَكُنْ لِيُصِيبَكَ",
+    texteFrancais:
+      "“Sache que ce qui t’a atteint n’aurait pas pu te manquer, et ce qui t’a manqué n’aurait pas pu t’atteindre.”",
+    lien: "https://dorar.net/hadith/sharh/111446",
+    autres: "أحمد (2803)",
+  },
+  {
+    sujet: "🧭 Guidance et égarement (الهداية والضلال)",
+    auteur: "صحيح البخاري",
+    numero: 7312,
+    texteArabe: "« مَنْ يُرِدِ اللَّهُ بِهِ خَيْرًا يُفَقِّهْهُ فِي الدِّينِ »",
+    texteFrancais:
+      "“Lorsque Allah veut du bien à quelqu’un, Il lui accorde la compréhension de la religion.”",
+    lien: "https://dorar.net/hadith/sharh/162",
+    autres: "مسلم (1037)",
+  },
+  {
+    sujet: "🌌  Pouvoir absolu d’Allah",
+    auteur: " أحمد",
+    numero: 16850,
+    texteArabe:
+      "اللَّهمَّ لا مانعَ لِما أَعطَيْتَ، ولا مُعْطيَ لِما منَعْتَ، ولا يَنفَعُ ذا الجَدِّ منكَ الجَدُّ، مَن يُرِدِ اللهُ به الخَيرَ يُفَقِّهْهُ في الدِّينِ.",
+    texteFrancais:
+      "“Ô Allah, nul ne peut retenir ce que Tu donnes, et nul ne peut donner ce que Tu retiens.”",
+    lien: "https://dorar.net/hadith/sharh/144822",
+    autres: "الطحاوي في ((شرح مشكل الآثار)) (1684)، والطبراني (19/339) (782)،",
+  },
 ];
-
+// 7. La résurection
+const souratesIslamResurection = [
+  "🌍 1. Signes cosmiques et bouleversements de l’univers", 77, 77, 77, 78, 78, 84, 84, 84, 84, 84, 89, 101,
+  "🌪️ 2. Tremblements, fracas et événements apocalyptiques", 79, 79, 80, 99, 99, 101, 101, 101, 
+  "🔔 3. Résurrection et rassemblement des humains", 78, 79, 79, 84, 99, 
+  "⚖️ 4. Le Jour du Jugement (Jour de la Décision / Rétribution)", 77, 77, 78, 82, 82, 82, 79, 79, 79, 79, 79,
+  "😨 5. Réactions humaines : peur, doute, regret", 79, 79, 79, 79, 79, 80, 80, 80, 80, 89, 99,  
+  "⚖️ 6. Jugement individuel et responsabilité personnelle", 99, 99, 82, 80, 
+  "😊😱 7. Sort final : paradis vs enfer", 80, 80, 101, 101, 89, 80, 80, 80, 79, 79, 79, 78, 101, 101, 101, 101, 
+  "🧠 8. Rappel et sens spirituel", 35, 79,79, 84, 
+];
+const versetsIslamResurection = [
+  "", 8, 9, 10, 19, 20, 1, 2, 3, 4, 5, 21, 5, 
+  "", 6, 7, 33, 1, 2, 1, 2, 3, 
+  "", 18, 13, 14, 4, 6, 
+  "", 13, 14, 17, 17, 18, 19, 42, 43, 44, 45, 46,
+  "", 8, 9, 10, 11, 12, 34, 35, 36, 37, 24, 3, 
+  "", 7, 8, 19, 37, 
+  "", 38,39, 6,7, 27, 40,41,42, 37,38,39, 21, 8,9,10,11, 
+  "", 9,44,45, 6, 
+];
+const ahadithsIslamResurection = [
+  {
+    sujet: "📌 Signes sociaux et moraux précédant la fin des temps",
+    auteur: "صحيح البخاري",
+    numero: 5231,
+    texteArabe:
+      "مِن أشراطِ السَّاعةِ أن يُرفَعَ العِلمُ، ويَكثُرَ الجَهلُ، ويَكثُرَ الزِّنا، ويَكثُرَ شُربُ الخَمرِ، ويَقِلَّ الرِّجالُ، ويَكثُرَ النِّساءُ حتَّى يَكونَ لخَمسينَ امرَأةً القَيِّمُ الواحِدُ.",
+    texteFrancais:
+      "“Parmi les signes de l’Heure : la disparition du savoir, l’apparition de l’ignorance, la consommation d’alcool, la propagation de la fornication, la diminution du nombre d’hommes et l’augmentation du nombre de femmes, au point qu’un seul homme sera responsable de cinquante femmes.”",
+    lien: "https://dorar.net/hadith/sharh/73376",
+    autres: "مسلم (2671)",
+  },
+  {
+    sujet: "📌 Description des délices du Paradis au Jour de la Résurrection",
+    auteur: "صحيح البخاري",
+    numero: 6520,
+    texteArabe:
+      "تَكونُ الأرضُ يَومَ القيامةِ خُبزةً واحِدةً يَتَكَفَّؤُها الجَبَّارُ بيَدِه كما يَكفَأُ أحَدُكُم خُبزَتَه في السَّفَرِ، نُزُلًا لأهلِ الجَنَّةِ...",
+    texteFrancais:
+      "“La terre, au Jour de la Résurrection, sera un seul pain que le Tout-Puissant tournera de Sa main, comme l’un de vous tourne son pain en voyage, en guise d’hospitalité pour les gens du Paradis.”",
+    lien: "https://dorar.net/hadith/sharh/10332",
+    autres: "مسلم (2792)",
+  },
+  {
+    sujet: "📌 Intensité de l’épreuve au Jour du Jugement",
+    auteur: "صحيح البخاري",
+    numero: 6532,
+    texteArabe:
+      " يَعْرَقُ الناسُ يومَ القيامةِ حتى يَذْهَبَ عَرَقُهُم في الأرضِ سبعينَ ذِرَاعًا ، ويُلْجِمُهُم حتى يَبْلُغَ آذانَهم",
+    texteFrancais:
+      "“Les gens transpireront au Jour de la Résurrection au point que leur sueur s’enfoncera dans la terre sur une distance de soixante-dix coudées, et elle les submergera jusqu’à atteindre leurs oreilles.”",
+    lien: "https://dorar.net/hadith/sharh/10339",
+    autres: "مسلم (2863)",
+  },
+  {
+    sujet: "📌 Secousse et sortie des hypocrites et mécréants à Médine",
+    auteur: "صحيح البخاري",
+    numero: 1881,
+    texteArabe:
+      " ... فيَنزِلُ بالسَّبخةِ، فتَرجُفُ المَدينةُ ثَلاثَ رَجَفاتٍ، يَخرُجُ إليه مِنها كُلُّ كافِرٍ ومُنافِقٍ",
+    texteFrancais:
+      "... “Il descendra dans une zone marécageuse, et Médine sera secouée trois fois. Alors en sortiront vers lui tous les mécréants et les hypocrites.”",
+    lien: "https://dorar.net/hadith/sharh/6090",
+    autres: "مسلم (2943)",
+  },
+  {
+    sujet: "📌 Le signe de la fumée (ad-Dukhān)",
+    auteur: "صحيح البخاري",
+    numero: 4774,
+    texteArabe: "... آيةَ الدُّخانِ تَجيءُ فتَأخُذُ بأنفاسِ الكُفَّارِ...",
+    texteFrancais:
+      "“La fumée apparaîtra. Elle saisira les souffles des mécréants et les enveloppera, au point que chacun d’eux aura la sensation d’être comme enfiévré ou ivre.Quant aux croyants, elle ne leur fera que l’effet d’un simple rhume.”",
+    lien: "https://dorar.net/hadith/sharh/12583",
+    autres: "مسلم (2798)",
+  },
+  {
+    sujet: "📌 Apparition d’un groupe extrémiste et leur rejet de la religion",
+    auteur: "صحيح البخاري",
+    numero: 6930,
+    texteArabe:
+      "...  يخرُجُ في آخرِ الزَّمانِ قومٌ أحداثُ الأسنانِ سُفَهاءُ الأحلامِ",
+    texteFrancais:
+      "“À la fin des temps apparaîtra un groupe de jeunes gens, aux esprits légers et immatures. Ils parleront avec les meilleures paroles des gens. Ils réciteront le Coran, mais il ne dépassera pas leurs gorges.Ils sortiront de la religion comme la flèche traverse la proie.Quiconque les rencontre, qu’il les combatte, car leur combat est une récompense auprès d’Allah pour celui qui les combat.”",
+    lien: "https://dorar.net/hadith/sharh/391",
+    autres: "مسلم (1066)",
+  },
+  {
+    sujet:
+      "📌 L’ouverture de la barrière de Gog et Magog et l’épreuve générale",
+    auteur: "صحيح البخاري",
+    numero: 3346,
+    texteArabe: "... ويلٌ للعَرَبِ مِن شَرٍّ قدِ اقتَرَبَ!  ",
+    texteFrancais:
+      "“Le Prophète ﷺ entra auprès d’elle effrayé, disant : ‘Il n’y a de divinité qu’Allah ! Malheur aux Arabes à cause d’un mal qui s’est rapproché ! Aujourd’hui une ouverture a été faite dans la barrière de Gog et Magog de cette taille.’Et il forma un cercle avec son pouce et l’index.Zaynab bint Jahsh demanda : ‘Ô Messager d’Allah, périrons-nous alors qu’il y a parmi nous des pieux ?’Il répondit : ‘Oui, lorsque la corruption sera répandue.’”",
+    lien: "https://dorar.net/hadith/sharh/16178",
+    autres: "مسلم (2880)",
+  },
+  {
+    sujet:
+      "📌 L’ouverture de la barrière de Gog et Magog et l’épreuve générale",
+    auteur: "صحيح البخاري",
+    numero: 3346,
+    texteArabe: "... ويلٌ للعَرَبِ مِن شَرٍّ قدِ اقتَرَبَ!  ",
+    texteFrancais:
+      "“Le Prophète ﷺ entra auprès d’elle effrayé, disant : ‘Il n’y a de divinité qu’Allah ! Malheur aux Arabes à cause d’un mal qui s’est rapproché ! Aujourd’hui une ouverture a été faite dans la barrière de Gog et Magog de cette taille.’Et il forma un cercle avec son pouce et l’index.Zaynab bint Jahsh demanda : ‘Ô Messager d’Allah, périrons-nous alors qu’il y a parmi nous des pieux ?’Il répondit : ‘Oui, lorsque la corruption sera répandue.’”",
+    lien: "https://dorar.net/hadith/sharh/16178",
+    autres: "مسلم (2880)",
+  },
+  {
+    sujet:
+      "📌 L’ouverture de la barrière de Gog et Magog et l’épreuve générale",
+    auteur: "صحيح البخاري",
+    numero: 3517,
+    texteArabe:
+      ".لا تقومُ الساعةُ حتى يخرجَ رجلٌ من قحطانَ يسوقُ الناسَ بعصاهُ  ",
+    texteFrancais:
+      " “L’Heure ne viendra pas avant qu’un homme de Qahtan ne sorte, conduisant les gens avec son bâton.”",
+    lien: "https://dorar.net/hadith/sharh/21337",
+    autres: "مسلم (2910)",
+  },
+  {
+    sujet:
+      "📌 Signes de la fin des temps : déclin du savoir et corruption morale",
+    auteur: "صحيح البخاري",
+    numero: 5231,
+    texteArabe:
+      ". مِن أشراطِ السَّاعةِ أن يُرفَعَ العِلمُ، ويَثبُتَ الجَهلُ، ويُشرَبَ الخَمرُ، ويَظهَرَ الزِّنا ",
+    texteFrancais:
+      " “Parmi les signes de l’Heure : que le savoir sera enlevé, que l’ignorance s’installera, que le vin sera consommé et que la fornication apparaîtra.”",
+    lien: "https://dorar.net/hadith/sharh/24843",
+    autres: "مسلم (2671)",
+  },
+  {
+    sujet: "📌 L’épreuve de l’Antéchrist (Dajjâl) et la réponse des croyants",
+    auteur: "صحيح البخاري",
+    numero: 4581,
+    texteArabe:
+      "فيَقولُ: أنا رَبُّكُم، فيَقولونَ: لا نُشرِكُ باللهِ شيئًا، مَرَّتَينِ أو ثَلاثًا... ",
+    texteFrancais:
+      " “Il dira : ‘Je suis votre Seigneur.’Et ils répondront : ‘Nous ne donnons aucun associé à Allah’, en répétant cela deux ou trois fois.”",
+    lien: "https://dorar.net/hadith/sharh/7419",
+    autres: "مسلم (183)",
+  },
+  {
+    sujet: "🌍 1. Rassemblement des gens",
+    auteur: "صحيح البخاري",
+    numero: 6527,
+    texteArabe:
+      "تُحشَرونَ حُفاةً عُراةً غُرلًا، قالت عائِشةُ: فقُلتُ: يا رَسولَ اللهِ، الرِّجالُ والنِّساءُ يَنظُرُ بَعضُهم إلى بَعضٍ! فقال: الأمرُ أشَدُّ مِن أن يُهمَّهم ذاكِ.",
+    texteFrancais:
+      " “Les gens seront rassemblés au Jour de la Résurrection pieds nus, nus et non circoncis.”",
+    lien: "https://dorar.net/hadith/sharh/727938",
+    autres: "مسلم (2859)",
+  },
+  {
+    sujet: "⚖️ 3. Jugement individuel",
+    auteur: "صحيح البخاري",
+    numero: 6539,
+    texteArabe:
+      "ما منكم مِن رجُلٍ إلَّا سيُكلِّمُه اللهُ يومَ القيامةِ ليس بَيْنَه وبَيْنَه تَرْجُمانٌ",
+    texteFrancais:
+      "“Le serviteur rencontrera son Seigneur et Il lui parlera sans intermédiaire.”",
+    lien: "https://dorar.net/h/T9KpX5WY?osoul=1",
+    autres: "مسلم (1016)",
+  },
+  {
+    sujet: "🌉 Le pont (Sirat)",
+    auteur: "صحيح أحمد",
+    numero: 11081,
+    texteArabe: "« ثُمَّ يُضْرَبُ الصِّرَاطُ عَلَى جَهَنَّمَ »",
+    texteFrancais: " “Ensuite, le pont sera placé au-dessus de l’Enfer.”",
+    lien: "https://dorar.net/hadith/sharh/137478",
+    autres: "ابن ماجه (4280)",
+  },
+  {
+    sujet: "📌 l'homme corpulent !",
+    auteur: "صحيح البخاري",
+    numero: 4729,
+    texteArabe:
+      "إنَّه لَيَأتي الرَّجُلُ العَظيمُ السَّمينُ يَومَ القيامةِ، لا يَزِنُ عِندَ اللهِ جَناحَ بَعوضةٍ، اقرَؤوا {فلا نُقيمُ لهم يَومَ القيامةِ وزنًا}.",
+    texteFrancais:
+      " “Un homme grand et corpulent viendra au Jour de la Résurrection, mais il ne pèsera pas auprès d’Allah le poids de l’aile d’un moustique.”",
+    lien: "https://dorar.net/hadith/sharh/16389",
+    autres: "مسلم (2785)",
+  },
+];
