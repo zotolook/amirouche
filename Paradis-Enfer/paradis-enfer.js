@@ -22,6 +22,18 @@ const versetsParadis = [
 ];
 const ahadithssParadis = [
   {
+    sujet: " 🔥🌿 آخر من يدخل الجنة (Le dernier entrant au Paradis)",
+    auteur: " صحيح البخاري",
+    numero: 773,
+    texteArabe:
+      " ... يا ربِّ لا تجعلني أشقى خلقِك فيضحَكُ اللَّهُ عزَّ وجلَّ منهُ",
+    texteFrancais:
+      "... Il restera un homme entre le Paradis et l’Enfer, et il sera le dernier des gens du Paradis à y entrer....",
+    lien: "https://dorar.net/hadith/sharh/74177",
+    autres: " مسلم (182)",
+  },
+
+  {
     sujet: " Description du paradis ",
     auteur: " صحيح مسلم",
     numero: 1901,
@@ -100,22 +112,174 @@ const ahadithssParadis = [
     lien: "https://dorar.net/hadith/sharh/24478",
     autres: " صحيح البخاري 554",
   },
-
-  // https://dorar.net/hadith/sharh/21709
-  // https://dorar.net/hadith/sharh/33448
-  // https://dorar.net/hadith/sharh/11591
-  // https://dorar.net/hadith/sharh/61059
-  // https://dorar.net/hadith/sharh/60801#:~:text=%D9%86%D8%A7%D8%B3%D8%AE%20%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%20%D9%88%D9%85%D9%86%D8%B3%D9%88%D8%AE%D9%87-,%2D%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AC%D9%86%D8%A9%20%D8%B4%D8%AC%D8%B1%D8%A9%D9%8C%20%D9%8A%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%B1%D8%A7%D9%83%D8%A8%D9%8F%20%D9%81%D9%8A%20%D8%B8%D9%84%D9%90%D9%91%D9%87%D8%A7%20%D9%85%D8%A7%D8%A6%D8%A9%D9%8F%20%D8%B9%D8%A7%D9%85%D9%8D%20%D9%85%D8%A7,%D9%88%D8%A7%D9%82%D8%B1%D8%A1%D9%88%D8%A7%20%D8%A5%D9%86%20%D8%B4%D8%A6%D8%AA%D9%8F%D9%85%20%D9%88%D9%8E%D8%B8%D9%90%D9%84%D9%8D%D9%91%20%D9%85%D9%8E%D9%85%D9%92%D8%AF%D9%8F%D9%88%D8%AF%D9%8D&text=%7C%20%D8%A7%D9%84%D8%AA%D8%AE%D8%B1%D9%8A%D8%AC%20%3A%20%D8%A3%D8%AE%D8%B1%D8%AC%D9%87%20%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A%20(4881,%D9%88%D9%85%D8%B3%D9%84%D9%85%20(2826)%20%D8%A8%D8%A7%D8%AE%D8%AA%D9%84%D8%A7%D9%81%20%D9%8A%D8%B3%D9%8A%D8%B1.
-  // https://dorar.net/hadith/sharh/64080
-  // https://dorar.net/hadith/sharh/5084
-  // https://dorar.net/hadith/sharh/5811
-  // https://dorar.net/hadith/sharh/21709
-  // https://dorar.net/hadith/sharh/26605
-  // https://dorar.net/hadith/sharh/6223
-  // https://dorar.net/hadith/sharh/120306
-  // https://dorar.net/hadith/sharh/15353
-  // https://dorar.net/hadith/sharh/7419
-  // https://dorar.net/hadith/sharh/86811
+  {
+    sujet: "💧 fleuve ! الكَوثَرُ",
+    auteur: "صحيح مسلم ",
+    numero: 162,
+    texteArabe:
+      "... هذا الكَوثَرُ الذي أعطاك رَبُّك، فإذا طينُه -أو طيبُه- مِسكٌ أذفَرُ ",
+    texteFrancais:
+      "Alors que je marchais dans le Paradis, je vis un fleuve dont les rives étaient faites de dômes de perles creuses.Je dis : « Qu’est-ce que cela, ô Jibril ? »Il dit : « C’est le Kawthar que ton Seigneur t’a donné. »Et son sol — ou son parfum — était du musc très odorant.",
+    lien: "https://dorar.net/hadith/sharh/21709",
+    autres: " صحيح البخاري 4964",
+  },
+  {
+    sujet: "🚪 La porte Ar-Rayyan بابً الرَّيَّانُ ",
+    auteur: "صحيح مسلم ",
+    numero: 1152,
+    texteArabe: "إنَّ في الجنةِ بابًا يقالُ له: الرَّيَّانُ ... ",
+    texteFrancais:
+      "Il y a au Paradis une porte appelée Ar-Rayyan.On dira au Jour de la Résurrection : « Où sont les jeûneurs ? Avez-vous une entrée vers Ar-Rayyan ? »Celui qui y entre n’aura plus jamais soif.Lorsqu’ils y seront entrés, elle sera fermée et personne d’autre n’y entrera.",
+    lien: "https://dorar.net/hadith/sharh/33448",
+    autres: " صحيح البخاري 1896",
+  },
+  {
+    sujet: "🚪 Les portes du paradis أبواب الجنة",
+    auteur: "صحيح مسلم ",
+    numero: 1027,
+    texteArabe: " مَن أنفَقَ زَوجَينِ في سَبيلِ اللهِ نوديَ في الجَنَّةِ... ",
+    texteFrancais:
+      "Celui qui dépense deux choses (en couple) dans le sentier d’Allah sera appelé depuis les portes du Paradis",
+    lien: "https://dorar.net/hadith/sharh/11591",
+    autres: " صحيح البخاري 3666",
+  },
+  {
+    sujet: "🏡 Une grande tente !خيمةً من لؤلؤةٍ ",
+    auteur: "صحيح مسلم ",
+    numero: 2838,
+    texteArabe:
+      " إنَّ للمؤمنِ في الجنةِ لَخيمةً من لؤلؤةٍ واحدةٍ مجوَّفةٍ، طولُها ستون ميلًا،..",
+    texteFrancais:
+      "Le croyant aura au Paradis une tente faite d’une seule perle creuse, longue de soixante milles...",
+    lien: "https://dorar.net/hadith/sharh/61059",
+    autres: " صحيح البخاري 4879",
+  },
+  {
+    sujet: "🏡 Une grande tente !خيمةً من لؤلؤةٍ ",
+    auteur: "صحيح مسلم ",
+    numero: 2838,
+    texteArabe:
+      " إنَّ للمؤمنِ في الجنةِ لَخيمةً من لؤلؤةٍ واحدةٍ مجوَّفةٍ، طولُها ستون ميلًا،..",
+    texteFrancais:
+      "Le croyant aura au Paradis une tente faite d’une seule perle creuse, longue de soixante milles...",
+    lien: "https://dorar.net/hadith/sharh/61059",
+    autres: " صحيح البخاري 4879",
+  },
+  {
+    sujet: "70 000 croyants dans le paradis sans jugement ! ",
+    auteur: "صحيح مسلم ",
+    numero: 220,
+    texteArabe: " يدخلُ مِن أمَّتي الجنَّةَ سبعونَ ألفًا بغيرِ حسابٍ ...",
+    texteFrancais:
+      "Soixante-dix mille personnes de ma communauté entreront au Paradis sans jugement...",
+    lien: "https://dorar.net/hadith/sharh/64080",
+    autres: " صحيح البخاري 5705",
+  },
+  {
+    sujet: "🌿 L'arbre à l'ombre infinie ! شَجَرةً الجَنَّةِ",
+    auteur: "صحيح مسلم ",
+    numero: 2827,
+    texteArabe:
+      "إنَّ في الجَنَّةِ لَشَجَرةً يَسيرُ الرَّاكِبُ في ظِلِّها مِائةَ عامٍ لا يَقطَعُها.",
+    texteFrancais:
+      "Il y a dans le Paradis un arbre sous lequel un cavalier pourrait voyager pendant cent ans sans en parcourir toute l’ombre.",
+    lien: "https://dorar.net/hadith/sharh/5084",
+    autres: " صحيح البخاري 6552",
+  },
+  {
+    sujet: "Certains gens de l'enfer basculeront dans le paradis!",
+    auteur: "صحيح مسلم ",
+    numero: 184,
+    texteArabe:
+      "مَن كان في قَلبِه مِثقالُ حَبَّةٍ مِن خَردَلٍ مِن إيمانٍ فأخرِجوه...",
+    texteFrancais:
+      "« Faites sortir (de l’Enfer) quiconque a dans son cœur le poids d’un grain de moutarde de foi. »",
+    lien: "https://dorar.net/hadith/sharh/5811",
+    autres: " صحيح البخاري 22",
+  },
+  {
+    sujet: "⚖️ Histoire de Qozman قُزْمَانُ ",
+    auteur: "صحيح مسلم ",
+    numero: 111,
+    texteArabe: "... «لا يَدخُلُ الجنَّةَ إلَّا مُؤْمِنٌ» ...",
+    texteFrancais: "«N’entrera au Paradis qu’un croyant.» ...",
+    lien: "https://dorar.net/hadith/sharh/26605",
+    autres: " صحيح البخاري 6606",
+  },
+  {
+    sujet:
+      "🌟 Abdullah ibn Salam au paradis ! عبْدُ اللهِ بنُ سَلَامٍ مِن أهلِ الجنَّةِ ",
+    auteur: "صحيح مسلم ",
+    numero: 2483,
+    texteArabe: "... «لا يَدخُلُ الجنَّةَ إلَّا مُؤْمِنٌ» ...",
+    texteFrancais: "«N’entrera au Paradis qu’un croyant.» ...",
+    lien: "https://dorar.net/hadith/sharh/6223",
+    autres: " صحيح البخاري 3812",
+  },
+  {
+    sujet: "Conditions d’entrée au Paradis",
+    auteur: "صحيح مسلم ",
+    numero: 94,
+    texteArabe: "من ماتَ لا يشرِكُ باللَّهِ شيئًا دخلَ الجنَّةَ ...",
+    texteFrancais:
+      "Celui qui meurt sans rien associer à Allah entrera au Paradis.",
+    lien: "https://dorar.net/hadith/sharh/120306",
+    autres: " صحيح البخاري 1237",
+  },
+  {
+    sujet: "Conditions d’entrée au Paradis",
+    auteur: "صحيح مسلم ",
+    numero: 94,
+    texteArabe:
+      " ما مِن عَبدٍ قال: لا إلَهَ إلَّا اللهُ ثُمَّ ماتَ على ذلك، إلَّا دَخَلَ الجَنَّةَ...",
+    texteFrancais:
+      "Aucun serviteur qui a dit : « Il n’y a pas de divinité digne d’adoration si ce n’est Allah », puis est mort sur cela, n’entrera au Paradis.",
+    lien: "https://dorar.net/hadith/sharh/15353",
+    autres: " صحيح البخاري 5827",
+  },
+  {
+    sujet: "Vision d’Allah au Jour du Jugement",
+    auteur: "صحيح مسلم ",
+    numero: 183,
+    texteArabe:
+      " : يا رَسولَ اللهِ، هل نَرى رَبَّنا يَومَ القيامةِ؟ قال: نَعَم ...",
+    texteFrancais:
+      "« Ô Messager d’Allah, verrons-nous notre Seigneur le Jour de la Résurrection ? »Il répondit : « Oui. »",
+    lien: "https://dorar.net/hadith/sharh/15353",
+    autres: " صحيح البخاري 4581",
+  },
+  {
+    sujet: "🕌 Les œuvres qui mènent au Paradis",
+    auteur: "صحيح مسلم ",
+    numero: 533,
+    texteArabe:
+      " من بنَى مسجدًا للهِ كمَفحَصِ قَطاةٍ أو أصغرَ بنَى اللهُ له بيتًا في الجنَّةِ.",
+    texteFrancais:
+      "Celui qui construit une mosquée pour Allah, même de la taille d’un nid de perdrix ou plus petit, Allah lui construira une maison au",
+    lien: "https://dorar.net/hadith/sharh/86811",
+    autres: " صحيح البخاري 450",
+  },
+  {
+    sujet: "🍖 Viandes et nourriture du Paradis",
+    auteur: " الألباني  صحيح الترغيب ",
+    numero: 3740,
+    texteArabe:
+      " إنَّ طيرَ الجنةِ كأمثالِ البُختِ ترعى في شجرِ الجنةِ فقال أبو بكرٍ : يا رسولَ اللهِ ! إنَّ هذه لَطيرٌ ناعمةٌ فقال : أَكلَتُها أنعمُ منها – قالها ثلاثًا – إني لأرجو أن تكونَ ممن يأكلُ منها",
+    texteFrancais:
+      "Les oiseaux du Paradis sont semblables à de grands chameaux...",
+    lien: "https://dorar.net/h/aqFzg3KK?sims=1",
+    autres: " ",
+  },
+  {
+    sujet: "🍯 Boissons et délices alimentaires: eau, lait, vin et miel !",
+    auteur: "صحيح الترمذي ",
+    numero: 2571,
+    texteArabe: " في الجنةِ أربعةُ أنهارٍ: ماءٌ، ولبنٌ، وخمرٌ، وعسلٌ",
+    texteFrancais:
+      "Au Paradis, il y a quatre fleuves : d’eau, de lait, de vin et de miel.",
+    lien: "https://dorar.net/hadith/sharh/120093",
+    autres: " صحيح البخاري 450",
+  },
 ];
 
 // 2. L'enfer' d'Allah
@@ -134,16 +298,113 @@ const versetsEnfer = [
     " الجزاء حسب الأعمال ", 34, 29, 20, 24, 25, 26, 7, 8, 
 ];
 const ahadithssEnfer = [
-  // https://dorar.net/hadith/sharh/123620
-  // https://dorar.net/hadith/sharh/21365
-  // https://dorar.net/hadith/sharh/5113
-  // https://dorar.net/hadith/sharh/61988
-  // https://dorar.net/hadith/sharh/37248
-  // https://dorar.net/hadith/sharh/9662
-  // https://dorar.net/hadith/sharh/5105
-  // https://dorar.net/hadith/sharh/1639
-  // https://dorar.net/hadith/sharh/74177
-  // https://dorar.net/hadith/sharh/15115
-  // https://dorar.net/hadith/sharh/5415
+  {
+    sujet: " 🔥Les plus sévèrement punis أشد الناس عذابًا في النار",
+    auteur: " صحيح مسلم",
+    numero: 2109,
+    texteArabe: " أشدُّ النَّاسِ عذابًا يومَ القيامةِ، المصوِّرونَ.",
+    texteFrancais:
+      " Les gens qui subiront le châtiment le plus sévère au Jour de la Résurrection sont les faiseurs d’images (« مصوِّرون »",
+    lien: "https://dorar.net/hadith/sharh/123620",
+    autres: " البخاري (5950)",
+  },
+  {
+    sujet:
+      " 🔥👥 أكثر أهل النار وأهل الجنة (Majorité des habitants de l’Enfer et du Paradis",
+    auteur: " صحيح مسلم",
+    numero: 2737,
+    texteArabe:
+      " اطَّلَعْتُ في النَّارِ فرأَيْتُ أكثَرَ أهلِها النِّساءَ، واطَّلَعْتُ في الجنَّةِ فرأَيْتُ أكثَرَ أهلِها الفُقراءَ.",
+    texteFrancais:
+      " J’ai regardé dans le Feu et j’ai vu que la majorité de ses habitants sont des femmes.",
+    lien: "https://dorar.net/hadith/sharh/21365",
+    autres: " البخاري (3241)",
+  },
+  {
+    sujet: " 🔥 الجُهنَّميِّينَ الشفاعة",
+    auteur: " صحيح ابن ماجه 3501",
+    numero: 2737,
+    texteArabe: " ليخرجنَّ قومٌ من النارِ بشفاعَتِي يُسمُّونَ الجُهنَّميِّينَ",
+    texteFrancais:
+      "Des gens sortiront de l’Enfer grâce à mon intercession. Ils seront appelés « les gens de la Géhenne » (al-Jahannamiyyûn). ",
+    lien: "https://dorar.net/hadith/sharh/21365",
+    autres: " البخاري (6566)",
+  },
+  {
+    sujet: " 🔥 الكذب على النبي ﷺ (Mentir sur le Prophète)",
+    auteur: " صحيح البخاري",
+    numero: 1291,
+    texteArabe:
+      " إنَّ كَذِبًا عليَّ ليس ككذبٍ على أحدٍ ، فمن كذب عليَّ مُتعمِّدًا ، فلْيتبوَّأْ مقعدَه من النَّارِ",
+    texteFrancais:
+      "Français : Mentir à mon sujet n’est pas comme mentir à n’importe qui. Celui qui ment intentionnellement sur moi, qu’il prenne sa place en Enfer.",
+    lien: "https://dorar.net/hadith/sharh/61988",
+    autres: " أحمد (18202)",
+  },
+  {
+    sujet: " ⚰️ عذاب القبر (Châtiment de la tombe)",
+    auteur: " صحيح البخاري",
+    numero: 1292,
+    texteArabe: " الميِّتُ يُعذَّبُ في قَبرِه بما نِيحَ علَيهِ",
+    texteFrancais:
+      "Le mort est châtié dans sa tombe à cause des lamentations (les pleurs excessifs et les cris de deuil) qu’on fait sur lui.",
+    lien: "https://dorar.net/hadith/sharh/37248",
+    autres: " مسلم (927)",
+  },
+  {
+    sujet:
+      " ⚰️ عذاب القبر والبكاء على الميت (Châtiment de la tombe et pleurs des proches",
+    auteur: " صحيح البخاري",
+    numero: 1304,
+    texteArabe: " إِنَّ المَيِّتَ يُعَذَّبُ بِبُكاءِ أهلِهِ عليهِ",
+    texteFrancais:
+      "... Et le mort est châtié à cause des pleurs de sa famille sur lui",
+    lien: "https://dorar.net/hadith/sharh/9662",
+    autres: " مسلم (924)",
+  },
+  {
+    sujet: " 🔥 أهون أهل النار عذابًا (Le moins châtié en Enfer)",
+    auteur: " صحيح البخاري",
+    numero: 6561,
+    texteArabe:
+      " إنَّ أهونَ أهلِ النَّارِ عَذابًا مَن له نَعلانِ وشِراكانِ مِن نارٍ ...",
+    texteFrancais:
+      "Le plus légèrement châtié parmi les gens de l’Enfer est celui qui a deux sandales et deux lanières de feu, à cause desquelles son cerveau bout comme une marmite",
+    lien: "https://dorar.net/hadith/sharh/5105",
+    autres: " مسلم (213)",
+  },
+  {
+    sujet:
+      " 🔥 شفاعة النبي ﷺ وعذاب أبي طالب (Intercession et châtiment d’Abu Talib)",
+    auteur: " صحيح البخاري",
+    numero: 6208,
+    texteArabe:
+      " ...  فيُجعَلُ في ضَحضاحٍ مِنَ النَّارِ يَبلُغُ كَعبَيه، يَغلي منه أُمُّ دِماغِه.",
+    texteFrancais:
+      "... Il est dans une couche peu profonde du Feu. Sans moi, il aurait été dans le degré le plus bas de l’Enfer ...",
+    lien: "https://dorar.net/hadith/sharh/1639",
+    autres: " مسلم (209)",
+  },
+  {
+    sujet:
+      " 🌿🔥 أهل الجنة وأهل النار (Caractéristiques des gens du Paradis et de l’Enfer)",
+    auteur: " صحيح البخاري",
+    numero: 4918,
+    texteArabe:
+      " ...  قال: ألا أُخبِرُكُم بأهلِ النَّارِ؟ قالوا: بَلى، قال: كُلُّ عُتُلٍّ جَوَّاظٍ مُستَكبِرٍ..",
+    texteFrancais:
+      "... il dit : « Voulez-vous que je vous informe des gens de l’Enfer ? »Ils dirent : « Oui. »Il dit : « Tout être dur, arrogant et orgueilleu ",
+    lien: "https://dorar.net/hadith/sharh/15115",
+    autres: " مسلم (2853)",
+  },
+  {
+    sujet: " 🌿🔥 الخلود في الجنة والنار (L’éternité au Paradis et en Enfer)",
+    auteur: " صحيح البخاري",
+    numero: 6545,
+    texteArabe: " ...  يا أهلَ النَّارِ خُلودٌ لا مَوتَ...",
+    texteFrancais: "Il sera dit aux gens du Paradis : « Ô gens du Paradis, éternité sans mort. »Et il sera dit aux gens de l’Enfer : « Ô gens de l’Enfer, éternité sans mort. ",
+    lien: "https://dorar.net/hadith/sharh/5415",
+    autres: " ",
+  },
 ];
 
