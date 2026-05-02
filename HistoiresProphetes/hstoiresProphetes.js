@@ -19,6 +19,16 @@ const versetsAdam = [
 ];
 const ahadithsAdam = [
   {
+    sujet: "  Création d'Adam !",
+    auteur: "  صحيح أبي داود",
+    numero: 4693,
+    texteArabe: "إن اللهَ خلَقَ آدمَ مِن قبضةٍ قَبَضَها مِن جميعِ الأرضِ ...",
+    texteFrancais:
+      "« Allah a créé Adam à partir d’une poignée (de terre) prise de toute la terre. »",
+    lien: "https://dorar.net/hadith/sharh/65835",
+    autres: "أحمد (4693)",
+  },
+  {
     sujet: "  Création d'Adam et sa taille",
     auteur: "  صحيح البخاري",
     numero: 6227,
