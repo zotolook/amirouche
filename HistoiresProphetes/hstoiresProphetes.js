@@ -62,6 +62,17 @@ const ahadithsAdam = [
     lien: "https://dorar.net/hadith/sharh/84440",
     autres: "البزار (8478)، وابن خزيمة في ((التوحيد)) (1/160)",
   },
+  {
+    sujet: "🌿 La taille des humains ne cesse de diminuer !",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6227,
+    texteArabe:
+      " فكُلُّ مَن يَدخلُ الجنةَ على صورةِ آدمَ في طُولِه سِتُّونَ ذِراعًا ، فلمْ تَزلْ الخَلْقُ تَنقُصُ بعدَه حتى الآنَ",
+    texteFrancais:
+      "« Tous ceux qui entreront au Paradis seront à l’image d’Adam, avec une taille de soixante coudées. Et la création n’a cessé de diminuer en taille depuis lui jusqu’à maintenant. »",
+    lien: "https://dorar.net/hadith/sharh/12844",
+    autres: "",
+  },
 ];
 
 // 2- Idris / Énoch[24] إدريس, idrīs Idrîs

@@ -7,7 +7,7 @@ const souratesParadis = [
     " 4. Épouses pures (compagnons)", 2, 3, 4, 55,55,
     " 5. Demeure éternelle et stabilité", 2, 3, 3, 3, 4, 15,  
     " 6. Paix, sécurité et absence de peur", 4, 15, 56,56,
-    "7. Récompense spirituelle et proximité d’Allah", 3,3,3, 75,75,
+    " 7. Récompense spirituelle et proximité d’Allah", 3,3,3, 75,75,
 ];
 const versetsParadis = [
     "🌿", 25, 15, 133, 136, 198, 57, 9, 45, 72, 31, 
@@ -279,6 +279,17 @@ const ahadithssParadis = [
       "Au Paradis, il y a quatre fleuves : d’eau, de lait, de vin et de miel.",
     lien: "https://dorar.net/hadith/sharh/120093",
     autres: " صحيح البخاري 450",
+  },
+  {
+    sujet: "🌿 La taille des humains ne cesse de diminuer !",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 6227,
+    texteArabe:
+      " فكُلُّ مَن يَدخلُ الجنةَ على صورةِ آدمَ في طُولِه سِتُّونَ ذِراعًا ، فلمْ تَزلْ الخَلْقُ تَنقُصُ بعدَه حتى الآنَ",
+    texteFrancais:
+      "« Tous ceux qui entreront au Paradis seront à l’image d’Adam, avec une taille de soixante coudées. Et la création n’a cessé de diminuer en taille depuis lui jusqu’à maintenant. »",
+    lien: "https://dorar.net/hadith/sharh/12844",
+    autres: "",
   },
 ];
 
