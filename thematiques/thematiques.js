@@ -186,51 +186,6 @@ const ahadithsNomsSourates = [
   },
 ]; //fin noms des sourates
 
-// Abrogation
-const souratesAbrogation = [
- 
- "Versets en lien avec ... ", 2, 13, 16, 22, 22,
-  "Exemples de versets... ",
-  
-  "1. ",
-  "Tolérance implicite ", 16,
-  "Le mal est supérieur au bien", 2,
-  "Interdiction partielle", 4,
-  "Interdiction diffinitive", 5, 5,
-  "Autres versets lié à l'alcool", 47,83,83,
-
-];
-const versetsAbrogation = [
-  
-  "l'abrogation", 106, 39, 101, 52, 53,
-  "abrogeants et abrogés",
-
-  "L'alcool",
-  "(période mecquoise)", 67,
-  "(période intermédiaire - médine)", 219,
-  "pendant la prière", 43,
-  "Selon l'interprétation majoritaire", 90, 91,
-  "(le vin au paradis)", 15,25,26,
-
-  
-];
-const ahadithsAbrogation = [
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-  {
-    auteur: "El Boukhari صحيح البخاري",
-    numero: 1,
-    texte: "",
-    lien: "https://dorar.net/hadith/sharh/",
-    autres: "",
-  },
-];
-
 // La Faune et la Flore
 const souratesFauneFlore = [2,2, 7, 16,16,16, 18,18, 23,23, 27,27, 38,38, 44, 55, 56, 74, 80, 88, 95, 105];
 const versetsFauneFlore = [67,259, 176, 8,11,14, 18,32, 19,20, 18,20, 23,31, 43, 11, 23, 51, 28, 17, 1, 1,];
