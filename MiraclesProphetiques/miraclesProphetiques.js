@@ -1,7 +1,6 @@
 // 1. Les miracles d'Adam'
 const souratesMiraclesAdam = [
   " 1. Enseignement du nom des choses ", 2, 2,2,
-  " "
 ];
 const versetsMiraclesAdam = [
   " 🧠", 31, 32, 33,
@@ -263,7 +262,7 @@ const ahadithsMiraclesZakariya = [];
 
 // 18. Les miracles de Yahya
 const souratesMiraclesYahya = [
-  " 1. Naissance miraculeuse ", 19, 19, 19, 19, 19, 19, 19, 19,
+  " 1. Naissance miraculeuse ", 19, 19, 19, 19, 19, 19, 19, 19, 19,
 " 2. Nom donné par Dieu ", 3,3,3,3,
 ];
 

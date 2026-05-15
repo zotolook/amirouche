@@ -110,8 +110,18 @@ const ahadithsPffPuissanceAllah = [
       "« Tous ceux qui entreront au Paradis seront à l’image d’Adam, avec une taille de soixante coudées. Et la création n’a cessé de diminuer en taille depuis lui jusqu’à maintenant. »",
     lien: "https://dorar.net/hadith/sharh/12844",
     autres: "",
-    },
-    
+  },
+  {
+    sujet: "✍️ 2. La première chose créée : la plume",
+    auteur: "صحيح أبي داود",
+    numero: 4700,
+    texteArabe:
+      "« إِنَّ أَوَّلَ مَا خَلَقَ اللَّهُ الْقَلَمَ، فَقَالَ لَهُ: اكْتُبْ »",
+    texteFrancais:
+      "« La première chose qu’Allah créa fut le Calame. Il lui dit : “Écris.” »",
+    lien: "https://dorar.net/hadith/sharh/75705",
+    autres: " الترمذي (3319)، وأحمد (22705)",
+  },
 ];
 
 // 4. Les signes dans la création (nature, animaux, cosmos)
@@ -160,6 +170,17 @@ const ahadithsPffCreation = [
     texteFrancais: "« Moïse (Mūsā) était un homme très pudique et discret ...",
     lien: "https://dorar.net/hadith/sharh/26282",
     autres: "مسلم (339)",
+  },
+  {
+    sujet: "🌱 Les étapes de l'embryon حديث مراحل الجنين في الرحم",
+    auteur: "النسائي ",
+    numero: 200,
+    texteArabe:
+      "ماءُ الرجلِ غليظٌ أبيضُ ، و ماءُ المرأةِ رقيقٌ أصفرُ ، فأيهما سبَق أشبهَه الولدُ",
+    texteFrancais:
+      "« Si le liquide de l’homme prédomine, l’enfant ressemblera au père ; et si celui de la femme prédomine, il ressemblera à la mère. »",
+    lien: "https://dorar.net/hadith/sharh/139517",
+    autres: "ابن ماجه (601)، وأحمد (13055) مسلم (315)",
   },
 ];
 

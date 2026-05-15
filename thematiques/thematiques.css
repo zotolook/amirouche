@@ -15,7 +15,6 @@ padding: 5px;
 display: flex;
 flex-direction: column;
 justify-content: center;
-
 }
 
 .boutonsVersetsAhadiths {
@@ -33,6 +32,7 @@ justify-content: center;
     text-shadow: 2px 2px 2px #e0abab;
     color: rgb(78, 20, 17);
 }
+
 .pTitreThematique { 
     font-size: 30px;
         text-align: center;

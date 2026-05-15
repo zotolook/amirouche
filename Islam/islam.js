@@ -386,6 +386,15 @@ const versetsIslamAllahOmni = [
 ];
 let ahadithsIslamAllahOmni = [
   {
+    sujet: "🌌 1. Allah existait avant toute création",
+    auteur: "صحيح البخاري",
+    numero: 3191,
+    texteArabe: "« كَانَ اللَّهُ وَلَمْ يَكُنْ شَيْءٌ غَيْرُهُ »",
+    texteFrancais: "« Allah était, et rien d’autre n’existait avec Lui. »",
+    lien: "https://dorar.net/hadith/sharh/3990",
+    autres: " من أفراد البخاري على مسلم",
+  },
+  {
     auteur: "El Boukhari صحيح البخاري",
     numero: 4584,
     texte:
