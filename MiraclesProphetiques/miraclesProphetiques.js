@@ -33,28 +33,108 @@ const ahadithsMiraclesNoe = [];
 
 // 3. Les miracles d'Abraham'
 const souratesMiraclesAbraham = [
-  " 1. Le feu devient froid et paix", 21,
-  " 2. Résurrection des oiseaux",2,
+  " 1. Le feu devient froid et paix", 21,21,
+  " 2. Construction de la Kaaba", 2,14,
+  " 3. Résurrection des oiseaux", 2,
+  " 4. Le sacrifice remplacé", 37,
+  " 5. Abraham et le roi (Nemrod)", 2, 
+  " 6. Les anges annoncent un fils", 15, 11,
+  " 7. Les anges entrent chez Abraham", 51,11,
 ];
 const versetsMiraclesAbraham = [
-  " 🔥", 9,
-  "🧪", 260, 
+  " 🔥", 9,69,
+  " 🕋 ",127,35,
+  " 🧪 ", 260, 
+  " 🐑 ", 107,
+  " 👑 ", 258,
+  " 👼 ", 53, 71,
+  " 👼 ", 24,70,
 ];
-const ahadithsMiraclesAbraham = [];
+const ahadithsMiraclesAbraham = [
+  {
+    sujet: "1. Circoncision d'Abraham ! ",
+    auteur: "  صحيح البخاري",
+    numero: 3356,
+    texteArabe:
+      "اختَتَنَ إبراهيمُ النَّبيُّ عليه السَّلامُ، وهو ابنُ ثَمانينَ سَنةً بالقَدُومِ.",
+    texteFrancais: "« Abraham se fit circoncire à l’âge de 80 ans. »",
+    lien: "https://dorar.net/hadith/sharh/16636",
+    autres: "مسلم (2370)",
+  },
+  {
+    sujet: "🕋 2. Abraham construit la Kaaba",
+    auteur: "  صحيح البخاري",
+    numero: 3364 - 3365,
+    texteArabe:
+      "ثُمَّ جَاءَ إِبْرَاهِيمُ بَعْدُ وَإِسْمَاعِيلُ يَبْرِي نَبْلًا لَهُ تَحْتَ دَوْحَةٍ قَرِيبًا مِنْ زَمْزَمَ",
+    texteFrancais:
+      "« Puis Abraham revint plus tard et trouva Ismaël en train de fabriquer des flèches près de Zamzam. »",
+    lien: "https://dorar.net/hadith/sharh/1884",
+    autres: "من أفراد البخاري على مسلم",
+  },
+  {
+    sujet: "💧 3. Miracle de Zamzam",
+    auteur: "  صحيح البخاري",
+    numero: 3364,
+    texteArabe:
+      "فَجَعَلَتْ أُمُّ إِسْمَاعِيلَ تُحَوِّضُهُ وَتَقُولُ بِيَدِهَا هَكَذَا، وَجَعَلَتْ تَغْرِفُ مِنَ الْمَاءِ فِي سِقَائِهَا وَهُوَ يَفُورُ",
+    texteFrancais:
+      "« La mère d’Ismaël commença à entourer l’eau avec ses mains et à remplir son outre tandis que l’eau jaillissait. »",
+    lien: "https://dorar.net/hadith/sharh/138073",
+    autres: "من أفراد البخاري على مسلم",
+  },
+  {
+    sujet: "🕋 4. Abraham appelé “ami intime d’Allah”",
+    auteur: "  صحيح مسلم",
+    numero: 532,
+    texteArabe:
+      "إِنَّ اللَّهَ اتَّخَذَنِي خَلِيلًا كَمَا اتَّخَذَ إِبْرَاهِيمَ خَلِيلًا",
+    texteFrancais:
+      "« Allah m’a pris comme ami intime, comme Il avait pris Abraham comme ami intime. »",
+    lien: "https://dorar.net/hadith/sharh/141467",
+    autres:
+      "ابن حبان (6425)، والنسائي في ((الكبرى)) (11058)، وأحمد في ((فضائل الصحابة)) (71)",
+  },
+];
 
 // 4. Les miracles d'Ismael'
 const souratesMiraclesIsmael = [
-  " 1. Le sacrifice remplacé",  37,
+  " 1. Le sacrifice remplacé", 37,37,
+  " 2. Construction de la Kaaba",2,
 ];
 const versetsMiraclesIsmael = [
-  " 🐑", 107,
+  " 🐑", 102,107,
+  " 🕋",127,
 ];
 
-const ahadithsMiraclesIsmael = [];
+const ahadithsMiraclesIsmael = [
+  {
+    sujet: "🕋 1. Abraham et Ismael construisent la Kaaba",
+    auteur: "  صحيح البخاري",
+    numero: 3364 - 3365,
+    texteArabe:
+      "ثُمَّ جَاءَ إِبْرَاهِيمُ بَعْدُ وَإِسْمَاعِيلُ يَبْرِي نَبْلًا لَهُ تَحْتَ دَوْحَةٍ قَرِيبًا مِنْ زَمْزَمَ",
+    texteFrancais:
+      "« Puis Abraham revint plus tard et trouva Ismaël en train de fabriquer des flèches près de Zamzam. »",
+    lien: "https://dorar.net/hadith/sharh/1884",
+    autres: "من أفراد البخاري على مسلم",
+  },
+  {
+    sujet: "💧 2. Miracle de Zamzam",
+    auteur: "  صحيح البخاري",
+    numero: 3364,
+    texteArabe:
+      "فَجَعَلَتْ أُمُّ إِسْمَاعِيلَ تُحَوِّضُهُ وَتَقُولُ بِيَدِهَا هَكَذَا، وَجَعَلَتْ تَغْرِفُ مِنَ الْمَاءِ فِي سِقَائِهَا وَهُوَ يَفُورُ",
+    texteFrancais:
+      "« La mère d’Ismaël commença à entourer l’eau avec ses mains et à remplir son outre tandis que l’eau jaillissait. »",
+    lien: "https://dorar.net/hadith/sharh/138073",
+    autres: "من أفراد البخاري على مسلم",
+  },
+];
 
 // 5. Les miracles Luth'
 const souratesMiraclesLuth = [
-  " 1. Visite des anges sous forme humaine", 11, 11, 11, 11, 11, 15, 15, 15, 15, 15, 15,
+" 1. Visite des anges sous forme humaine", 11, 11, 11, 11, 11, 15, 15, 15, 15, 15, 15,
 " 2. Destruction de Sodome (peuple de Loth)", 11,11, 54,54,54,54,54,54,
 ];
 const versetsMiraclesLuth = [
@@ -178,14 +258,15 @@ const versetsMiraclesMoise = [
 ];
 const ahadithsMiraclesMoise = [
   {
-    sujet: "🌍  Création d'Adam !",
-    auteur: "  صحيح أبي داود",
-    numero: 4693,
-    texteArabe: "إن اللهَ خلَقَ آدمَ مِن قبضةٍ قَبَضَها مِن جميعِ الأرضِ ...",
+    sujet: " 🌊 Les enfants d’Israël faisaient du tort à Mûsâ",
+    auteur: " صحيح مسلم",
+    numero: 339,
+    texteArabe:
+      "كَانَ بَنُو إِسْرَائِيلَ يَغْتَسِلُونَ عُرَاةً، وَكَانَ مُوسَى يَغْتَسِلُ وَحْدَهُ، فَقَالُوا: وَاللَّهِ مَا يَمْنَعُ مُوسَى أَنْ يَغْتَسِلَ مَعَنَا إِلَّا أَنَّهُ آدَرُ",
     texteFrancais:
-      "« Allah a créé Adam à partir d’une poignée (de terre) prise de toute la terre. »",
-    lien: "https://dorar.net/hadith/sharh/65835",
-    autres: "أحمد (4693)",
+      "« Les enfants d’Israël se baignaient nus ensemble tandis que Moïse se baignait seul. Ils dirent : “Rien ne l’empêche de se baigner avec nous sauf un défaut physique.” »",
+    lien: "https://dorar.net/hadith/sharh/4097",
+    autres: " البخاري (278)",
   },
 ];
 
@@ -204,16 +285,28 @@ const ahadithsMiraclesChouib = [];
 
 // 13. Les miracles de Ayub
 const souratesMiraclesAyub = [
-  " 1. Guérison après maladie extrême", 38,
+  " 1. Guérison après maladie extrême", 38,38,
   " 2. Restauration de sa famille et de ses biens", 21, 21,
   " 3. Exemple suprême de patience", 38,
 ];
 const versetsMiraclesAyub = [
-  "🩺", 42,
+  "🩺", 41,42,
   "👨‍👩‍👧‍👦", 83, 84,
   "🧠", 44
 ];
-const ahadithsMiraclesAyub = [];
+const ahadithsMiraclesAyub = [
+  {
+    sujet: " 🌧️ Pluie d’or sur Ayyûb",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 279,
+    texteArabe:
+      "بَيْنَمَا أَيُّوبُ يَغْتَسِلُ عُرْيَانًا، خَرَّ عَلَيْهِ جَرَادٌ مِنْ ذَهَبٍ، فَجَعَلَ أَيُّوبُ يَحْثِي فِي ثَوْبِهِ، فَنَادَاهُ رَبُّهُ: يَا أَيُّوبُ، أَلَمْ أَكُنْ أَغْنَيْتُكَ عَمَّا تَرَى؟ قَالَ: بَلَى يَا رَبِّ، وَلَكِنْ لَا غِنَى بِي عَنْ بَرَكَتِكَ",
+    texteFrancais:
+      "« Alors qu’Ayyûb se baignait nu, des sauterelles d’or tombèrent sur lui. Ayyûb se mit à les ramasser dans son vêtement. Son Seigneur l’appela :“Ô Ayyûb, ne t’ai-Je pas suffisamment enrichi pour que tu n’aies pas besoin de cela ?”</br>Il répondit :“Oui, par Ta puissance ô Seigneur, mais je ne peux me passer de Ta bénédiction.",
+    lien: "https://dorar.net/hadith/sharh/14608",
+    autres: "من أفراد البخاري على مسلم",
+  },
+];
 
 // 14. Les miracles de David
 const souratesMiraclesDavid = [

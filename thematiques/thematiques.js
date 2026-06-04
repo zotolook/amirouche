@@ -354,32 +354,6 @@ const souratesTemporel = [17,17,17,17,17,17,17,17,17, 24,24, 33,33,33, 93, 94,10
 const versetsTemporel = [ 47,48,50,51,73,74,75,76,77, 62,63, 50,51,52,  1,1,1];
 const ahadithsTemporel = [];// Fin temporalité,
 
-
-// Ils ont mécru
-const souratesMecru = [
-  "Ils ont mécru ... ", 7, 7, 10, 11, 11, 21, 23, 26, 26, 54,
-  "Ils ont mécru ...", 19,
-  "Ils ont mécru ...", 7,
-  "Ils ont mécru ...", 17,
-  "Ils ont mécru ...", 16, 17,17,17,17,17,17, 31,31, 38,38,
-];
-
-const versetsMecru = [
-  "Noé", 60, 64, 73, 27, 32, 77, 24, 105, 111, 9,
-  "Abraham", 46,
-  "les preuves d'Allah !", 146,
-  "Salah", 59,
-  "Muhammad", 101, 89,90,91,92,93,94, 7,21, 67,68,
-  
-];
-
-const ahadithsMecru = [
-  // https://dorar.net/hadith/sharh/12039
-  // https://dorar.net/hadith/sharh/24772
-  // https://dorar.net/hadith/sharh/7243
-
-];// ils ont mécru,
-
 // LEs fêtes
 // https://dorar.net/h/0qnMuTLh?sims=1
 // https://dorar.net/hadith/sharh/1
@@ -387,8 +361,9 @@ const ahadithsMecru = [
 
 // Raisons de révélation
 // https://dorar.net/hadith/sharh/41605
-// 
+// https://dorar.net/hadith/sharh/24772
 //////////////////,142,255, ,
+
 // Fonction injecter les sourates selon le thème
 function injecteVersets (titreThematique, sourates, versets) {
   tableau.innerHTML = "";

@@ -1,22 +1,32 @@
 // 1. Le paradis d'Allah
 const souratesParadis = [
   // 🌿 1. Jardins du Paradis (Jannāt) et paysages
-    " 1. Jardins du Paradis (Jannāt) et paysages", 2, 3, 3, 3, 3, 4, 10, 15, 9, 18,  
-    " 2. Rivières et sources", 2, 3, 3, 3, 3, 4, 10, 15,  47,
-    " 3. Nourriture et fruits", 2, 55,55, 56,56,56,56,
-    " 4. Épouses pures (compagnons)", 2, 3, 4, 55,55,
-    " 5. Demeure éternelle et stabilité", 2, 3, 3, 3, 4, 15,  
-    " 6. Paix, sécurité et absence de peur", 4, 15, 56,56,
-    " 7. Récompense spirituelle et proximité d’Allah", 3,3,3, 75,75,
+    " 0. Description du paradis", 3,
+    " 1. Jardins, rivières et paysages", 3, 3, 3, 4, 10, 15, 9, 3, 3, 3, 4, 10, 15,  47,76,
+    " 2. Nourriture et fruits", 2,13,41,47,55,56,56,56,56,88,88,88,88,88,
+    " 3. Les jeunes serviteurs ", 56,76,
+    " 4. Épouses pures (Des vierges)", 2, 3, 4, 55, 55,
+    " 5. Les houris", 44, 52, 56, 56,
+    " 6. jeunes femmes aux seins fermes", 78,
+    " 7. Les vêtements du paradis", 18,22,76,35,
+    " 8. Demeure éternelle et stabilité", 2, 3, 3, 3, 4, 15, 
+    " 9. Ombres", 13,
+    " 10. Paix, sécurité et absence de peur", 4, 15, 56,56,
+    " 11. Récompense spirituelle et proximité d’Allah", 3,3,3, 75,75,
 ];
 const versetsParadis = [
-    "🌿", 25, 15, 133, 136, 198, 57, 9, 45, 72, 31, 
-    "💧", 25, 15, 133, 136, 198, 57, 9, 45,  15,
-    "🍇", 25, 70,56, 20,21,32,33,
-    "👥", 25, 15, 57, 70,56, 
-    "🏡", 25, 15, 136, 198, 57, 48, 
-    "😊", 57, 46, 25,26, 
-    "🌟", 15,169,198, 22,23, 
+    "🌺 وَصْفُ الجَنَّة",133,
+    "🌿 🌴 🌊 جَنَّاتُ أَنْهَارُ", 15, 136, 198, 57, 9, 45, 72, 15, 136, 198, 57, 9, 45,  15,6,
+    "🍇🍽️ طعام الجنة", 68,35, 31,15,25, 20,21,32,33,12,13,14,15,16,
+    "👦 الوِلْدَانُ المُخَلَّدُونَ",17,19,
+    "👥 أزواج مطهرة", 25, 15, 57, 70, 56,
+    "👁️ حُورُ العِين", 54, 20, 22, 23,
+    "👭 كَوَاعِبَ أَتْرَابًا", 33,
+    "👕 👗 ملابس الجنة",31,33,21,33,
+    "🏡 🏰 🏡منازل الجنة", 25, 15, 136, 198, 57, 48, 
+    "🌳 ظِلُّ الجنة",35,
+    "😊 🕊️ سَلامٌ وَأَمَان", 57, 46, 25,26, 
+    "🌟 ثَوَابٌ رُوحِيّ", 15,169,198, 22,23, 
     
 
 ];
@@ -101,6 +111,17 @@ const ahadithssParadis = [
     texteFrancais: "Le croyant aura au Paradis deux épouses parmi les houris.",
     lien: "https://dorar.net/hadith/sharh/131297",
     autres: " صحيح البخاري 3246",
+  },
+  {
+    sujet: "👥 « 72 houris » pour les martyrs",
+    auteur: "صحيح الترمذي",
+    numero: 1663,
+    texteArabe:
+      " « لِلشَّهِيدِ عِنْدَ اللَّهِ سِتُّ خِصَالٍ… وَيُزَوَّجُ ثِنْتَيْنِ وَسَبْعِينَ زَوْجَةً مِنَ الْحُورِ الْعِينِ »",
+    texteFrancais:
+      "« Le martyr a auprès d’Allah six privilèges… et il sera marié à soixante-douze épouses parmi les houris aux grands yeux. »",
+    lien: "https://dorar.net/hadith/sharh/79876",
+    autres: " ابن ماجه (2799)، وأحمد (17182)",
   },
   {
     sujet: "👥 Les croyants verront Allah ! ",

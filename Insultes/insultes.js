@@ -84,6 +84,18 @@ const ahadithsInsultesMecreants = [
     lien: "https://dorar.net/hadith/sharh/5157",
     autres: "",
   },
+
+  {
+    sujet: "Abu Bakr insulte ! ",
+    auteur: " الألباني",
+    numero: 327,
+    texteArabe:
+      " فَقَالَ أَبُو بَكْرٍ:امْصُصْ بَظْرَ اللَّاتِ أَنَحْنُ نَفِرُّ عَنْهُ وَنَدَعُهُ؟",
+    texteFrancais:
+      "« Suce le clitoris d’al-Lāt ! Est-ce qu’on fuirait en l’abandonnant ? »",
+    lien: "https://dorar.net/h/Ki2Gg7YA",
+    autres: " البخاري 2732/2731",
+  },
 ];
 
 // 4- Les associateurs

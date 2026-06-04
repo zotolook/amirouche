@@ -34,16 +34,7 @@ const ahadithsPffGuidance = [
     lien: "https://dorar.net/hadith/sharh/9598",
     autres: "",
   },
-  {
-    sujet: "Circoncision d'Abraham ! ",
-    auteur: "  صحيح البخاري",
-    numero: 3356,
-    texteArabe:
-      "اختَتَنَ إبراهيمُ النَّبيُّ عليه السَّلامُ، وهو ابنُ ثَمانينَ سَنةً بالقَدُومِ.",
-    texteFrancais: "« Abraham se fit circoncire à l’âge de 80 ans. »",
-    lien: "https://dorar.net/hadith/sharh/16636",
-    autres: "مسلم (2370)",
-  },
+  
   {
     sujet: "⚔️ Les meilleurs anges !",
     auteur: "صحيح البخاري",
@@ -189,6 +180,16 @@ const souratesPffLois = [24,24,24, 5,5,5, 58,58, 24,];
 const versetsPffLois = [27,28,29, 106,107,108, 3,4, 58, ];
 const ahadithsPffLois = [
   {
+    sujet: "Circoncision d'Abraham ! ",
+    auteur: "  صحيح البخاري",
+    numero: 3356,
+    texteArabe:
+      "اختَتَنَ إبراهيمُ النَّبيُّ عليه السَّلامُ، وهو ابنُ ثَمانينَ سَنةً بالقَدُومِ.",
+    texteFrancais: "« Abraham se fit circoncire à l’âge de 80 ans. »",
+    lien: "https://dorar.net/hadith/sharh/16636",
+    autres: "مسلم (2370)",
+  },
+  {
     sujet: "🏠 Entrez vos maisons par leur porte !",
     auteur: "El Boukhari صحيح البخاري",
     numero: 1803,
@@ -309,8 +310,7 @@ const ahadithsPffLois = [
       "« Des gens interrogeaient le Messager d’Allah ﷺ par moquerie...",
     lien: "https://dorar.net/hadith/sharh/81685",
     autres: "من أفراد البخاري على مسلم ",
-    },
-  
+  },
 ];
 
 // 6. Les récits des prophètes et des peuples
@@ -359,8 +359,30 @@ const ahadithsPffRecits = [
       "« J’ai vu le Paradis et j’ai voulu en saisir une grappe (de raisin). Si je l’avais prise, vous en auriez mangé tant que le monde aurait duré. »",
     lien: "https://dorar.net/hadith/sharh/67314",
     autres: "",
-    },
-  
+  },
+  {
+    sujet: " 🌧️ Pluie d’or sur Ayyûb",
+    auteur: "El Boukhari صحيح البخاري",
+    numero: 279,
+    texteArabe:
+      "بَيْنَمَا أَيُّوبُ يَغْتَسِلُ عُرْيَانًا، خَرَّ عَلَيْهِ جَرَادٌ مِنْ ذَهَبٍ، فَجَعَلَ أَيُّوبُ يَحْثِي فِي ثَوْبِهِ، فَنَادَاهُ رَبُّهُ: يَا أَيُّوبُ، أَلَمْ أَكُنْ أَغْنَيْتُكَ عَمَّا تَرَى؟ قَالَ: بَلَى يَا رَبِّ، وَلَكِنْ لَا غِنَى بِي عَنْ بَرَكَتِكَ",
+    texteFrancais:
+      "« Alors qu’Ayyûb se baignait nu, des sauterelles d’or tombèrent sur lui. Ayyûb se mit à les ramasser dans son vêtement. Son Seigneur l’appela :“Ô Ayyûb, ne t’ai-Je pas suffisamment enrichi pour que tu n’aies pas besoin de cela ?”</br>Il répondit :“Oui, par Ta puissance ô Seigneur, mais je ne peux me passer de Ta bénédiction.",
+    lien: "https://dorar.net/hadith/sharh/14608",
+    autres: "من أفراد البخاري على مسلم",
+  },
+ 
+  {
+    sujet: "سَبَقَك بها عُكَّاشةُ. Okacha t'a précédé!",
+    auteur: " صحيح البخاري",
+    numero: 6541,
+    texteArabe:
+      " عُرِضَتْ عَلَيَّ الْأُمَمُ، فَرَأَيْتُ النَّبِيَّ وَمَعَهُ الرَّهْطُ، وَالنَّبِيَّ وَمَعَهُ الرَّجُلُ وَالرَّجُلَانِ، وَالنَّبِيَّ وَلَيْسَ مَعَهُ أَحَدٌ",
+    texteFrancais:
+      " « Les communautés me furent présentées : je vis un prophète accompagné d’un petit groupe, un autre avec un ou deux hommes, et un prophète sans aucun disciple. »",
+    lien: "https://dorar.net/hadith/sharh/4963",
+    autres: "مسلم (220)",
+  },
 ];
 
 // 7. Le combat intérieur : bien vs mal
