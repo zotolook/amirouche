@@ -134,10 +134,20 @@ const ahadithsAdam = [
     auteur: "  ابن حبان",
     numero: 807,
     texteArabe: "من كان أولُهم قال آدمُ",
-    texteFrancais:
-      "« Qui est le premier prophète? il a dit: Adam »",
+    texteFrancais: "« Qui est le premier prophète? il a dit: Adam »",
     lien: "https://dorar.net/h/7tVGJYGl?osoul=1",
     autres: " الطبراني في ((مسند الشاميين)) (1979)",
+  },
+  {
+    sujet: " Adam et la durée de vie de Dâwûd 👨‍👦 آدم وعمر داود",
+    auteur: " صحيح الترمذي",
+    numero: 3076,
+    texteArabe:
+      "فَرَأَى آدَمُ دَاوُدَ فَقَالَ: مَنْ هَذَا؟ قَالَ: دَاوُدُ. قَالَ: كَمْ جَعَلْتَ لَهُ مِنَ الْعُمُرِ؟ قَالَ: سِتِّينَ سَنَةً. قَالَ: زِدْهُ مِنْ عُمُرِي أَرْبَعِينَ سَنَةً.",
+    texteFrancais:
+      "Adam vit Dâwûd parmi sa descendance et demanda :Qui est celui-ci ? </br> Allah répondit : C'est Dâwûd. </br>Adam demanda :Combien d'années lui as-Tu accordées ?</br>Allah répondit :Soixante ans.</br>Adam dit :Ajoute-lui quarante ans pris de ma propre vie.",
+    lien: "https://dorar.net/hadith/sharh/69598",
+    autres: " البزار (8892)، وأبو يعلى (6654)",
   },
 ];
 
@@ -1041,7 +1051,19 @@ const versetsJob = [
   " 🌟 الثناء على أيوب", "📖 أيوب عبد صالح", 44, "📖 نعم العبد إنه أواب", 44,
   " 📜 ذكر أيوب بين الأنبياء", 163,84,85,
 ];
-
+const ahadithsJob = [
+  {
+    sujet: " Épisode des sauterelles d'or 🦗💰 قصة الجراد من ذهب",
+    auteur: " صحيح البخاري",
+    numero: 279,
+    texteArabe:
+      "« بَيْنَمَا أَيُّوبُ يَغْتَسِلُ عُرْيَانًا، خَرَّ عَلَيْهِ جَرَادٌ مِنْ ذَهَبٍ، فَجَعَلَ أَيُّوبُ يَحْتَثِي فِي ثَوْبِهِ",
+    texteFrancais:
+      "“Ô Ayyûb ! Ne t’ai-Je pas suffisamment enrichi pour que tu n’aies pas besoin de cela ?”",
+    lien: "https://dorar.net/hadith/sharh/14608",
+    autres: " من أفراد البخاري على مسلم",
+  },
+];
 // 16- David[27] داوود, dāwūd Dâwûd
 const souratesDavid = [
   "1. La royauté et le jugement",
@@ -1101,7 +1123,84 @@ const versetsDavid = [
   " 📖 أواب",17,30,
 
 ];
+const ahadithsDavid = [
+  {
+    sujet:
+      " La meilleure prière nocturne : la prière de Dâwûd 🌙 أفضل قيام الليل: قيام داود",
+    auteur: " صحيح البخاري",
+    numero: 1131,
+    texteArabe:
+      "أَحَبُّ الصَّلَاةِ إِلَى اللَّهِ صَلَاةُ دَاوُدَ، وَأَحَبُّ الصِّيَامِ إِلَى اللَّهِ صِيَامُ دَاوُدَ، كَانَ يَنَامُ نِصْفَ اللَّيْلِ، وَيَقُومُ ثُلُثَهُ، وَيَنَامُ سُدُسَهُ.",
+    texteFrancais:
+      "La prière la plus aimée d'Allah est celle de Dâwûd, et le jeûne le plus aimé d'Allah est celui de Dâwûd. Il dormait la moitié de la nuit, priait pendant un tiers, puis dormait un sixième.",
+    lien: "https://dorar.net/hadith/sharh/33867",
+    autres: " مسلم (1159)",
+  },
+  {
+    sujet: " Le courage de Dâwûd au combat 🌙 ⚔️ شجاعته في القتال",
+    auteur: " صحيح البخاري",
+    numero: 1977,
+    texteArabe: "وَكَانَ لَا يَفِرُّ إِذَا لَاقَى.",
+    texteFrancais: "Et lorsqu'il rencontrait l'ennemi, il ne fuyait jamais.",
+    lien: "https://dorar.net/hadith/sharh/79413",
+    autres: " مسلم (1159)",
+  },
+  {
+    sujet: " La belle voix de Dâwûd 🎶 حسن صوت داود",
+    auteur: " صحيح البخاري",
+    numero: 5048,
+    texteArabe: "لَقَدْ أُوتِيَ هَذَا مِزْمَارًا مِنْ مَزَامِيرِ آلِ دَاوُدَ.",
+    texteFrancais:
+      "Celui-ci a reçu une voix parmi les voix harmonieuses de la famille de Dâwûd.",
+    lien: "https://dorar.net/hadith/sharh/12873",
+    autres: " مسلم (793)",
+  },
+  {
+    sujet:
+      " Les montagnes et les oiseaux glorifiaient Allah avec lui 🏔️ تسبيح الجبال والطير مع داود",
+    auteur: " صحيح البخاري",
+    numero: 3417,
+    texteArabe:
+      "خُفِّفَ عَلَى دَاوُدَ الْقُرْآنُ، فَكَانَ يَأْمُرُ بِدَوَابِّهِ فَتُسْرَجُ، فَيَقْرَأُ الْقُرْآنَ قَبْلَ أَنْ تُسْرَجَ.",
+    texteFrancais:
+      "La récitation du Zabûr fut rendue facile à Dâwûd. Il ordonnait qu'on prépare sa monture et terminait sa récitation avant même qu'elle soit prête.",
+    lien: "https://dorar.net/hadith/sharh/11663",
+    autres: " الألباني 3231",
+  },
+  {
+    sujet: " Dâwûd vivait du travail de ses mains 🛠️ داود يأكل من عمل يده",
+    auteur: " صحيح البخاري",
+    numero: 2072,
+    texteArabe:
+      "مَا أَكَلَ أَحَدٌ طَعَامًا قَطُّ خَيْرًا مِنْ أَنْ يَأْكُلَ مِنْ عَمَلِ يَدِهِ، وَإِنَّ نَبِيَّ اللَّهِ دَاوُدَ كَانَ يَأْكُلُ مِنْ عَمَلِ يَدِهِ.",
+    texteFrancais:
+      "Personne n'a jamais mangé une nourriture meilleure que celle acquise par le travail de ses propres mains. Le prophète d'Allah Dâwûd mangeait du produit de son propre travail.",
+    lien: "https://dorar.net/hadith/sharh/148914",
+    autres: " الألباني 5546",
+  },
+  {
+    sujet: " Adam et la durée de vie de Dâwûd 👨‍👦 آدم وعمر داود",
+    auteur: " صحيح الترمذي",
+    numero: 3076,
+    texteArabe:
+      "فَرَأَى آدَمُ دَاوُدَ فَقَالَ: مَنْ هَذَا؟ قَالَ: دَاوُدُ. قَالَ: كَمْ جَعَلْتَ لَهُ مِنَ الْعُمُرِ؟ قَالَ: سِتِّينَ سَنَةً. قَالَ: زِدْهُ مِنْ عُمُرِي أَرْبَعِينَ سَنَةً.",
+    texteFrancais:
+      "Adam vit Dâwûd parmi sa descendance et demanda :Qui est celui-ci ? </br> Allah répondit : C'est Dâwûd. </br>Adam demanda :Combien d'années lui as-Tu accordées ?</br>Allah répondit :Soixante ans.</br>Adam dit :Ajoute-lui quarante ans pris de ma propre vie.",
+    lien: "https://dorar.net/hadith/sharh/69598",
+    autres: " البزار (8892)، وأبو يعلى (6654)",
+  },
+  {
+    sujet: " Le jugement de Dâwûd et Sulaymân ⚖️ حكم داود وسليمان",
+    auteur: " صحيح البخاري",
+    numero: 6769,
+    texteArabe: "كَانَتِ امْرَأَتَانِ مَعَهُمَا ابْنَاهُمَا ..",
+    texteFrancais:
+      "Deux femmes se disputèrent un enfant. Dâwûd jugea en faveur de l'une d'elles. Puis Sulaymân proposa une autre méthode qui permit de découvrir la véritable mère.",
+    lien: "https://dorar.net/hadith/sharh/151427#:~:text=%D9%86%D8%B5%D8%A8%20%D8%A7%D9%84%D8%B1%D8%A7%D9%8A%D8%A9-,%2D%20%D9%83%D8%A7%D9%86%D9%8E%D8%AA%D9%90%20%D8%A7%D9%85%D8%B1%D9%8E%D8%A3%D8%AA%D8%A7%D9%86%D9%90%20%D9%85%D8%B9%D9%87%D9%8F%D9%85%D8%A7%20%D8%A7%D8%A8%D9%86%D8%A7%D9%87%D9%85%D8%A7%D8%8C%20%D8%AC%D8%A7%D8%A1%D9%8E%20%D8%A7%D9%84%D8%B0%D9%90%D9%91%D8%A6%D8%A8%D9%8F%20%D9%81%D8%B0%D9%8E%D9%87%D9%8E%D8%A8%D9%8E%20%D8%A8%D8%A7%D8%A8%D9%86%D9%90%20%D8%A5%D8%AD%D8%AF%D8%A7%D9%87%D9%85%D8%A7%D8%8C,%D9%81%D9%82%D8%A7%D9%84%3A%20%D8%A7%D8%A6%D8%AA%D9%88%D9%86%D9%8A%20%D8%A8%D8%A7%D9%84%D8%B3%D9%90%D9%91%D9%83%D9%90%D9%91%D9%8A%D9%86%D9%90%20%D8%A3%D8%B4%D9%8F%D9%82%D9%8F%D9%91%D9%87%20%D8%A8%D9%8A%D9%86%D9%8E%D9%87%D9%85%D8%A7%D8%8C",
+    autres: " مسلم (1720)",
+  },
 
+];
 // 17- Salomon[27] سُلَيْمان, sulaymān Sulaymân
 const souratesSalomon = [
   "1. La royauté et le pouvoir",
@@ -1170,7 +1269,18 @@ const versetsSalomon = [
   " ✨ الثناء على سليمان",
   " 📖 نعم العبد", 30," 📖 الحمد لله على النعم", 15,19,
 ];
-
+const ahadithsSalomon = [
+  {
+    sujet: " Le jugement de Dâwûd et Sulaymân ⚖️ حكم داود وسليمان",
+    auteur: " صحيح البخاري",
+    numero: 6769,
+    texteArabe: "كَانَتِ امْرَأَتَانِ مَعَهُمَا ابْنَاهُمَا ..",
+    texteFrancais:
+      "Deux femmes se disputèrent un enfant. Dâwûd jugea en faveur de l'une d'elles. Puis Sulaymân proposa une autre méthode qui permit de découvrir la véritable mère.",
+    lien: "https://dorar.net/hadith/sharh/151427#:~:text=%D9%86%D8%B5%D8%A8%20%D8%A7%D9%84%D8%B1%D8%A7%D9%8A%D8%A9-,%2D%20%D9%83%D8%A7%D9%86%D9%8E%D8%AA%D9%90%20%D8%A7%D9%85%D8%B1%D9%8E%D8%A3%D8%AA%D8%A7%D9%86%D9%90%20%D9%85%D8%B9%D9%87%D9%8F%D9%85%D8%A7%20%D8%A7%D8%A8%D9%86%D8%A7%D9%87%D9%85%D8%A7%D8%8C%20%D8%AC%D8%A7%D8%A1%D9%8E%20%D8%A7%D9%84%D8%B0%D9%90%D9%91%D8%A6%D8%A8%D9%8F%20%D9%81%D8%B0%D9%8E%D9%87%D9%8E%D8%A8%D9%8E%20%D8%A8%D8%A7%D8%A8%D9%86%D9%90%20%D8%A5%D8%AD%D8%AF%D8%A7%D9%87%D9%85%D8%A7%D8%8C,%D9%81%D9%82%D8%A7%D9%84%3A%20%D8%A7%D8%A6%D8%AA%D9%88%D9%86%D9%8A%20%D8%A8%D8%A7%D9%84%D8%B3%D9%90%D9%91%D9%83%D9%90%D9%91%D9%8A%D9%86%D9%90%20%D8%A3%D8%B4%D9%8F%D9%82%D9%8F%D9%91%D9%87%20%D8%A8%D9%8A%D9%86%D9%8E%D9%87%D9%85%D8%A7%D8%8C",
+    autres: " مسلم (1720)",
+  },
+];
 // 18- Élie[35] إِلْيَاس, ilyās Ilyâs
 const souratesElie = [
   " 1. L’appel au monothéisme",
@@ -1320,6 +1430,28 @@ const versetsJonas = [
   " 7. 📜 ذكر يونس بين الأنبياء",
   " 📖 يونس من الأنبياء",163,86,
   " 📖 صاحب الحوت",48,49,50,
+];
+const ahadithsJonas = [
+  {
+    sujet: " Ne dites pas je suis meilleur que Jonas 🤲 ",
+    auteur: " صحيح البخاري",
+    numero: 3395,
+    texteArabe: "« لا ينبغي لعبد أن يقول:أنا خير من يونس بن متى »",
+    texteFrancais: "Il est interdit de dire que je suis meilleur que Jonas",
+    lien: "https://dorar.net/hadith/sharh/9891",
+    autres: "مسلم (165، 2377) ",
+  },
+  {
+    sujet:
+      " L'invocation de Yûnus dans le ventre du poisson 🐋 دعاء يونس في بطن الحوت",
+    auteur: " صحيح الترمذي",
+    numero: 3505,
+    texteArabe: "« لا ينبغي لعبد أن يقول:أنا خير من يونس بن متى »",
+    texteFrancais: "Il est interdit de dire que je suis meilleur que Jonas",
+    lien: "https://dorar.net/hadith/sharh/79629",
+    autres: "النسائي في ((الكبرى)) (10416)، والحاكم (1862) ",
+  },
+
 ];
 
 // 21- Ézéchiel[24] ذَو الكِفْل, ḏū'l-kifl Dhul Kifl
@@ -1542,7 +1674,32 @@ const versetsJean = [
   " ✨ السلام والبركة",
   " 📖 السلام يوم ولد ويوم يموت ويوم يبعث",15,
 ];
-
+const ahadithsJean = [
+  {
+    sujet:
+      " Rencontre lors de l'Isra' et du Miʿrâj 🌙 لقاء يحيى في الإسراء والمعراج",
+    auteur: "  صحيح البخاري",
+    numero: 3887,
+    texteArabe:
+      "ثُمَّ صَعِدَ بِي إِلَى السَّمَاءِ الثَّانِيَةِ، فَاسْتَفْتَحَ جِبْرِيلُ، فَقِيلَ: مَنْ هَذَا؟ قَالَ: جِبْرِيلُ ... فَإِذَا أَنَا بِيَحْيَى وَعِيسَى ابْنِ مَرْيَمَ، وَهُمَا ابْنَا خَالَةٍ.",
+    texteFrancais:
+      "Puis Jibrîl me fit monter au deuxième ciel. Là, je rencontrai Yahyâ et ʿÎsâ fils de Marie, qui étaient cousins maternels.",
+    lien: "https://dorar.net/h/m9qaUldL?sims=1",
+    autres: "صحيح مسلم  164",
+  },
+  {
+    sujet:
+      " Les cinq commandements transmis par Yahyâ 📜 الوصايا الخمس التي أمر بها يحيى",
+    auteur: " صحيح الترمذي ",
+    numero: 2863,
+    texteArabe:
+      "إِنَّ اللَّهَ أَمَرَ يَحْيَى بْنَ زَكَرِيَّا بِخَمْسِ كَلِمَاتٍ أَنْ يَعْمَلَ بِهِنَّ وَيَأْمُرَ بَنِي إِسْرَائِيلَ أَنْ يَعْمَلُوا بِهِنَّ...",
+    texteFrancais:
+      "Allah ordonna à Yahyâ fils de Zakariyyâ cinq commandements qu'il devait appliquer et enseigner aux Enfants d'Israël...",
+    lien: "https://dorar.net/hadith/sharh/61625",
+    autres: "ابن خزيمة (1895)، والحاكم (1534)",
+  },
+];
 // 24- Jésus[40] عِيسى, ʿīsā ʿIsâ
 const souratesJesus = [
   " 1. La naissance miraculeuse"," L’annonce de Jésus à Marie",3,19,19,19,19,19,
@@ -1656,8 +1813,44 @@ const versetsJesus = [
   " 📖 سؤال الله لعيسى",116,117,118,
   " 📖 شهادة عيسى على قومه",117,
 ];
+const ahadithsJesus = [
+  {
+    sujet: " La naissance miraculeuse de Jésus 👶 ولادة عيسى المعجزة",
+    auteur: "  صحيح البخاري",
+    numero: 3431,
+    texteArabe:
+      "مَا مِنْ مَوْلُودٍ يُولَدُ إِلَّا مَسَّهُ الشَّيْطَانُ حِينَ يُولَدُ، فَيَسْتَهِلُّ صَارِخًا مِنْ مَسِّ الشَّيْطَانِ، إِلَّا مَرْيَمَ وَابْنَهَا.",
+    texteFrancais:
+      "Aucun enfant ne naît sans que Satan ne le touche au moment de sa naissance, ce qui le fait crier, sauf Marie et son fils.",
+    lien: "https://dorar.net/hadith/sharh/63283",
+    autres: "صحيح مسلم  2366",
+  },
+  {
+    sujet:
+      " Jésus est le plus proche de Muhammad 🌟 عيسى أقرب الأنبياء إلى محمد ﷺ",
+    auteur: "  صحيح البخاري",
+    numero: 3442,
+    texteArabe:
+      "أَنَا أَوْلَى النَّاسِ بِعِيسَى ابْنِ مَرْيَمَ فِي الدُّنْيَا وَالْآخِرَةِ.",
+    texteFrancais:
+      "Je suis l'homme le plus proche de Jésus fils de Marie dans ce monde et dans l'au-delà.",
+    lien: "https://dorar.net/hadith/sharh/16645",
+    autres: " مسلم (2365)، وأبو داود (4675)، وأحمد (7529)",
+  },
 
-
+  {
+    sujet:
+      " Rencontre lors de l'Isra' et du Miʿrâj 🌙 لقاء يحيى في الإسراء والمعراج",
+    auteur: "  صحيح البخاري",
+    numero: 3887,
+    texteArabe:
+      "ثُمَّ صَعِدَ بِي إِلَى السَّمَاءِ الثَّانِيَةِ، فَاسْتَفْتَحَ جِبْرِيلُ، فَقِيلَ: مَنْ هَذَا؟ قَالَ: جِبْرِيلُ ... فَإِذَا أَنَا بِيَحْيَى وَعِيسَى ابْنِ مَرْيَمَ، وَهُمَا ابْنَا خَالَةٍ.",
+    texteFrancais:
+      "Puis Jibrîl me fit monter au deuxième ciel. Là, je rencontrai Yahyâ et ʿÎsâ fils de Marie, qui étaient cousins maternels.",
+    lien: "https://dorar.net/h/m9qaUldL?sims=1",
+    autres: "صحيح مسلم  164",
+  },
+];
   
 
   

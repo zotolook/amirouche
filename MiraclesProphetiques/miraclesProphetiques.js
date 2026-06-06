@@ -296,15 +296,15 @@ const versetsMiraclesAyub = [
 ];
 const ahadithsMiraclesAyub = [
   {
-    sujet: " 🌧️ Pluie d’or sur Ayyûb",
-    auteur: "El Boukhari صحيح البخاري",
+    sujet: " Épisode des sauterelles d'or 🦗💰 قصة الجراد من ذهب",
+    auteur: " صحيح البخاري",
     numero: 279,
     texteArabe:
-      "بَيْنَمَا أَيُّوبُ يَغْتَسِلُ عُرْيَانًا، خَرَّ عَلَيْهِ جَرَادٌ مِنْ ذَهَبٍ، فَجَعَلَ أَيُّوبُ يَحْثِي فِي ثَوْبِهِ، فَنَادَاهُ رَبُّهُ: يَا أَيُّوبُ، أَلَمْ أَكُنْ أَغْنَيْتُكَ عَمَّا تَرَى؟ قَالَ: بَلَى يَا رَبِّ، وَلَكِنْ لَا غِنَى بِي عَنْ بَرَكَتِكَ",
+      "« بَيْنَمَا أَيُّوبُ يَغْتَسِلُ عُرْيَانًا، خَرَّ عَلَيْهِ جَرَادٌ مِنْ ذَهَبٍ، فَجَعَلَ أَيُّوبُ يَحْتَثِي فِي ثَوْبِهِ",
     texteFrancais:
-      "« Alors qu’Ayyûb se baignait nu, des sauterelles d’or tombèrent sur lui. Ayyûb se mit à les ramasser dans son vêtement. Son Seigneur l’appela :“Ô Ayyûb, ne t’ai-Je pas suffisamment enrichi pour que tu n’aies pas besoin de cela ?”</br>Il répondit :“Oui, par Ta puissance ô Seigneur, mais je ne peux me passer de Ta bénédiction.",
+      "“Ô Ayyûb ! Ne t’ai-Je pas suffisamment enrichi pour que tu n’aies pas besoin de cela ?”",
     lien: "https://dorar.net/hadith/sharh/14608",
-    autres: "من أفراد البخاري على مسلم",
+    autres: " من أفراد البخاري على مسلم",
   },
 ];
 
